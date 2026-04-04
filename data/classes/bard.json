@@ -83,198 +83,198 @@
   ],
   "talents": [
     {
-      "name": "Fleet Commander",
+      "name": "Power Of Friendship",
       "rarity": "core",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Battlecruisers, Carriers, and Tempests gain +25% damage, +25% HP, and +1 armor. You start each mission with +200 vespene.",
-        "ru": "Линкоры, Носители и Бурестрелы получают +25% урона, +25% HP и +1 брони. Вы начинаете каждую миссию с +200 газа."
+        "en": "Gain access to an AI ally who will periodically take some of your resources to train forces at 25% discount",
+        "ru": "Получите доступ к ИИ-союзнику, который будет периодически забирать часть ваших ресурсов для тренировки сил со скидкой 25%"
       },
       "analysis": {
-        "en": "The foundation of Bard. Makes capital ships dramatically stronger and helps afford them. This alone makes Battlecruisers viable in early missions.",
-        "ru": "Фундамент Барда. Делает капитальные корабли значительно сильнее и помогает позволить их себе. Одно это делает Линкоры жизнеспособными в ранних миссиях."
+        "en": "The core identity of Bard. The AI ally creates a secondary army at reduced cost, effectively doubling your fighting force. Managing shared resources becomes the key strategic challenge — ensure you have enough income to sustain both your army and the ally.",
+        "ru": "Основная механика Барда. ИИ-союзник создаёт вторую армию по сниженной цене, фактически удваивая вашу боевую силу. Управление общими ресурсами становится ключевым стратегическим вызовом — убедитесь, что дохода хватает на обе армии."
       }
     },
     {
-      "name": "Inspiring Presence",
+      "name": "Khaydarin Efficiency",
       "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "All units within range 8 of a capital ship gain +15% damage and +10% attack speed.",
-        "ru": "Все юниты в радиусе 8 от капитального корабля получают +15% урона и +10% скорости атаки."
+        "en": "Warp In Pylon no longer costs minerals, and its cooldown is reduced from 60 to 40 seconds",
+        "ru": "Призыв Пилона больше не стоит минералов, а его перезарядка снижена с 60 до 40 секунд"
       },
       "analysis": {
-        "en": "Turns your capital ships into mobile command centers. Keep your army near Battlecruisers for massive DPS boosts.",
-        "ru": "Превращает ваши капитальные корабли в мобильные командные центры. Держите армию рядом с Линкорами для массивного буста DPS."
+        "en": "Removes the mineral cost and reduces cooldown of Warp In Pylon significantly. This allows more frequent pylon placement for vision, power fields, and overcharge coverage without economic penalty. Excellent early pick for map control.",
+        "ru": "Убирает стоимость в минералах и значительно снижает перезарядку Призыва Пилона. Это позволяет чаще размещать пилоны для обзора, полей питания и покрытия перезарядкой без экономических потерь. Отличный ранний выбор для контроля карты."
       }
     },
     {
-      "name": "Armada Anthem",
+      "name": "Unification",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": true,
+      "maxStacks": 4,
+      "desc": {
+        "en": "Your ally's squad maximum size is increased by 25%. Units cost 10% less for your ally. Max 4 stacks",
+        "ru": "Максимальный размер отряда вашего союзника увеличен на 25%. Юниты стоят на 10% меньше для вашего союзника. Макс. 4 стака"
+      },
+      "analysis": {
+        "en": "Stacking this talent dramatically increases your ally's army size and reduces their costs. At 4 stacks the ally fields a much larger force at 40% reduced cost, making this one of the strongest scaling talents for the Bard's secondary army.",
+        "ru": "Стакание этого таланта значительно увеличивает размер армии союзника и снижает его затраты. При 4 стаках союзник выставляет гораздо большую армию со скидкой 40%, что делает этот талант одним из сильнейших для масштабирования второй армии Барда."
+      }
+    },
+    {
+      "name": "Fast Friends",
+      "rarity": "common",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "For your ally, Zealots and Stalkers cost half as much",
+        "ru": "Для вашего союзника Зилоты и Сталкеры стоят вдвое дешевле"
+      },
+      "analysis": {
+        "en": "Halves the cost of the ally's primary gateway units. This lets the AI ally spam Zealots and Stalkers much more aggressively, creating a larger frontline force. Best taken early when the ally relies heavily on basic gateway compositions.",
+        "ru": "Вдвое снижает стоимость основных юнитов врат союзника. Это позволяет ИИ-союзнику гораздо активнее спамить Зилотов и Сталкеров, создавая более многочисленный авангард. Лучше брать на ранних этапах, когда союзник сильно зависит от базовых составов врат."
+      }
+    },
+    {
+      "name": "Bardic Inspiration",
       "rarity": "common-infinite",
       "tier": "S",
       "stackable": true,
-      "maxStacks": 50,
+      "maxStacks": 100,
       "desc": {
-        "en": "Capital ships gain +5% damage and +5% HP per stack. Max 50 stacks.",
-        "ru": "Капитальные корабли получают +5% урона и +5% HP за стак. Макс. 50 стаков."
+        "en": "Units with Ally Control have +15% health and damage done. Max 100 stacks",
+        "ru": "Юниты под контролем союзника имеют +15% здоровья и наносимого урона. Макс. 100 стаков"
       },
       "analysis": {
-        "en": "Your primary scaling talent. Stack aggressively — each stack makes your entire fleet stronger. 10+ stacks make capital ships nearly unkillable.",
-        "ru": "Ваш основной талант масштабирования. Стакайте агрессивно — каждый стак усиливает весь флот. 10+ стаков делают капитальные корабли почти неубиваемыми."
+        "en": "The infinite scaling talent for Bard. Each stack adds a massive +15% health and damage to all ally-controlled units, making the secondary army increasingly powerful. Even a few stacks dramatically boost the ally's combat effectiveness, and at high stacks the ally army becomes the primary fighting force.",
+        "ru": "Бесконечно стакающийся талант Барда. Каждый стак добавляет огромные +15% здоровья и урона всем юнитам под контролем союзника. Даже несколько стаков значительно усиливают боевую эффективность союзника, а при высоких стаках армия союзника становится основной боевой силой."
       }
     },
     {
-      "name": "Battlecruiser Operational",
-      "rarity": "common",
+      "name": "Psionic Secrets",
+      "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Battlecruisers build 20% faster and their Yamato Cannon cooldown is reduced by 30%.",
-        "ru": "Линкоры строятся на 20% быстрее, а перезарядка Yamato Cannon уменьшена на 30%."
+        "en": "Your ally now uses High Templars",
+        "ru": "Ваш союзник теперь использует Высших Храмовников"
       },
       "analysis": {
-        "en": "Essential for BC-focused builds. Faster production and more frequent Yamatos is a massive DPS increase.",
-        "ru": "Необходим для билдов на ЛК. Быстрее производство и более частые Yamato — это массивное увеличение DPS."
+        "en": "Unlocks High Templars for the AI ally, granting access to Psionic Storm and Feedback. This adds powerful AoE damage and anti-caster utility to the ally's army, dramatically improving their effectiveness against clumped enemy forces.",
+        "ru": "Открывает Высших Храмовников для ИИ-союзника, давая доступ к Псионическому Шторму и Обратной Связи. Это добавляет мощный AoE-урон и анти-кастерную утилиту в армию союзника, значительно повышая её эффективность против скученных врагов."
       }
     },
     {
-      "name": "Shield Harmonic",
-      "rarity": "common",
+      "name": "Power Word: Overcharge",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Your Pylons are permanently overcharged, having +200 shields, and have an attack that deals 25 damage every 1.25 seconds",
+        "ru": "Ваши Пилоны постоянно перезаряжены, имея +200 щитов и атаку, наносящую 25 урона каждые 1.25 секунды"
+      },
+      "analysis": {
+        "en": "Transforms every Pylon into a defensive turret with substantial shields and consistent damage output. Combined with free Pylons from Khaydarin Efficiency, you can create a network of defensive structures across the map that protect expansions and choke points.",
+        "ru": "Превращает каждый Пилон в оборонительную турель с существенными щитами и стабильным уроном. В сочетании с бесплатными Пилонами от Khaydarin Efficiency можно создать сеть оборонительных структур по всей карте, защищающих экспансии и узкие проходы."
+      }
+    },
+    {
+      "name": "Song Of Rally",
+      "rarity": "uncommon",
       "tier": "B",
-      "stackable": false,
-      "maxStacks": null,
+      "stackable": true,
+      "maxStacks": 2,
       "desc": {
-        "en": "Capital ships regenerate 2% of max HP per second while not in combat.",
-        "ru": "Капитальные корабли регенерируют 2% макс. HP в секунду вне боя."
+        "en": "Your ally reinforces 35% faster. Max 2 stacks",
+        "ru": "Ваш союзник получает подкрепления на 35% быстрее. Макс. 2 стака"
       },
       "analysis": {
-        "en": "Nice sustain between fights. Keeps your fleet healthy without repair costs. Less useful during All In.",
-        "ru": "Хорошая регенерация между боями. Поддерживает здоровье флота без затрат на ремонт. Менее полезен во время All In."
+        "en": "Speeds up the ally's reinforcement rate, meaning lost units are replaced more quickly. At 2 stacks the ally reinforces 70% faster, providing much better sustained presence in prolonged fights. Pairs well with Unification for a larger, faster-reinforcing ally army.",
+        "ru": "Ускоряет скорость подкрепления союзника — потерянные юниты заменяются быстрее. При 2 стаках союзник подкрепляется на 70% быстрее, обеспечивая гораздо лучшее присутствие в затяжных боях. Хорошо сочетается с Unification для большей и быстрее пополняемой армии союзника."
       }
     },
     {
-      "name": "War Song",
-      "rarity": "uncommon",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "When a capital ship kills an enemy, all allied units gain +3% damage for 15 seconds. Stacks up to 10 times.",
-        "ru": "Когда капитальный корабль убивает врага, все союзные юниты получают +3% урона на 15 секунд. Стакается до 10 раз."
-      },
-      "analysis": {
-        "en": "Snowball effect — as your fleet kills, your whole army gets stronger. In large battles this can reach +30% damage easily.",
-        "ru": "Эффект снежного кома — по мере убийств вашим флотом, вся армия становится сильнее. В крупных боях легко достигает +30% урона."
-      }
-    },
-    {
-      "name": "Carrier Has Arrived",
-      "rarity": "uncommon",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Carriers launch +4 additional Interceptors and Interceptors deal +20% damage.",
-        "ru": "Носители запускают +4 дополнительных Перехватчика и Перехватчики наносят +20% урона."
-      },
-      "analysis": {
-        "en": "Massive Carrier buff. More interceptors means more DPS and better target coverage. Core for Carrier builds.",
-        "ru": "Массивный бафф Носителей. Больше перехватчиков — больше DPS и лучшее покрытие целей. Ключевой для билдов на Носителях."
-      }
-    },
-    {
-      "name": "Flagship Protocol",
+      "name": "Might Of The Daelaam",
       "rarity": "rare",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Your first capital ship in each mission becomes a Flagship: +50% HP, +50% damage, and an aura granting +10% damage to all nearby allies.",
-        "ru": "Ваш первый капитальный корабль в каждой миссии становится Флагманом: +50% HP, +50% урона и аура, дающая +10% урона всем ближайшим союзникам."
+        "en": "Your ally will now deploy units as their War Council variants",
+        "ru": "Ваш союзник теперь развёртывает юнитов как их варианты Военного Совета"
       },
       "analysis": {
-        "en": "Transforms your first capital ship into a superunit. The Flagship is incredibly hard to kill and makes everything around it stronger.",
-        "ru": "Превращает ваш первый капитальный корабль в суперюнита. Флагман невероятно сложно убить и делает всё вокруг сильнее."
+        "en": "A massive power spike for the ally's army. War Council variants are significantly stronger than base protoss units with enhanced abilities and stats. This single talent can transform the ally from a support force into a primary damage dealer.",
+        "ru": "Огромный скачок мощности для армии союзника. Варианты Военного Совета значительно сильнее базовых юнитов протоссов с улучшенными способностями и характеристиками. Один этот талант может превратить союзника из вспомогательной силы в основного бойца."
       }
     },
     {
-      "name": "Emergency Repairs",
-      "rarity": "uncommon",
-      "tier": "B",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "When a capital ship drops below 25% HP, it becomes invulnerable for 5 seconds and heals 30% HP. 60 second cooldown per ship.",
-        "ru": "Когда капитальный корабль падает ниже 25% HP, он становится неуязвимым на 5 секунд и лечит 30% HP. Перезарядка 60 секунд на корабль."
-      },
-      "analysis": {
-        "en": "Insurance against losing capital ships. The invulnerability window often saves a BC that would otherwise die. Very valuable.",
-        "ru": "Страховка от потери капитальных кораблей. Окно неуязвимости часто спасает ЛК, который иначе бы погиб. Очень ценный."
-      }
-    },
-    {
-      "name": "Full Broadside",
+      "name": "Say Hello To My Little Friend",
       "rarity": "rare",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Battlecruisers gain a second weapon that fires at a separate target, dealing 50% of normal damage.",
-        "ru": "Линкоры получают второе оружие, стреляющее по отдельной цели с 50% обычного урона."
+        "en": "Your ally now uses Colossi and Carriers",
+        "ru": "Ваш союзник теперь использует Колоссов и Носителей"
       },
       "analysis": {
-        "en": "Effectively +50% Battlecruiser DPS against multiple targets. Incredible for clearing waves and defending objectives.",
-        "ru": "Фактически +50% DPS Линкора против нескольких целей. Невероятно для зачистки волн и обороны объектов."
+        "en": "Unlocks the ally's most powerful heavy units. Colossi provide devastating AoE ground damage while Carriers offer strong sustained air-to-ground firepower. This dramatically increases the ally's late-game combat ceiling and army composition diversity.",
+        "ru": "Открывает самых мощных тяжёлых юнитов союзника. Колоссы обеспечивают разрушительный AoE-урон по наземным целям, а Носители — сильный устойчивый урон воздух-земля. Это значительно повышает боевой потенциал союзника в поздней игре и разнообразие состава армии."
       }
     },
     {
-      "name": "Deathfleet",
+      "name": "Counter-Curse",
       "rarity": "epic",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "When a capital ship is destroyed, it explodes dealing massive damage to nearby enemies and spawns 3 free Marines. Capital ships gain +10% damage for each capital ship that has been destroyed this mission.",
-        "ru": "Когда капитальный корабль уничтожен, он взрывается, нанося массивный урон ближайшим врагам и порождает 3 бесплатных Морпехов. Капитальные корабли получают +10% урона за каждый уничтоженный капитальный корабль в этой миссии."
+        "en": "Arms Race, Extra Plating, Fiendish Fortitude and Chrono Dilation now also apply for your allied protoss",
+        "ru": "Arms Race, Extra Plating, Fiendish Fortitude и Chrono Dilation теперь также действуют на ваших союзных протоссов"
       },
       "analysis": {
-        "en": "Turns losses into advantages. Even if you lose ships, the remaining fleet gets stronger and the explosions clear enemies. Makes risky engagements more forgiving.",
-        "ru": "Превращает потери в преимущества. Даже при потере кораблей, оставшийся флот становится сильнее, а взрывы зачищают врагов. Делает рискованные атаки более простительными."
+        "en": "Extends several powerful universal buffs to the allied protoss army. This means enemy scaling mechanics like Arms Race also benefit your ally, turning what are normally enemy-only advantages into shared bonuses. Extremely powerful in long missions where these effects stack up.",
+        "ru": "Распространяет несколько мощных универсальных баффов на союзную армию протоссов. Это значит, что механики масштабирования врага вроде Arms Race также усиливают вашего союзника, превращая обычно вражеские преимущества в общие бонусы. Крайне мощно в длинных миссиях, где эти эффекты накапливаются."
       }
     },
     {
-      "name": "Symphony of Destruction",
-      "rarity": "epic",
-      "tier": "S",
+      "name": "Economic Tension",
+      "rarity": "curse",
+      "tier": "C",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "All fleet-wide buffs are doubled in effectiveness. Capital ships gain an additional +2 armor.",
-        "ru": "Все флотовые баффы удвоены в эффективности. Капитальные корабли получают дополнительные +2 брони."
+        "en": "Your ally will take your resources regardless of your or their resources",
+        "ru": "Ваш союзник будет забирать ваши ресурсы вне зависимости от ваших или его запасов"
       },
       "analysis": {
-        "en": "The ultimate Bard epic — doubles Inspiring Presence, War Song, Armada Anthem bonuses for capital ships. With this, even 3-4 Battlecruisers feel like an unstoppable armada.",
-        "ru": "Ультимативный эпик Барда — удваивает бонусы Inspiring Presence, War Song, Armada Anthem для капитальных кораблей. С этим даже 3-4 Линкора ощущаются как неудержимая армада."
+        "en": "Removes the resource threshold checks on the ally's resource taking, meaning they will drain your economy even when you are low or they have plenty. This forces much tighter economic management and can be devastating if you are not prepared with strong income.",
+        "ru": "Убирает проверку порогов ресурсов при заборе ресурсов союзником — он будет истощать вашу экономику даже когда у вас мало или у него достаточно. Это требует гораздо более жёсткого управления экономикой и может быть разрушительным без сильного дохода."
       }
     },
     {
-      "name": "Escort Fleet",
-      "rarity": "common",
-      "tier": "B",
-      "stackable": false,
-      "maxStacks": null,
+      "name": "Retirement Fund",
+      "rarity": "curse",
+      "tier": "C",
+      "stackable": true,
+      "maxStacks": 3,
       "desc": {
-        "en": "Vikings and Wraiths gain +20% damage and +15% HP when within range 6 of a capital ship.",
-        "ru": "Викинги и Призраки получают +20% урона и +15% HP в радиусе 6 от капитального корабля."
+        "en": "Every 60 seconds, your ally will put away 100 minerals and vespene for their retirement. Max 3 stacks",
+        "ru": "Каждые 60 секунд ваш союзник откладывает 100 минералов и веспена на пенсию. Макс. 3 стака"
       },
       "analysis": {
-        "en": "Good for mixed fleets. Vikings provide anti-air escort while getting buffed by capital ship proximity.",
-        "ru": "Хорош для смешанных флотов. Викинги обеспечивают ПВО-эскорт, получая баффы от близости капитальных кораблей."
+        "en": "A steady resource drain that escalates with stacks. At 3 stacks, the ally removes 300 minerals and 300 vespene every minute, which is a significant economic burden. This curse compounds over time, making longer missions increasingly difficult to sustain economically.",
+        "ru": "Постоянный отток ресурсов, усиливающийся со стаками. При 3 стаках союзник забирает 300 минералов и 300 веспена каждую минуту — существенная экономическая нагрузка. Это проклятие усиливается со временем, делая длинные миссии всё сложнее экономически."
       }
     }
   ],

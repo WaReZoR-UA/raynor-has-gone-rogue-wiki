@@ -86,168 +86,198 @@
   ],
   "talents": [
     {
-      "name": "Arcane Delivery",
+      "name": "Precision Strike",
       "rarity": "core",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Unlocks Drop Pod ability: deploy a pod containing units to any visible location. Pods deal 100 impact damage in AoE on landing. 45-second cooldown.",
-        "ru": "Открывает способность Drop Pod: развёртывание капсулы с юнитами в любую видимую точку. Капсулы наносят 100 AoE урона при приземлении. 45 секунд перезарядки."
+        "en": "Gain access to topbar abilities. Also gain the Precision Strike ability. Deals 150 (250 vs Structures) damage in an area anywhere on the map with vision. Does not damage map objectives. Has a 60 second cooldown.",
+        "ru": "Получите доступ к способностям верхней панели. Также получите способность Precision Strike. Наносит 150 (250 по строениям) урона по области в любой точке карты при наличии обзора. Не наносит урона целям миссий. Перезарядка 60 секунд."
       },
       "analysis": {
-        "en": "The core mechanic. Drop pods solve positioning problems and double as AoE damage. The 45-second cooldown is manageable with cooldown reduction talents. Landing damage means pods are useful even when you don't need the units.",
-        "ru": "Ключевая механика. Капсулы решают проблемы позиционирования и удваиваются как AoE урон. 45 секунд перезарядки управляемы с талантами сокращения перезарядки. Урон при приземлении означает, что капсулы полезны, даже когда юниты не нужны."
+        "en": "The Sorcerer core talent that unlocks the entire topbar ability system plus the baseline Precision Strike nuke. The 150 damage (250 vs structures) on a 60-second cooldown provides consistent area damage anywhere you have vision. The ability to damage structures makes it a strong siege supplement. All other Sorcerer talents build upon this foundation.",
+        "ru": "Ключевой талант Колдуна, открывающий всю систему способностей верхней панели плюс базовый нюк Precision Strike. 150 урона (250 по строениям) с перезарядкой 60 секунд обеспечивает стабильный урон по области в любой точке с обзором. Возможность повреждать строения делает его сильным дополнением к осаде. Все остальные таланты Колдуна строятся на этой основе."
       }
     },
     {
-      "name": "Reinforced Pods",
+      "name": "Drop Pod Reinforcement",
       "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Drop pods contain +2 additional units. Units deployed via pods gain +20% HP for 30 seconds.",
-        "ru": "Капсулы содержат +2 дополнительных юнита. Юниты, развёрнутые через капсулы, получают +20% HP на 30 секунд."
+        "en": "Topbar ability. Calls in a drop pod with 4 marines, a medic, and a marauder at the target location. Cost 100 minerals, 75 second cooldown",
+        "ru": "Способность верхней панели. Вызывает десантную капсулу с 4 маринами, медиком и мародёром в целевую точку. Стоимость 100 минералов, перезарядка 75 секунд"
       },
       "analysis": {
-        "en": "More units per pod and a survivability window on landing. The +20% HP buffer gives deployed units time to form up before the enemy can focus them. Direct upgrade to the core mechanic.",
-        "ru": "Больше юнитов на капсулу и окно выживаемости при высадке. Буфер +20% HP даёт развёрнутым юнитам время построиться до того, как враг сосредоточится на них. Прямое улучшение ключевой механики."
+        "en": "An excellent reinforcement ability that drops a full combat squad (4 marines, 1 medic, 1 marauder) anywhere on the map for just 100 minerals. The 75-second cooldown allows fairly frequent use. The squad composition is well-balanced for combat with both DPS and healing. Great for securing distant objectives or emergency reinforcement.",
+        "ru": "Превосходная способность подкрепления, десантирующая полный боевой отряд (4 марина, 1 медик, 1 мародёр) в любую точку карты всего за 100 минералов. Перезарядка 75 секунд позволяет достаточно частое использование. Состав отряда хорошо сбалансирован для боя с DPS и лечением. Отлично для захвата отдалённых целей или экстренного подкрепления."
       }
     },
     {
-      "name": "Meteor Strike",
-      "rarity": "common",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Drop pod impact damage increased to 250 and AoE radius doubled. Pods stun enemies for 2 seconds on impact.",
-        "ru": "Урон при ударе капсулы увеличен до 250, радиус AoE удвоен. Капсулы оглушают врагов на 2 секунды при ударе."
-      },
-      "analysis": {
-        "en": "Transforms pods from delivery vehicles into weapons. 250 AoE damage with stun is enough to wipe out light units and cripple heavy ones. The stun window lets your deployed units establish position safely.",
-        "ru": "Превращает капсулы из транспорта в оружие. 250 AoE урона с оглушением достаточно для уничтожения лёгких юнитов и ослабления тяжёлых. Окно оглушения позволяет развёрнутым юнитам безопасно занять позицию."
-      }
-    },
-    {
-      "name": "Supply Drop",
+      "name": "Integral Deconstruction",
       "rarity": "common",
       "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Every 3rd drop pod also delivers +100 minerals and +50 gas at the landing site.",
-        "ru": "Каждая 3-я капсула также доставляет +100 минералов и +50 газа в точку приземления."
+        "en": "Precision Strike damage bonus against buildings is increased by +200, for a total of 450 damage vs structures",
+        "ru": "Бонус урона Precision Strike по зданиям увеличен на +200, в сумме 450 урона по строениям"
       },
       "analysis": {
-        "en": "Economy boost tied to pod usage. The more you use pods, the more resources you recover. Helps offset the high cost of constant deployments. Decent but not transformative.",
-        "ru": "Экономический буст, привязанный к использованию капсул. Чем больше капсул, тем больше ресурсов восстанавливается. Помогает компенсировать высокую стоимость постоянных развёртываний. Неплохо, но не трансформирующе."
+        "en": "Nearly triples Precision Strike's anti-structure damage from 250 to 450, making it a devastating siege tool. Combined with Solarite Empowerment's +33% damage multiplier, this can deal massive damage to enemy buildings. Particularly strong on missions requiring base destruction, but less useful against mobile enemy forces.",
+        "ru": "Почти утраивает урон Precision Strike по строениям с 250 до 450, превращая его в разрушительный осадный инструмент. В сочетании с множителем +33% урона от Solarite Empowerment может наносить массивный урон вражеским зданиям. Особенно силён на миссиях, требующих уничтожения баз, но менее полезен против мобильных вражеских сил."
       }
     },
     {
-      "name": "Orbital Bombardment",
-      "rarity": "common-infinite",
+      "name": "Charged Impact",
+      "rarity": "common",
       "tier": "A",
+      "stackable": true,
+      "maxStacks": 3,
+      "desc": {
+        "en": "Precision Strike, Ultra Concussive Shell, and Terran Recall have their areas of effect increased by +25%. Max 3 stacks",
+        "ru": "Precision Strike, Ultra Concussive Shell и Terran Recall имеют увеличенную область эффекта на +25%. Максимум 3 стака"
+      },
+      "analysis": {
+        "en": "At max 3 stacks, this provides +75% increased area of effect for three key abilities, dramatically expanding their coverage. Larger Precision Strike and Ultra Concussive Shell areas hit more enemies per cast, while larger Terran Recall catches more units for evacuation. A universally useful talent that improves multiple abilities simultaneously.",
+        "ru": "При максимальных 3 стаках это даёт +75% увеличение области эффекта для трёх ключевых способностей, резко расширяя их покрытие. Большая область Precision Strike и Ultra Concussive Shell поражает больше врагов за каст, а увеличенный Terran Recall захватывает больше юнитов для эвакуации. Универсально полезный талант, улучшающий несколько способностей одновременно."
+      }
+    },
+    {
+      "name": "Orbital Recovery",
+      "rarity": "uncommon-infinite",
+      "tier": "S",
       "stackable": true,
       "maxStacks": 100,
       "desc": {
-        "en": "Drop pod impact damage +20%. Pods deployed per ability use +1 at every 5 stacks. Max 100 stacks.",
-        "ru": "Урон при ударе капсулы +20%. Капсул за использование способности +1 каждые 5 стаков. Макс. 100 стаков."
+        "en": "Topbar abilities have their cooldowns reduced by -12%. This talent stacks multiplicatively. Max 100 stacks",
+        "ru": "Способности верхней панели имеют перезарядку, уменьшенную на -12%. Этот талант стакается мультипликативно. Максимум 100 стаков"
       },
       "analysis": {
-        "en": "The class infinite. Impact damage scaling is solid, but the extra pods every 5 stacks is incredible — at 10 stacks you deploy 3 pods per use, at 20 stacks 5 pods. This creates massive orbital barrages. Always take offered stacks.",
-        "ru": "Классовый бесконечный талант. Масштабирование урона при ударе хорошее, но дополнительные капсулы каждые 5 стаков невероятны — при 10 стаках вы развёртываете 3 капсулы за использование, при 20 стаках 5 капсул. Это создаёт массивные орбитальные обстрелы. Всегда берите предложенные стаки."
+        "en": "The Sorcerer class infinite with multiplicative stacking, meaning each stack is a 12% reduction of the remaining cooldown — not additive. At 5 stacks cooldowns are roughly halved, at 10+ stacks abilities recharge extremely fast. This is the engine that makes Sorcerer scale into late game, turning all topbar abilities into near-constant tools. Always take every offered stack.",
+        "ru": "Бесконечный талант класса Колдун с мультипликативным стакированием, что означает, что каждый стак — это 12% снижение от оставшейся перезарядки, а не аддитивное. При 5 стаках перезарядки примерно вдвое меньше, при 10+ стаках способности перезаряжаются крайне быстро. Это двигатель, который позволяет Колдуну масштабироваться в лейт, превращая все способности панели в почти постоянные инструменты. Всегда берите каждый предложенный стак."
       }
     },
     {
-      "name": "Rapid Deployment",
+      "name": "Precision Barrage",
       "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Drop pod cooldown reduced by 40%. Units from pods have no rally delay — they immediately respond to commands.",
-        "ru": "Перезарядка капсул сокращена на 40%. Юниты из капсул не имеют задержки сбора — они немедленно реагируют на команды."
+        "en": "Precision Strike gains +2 maximum charges. Only one charge can recharge at a time",
+        "ru": "Precision Strike получает +2 максимальных заряда. Только один заряд может перезаряжаться одновременно"
       },
       "analysis": {
-        "en": "More frequent drops and instant unit control. The cooldown reduction means near-constant drop availability. Removing rally delay eliminates the main vulnerability of pod-deployed units.",
-        "ru": "Более частые десанты и мгновенный контроль юнитов. Сокращение перезарядки означает почти постоянную доступность десанта. Устранение задержки сбора ликвидирует главную уязвимость десантированных юнитов."
+        "en": "Adds 2 extra charges to Precision Strike for a total of 3, allowing burst usage in critical moments. While only one charge recharges at a time, having stored charges means you can unleash triple Precision Strikes in rapid succession. Excellent for burst-heavy situations like defending against a large attack wave or destroying key structures quickly.",
+        "ru": "Добавляет 2 дополнительных заряда к Precision Strike для суммы в 3, позволяя взрывное использование в критические моменты. Хотя только один заряд перезаряжается одновременно, хранение зарядов означает возможность выпустить тройной Precision Strike в быстрой последовательности. Превосходен для ситуаций, требующих залпового урона, вроде обороны от крупной волны атаки или быстрого уничтожения ключевых строений."
       }
     },
     {
-      "name": "Spell Amplification",
+      "name": "Terran Recall",
       "rarity": "uncommon",
-      "tier": "B",
+      "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "All ability-based damage increased by 30%. Ability cooldowns reduced by 15%.",
-        "ru": "Весь урон от способностей увеличен на 30%. Перезарядки способностей сокращены на 15%."
+        "en": "Topbar ability. Recalls your units in the target area back to your closest Command Center, and gives them a shield. Has a 90 second cooldown",
+        "ru": "Способность верхней панели. Отзывает ваших юнитов из целевой области обратно к ближайшему Командному Центру и даёт им щит. Перезарядка 90 секунд"
       },
       "analysis": {
-        "en": "General ability enhancement. Boosts drop pod impact damage and any unit abilities. The cooldown reduction stacks with Rapid Deployment for very frequent pod usage.",
-        "ru": "Общее усиление способностей. Баффает урон при ударе капсул и любые способности юнитов. Сокращение перезарядки стакается с Rapid Deployment для очень частого использования капсул."
+        "en": "A versatile tactical ability that instantly teleports your units to safety while granting them a shield. The 90-second cooldown is reasonable for such a powerful evacuation tool. Enables aggressive pushes with a safe retreat option, saves armies from being overrun, and the shield ensures teleported units arrive ready to fight. Synergizes with Charged Impact for larger recall area.",
+        "ru": "Универсальная тактическая способность, мгновенно телепортирующая ваших юнитов в безопасность с предоставлением щита. Перезарядка 90 секунд разумна для такого мощного эвакуационного инструмента. Позволяет агрессивные рывки с безопасным отходом, спасает армии от уничтожения, а щит гарантирует готовность телепортированных юнитов к бою. Синергирует с Charged Impact для большей области отзыва."
       }
     },
     {
-      "name": "Warp Pods",
+      "name": "Ultra Concussive Shell",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Topbar ability. Blasts the target area, dealing 15 damage to enemies, and stunning them for 12 seconds. Heroic and massive units are slowed by 50% instead. Has a 75 second cooldown",
+        "ru": "Способность верхней панели. Взрывает целевую область, нанося 15 урона врагам и оглушая их на 12 секунд. Героические и массивные юниты замедляются на 50% вместо этого. Перезарядка 75 секунд"
+      },
+      "analysis": {
+        "en": "One of the most powerful crowd control abilities in the game — a 12-second stun on non-heroic enemies is fight-winning. Even heroic and massive units get a significant 50% slow. The low 15 damage is irrelevant compared to the control value. With Orbital Recovery stacks reducing the 75-second cooldown, this becomes available for nearly every engagement. Absolutely essential.",
+        "ru": "Одна из самых мощных способностей контроля толпы в игре — 12-секундное оглушение не-героических врагов решает исход боя. Даже героические и массивные юниты получают значительное 50% замедление. Низкие 15 урона несущественны по сравнению с ценностью контроля. Со стаками Orbital Recovery, уменьшающими перезарядку 75 секунд, способность доступна почти для каждого столкновения. Абсолютно необходим."
+      }
+    },
+    {
+      "name": "Solarite Empowerment",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": true,
+      "maxStacks": 3,
+      "desc": {
+        "en": "Precision Strike deals +33% damage, Ultra Concussive Shell deals +100% damage, Nuclear Annihilation deals +20% damage. Terran Recall and Defensive Overload gives +50% shields. Max 3 stacks",
+        "ru": "Precision Strike наносит +33% урона, Ultra Concussive Shell наносит +100% урона, Nuclear Annihilation наносит +20% урона. Terran Recall и Defensive Overload дают +50% щитов. Максимум 3 стака"
+      },
+      "analysis": {
+        "en": "A comprehensive multiplier for all Sorcerer abilities. At max 3 stacks: Precision Strike deals nearly +100% damage, Ultra Concussive Shell's damage is tripled, Nuclear Annihilation gains +60% damage, and shields from Terran Recall/Defensive Overload are +150% stronger. This talent dramatically amplifies everything in the Sorcerer kit simultaneously. High priority at any stack count.",
+        "ru": "Комплексный множитель для всех способностей Колдуна. При максимальных 3 стаках: Precision Strike наносит почти +100% урона, урон Ultra Concussive Shell утроен, Nuclear Annihilation получает +60% урона, а щиты от Terran Recall/Defensive Overload на +150% сильнее. Этот талант резко усиливает всё в арсенале Колдуна одновременно. Высокий приоритет при любом количестве стаков."
+      }
+    },
+    {
+      "name": "Defensive Overload",
       "rarity": "rare",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Drop pods can be deployed to any location on the map (fog of war no longer blocks targeting). Pods have a 25% chance to deploy an additional bonus elite unit.",
-        "ru": "Капсулы могут быть развёрнуты в любую точку карты (туман войны больше не блокирует наведение). Капсулы имеют 25% шанс развернуть дополнительного бонусного элитного юнита."
+        "en": "Topbar ability. Gives all of your units a shield that absorbs 200 damage over 20 seconds. Has a 3 minute cooldown",
+        "ru": "Способность верхней панели. Даёт всем вашим юнитам щит, поглощающий 200 урона в течение 20 секунд. Перезарядка 3 минуты"
       },
       "analysis": {
-        "en": "Removes the vision requirement, enabling blind drops on enemy bases or distant objectives. The bonus elite unit chance adds significant value to every pod. Game-changing for map control.",
-        "ru": "Снимает требование обзора, позволяя слепые десанты на вражеские базы или отдалённые цели. Шанс бонусного элитного юнита добавляет значительную ценность каждой капсуле. Меняет игру в плане контроля карты."
+        "en": "A powerful army-wide defensive ability that gives every unit 200 points of shield for 20 seconds. The 3-minute cooldown is long but the global coverage is unmatched — it protects your entire army simultaneously. With Solarite Empowerment stacks boosting the shield amount and Orbital Recovery reducing the cooldown, this becomes a reliable defensive tool.",
+        "ru": "Мощная защитная способность на всю армию, дающая каждому юниту 200 очков щита на 20 секунд. Перезарядка 3 минуты длинная, но глобальное покрытие не имеет равных — защищает всю армию одновременно. Со стаками Solarite Empowerment, увеличивающими количество щита, и Orbital Recovery, уменьшающим перезарядку, становится надёжным оборонительным инструментом."
       }
     },
     {
-      "name": "Arcane Storm",
+      "name": "Nuclear Annihilation",
       "rarity": "epic",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Activate Arcane Storm: rain down 10 empty drop pods on a target area over 5 seconds, each dealing full impact damage. 120-second cooldown.",
-        "ru": "Активация Arcane Storm: обрушить 10 пустых капсул на целевую область за 5 секунд, каждая наносит полный урон при ударе. 120 секунд перезарядки."
+        "en": "Topbar ability. Calls down 3 nuclear strikes at the target location after a few second delay. Has a 3 minute cooldown. Does not damage map objectives.",
+        "ru": "Способность верхней панели. Наносит 3 ядерных удара по целевой точке после небольшой задержки. Перезарядка 3 минуты. Не наносит урона целям миссий."
       },
       "analysis": {
-        "en": "Pure devastation ability. 10 pods worth of impact damage in one area is enough to destroy anything. With Meteor Strike and Orbital Bombardment stacks, each pod hits for massive damage. The ultimate 'delete this area' button.",
-        "ru": "Способность чистого разрушения. Урон от ударов 10 капсул в одну область достаточен для уничтожения чего угодно. С Meteor Strike и стаками Orbital Bombardment каждая капсула бьёт за массивный урон. Высшая кнопка 'удалить эту область'."
+        "en": "The ultimate Sorcerer damage ability — 3 nuclear strikes focused on one area deal catastrophic damage to anything caught in the blast zone. The few-second delay requires anticipation of enemy positioning, but the destruction is total. With Orbital Recovery stacks the 3-minute cooldown shrinks dramatically. The objective damage restriction prevents trivializing missions but enemy armies and bases are fair game.",
+        "ru": "Ультимативная способность урона Колдуна — 3 ядерных удара, сфокусированных на одной области, наносят катастрофический урон всему в зоне поражения. Задержка в несколько секунд требует предвидения позиций врагов, но разрушение тотальное. Со стаками Orbital Recovery перезарядка 3 минуты значительно сокращается. Ограничение на урон по целям миссий предотвращает тривиализацию, но вражеские армии и базы — законные цели."
       }
     },
     {
-      "name": "Dimensional Rift",
+      "name": "Precision Retaliation",
       "rarity": "curse",
-      "tier": "D",
+      "tier": "C",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Drop pods have a 15% chance to land 3-5 tiles off target. Pod cooldown increased by 10 seconds.",
-        "ru": "Капсулы имеют 15% шанс приземлиться на 3-5 клеток от цели. Перезарядка капсул увеличена на 10 секунд."
+        "en": "Your enemy gains access to Precision Strike as well, and will use it to defend themselves on a 180 second cooldown",
+        "ru": "Ваш враг также получает доступ к Precision Strike и будет использовать его для самозащиты с перезарядкой 180 секунд"
       },
       "analysis": {
-        "en": "Inaccurate pods and longer cooldowns hurt but aren't catastrophic. The 15% miss rate is annoying rather than build-breaking. Cooldown increase is partially offset by Rapid Deployment.",
-        "ru": "Неточные капсулы и длинные перезарядки болезненны, но не катастрофичны. 15% промахов раздражают, но не ломают билд. Увеличение перезарядки частично компенсируется Rapid Deployment."
+        "en": "Gives enemies their own Precision Strike on a generous 180-second cooldown, which is much longer than yours. While annoying, the damage from a single enemy Precision Strike is manageable. Spread your units to minimize AoE impact and keep SCVs ready to repair structures. Less punishing than most curses due to the long enemy cooldown.",
+        "ru": "Даёт врагам их собственный Precision Strike с щедрой перезарядкой 180 секунд, что намного длиннее вашей. Хотя раздражает, урон от одного вражеского Precision Strike управляем. Рассредоточьте юнитов для минимизации AoE-воздействия и держите SCV готовыми к ремонту строений. Менее наказывающе, чем большинство проклятий, из-за длинной вражеской перезарядки."
       }
     },
     {
-      "name": "Unstable Warp Field",
-      "rarity": "plague",
-      "tier": "D",
+      "name": "Stolen Overcharge",
+      "rarity": "curse",
+      "tier": "C",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Units deployed via drop pods take 20% of their max HP as damage on landing. Drop pod impact damage also damages your own units in the area.",
-        "ru": "Юниты, развёрнутые через капсулы, получают 20% от макс. HP урона при высадке. Урон капсул при ударе также наносит урон вашим юнитам в области."
+        "en": "Your enemies have access to Defensive Overcharge, and will use it to give their units 200 point of shields on a 5 minute cooldown",
+        "ru": "Ваши враги имеют доступ к Defensive Overcharge и будут использовать его, чтобы дать своим юнитам 200 очков щитов с перезарядкой 5 минут"
       },
       "analysis": {
-        "en": "Your own pods become hazards for your army. Units arrive damaged, and you can't safely drop pods near friendlies. Forces careful pod placement to avoid friendly fire. Very punishing with Arcane Storm.",
-        "ru": "Ваши собственные капсулы становятся опасными для армии. Юниты прибывают повреждёнными, и нельзя безопасно десантировать рядом с союзниками. Вынуждает осторожно размещать капсулы во избежание дружественного огня. Очень болезненно с Arcane Storm."
+        "en": "Gives enemies a 200-point shield on a 5-minute cooldown, making their units temporarily tankier during key fights. The 5-minute cooldown is long enough that it only triggers once or twice per mission. The shields are annoying but can be burned through with focus fire. Less threatening than offensive curses since it only adds temporary durability to enemies.",
+        "ru": "Даёт врагам 200 очков щита с перезарядкой 5 минут, делая их юнитов временно живучее в ключевых боях. Перезарядка 5 минут достаточно длинная — срабатывает лишь один-два раза за миссию. Щиты раздражают, но прожигаются сосредоточенным огнём. Менее угрожающе, чем наступательные проклятия, так как добавляет лишь временную прочность врагам."
       }
     }
   ],

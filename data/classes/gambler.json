@@ -90,168 +90,198 @@
   ],
   "talents": [
     {
-      "name": "Roll The Dice",
+      "name": "Randomizer",
       "rarity": "core",
-      "tier": "A",
+      "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "At the start of each mission, roll a random effect: spawn 5-15 random units, gain 200-800 bonus resources, gain a random temporary buff (+30-60% damage/HP/speed for 60s), or trigger a minor negative effect (lose 100 resources or -10% stats for 30s).",
-        "ru": "В начале каждой миссии бросается случайный эффект: спавн 5-15 случайных юнитов, получение 200-800 бонусных ресурсов, случайный временный бафф (+30-60% урона/HP/скорости на 60с) или незначительный негативный эффект (потеря 100 ресурсов или -10% характеристик на 30с)."
+        "en": "When you finish training a unit, it gets randomized into any other unit of the same tier. Units can randomize into one tier higher or lower. Units cost 20% less resources. Does not affect mercenaries.",
+        "ru": "Когда вы заканчиваете тренировку юнита, он рандомизируется в любого другого юнита того же тира. Юниты могут рандомизироваться на один тир выше или ниже. Юниты стоят на 20% меньше ресурсов. Не влияет на наёмников."
       },
       "analysis": {
-        "en": "The core gamble. Most outcomes are positive — the negative effect is mild compared to the upside potential. Free random units can be any unit type, including expensive ones like Battlecruisers. Sets the tone for the entire class.",
-        "ru": "Ключевая азартная игра. Большинство исходов положительные — негативный эффект мягкий по сравнению с потенциалом положительного. Бесплатные случайные юниты могут быть любого типа, включая дорогие вроде Battlecruisers. Задаёт тон всему классу."
+        "en": "The Gambler core talent that defines the entire class. The 20% resource discount is a strong baseline, and the randomization creates exciting variance — you might get a unit one tier higher. The inability to predict what you get requires adaptability, but the discount ensures you are always resource-efficient.",
+        "ru": "Ключевой талант Игрока, определяющий весь класс. Скидка 20% на ресурсы — сильная база, а рандомизация создаёт захватывающий разброс — можно получить юнита на тир выше. Невозможность предсказать результат требует адаптивности, но скидка гарантирует постоянную ресурсоэффективность."
       }
     },
     {
-      "name": "Lucky Streak",
+      "name": "Bonus Round",
       "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "When Roll The Dice triggers a positive outcome, gain an additional 50% bonus to the effect. Negative outcomes are 50% weaker.",
-        "ru": "Когда Roll The Dice срабатывает с положительным исходом, получите дополнительно 50% бонус к эффекту. Негативные исходы на 50% слабее."
+        "en": "When you train units, there is a 20% chance to summon another randomized unit of one tier lower",
+        "ru": "Когда вы тренируете юнитов, есть 20% шанс призвать ещё одного рандомизированного юнита на один тир ниже"
       },
       "analysis": {
-        "en": "Makes good rolls better and bad rolls less painful. Simple but effective — turns the already-favorable odds further in your favor. Solid early pickup.",
-        "ru": "Делает хорошие броски лучше, а плохие — менее болезненными. Просто, но эффективно — ещё больше склоняет и так благоприятные шансы в вашу пользу. Надёжный ранний выбор."
+        "en": "Effectively a 20% chance to get a free bonus unit with every training cycle. Even though the bonus unit is one tier lower, with Randomizer it could roll up to the same tier. Over many production cycles, this generates significant free army value. Excellent for mass-production strategies.",
+        "ru": "Фактически 20% шанс получить бесплатного бонусного юнита с каждым циклом тренировки. Хотя бонусный юнит на тир ниже, с Randomizer он может прокнуть до того же тира. За множество циклов производства это генерирует значительную бесплатную армейскую ценность. Превосходен для стратегий массового производства."
       }
     },
     {
-      "name": "Double Or Nothing",
+      "name": "Critters' Ace",
       "rarity": "common",
-      "tier": "B",
+      "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "After any random effect, you may choose to reroll it. The reroll doubles the magnitude of whatever result you get (positive or negative).",
-        "ru": "После любого случайного эффекта вы можете перебросить его. Переброс удваивает величину любого полученного результата (положительного или отрицательного)."
+        "en": "Randomizing a unit back into itself gives it +50% attack speed and +50% health permanently",
+        "ru": "Рандомизация юнита обратно в самого себя даёт ему +50% скорости атаки и +50% здоровья перманентно"
       },
       "analysis": {
-        "en": "High-risk, high-reward gamble within a gamble. Double positive effects are incredible. Double negative effects are catastrophic. Use only when you can afford the downside, or when desperate.",
-        "ru": "Высокий риск, высокая награда — азартная игра внутри азартной игры. Удвоенные положительные эффекты невероятны. Удвоенные негативные катастрофичны. Используйте только когда можете позволить минус, или в отчаянии."
+        "en": "A massive permanent buff when you 'hit' the same unit type. With base 60% same-tier odds, there is a meaningful chance of rolling the same unit. The +50% attack speed and +50% health is an enormous power spike for that individual unit. Synergizes with Lucky Dice which increases favorable roll chances.",
+        "ru": "Массивный перманентный бафф при 'попадании' в тот же тип юнита. С базовыми 60% шансом того же тира есть значимая вероятность выпадения того же юнита. +50% скорости атаки и +50% здоровья — огромный скачок мощи для отдельного юнита. Синергирует с Lucky Dice, увеличивающим шансы благоприятных бросков."
       }
     },
     {
-      "name": "Wild Card",
+      "name": "Cheap Hand",
       "rarity": "common",
       "tier": "B",
-      "stackable": false,
-      "maxStacks": null,
+      "stackable": true,
+      "maxStacks": 5,
       "desc": {
-        "en": "Every 60 seconds, a random unit is spawned for free at your base. Unit type is completely random.",
-        "ru": "Каждые 60 секунд случайный юнит спавнится бесплатно на вашей базе. Тип юнита полностью случайный."
+        "en": "Randomized units cost -10% less minerals and vespene. Max 5 stacks",
+        "ru": "Рандомизированные юниты стоят на -10% меньше минералов и газа. Максимум 5 стаков"
       },
       "analysis": {
-        "en": "Passive army growth through RNG. Over a long mission, this adds significant free army value. You get a chaotic mix of units but they're all free. Some units will be useless, others will be perfect.",
-        "ru": "Пассивный рост армии через RNG. За длинную миссию это добавляет значительную бесплатную армейскую ценность. Вы получаете хаотичный набор юнитов, но все бесплатны. Некоторые юниты бесполезны, другие идеальны."
+        "en": "Stacks up to 5 times for a total -50% cost reduction on top of Randomizer's base -20%, making units incredibly cheap. At max stacks your units cost only 30% of their base price. Strong economy talent that lets you flood the field with randomized units for minimal investment.",
+        "ru": "Стакается до 5 раз для суммарного снижения стоимости на -50% поверх базовых -20% от Randomizer, делая юнитов невероятно дешёвыми. При максимальных стаках юниты стоят лишь 30% от базовой цены. Сильный экономический талант, позволяющий заполнить поле рандомизированными юнитами за минимальные инвестиции."
       }
     },
     {
-      "name": "Fortune's Favor",
+      "name": "Law Of Big Numbers",
       "rarity": "common-infinite",
       "tier": "A",
       "stackable": true,
       "maxStacks": 100,
       "desc": {
-        "en": "All random effects have +5% chance to trigger their best possible outcome. Negative outcome chance reduced by 3%. Max 100 stacks.",
-        "ru": "Все случайные эффекты имеют +5% шанс лучшего возможного исхода. Шанс негативного исхода снижен на 3%. Макс. 100 стаков."
+        "en": "Randomized units are trained in 15% less time. Max 100 stacks",
+        "ru": "Рандомизированные юниты тренируются на 15% быстрее. Максимум 100 стаков"
       },
       "analysis": {
-        "en": "The class infinite. Stacking this tilts all RNG in your favor. At high stacks, negative outcomes become nearly impossible while the best outcomes happen consistently. This is what turns Gambler from chaotic to reliably overpowered. Always take offered stacks.",
-        "ru": "Классовый бесконечный талант. Накопление стаков склоняет все RNG в вашу пользу. При высоких стаках негативные исходы становятся практически невозможными, а лучшие исходы происходят стабильно. Именно это превращает Азартного Игрока из хаотичного в надёжно сверхмощного. Всегда берите предложенные стаки."
+        "en": "The Gambler class infinite that dramatically accelerates unit production. Each stack compounds the training speed reduction, meaning at even moderate stacks your units train almost instantly. This is critical for sustaining army size through rapid replacement of losses and enabling mass-production playstyles. Always take offered stacks.",
+        "ru": "Бесконечный талант класса Игрок, резко ускоряющий производство юнитов. Каждый стак компоундирует снижение времени тренировки, что означает, что даже при умеренных стаках юниты тренируются почти мгновенно. Критически важен для поддержания размера армии через быстрое восполнение потерь и для стратегий массового производства. Всегда берите предложенные стаки."
       }
     },
     {
-      "name": "Card Counter",
+      "name": "Premium Token",
+      "rarity": "uncommon",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Randomizing into a unit with HotS or LotV variant gives you the variant instead",
+        "ru": "Рандомизация в юнита с вариантом HotS или LotV даёт вам этот вариант вместо базового"
+      },
+      "analysis": {
+        "en": "Automatically upgrades randomized units to their Heart of the Swarm or Legacy of the Void variants when applicable, which are typically stronger versions. This is a passive quality improvement that requires no extra input — whenever you would get a unit that has an expansion variant, you get the better version. Solid but situational depending on which units you roll.",
+        "ru": "Автоматически улучшает рандомизированных юнитов до их вариантов Heart of the Swarm или Legacy of the Void, когда применимо, которые обычно являются более сильными версиями. Это пассивное улучшение качества, не требующее дополнительных действий — когда вы получаете юнита с вариантом дополнения, вы получаете лучшую версию. Надёжно, но ситуативно в зависимости от выпавших юнитов."
+      }
+    },
+    {
+      "name": "Lucky Dice",
       "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "You can see the next 3 random effects before they trigger and choose which one to take.",
-        "ru": "Вы можете видеть следующие 3 случайных эффекта до их срабатывания и выбрать один."
+        "en": "Randomizing units has a better chance of giving you better units. Cancels out with Unlucky Dice",
+        "ru": "Рандомизация юнитов имеет повышенный шанс дать лучших юнитов. Взаимно отменяется с Unlucky Dice"
       },
       "analysis": {
-        "en": "Removes much of the risk from Gambler. Seeing options before choosing means you always take the best one. Fundamentally changes the class from blind gambling to informed selection. Extremely powerful.",
-        "ru": "Убирает большую часть риска из Азартного Игрока. Просмотр вариантов перед выбором означает, что вы всегда берёте лучший. Фундаментально меняет класс от слепой азартной игры к информированному выбору. Крайне мощный."
-      }
-    },
-    {
-      "name": "Loaded Dice",
-      "rarity": "uncommon",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Negative random effects are converted to neutral effects (no effect instead of negative). Roll The Dice now has 2 rolls per mission — take the better result.",
-        "ru": "Негативные случайные эффекты преобразуются в нейтральные (нет эффекта вместо негативного). Roll The Dice теперь даёт 2 броска за миссию — берётся лучший результат."
-      },
-      "analysis": {
-        "en": "Eliminates downside risk entirely and doubles your chances for great results. With this, you never suffer from bad luck — the worst case is 'nothing happens'. Turns Gambler into pure upside class.",
-        "ru": "Полностью устраняет негативный риск и удваивает шансы на отличные результаты. С этим вы никогда не страдаете от неудачи — худший случай 'ничего не происходит'. Превращает Азартного Игрока в класс чистого преимущества."
+        "en": "Shifts the randomization odds from 60%/20%/20% (same/up/down) to 50%/35%/15%, significantly increasing your chance of rolling a tier up. This makes every production cycle more likely to give you premium units. Cancels with Unlucky Dice if both are taken, so avoid that curse when possible.",
+        "ru": "Сдвигает шансы рандомизации с 60%/20%/20% (тот же/выше/ниже) на 50%/35%/15%, значительно увеличивая шанс выпадения тира выше. Это делает каждый цикл производства более вероятным для получения премиальных юнитов. Взаимно отменяется с Unlucky Dice при наличии обоих, поэтому избегайте этого проклятия по возможности."
       }
     },
     {
       "name": "Jackpot",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "When upgrading units with randomizer, there is a chance to upgrade again. Can chain",
+        "ru": "При повышении тира юнита через рандомайзер есть шанс повысить тир снова. Может цепляться"
+      },
+      "analysis": {
+        "en": "Creates the possibility of chain-upgrading units multiple tiers above what you trained. A Tier 1 unit could theoretically chain all the way to the highest tier. The chaining mechanic makes Lucky Dice even more valuable since each upgrade chance can trigger another. Rare but game-changing when it hits.",
+        "ru": "Создаёт возможность цепного повышения тира юнитов на несколько тиров выше тренируемого. Юнит 1 тира теоретически может пройти цепочку до наивысшего тира. Механика цепи делает Lucky Dice ещё ценнее, так как каждый шанс повышения может вызвать следующий. Редко, но меняет игру при срабатывании."
+      }
+    },
+    {
+      "name": "Hero Of The Storm",
       "rarity": "rare",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "5% chance per random effect to trigger Jackpot: gain all positive effects simultaneously (units + resources + buff). Jackpot probability increases by 1% for each mission completed.",
-        "ru": "5% шанс за случайный эффект сорвать Джекпот: получить все положительные эффекты одновременно (юниты + ресурсы + бафф). Вероятность Джекпота увеличивается на 1% за каждую завершённую миссию."
+        "en": "Topbar ability. Summons a random hero at target location. Max one of each hero. 3 minute cooldown",
+        "ru": "Способность верхней панели. Призывает случайного героя в целевую точку. Максимум один каждого героя. Перезарядка 3 минуты"
       },
       "analysis": {
-        "en": "The dream outcome. Jackpot gives everything at once — massive army boost, huge resources, and powerful buffs. The scaling probability means it becomes increasingly likely as the campaign progresses. At mission 20+, you're hitting Jackpot nearly every other mission.",
-        "ru": "Исход мечты. Джекпот даёт всё сразу — массивный буст армии, огромные ресурсы и мощные баффы. Масштабируемая вероятность означает, что он становится всё более вероятным по ходу кампании. На миссии 20+ вы срываете Джекпот почти каждую вторую миссию."
+        "en": "An incredibly powerful rare talent that summons random hero units every 3 minutes. Since you can have one of each hero, repeated uses build a roster of unique heroes. Heroes are extremely powerful combat units that synergize with heroic unit talents. This single talent can fill your army with diverse heroes over a long mission.",
+        "ru": "Невероятно мощный редкий талант, призывающий случайных героев каждые 3 минуты. Поскольку можно иметь по одному каждого героя, повторные использования строят набор уникальных героев. Герои — крайне мощные боевые юниты, синергирующие с талантами героических юнитов. Один этот талант может заполнить армию разнообразными героями за длинную миссию."
       }
     },
     {
-      "name": "All In",
-      "rarity": "epic",
-      "tier": "S",
+      "name": "Reroll",
+      "rarity": "rare",
+      "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Once per mission, sacrifice 50% of your current resources to trigger 5 random effects simultaneously. All effects have doubled magnitude.",
-        "ru": "Раз за миссию, пожертвуйте 50% текущих ресурсов для одновременного запуска 5 случайных эффектов. Все эффекты удвоенной величины."
+        "en": "Topbar ability. Rerolls your units in target area. 90 second cooldown",
+        "ru": "Способность верхней панели. Перебрасывает ваших юнитов в целевой области. Перезарядка 90 секунд"
       },
       "analysis": {
-        "en": "The ultimate gamble. Five doubled random effects is an enormous swing. With Loaded Dice negating downsides and Fortune's Favor stacking the odds, this becomes a guaranteed massive power spike. With Card Counter, you have full control over all 5 effects. Build-defining.",
-        "ru": "Высшая ставка. Пять удвоенных случайных эффектов — это огромный размах. С Loaded Dice, устраняющим минусы, и стаками Fortune's Favor, склоняющими шансы, это становится гарантированным массивным скачком мощи. С Card Counter у вас полный контроль над всеми 5 эффектами. Определяющий билд."
+        "en": "A powerful re-randomization tool that lets you reroll existing units into potentially better ones. The 90-second cooldown allows frequent use. Best applied to groups of low-tier units for a chance to upgrade them. Synergizes with Lucky Dice and Jackpot for higher odds of positive outcomes.",
+        "ru": "Мощный инструмент повторной рандомизации, позволяющий перебросить существующих юнитов в потенциально лучших. Перезарядка 90 секунд позволяет частое использование. Лучше всего применять к группам юнитов низкого тира для шанса повысить их. Синергирует с Lucky Dice и Jackpot для более высоких шансов положительного результата."
       }
     },
     {
-      "name": "Bad Beat",
+      "name": "Play Again?",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "When one of your units dies, there is a 60% chance to summon a random unit of one tier lower",
+        "ru": "Когда один из ваших юнитов гибнет, есть 60% шанс призвать случайного юнита на один тир ниже"
+      },
+      "analysis": {
+        "en": "A phenomenal death-triggered talent with a generous 60% proc rate. Most unit deaths spawn a free replacement one tier lower, creating a self-sustaining army. Combined with Randomizer and Jackpot, these replacement units can chain-upgrade. Extremely strong in attrition-heavy fights where constant losses become constant reinforcements.",
+        "ru": "Феноменальный талант при гибели с щедрым 60% шансом срабатывания. Большинство гибелей юнитов порождают бесплатную замену на тир ниже, создавая самоподдерживающуюся армию. В сочетании с Randomizer и Jackpot эти замены могут цепно повышаться. Крайне силён в боях на истощение, где постоянные потери становятся постоянными подкреплениями."
+      }
+    },
+    {
+      "name": "Unlucky Dice",
       "rarity": "curse",
       "tier": "D",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Negative random effect chance increased by 20%. Negative effects have 50% increased magnitude.",
-        "ru": "Шанс негативного случайного эффекта увеличен на 20%. Негативные эффекты на 50% сильнее."
+        "en": "Randomizing units has a better chance of giving you worse units. Cancels out with Lucky Dice",
+        "ru": "Рандомизация юнитов имеет повышенный шанс дать худших юнитов. Взаимно отменяется с Lucky Dice"
       },
       "analysis": {
-        "en": "More frequent and stronger negative effects hurt the class concept. Partially mitigated by Loaded Dice (which negates negatives entirely) or high Fortune's Favor stacks. Very unpleasant without those counters.",
-        "ru": "Более частые и сильные негативные эффекты вредят концепции класса. Частично компенсируется Loaded Dice (который полностью отменяет негативы) или высокими стаками Fortune's Favor. Очень неприятно без этих контрмер."
+        "en": "Shifts randomization odds to 50%/15%/35% (same/up/down), making tier-down rolls much more likely. This significantly degrades your army quality over time. If you have Lucky Dice, they cancel out, returning to normal odds. Without Lucky Dice, this curse makes high-tier production very unreliable.",
+        "ru": "Сдвигает шансы рандомизации на 50%/15%/35% (тот же/выше/ниже), делая понижение тира намного более вероятным. Это значительно ухудшает качество армии со временем. При наличии Lucky Dice они взаимно отменяются, возвращая нормальные шансы. Без Lucky Dice это проклятие делает производство высокого тира очень ненадёжным."
       }
     },
     {
-      "name": "House Always Wins",
-      "rarity": "plague",
+      "name": "Villain Of The Blizzard",
+      "rarity": "curse",
       "tier": "D",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Every positive random effect also triggers a minor negative side effect. Random unit spawns have 25% chance to spawn an enemy unit instead.",
-        "ru": "Каждый положительный случайный эффект также запускает незначительный негативный побочный эффект. Случайные спавны юнитов имеют 25% шанс заспавнить вражеского юнита вместо союзного."
+        "en": "At random intervals, summon a random hero for your enemy that will come to attack you",
+        "ru": "Через случайные промежутки времени призывается случайный герой для вашего врага, который приходит атаковать вас"
       },
       "analysis": {
-        "en": "Poisons every positive outcome. The enemy unit spawn chance from Wild Card can be dangerous. Forces you to evaluate whether each random trigger is worth the side effect. The most thematically appropriate plague.",
-        "ru": "Отравляет каждый положительный исход. Шанс вражеского юнита от Wild Card может быть опасен. Вынуждает оценивать, стоит ли каждый случайный триггер побочного эффекта. Самая тематически подходящая чума."
+        "en": "A dangerous curse that periodically spawns enemy heroes to attack you. Enemy heroes are powerful combat units that can devastate unprepared defenses. The random timing makes it unpredictable, requiring you to always have defenses ready. Particularly punishing in combination with other curses that weaken your army.",
+        "ru": "Опасное проклятие, периодически призывающее вражеских героев для атаки на вас. Вражеские герои — мощные боевые юниты, способные уничтожить неподготовленную оборону. Случайный тайминг делает его непредсказуемым, требуя постоянной готовности обороны. Особенно наказывающее в сочетании с другими проклятиями, ослабляющими армию."
       }
     }
   ],

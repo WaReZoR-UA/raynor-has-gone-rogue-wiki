@@ -79,198 +79,198 @@
   ],
   "talents": [
     {
-      "name": "Arcane Enhancement",
+      "name": "Evocation",
       "rarity": "core",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "All combat units gain an energy bar (50 base energy) and one randomly assigned spell ability from the Wizard spell pool. Spells scale with unit stats.",
-        "ru": "Все боевые юниты получают шкалу энергии (50 базовой энергии) и одно случайно назначенное заклинание из пула заклинаний Волшебника. Заклинания масштабируются с характеристиками юнита."
+        "en": "Medics, Ravens, Science Vessels, Ghosts and Spectres regenerate +1 energy per second.",
+        "ru": "Медики, Вороны, Научные Корабли, Призраки и Спектры восстанавливают +1 энергию в секунду."
       },
       "analysis": {
-        "en": "The foundation of the class. Every unit becomes a caster. The random assignment means adapt to what you get.",
-        "ru": "Основа класса. Каждый юнит становится заклинателем. Случайное назначение означает — адаптируйтесь к тому, что получите."
+        "en": "The foundation of Wizard class. Passive energy regeneration on all your caster units ensures they can use abilities more frequently. Stacks with other energy bonuses for sustained spellcasting throughout every engagement.",
+        "ru": "Основа класса Волшебник. Пассивная регенерация энергии на всех ваших кастерах гарантирует более частое использование способностей. Стакается с другими бонусами энергии для непрерывного кастования в каждом бою."
       }
     },
     {
-      "name": "Spell Mastery",
-      "rarity": "core",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Units with spell abilities gain +20% spell damage and +25 maximum energy. Spells have -15% cooldown. Unlocks the Spell School selection system.",
-        "ru": "Юниты со способностями заклинаний получают +20% урона заклинаний и +25 максимальной энергии. Перезарядка заклинаний -15%. Открывает систему выбора Школ Магии."
-      },
-      "analysis": {
-        "en": "Essential upgrade to Arcane Enhancement. Spell Schools let you specialize your army's magic.",
-        "ru": "Необходимое улучшение к Arcane Enhancement. Школы Магии позволяют специализировать магию вашей армии."
-      }
-    },
-    {
-      "name": "School of Fire",
-      "rarity": "uncommon",
+      "name": "Renewable Power",
+      "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Fire spells in your army deal +40% damage. Fireball and Flame Wave are added to the spell pool. Fire spells leave burning ground for 3 seconds.",
-        "ru": "Огненные заклинания в вашей армии наносят +40% урона. Файербол и Волна Огня добавлены в пул заклинаний. Огненные заклинания оставляют горящую землю на 3 секунды."
+        "en": "Medics, Medivacs, Ravens and Science Vessels gain an attack with 6 range, that deals 6, 9, 12 and 12 damage respectively every second",
+        "ru": "Медики, Медивакы, Вороны и Научные Корабли получают атаку с дальностью 6, наносящую 6, 9, 12 и 12 урона соответственно каждую секунду."
       },
       "analysis": {
-        "en": "Best offensive school. Burning ground provides excellent area denial and sustained damage.",
-        "ru": "Лучшая атакующая школа. Горящая земля обеспечивает отличный контроль зоны и продолжительный урон."
+        "en": "Transforms support units into hybrid combat/support units. Medics and Medivacs can now contribute DPS while still performing their primary role, significantly increasing your army's total damage output.",
+        "ru": "Превращает юнитов поддержки в гибридных боевых юнитов. Медики и Медивакы теперь вносят вклад в DPS, продолжая выполнять основную роль, значительно увеличивая общий урон вашей армии."
       }
     },
     {
-      "name": "School of Storm",
-      "rarity": "uncommon",
+      "name": "Dimensional Storage",
+      "rarity": "common",
       "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Storm spells deal +40% damage. Chain Lightning and Thunder Shock are added to the spell pool. Storm spells have a 20% chance to stun for 1 second.",
-        "ru": "Штормовые заклинания наносят +40% урона. Цепная Молния и Удар Грома добавлены в пул заклинаний. Штормовые заклинания имеют 20% шанс оглушить на 1 секунду."
-      },
-      "analysis": {
-        "en": "Great crowd control school. Chain Lightning excels against packed formations.",
-        "ru": "Отличная школа контроля толпы. Цепная Молния отлично работает против плотных формаций."
-      }
-    },
-    {
-      "name": "School of Protection",
-      "rarity": "uncommon",
-      "tier": "B",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Protective spells gain +40% effectiveness. Arcane Shield and Mass Barrier are added to the spell pool. Protected units reflect 10% of damage taken.",
-        "ru": "Защитные заклинания получают +40% эффективности. Магический Щит и Массовый Барьер добавлены в пул заклинаний. Защищённые юниты отражают 10% полученного урона."
-      },
-      "analysis": {
-        "en": "Defensive school that pairs well with tanky compositions. Damage reflection adds up on large armies.",
-        "ru": "Оборонительная школа, хорошо сочетающаяся с танковыми композициями. Отражение урона накапливается на больших армиях."
-      }
-    },
-    {
-      "name": "Arcane Overcharge",
-      "rarity": "common-infinite",
-      "tier": "S",
       "stackable": true,
-      "maxStacks": 100,
+      "maxStacks": 2,
       "desc": {
-        "en": "All spells deal +5% damage and healing per stack. Maximum energy increased by +5 per stack. Max 100 stacks.",
-        "ru": "Все заклинания наносят +5% урона и лечения за стак. Максимум энергии увеличен на +5 за стак. Макс. 100 стаков."
+        "en": "Your units with energy have +75 maximum energy. Max 2 stacks",
+        "ru": "Ваши юниты с энергией получают +75 максимальной энергии. Максимум 2 стака."
       },
       "analysis": {
-        "en": "The primary scaling talent. Since every unit has spells, this is effectively a global damage increase.",
-        "ru": "Основной масштабирующий талант. Поскольку у каждого юнита есть заклинания, это фактически глобальное увеличение урона."
+        "en": "Up to +150 maximum energy at 2 stacks gives your casters a much deeper energy pool. This allows for burst spellcasting in critical moments and synergizes strongly with Force Nullifier's armor scaling from energy.",
+        "ru": "До +150 максимальной энергии при 2 стаках даёт вашим кастерам значительно более глубокий пул энергии. Это позволяет взрывное кастование в критические моменты и сильно синергирует с масштабированием брони Force Nullifier от энергии."
       }
     },
     {
-      "name": "Dual Casting",
-      "rarity": "rare",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Each unit gains a second spell ability from the Wizard pool. Units can cast both spells independently.",
-        "ru": "Каждый юнит получает второе заклинание из пула Волшебника. Юниты могут кастовать оба заклинания независимо."
-      },
-      "analysis": {
-        "en": "Doubles your army's spellcasting output. Two spells per unit means incredible burst and utility.",
-        "ru": "Удваивает заклинательный потенциал вашей армии. Два заклинания на юнита — невероятный взрыв и утилита."
-      }
-    },
-    {
-      "name": "Mana Font",
-      "rarity": "rare",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Units regenerate energy 100% faster. Killing a unit restores 15 energy to all nearby allied units. Maximum energy increased by 50.",
-        "ru": "Юниты регенерируют энергию на 100% быстрее. Убийство юнита восстанавливает 15 энергии всем ближайшим союзным юнитам. Максимум энергии увеличен на 50."
-      },
-      "analysis": {
-        "en": "Solves energy problems completely. Kill-based energy refund enables constant spellcasting in fights.",
-        "ru": "Полностью решает проблемы с энергией. Возврат энергии за убийства позволяет постоянно кастовать в боях."
-      }
-    },
-    {
-      "name": "Spell Fusion",
-      "rarity": "epic",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "When 3+ units cast spells at the same target within 2 seconds, a Spell Fusion occurs: dealing bonus damage equal to 200% of all spells combined in an AoE.",
-        "ru": "Когда 3+ юнита применяют заклинания по одной цели в течение 2 секунд, происходит Слияние Заклинаний: наносит бонусный урон, равный 200% от суммы всех заклинаний в AoE."
-      },
-      "analysis": {
-        "en": "Devastatingly powerful. Focus-fire spells on the same target to trigger massive bonus AoE damage. Melts bosses and clears waves.",
-        "ru": "Разрушительно мощно. Фокусируйте заклинания на одной цели для массивного бонусного AoE урона. Расплавляет боссов и зачищает волны."
-      }
-    },
-    {
-      "name": "Arcane Surge",
-      "rarity": "epic",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Topbar ability: All units gain unlimited energy and -50% spell cooldowns for 15 seconds. 120 second cooldown.",
-        "ru": "Способность топбара: Все юниты получают неограниченную энергию и -50% перезарядки заклинаний на 15 секунд. Перезарядка 120 секунд."
-      },
-      "analysis": {
-        "en": "Turns your army into an unstoppable spell-spam machine for 15 seconds. Time it for critical engagements.",
-        "ru": "Превращает вашу армию в неостановимую машину спама заклинаний на 15 секунд. Используйте в критических боях."
-      }
-    },
-    {
-      "name": "Enchanted Weapons",
+      "name": "Super-Advanced Facilities",
       "rarity": "common",
       "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Normal attacks of spell-enhanced units deal +15% bonus damage as arcane damage. Arcane damage ignores armor.",
-        "ru": "Обычные атаки юнитов с заклинаниями наносят +15% бонусного урона как магический урон. Магический урон игнорирует броню."
+        "en": "Medics, Medivacs, Ghosts, Spectres, Ravens and Science Vessels cost 40% less vespene, and are trained in 30% less time",
+        "ru": "Медики, Медивакы, Призраки, Спектры, Вороны и Научные Корабли стоят на 40% меньше газа веспен и обучаются на 30% быстрее."
       },
       "analysis": {
-        "en": "Passive damage increase that requires no micro. Armor-ignoring damage is excellent against heavy targets.",
-        "ru": "Пассивное увеличение урона, не требующее микро. Урон, игнорирующий броню, отлично работает против тяжёлых целей."
+        "en": "A strong economy talent that lets you mass caster units much faster and cheaper. The 40% vespene reduction is massive for gas-heavy units like Science Vessels and Ghosts.",
+        "ru": "Сильный экономический талант, позволяющий массово производить кастеров значительно быстрее и дешевле. Снижение расхода веспена на 40% огромно для газозатратных юнитов вроде Научных Кораблей и Призраков."
       }
     },
     {
-      "name": "Spell Burnout",
+      "name": "Resonant Amplification",
+      "rarity": "uncommon-infinite",
+      "tier": "S",
+      "stackable": true,
+      "maxStacks": 100,
+      "desc": {
+        "en": "Spells deal +25% damage, healing, and shields. Max 100 stacks",
+        "ru": "Заклинания наносят +25% урона, лечения и щитов. Максимум 100 стаков."
+      },
+      "analysis": {
+        "en": "The primary infinite scaling talent for Wizard. Each stack boosts all spell damage, healing, and shields by 25%, making every caster unit exponentially more powerful. Always take this when offered.",
+        "ru": "Основной бесконечно масштабируемый талант Волшебника. Каждый стак усиливает весь урон, лечение и щиты заклинаний на 25%, делая каждого кастера экспоненциально мощнее. Всегда берите при предложении."
+      }
+    },
+    {
+      "name": "Triple Point Optics",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Allows Medics, Medivacs, Science Vessels and Ravens to call down Nuclear Strikes",
+        "ru": "Позволяет Медикам, Медивакам, Научным Кораблям и Воронам вызывать Ядерные Удары."
+      },
+      "analysis": {
+        "en": "Gives nuclear strike capability to your support units, dramatically expanding your tactical options. Multiple casters calling nukes simultaneously creates devastating area denial.",
+        "ru": "Даёт возможность ядерного удара вашим юнитам поддержки, значительно расширяя тактические возможности. Несколько кастеров, вызывающих ядерные удары одновременно, создают разрушительный контроль зоны."
+      }
+    },
+    {
+      "name": "Force Nullifier",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Your units gain +1 armor for every 50 energy they have, up to a maximum of +3 armor. At max stacks, also reduces all damage taken by -25%",
+        "ru": "Ваши юниты получают +1 брони за каждые 50 энергии, до максимума +3 брони. При максимальных стаках также снижает весь получаемый урон на 25%."
+      },
+      "analysis": {
+        "en": "Turns energy pools into survivability. With Dimensional Storage boosting max energy, your casters can easily reach the +3 armor cap and the powerful 25% damage reduction. Excellent defensive synergy.",
+        "ru": "Превращает пул энергии в выживаемость. С Dimensional Storage, увеличивающим максимальную энергию, ваши кастеры легко достигают лимита +3 брони и мощного снижения урона на 25%. Отличная оборонительная синергия."
+      }
+    },
+    {
+      "name": "Wizard Adept Training",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Medics gain Feedback, Medivacs the Abduct, Ghosts the Psi Storm, Spectres the Consumption, Science Vessels the Defensive Matrix, and Ravens the Force Field abilities",
+        "ru": "Медики получают Обратную Связь, Медивакы — Похищение, Призраки — Пси-Шторм, Спектры — Поглощение, Научные Корабли — Защитную Матрицу, а Вороны — Силовое Поле."
+      },
+      "analysis": {
+        "en": "A massive expansion of your caster toolkit. Each ability is powerful in its own right — Psi Storm on Ghosts and Abduct on Medivacs are especially game-changing. Diversifies your army's utility enormously.",
+        "ru": "Огромное расширение инструментария ваших кастеров. Каждая способность мощна сама по себе — Пси-Шторм на Призраках и Похищение на Медиваках особенно меняют игру. Значительно диверсифицирует полезность вашей армии."
+      }
+    },
+    {
+      "name": "Chaos Harmonizer",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": true,
+      "maxStacks": 2,
+      "desc": {
+        "en": "Medic, Medivac, Ghost, Spectre, Raven and Science Vessel spells have +15% range, halved cooldown, and -25% reduced cast times. Max 2 stacks",
+        "ru": "Заклинания Медиков, Медиваков, Призраков, Спектров, Воронов и Научных Кораблей получают +15% дальности, вдвое сниженную перезарядку и -25% времени каста. Максимум 2 стака."
+      },
+      "analysis": {
+        "en": "At 2 stacks, your casters have +30% range, 25% original cooldowns, and 56% cast time. This transforms every caster into a rapid-fire spellcasting machine — one of the most impactful Wizard talents.",
+        "ru": "При 2 стаках ваши кастеры имеют +30% дальности, 25% от исходной перезарядки и 56% от времени каста. Это превращает каждого кастера в скорострельную машину заклинаний — один из самых значимых талантов Волшебника."
+      }
+    },
+    {
+      "name": "Wizard Master Training",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Medics gain Disabling Cloud, Medivacs the Mass Recall, Ghosts the Parasitic Domination, Spectres the Psychic Orb, Science Vessels the Fungal Growth, and Ravens the Spawn Broodling abilities",
+        "ru": "Медики получают Отключающее Облако, Медивакы — Массовый Отзыв, Призраки — Паразитическое Подчинение, Спектры — Психическую Сферу, Научные Корабли — Грибковый Рост, а Вороны — Появление Бруудлинга."
+      },
+      "analysis": {
+        "en": "The second tier of ability unlocks with even more powerful spells. Mass Recall on Medivacs enables incredible tactical mobility, and Parasitic Domination on Ghosts lets you mind-control enemy units.",
+        "ru": "Второй уровень разблокировки способностей с ещё более мощными заклинаниями. Массовый Отзыв на Медиваках обеспечивает невероятную тактическую мобильность, а Паразитическое Подчинение на Призраках позволяет контролировать вражеских юнитов."
+      }
+    },
+    {
+      "name": "Exponential Growth",
+      "rarity": "epic",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Your units restore energy equal to 10% of all damage dealt",
+        "ru": "Ваши юниты восстанавливают энергию, равную 10% от всего нанесённого урона."
+      },
+      "analysis": {
+        "en": "Converts your entire army's damage output into energy regeneration. High-DPS units constantly refill their energy pools, enabling non-stop spellcasting. Creates a powerful feedback loop where more damage means more spells means more damage.",
+        "ru": "Конвертирует весь урон вашей армии в регенерацию энергии. Юниты с высоким DPS постоянно восполняют пул энергии, обеспечивая непрерывное кастование. Создаёт мощный цикл обратной связи: больше урона = больше заклинаний = больше урона."
+      }
+    },
+    {
+      "name": "Feedback Loop",
       "rarity": "curse",
       "tier": "C",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Spells cost +25% more energy. However, overcharged spells (cast at full energy) deal +30% bonus damage.",
-        "ru": "Заклинания стоят на +25% больше энергии. Однако перезаряженные заклинания (применённые при полной энергии) наносят +30% бонусного урона."
+        "en": "Enemy High Templar, Overseers, Ravens and Science Vessels gain the Feedback ability, which they will cast automatically",
+        "ru": "Вражеские Высшие Тамплиеры, Надзиратели, Вороны и Научные Корабли получают способность Обратная Связь, которую они будут применять автоматически."
       },
       "analysis": {
-        "en": "Manageable with Mana Font. The full-energy bonus actually makes first casts in combat stronger.",
-        "ru": "Управляемо с Mana Font. Бонус за полную энергию на самом деле делает первые касты в бою сильнее."
+        "en": "A dangerous curse that punishes high-energy units. Enemy Feedback drains your casters' energy and deals damage equal to the drained amount. Prioritize killing enemy casters first, and avoid engaging with full energy pools when possible.",
+        "ru": "Опасное проклятие, наказывающее юнитов с высокой энергией. Вражеская Обратная Связь сливает энергию ваших кастеров и наносит урон, равный слитому количеству. Приоритизируйте убийство вражеских кастеров и избегайте боя с полными пулами энергии."
       }
     },
     {
-      "name": "Arcane Instability",
-      "rarity": "plague",
+      "name": "Mass Interference",
+      "rarity": "curse",
       "tier": "D",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Spells have a 10% chance to misfire: dealing 50% of spell damage to the caster instead of the target.",
-        "ru": "Заклинания имеют 10% шанс осечки: наносят 50% урона заклинания кастеру вместо цели."
+        "en": "Your Medics, Medivacs, Ghosts, Spectres, Ravens and Science Vessels regenerate energy four times as slow, and lose -2 armor while another of the same unit is nearby",
+        "ru": "Ваши Медики, Медивакы, Призраки, Спектры, Вороны и Научные Корабли восстанавливают энергию в четыре раза медленнее и теряют 2 брони, когда рядом находится другой юнит того же типа."
       },
       "analysis": {
-        "en": "Painful plague that can kill your own units. Health stacking and healing help mitigate.",
-        "ru": "Болезненная чума, которая может убивать ваших собственных юнитов. Стакание здоровья и лечение помогают смягчить."
+        "en": "A harsh curse that punishes grouping same-type casters together. Spread your caster types across the army to avoid the armor penalty, and rely on Exponential Growth or other energy sources to offset the severely reduced regeneration.",
+        "ru": "Суровое проклятие, наказывающее группировку одинаковых кастеров. Распределяйте типы кастеров по армии, чтобы избежать штрафа к броне, и полагайтесь на Exponential Growth или другие источники энергии для компенсации сильно сниженной регенерации."
       }
     }
   ],

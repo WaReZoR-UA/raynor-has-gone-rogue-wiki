@@ -87,198 +87,198 @@
   ],
   "talents": [
     {
-      "name": "Deja Vu",
+      "name": "Weaponised Insanity",
       "rarity": "core",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Once per mission, rewind the last 15 seconds of gameplay. All unit positions, health, cooldowns, and abilities reset to their state 15 seconds ago. Enemy actions are also rewound.",
-        "ru": "Один раз за миссию перемотайте последние 15 секунд геймплея. Все позиции юнитов, здоровье, перезарядки и способности возвращаются к состоянию 15 секунд назад. Действия врагов также перематываются."
+        "en": "Each of your units gain access to an unconventional ability that requires creativity to use, but can easily break the rules",
+        "ru": "Каждый из ваших юнитов получает доступ к нестандартной способности, которая требует креативности для использования, но может легко нарушать правила."
       },
       "analysis": {
-        "en": "The ultimate safety net and combo enabler. Use it to undo catastrophic losses or replay a devastating ability sequence twice.",
-        "ru": "Абсолютная страховка и способ усиления комбо. Используйте для отмены катастрофических потерь или повторного применения разрушительной последовательности способностей дважды."
+        "en": "The core identity of Mad Genius. Every unit becomes unique with rule-breaking abilities. Experiment with each unit's ability to discover powerful combinations that the game was not designed to handle.",
+        "ru": "Ядро идентичности Безумного Гения. Каждый юнит становится уникальным со способностями, нарушающими правила. Экспериментируйте со способностями каждого юнита для обнаружения мощных комбинаций, на которые игра не была рассчитана."
       }
     },
     {
-      "name": "Quantum Extinction Beam",
-      "rarity": "core",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Topbar ability: Fire a massive beam that deals 2000 damage in a line, destroying all units in its path. 300 second cooldown. Beam width and damage scale with your total talent count.",
-        "ru": "Способность топбара: Выстрелите массивным лучом, наносящим 2000 урона по линии, уничтожая всех юнитов на пути. Перезарядка 300 секунд. Ширина и урон луча масштабируются с общим количеством талантов."
-      },
-      "analysis": {
-        "en": "The most powerful single ability in the game. Deletes entire enemy armies. Scales with talent count so it gets stronger as you progress.",
-        "ru": "Самая мощная одиночная способность в игре. Уничтожает целые вражеские армии. Масштабируется с количеством талантов, становясь сильнее по мере прогресса."
-      }
-    },
-    {
-      "name": "Chaotic Brilliance",
-      "rarity": "core",
+      "name": "Future Banishment",
+      "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Each talent you acquire has a 15% chance to grant a random bonus talent of equal or higher rarity for free. However, there is also a 10% chance to gain a random curse.",
-        "ru": "Каждый приобретённый талант имеет 15% шанс дать бонусный случайный талант равной или более высокой редкости бесплатно. Однако также есть 10% шанс получить случайное проклятие."
+        "en": "Topbar ability, 90 second cooldown. Creates zone sending all units to the future for 60 seconds",
+        "ru": "Способность топбара, перезарядка 90 секунд. Создаёт зону, отправляющую всех юнитов в будущее на 60 секунд."
       },
       "analysis": {
-        "en": "The quintessential Mad Genius talent — high reward, significant risk. Over a long campaign, you will get both many bonuses and many curses.",
-        "ru": "Квинтэссенция таланта Безумного Гения — высокая награда, значительный риск. За длинную кампанию вы получите много бонусов и много проклятий."
+        "en": "Incredibly versatile zoning tool. Use it defensively to remove a dangerous attack wave for 60 seconds, or offensively to isolate part of an enemy army. Affects ALL units in the zone including yours, so position carefully.",
+        "ru": "Невероятно универсальный инструмент зонирования. Используйте оборонительно для удаления опасной волны атаки на 60 секунд, или наступательно для изоляции части вражеской армии. Затрагивает ВСЕХ юнитов в зоне, включая ваших — позиционируйте аккуратно."
       }
     },
     {
-      "name": "Reality Distortion",
-      "rarity": "rare",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Once per mission, swap the stats (health, damage, armor) of all your units with all enemy units on the map for 20 seconds.",
-        "ru": "Один раз за миссию поменяйте характеристики (здоровье, урон, броня) всех ваших юнитов с характеристиками всех вражеских юнитов на карте на 20 секунд."
-      },
-      "analysis": {
-        "en": "Absolutely insane ability. Use when enemies are stronger than you for a 20-second window of total dominance. Combine with Deja Vu for 40 seconds of swapped stats.",
-        "ru": "Абсолютно безумная способность. Используйте, когда враги сильнее вас, для 20-секундного окна полного доминирования. Комбинируйте с Deja Vu для 40 секунд обменённых характеристик."
-      }
-    },
-    {
-      "name": "Mad Science",
-      "rarity": "rare",
+      "name": "Eiffel Maneuver",
+      "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Your unit production buildings randomly produce upgraded variants of units at no extra cost. Upgraded variants have +30% stats and a random bonus ability. 25% chance per unit produced.",
-        "ru": "Ваши производственные здания случайно производят улучшенные варианты юнитов без дополнительной стоимости. Улучшенные варианты имеют +30% характеристик и случайную бонусную способность. 25% шанс за произведённого юнита."
+        "en": "Topbar ability, 75 second cooldown. Supercharges Command Center/Hatchery/Nexus for 20 seconds",
+        "ru": "Способность топбара, перезарядка 75 секунд. Перезаряжает Командный Центр/Инкубатор/Нексус на 20 секунд."
       },
       "analysis": {
-        "en": "Free upgrades on 1 in 4 units adds up significantly. The random abilities keep things interesting and occasionally game-winning.",
-        "ru": "Бесплатные улучшения на 1 из 4 юнитов значительно накапливаются. Случайные способности делают игру интересной и иногда решающей."
+        "en": "A powerful economic burst tool on a short 75-second cooldown. Supercharging your main base building for 20 seconds can produce rapid reinforcements or economic boosts. Time it with key production windows.",
+        "ru": "Мощный инструмент экономического рывка с короткой перезарядкой 75 секунд. Суперзарядка главного здания базы на 20 секунд может обеспечить быстрое подкрепление или экономический буст. Синхронизируйте с ключевыми окнами производства."
       }
     },
     {
-      "name": "Quantum Instability",
-      "rarity": "common-infinite",
-      "tier": "A",
-      "stackable": true,
-      "maxStacks": 100,
-      "desc": {
-        "en": "All abilities (yours and enemies') have +3% damage per stack. Quantum Extinction Beam gains +100 damage per stack. Max 100 stacks.",
-        "ru": "Все способности (ваши и вражеские!) имеют +3% урона за стак. Квантовый Луч Уничтожения получает +100 урона за стак. Макс. 100 стаков."
-      },
-      "analysis": {
-        "en": "Double-edged scaling: enemies also get stronger. But your QEB scaling is one-sided. High risk, extreme reward.",
-        "ru": "Обоюдоострое масштабирование: враги тоже становятся сильнее. Но масштабирование КЛУ — одностороннее. Высокий риск, экстремальная награда."
-      }
-    },
-    {
-      "name": "Eureka Moment",
-      "rarity": "uncommon",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "At the start of each mission, one random talent you own becomes empowered: +100% effectiveness for that mission. Different talent each mission.",
-        "ru": "В начале каждой миссии один случайный талант, которым вы владеете, усиливается: +100% эффективности на эту миссию. Разный талант каждую миссию."
-      },
-      "analysis": {
-        "en": "The more talents you have, the more valuable this becomes. Sometimes it hits a game-changing talent for incredible results.",
-        "ru": "Чем больше у вас талантов, тем ценнее это становится. Иногда попадает на решающий талант с невероятными результатами."
-      }
-    },
-    {
-      "name": "Butterfly Effect",
-      "rarity": "epic",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "When any unit on the map dies, there is a 5% chance that a random global event occurs: enemy supply reduction, free units spawning, resource windfall, temporary invulnerability, or random curse.",
-        "ru": "Когда любой юнит на карте погибает, есть 5% шанс случайного глобального события: снижение саплая врага, появление бесплатных юнитов, бонус ресурсов, временная неуязвимость или случайное проклятие."
-      },
-      "analysis": {
-        "en": "Pure chaos. On kill-heavy maps, events trigger constantly. Mostly beneficial but the curse chance keeps you on your toes.",
-        "ru": "Чистый хаос. На картах с большим количеством убийств события срабатывают постоянно. В основном полезные, но шанс проклятия держит в напряжении."
-      }
-    },
-    {
-      "name": "Temporal Paradox",
-      "rarity": "epic",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Deja Vu can now be used twice per mission. Additionally, rewound units gain +25% all stats for 10 seconds after the rewind.",
-        "ru": "Deja Vu теперь может быть использовано дважды за миссию. Дополнительно перемотанные юниты получают +25% всех характеристик на 10 секунд после перемотки."
-      },
-      "analysis": {
-        "en": "Double Deja Vu is incredibly powerful for recovery and combo plays. The stat boost makes rewound units immediately threatening.",
-        "ru": "Двойное Deja Vu невероятно мощно для восстановления и комбо-игр. Бонус характеристик делает перемотанных юнитов немедленно опасными."
-      }
-    },
-    {
-      "name": "Mad Genius Unit Enhancement",
+      "name": "Nuclear Supplies",
       "rarity": "common",
       "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Choose a unit type: it gains a unique Mad Genius modification. Infantry: split into 2 copies on death. Vehicles: random weapon swap each attack. Aircraft: phasing (ignores terrain). Buildings: mobile.",
-        "ru": "Выберите тип юнита: он получает уникальную модификацию Безумного Гения. Пехота: раздваивается при смерти. Техника: случайная смена оружия каждой атакой. Авиация: фазирование (игнорирует местность). Здания: мобильные."
+        "en": "Supply Depots, Reactors, Tech Labs gain ability to be outfitted with Nuclear Supplies",
+        "ru": "Склады Снабжения, Реакторы и Технические Лаборатории получают способность оснащаться Ядерными Припасами."
       },
       "analysis": {
-        "en": "Each modification is powerful in its own way. Mobile buildings with Engineer talents is a hilarious and effective combo.",
-        "ru": "Каждая модификация мощна по-своему. Мобильные здания с талантами Инженера — это и смешно, и эффективно."
+        "en": "Turns your infrastructure buildings into explosive traps. Outfit buildings in defensive positions or along attack paths for devastating surprises when enemies approach your base.",
+        "ru": "Превращает инфраструктурные здания во взрывные ловушки. Оснащайте здания на оборонительных позициях или вдоль путей атаки для разрушительных сюрпризов при приближении врагов."
       }
     },
     {
-      "name": "Overloaded Circuits",
+      "name": "Theory Of Everything",
+      "rarity": "common-infinite",
+      "tier": "S",
+      "stackable": true,
+      "maxStacks": 100,
+      "desc": {
+        "en": "Abilities given by Mad Genius have cooldown and energy cost reduced by -10%. Max 100 stacks",
+        "ru": "Способности, данные Безумным Гением, получают снижение перезарядки и стоимости энергии на 10%. Максимум 100 стаков."
+      },
+      "analysis": {
+        "en": "The primary infinite scaling talent for Mad Genius. At high stacks, all Mad Genius abilities become nearly free and have minimal cooldowns, enabling constant ability spam across your entire army.",
+        "ru": "Основной бесконечно масштабируемый талант Безумного Гения. При высоких стаках все способности Безумного Гения становятся почти бесплатными с минимальными перезарядками, позволяя постоянный спам способностей по всей армии."
+      }
+    },
+    {
+      "name": "Internal Reconstruction",
       "rarity": "uncommon",
-      "tier": "B",
+      "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Units at full health deal +25% damage. Units below 25% health deal +50% damage but take +25% more damage.",
-        "ru": "Юниты с полным здоровьем наносят +25% урона. Юниты ниже 25% здоровья наносят +50% урона, но получают +25% больше урона."
+        "en": "Gives SCVs ability to take control of enemy building, sacrificing unit. Cannot control defensive structures",
+        "ru": "Даёт SCV способность захватывать контроль над вражеским зданием, жертвуя юнитом. Не может контролировать оборонительные сооружения."
       },
       "analysis": {
-        "en": "Rewards both healthy and nearly-dead units. Pair with healing for the full-health bonus or play aggressively for the low-health bonus.",
-        "ru": "Вознаграждает и здоровых, и почти мёртвых юнитов. Сочетайте с лечением для бонуса полного здоровья или играйте агрессивно для бонуса низкого здоровья."
+        "en": "Capturing enemy production buildings opens up access to enemy tech trees and unit types. Sacrifice one SCV to gain a permanent enemy structure. Target high-value buildings like Starports or Robotics Facilities.",
+        "ru": "Захват вражеских производственных зданий открывает доступ к вражеским веткам технологий и типам юнитов. Пожертвуйте одним SCV для получения постоянного вражеского здания. Нацеливайтесь на ценные здания вроде Космопортов или Робототехнических Цехов."
       }
     },
     {
-      "name": "Hubris",
+      "name": "Matryoshka Systems",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "When mechanical unit dies, summon copy with half size, damage, and health. Once per unit",
+        "ru": "Когда механический юнит погибает, призывается копия с половинным размером, уроном и здоровьем. Один раз на юнита."
+      },
+      "analysis": {
+        "en": "Effectively gives every mechanical unit a second life at half power. Siege Tanks, Thors, and other expensive mech units become much more cost-efficient as each death spawns a mini-version that still deals meaningful damage.",
+        "ru": "Фактически даёт каждому механическому юниту вторую жизнь с половинной мощностью. Осадные Танки, Торы и другая дорогая техника становятся намного эффективнее, поскольку каждая гибель порождает мини-версию, наносящую ощутимый урон."
+      }
+    },
+    {
+      "name": "Projectile Matrix",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Topbar ability, 90 second cooldown. Creates matrix field for 20 seconds, trapping projectiles",
+        "ru": "Способность топбара, перезарядка 90 секунд. Создаёт матричное поле на 20 секунд, захватывающее снаряды."
+      },
+      "analysis": {
+        "en": "A unique defensive ability that captures all projectiles in the field for 20 seconds. Use it to neutralize ranged attacks during critical moments like defending a position or pushing into a fortified area.",
+        "ru": "Уникальная оборонительная способность, захватывающая все снаряды в поле на 20 секунд. Используйте для нейтрализации дальних атак в критические моменты — при обороне позиции или атаке укреплённой зоны."
+      }
+    },
+    {
+      "name": "Quantum Extinction Beam",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Topbar ability, 5 minute cooldown. Mark unit for extinction. When it dies, all same type die",
+        "ru": "Способность топбара, перезарядка 5 минут. Отмечает юнита для уничтожения. Когда он погибает, все юниты того же типа погибают."
+      },
+      "analysis": {
+        "en": "The most devastating single ability in the game. Mark a common enemy unit type, kill one, and every unit of that type on the map dies instantly. Best used against massed enemy compositions with one dominant unit type.",
+        "ru": "Самая разрушительная одиночная способность в игре. Отметьте распространённый тип вражеского юнита, убейте одного — и все юниты этого типа на карте погибнут мгновенно. Лучше всего против массированных вражеских составов с одним доминирующим типом юнитов."
+      }
+    },
+    {
+      "name": "Deja Vu",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Topbar ability, 3 minute cooldown. Place units in temporal loop for 30 seconds",
+        "ru": "Способность топбара, перезарядка 3 минуты. Помещает юнитов во временную петлю на 30 секунд."
+      },
+      "analysis": {
+        "en": "A powerful temporal manipulation tool. Units in the loop return to their original state after 30 seconds, effectively undoing all damage taken and abilities used. Use offensively to replay devastating attacks or defensively as a safety net.",
+        "ru": "Мощный инструмент временной манипуляции. Юниты в петле возвращаются в исходное состояние через 30 секунд, фактически отменяя весь полученный урон и использованные способности. Используйте наступательно для повтора атак или оборонительно как страховку."
+      }
+    },
+    {
+      "name": "Event Horizon",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Topbar ability. Once per mission. Sacrifice unit to create permanent vortex obliterating anything in area",
+        "ru": "Способность топбара. Один раз за миссию. Жертвует юнитом для создания постоянного вихря, уничтожающего всё в области."
+      },
+      "analysis": {
+        "en": "A permanent area denial zone that destroys everything entering it. Place it at critical chokepoints or enemy spawn locations for permanent map control. Choose your placement wisely as it can only be used once per mission.",
+        "ru": "Постоянная зона запрета, уничтожающая всё входящее. Размещайте на критических узких проходах или точках появления врагов для постоянного контроля карты. Выбирайте расположение мудро — можно использовать только раз за миссию."
+      }
+    },
+    {
+      "name": "Quantum Entanglement",
+      "rarity": "epic",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "First time you train non-SCV unit each mission, it gets marked for quantum extinction. When it dies, all same type die",
+        "ru": "Первый раз, когда вы обучаете юнита (не SCV) каждую миссию, он отмечается для квантового уничтожения. Когда он погибает, все юниты того же типа погибают."
+      },
+      "analysis": {
+        "en": "An automatic version of Quantum Extinction Beam that triggers on your first produced unit each mission. Carefully choose what unit type you build first, as it determines which enemy type gets mass-exterminated when your marked unit falls.",
+        "ru": "Автоматическая версия Квантового Луча Уничтожения, срабатывающая на первом произведённом юните каждой миссии. Тщательно выбирайте, какой тип юнита строите первым — он определяет, какой тип врагов будет массово уничтожен при гибели отмеченного юнита."
+      }
+    },
+    {
+      "name": "Tachyon Storm",
       "rarity": "curse",
       "tier": "D",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Every 5 minutes, a random one of your talents is disabled for 60 seconds. Cannot disable core talents.",
-        "ru": "Каждые 5 минут случайный один из ваших талантов отключается на 60 секунд. Не может отключить ядровые таланты."
+        "en": "At random intervals, place all units in target area in temporal loop for 30 seconds. Affects ALL units",
+        "ru": "Через случайные интервалы помещает всех юнитов в целевой области во временную петлю на 30 секунд. Затрагивает ВСЕХ юнитов."
       },
       "analysis": {
-        "en": "Extremely annoying. The more talents you have, the less likely it is to hit a critical one. Somewhat mitigated by large talent pools.",
-        "ru": "Крайне раздражающе. Чем больше у вас талантов, тем меньше вероятность попадания в критичный. Частично смягчается большим пулом талантов."
-      }
-    },
-    {
-      "name": "Unraveling",
-      "rarity": "plague",
-      "tier": "D",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Each mission, you permanently lose one random non-core talent. Gained talents have +20% effectiveness to compensate.",
-        "ru": "Каждую миссию вы навсегда теряете один случайный неядровой талант. Полученные таланты имеют +20% эффективности для компенсации."
-      },
-      "analysis": {
-        "en": "Devastating plague that erodes your power over time. The +20% compensation rarely makes up for losing entire talents.",
-        "ru": "Разрушительная чума, разъедающая вашу мощь со временем. +20% компенсации редко восполняет потерю целых талантов."
+        "en": "A chaotic curse that randomly disrupts both armies. Since it affects ALL units including yours, keep your army spread to minimize exposure. The unpredictability makes it impossible to plan around consistently.",
+        "ru": "Хаотичное проклятие, случайно нарушающее обе армии. Поскольку затрагивает ВСЕХ юнитов, включая ваших, держите армию рассредоточенной для минимизации воздействия. Непредсказуемость делает невозможным постоянное планирование."
       }
     }
   ],

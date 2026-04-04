@@ -85,207 +85,192 @@
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Unlocks Psi-Corps Troopers — elite psionic infantry with mind blast and psi-shield abilities. Produced from Barracks with Tech Lab.",
-        "ru": "Открывает Пси-Корпус Трупперов — элитную псионическую пехоту со способностями ментального взрыва и пси-щита. Производятся в казарме с тех. лабораторией."
+        "en": "Unlocks the Psi-Corps Trooper, an infantry spellcaster able to control one enemy unit at a time. Trained from Barracks.",
+        "ru": "Открывает Пси-Корпус Труппера — пехотного заклинателя, способного контролировать одного вражеского юнита за раз. Тренируется в Казарме."
       },
       "analysis": {
-        "en": "Core talent that defines the class. Psi-Corps Troopers are your bread and butter units with great utility.",
-        "ru": "Основной талант, определяющий класс. Пси-Корпус Трупперы — ваши основные юниты с отличной утилитой."
+        "en": "The foundation of the Psychic class. Psi-Corps Troopers provide mind control capability from a Barracks-trained unit, making them accessible early. Each trooper can permanently control one enemy unit, allowing you to steal powerful enemies and add them to your army.",
+        "ru": "Основа класса Психик. Пси-Корпус Трупперы дают способность контроля разума от юнита из Казармы, делая их доступными рано. Каждый труппер может постоянно контролировать одного вражеского юнита, позволяя красть мощных врагов и добавлять их в армию."
       }
     },
     {
-      "name": "Terrazine Infusion",
-      "rarity": "core",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "All biological units gain terrazine enhancement: +15% attack speed and +10% movement speed. Psionic units gain an additional +10% damage.",
-        "ru": "Все биологические юниты получают террациновое усиление: +15% скорости атаки и +10% скорости движения. Псионические юниты получают дополнительные +10% урона."
-      },
-      "analysis": {
-        "en": "Massive army-wide buff. Synergizes with bio compositions and especially Psi-Corps Troopers.",
-        "ru": "Мощный баф на всю армию. Синергирует с био-композициями и особенно с Пси-Корпус Трупперами."
-      }
-    },
-    {
-      "name": "Mind Control",
-      "rarity": "rare",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Psi-Corps Troopers gain Mind Control ability: permanently converts an enemy unit to your side. 60 second cooldown per trooper.",
-        "ru": "Пси-Корпус Трупперы получают способность Контроль Разума: навсегда обращает вражеского юнита на вашу сторону. Перезарядка 60 секунд на труппера."
-      },
-      "analysis": {
-        "en": "Incredibly powerful on maps with strong enemy units. Each converted unit is a massive swing. Prioritize high-value targets.",
-        "ru": "Невероятно мощен на картах с сильными вражескими юнитами. Каждый обращённый юнит — огромный перевес. Приоритизируйте ценные цели."
-      }
-    },
-    {
-      "name": "Psi-Storm",
-      "rarity": "uncommon",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Psi-Corps Troopers gain Psi-Storm ability: deals 80 damage over 4 seconds in an area. 30 second cooldown.",
-        "ru": "Пси-Корпус Трупперы получают способность Пси-Шторм: наносит 80 урона за 4 секунды в области. Перезарядка 30 секунд."
-      },
-      "analysis": {
-        "en": "Excellent AoE damage. Multiple troopers stacking storms can wipe entire waves.",
-        "ru": "Отличный AoE урон. Несколько трупперов, наслаивающих штормы, могут уничтожить целые волны."
-      }
-    },
-    {
-      "name": "Psionic Feedback",
-      "rarity": "uncommon",
-      "tier": "B",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Psi-Corps Troopers gain Feedback ability: drains all energy from target unit and deals equal damage.",
-        "ru": "Пси-Корпус Трупперы получают способность Обратная связь: вытягивает всю энергию у цели и наносит равный урон."
-      },
-      "analysis": {
-        "en": "Situationally powerful against casters and high-energy units. Great on specific missions.",
-        "ru": "Ситуационно мощен против заклинателей и юнитов с большой энергией. Отлично на определённых миссиях."
-      }
-    },
-    {
-      "name": "Psionic Amplifier",
-      "rarity": "common",
-      "tier": "A",
-      "stackable": true,
-      "maxStacks": 5,
-      "desc": {
-        "en": "Psi-Corps Troopers deal +20% more ability damage per stack. Max 5 stacks.",
-        "ru": "Пси-Корпус Трупперы наносят +20% больше урона способностями за стак. Макс. 5 стаков."
-      },
-      "analysis": {
-        "en": "Stack this for devastating Psi-Storms. At 5 stacks your storms deal double damage.",
-        "ru": "Набирайте стаки для разрушительных Пси-Штормов. При 5 стаках ваши штормы наносят двойной урон."
-      }
-    },
-    {
-      "name": "Terrazine Resonance",
-      "rarity": "common-infinite",
-      "tier": "A",
-      "stackable": true,
-      "maxStacks": 100,
-      "desc": {
-        "en": "Terrazine-enhanced units gain +5% damage and +5% health per stack. Max 100 stacks.",
-        "ru": "Усиленные террацином юниты получают +5% урона и +5% здоровья за стак. Макс. 100 стаков."
-      },
-      "analysis": {
-        "en": "Core scaling talent. Since Terrazine Infusion affects all bio, this is essentially a global buff.",
-        "ru": "Основной масштабирующий талант. Поскольку Террациновое Вливание влияет на все био, это по сути глобальный баф."
-      }
-    },
-    {
-      "name": "Neural Parasite",
-      "rarity": "epic",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Mind-controlled units retain all their abilities and gain terrazine enhancement. Controlled heroic units deal +50% bonus damage.",
-        "ru": "Подконтрольные юниты сохраняют все свои способности и получают террациновое усиление. Контролируемые героические юниты наносят +50% бонусного урона."
-      },
-      "analysis": {
-        "en": "Makes Mind Control dramatically stronger. Converted heroic units become absolute monsters.",
-        "ru": "Делает Контроль Разума значительно сильнее. Обращённые героические юниты становятся абсолютными монстрами."
-      }
-    },
-    {
-      "name": "Psi-Corps Elite Training",
-      "rarity": "rare",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Psi-Corps Troopers gain +40% health, +2 armor, and their abilities cost 25% less energy.",
-        "ru": "Пси-Корпус Трупперы получают +40% здоровья, +2 брони, и их способности стоят на 25% меньше энергии."
-      },
-      "analysis": {
-        "en": "Makes your troopers much harder to kill and able to cast more frequently. High priority if running trooper-heavy.",
-        "ru": "Делает ваших трупперов значительно живучее и позволяет чаще применять способности. Высокий приоритет при массовом использовании трупперов."
-      }
-    },
-    {
-      "name": "Psionic Vortex",
-      "rarity": "epic",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Topbar ability: Creates a psionic vortex that pulls in and damages all enemy units in a large area for 8 seconds. 180 second cooldown.",
-        "ru": "Способность топбара: создаёт псионический вихрь, который притягивает и наносит урон всем вражеским юнитам в большой области в течение 8 секунд. Перезарядка 180 секунд."
-      },
-      "analysis": {
-        "en": "Incredible panic button and combo setup. Pull enemies into your Psi-Storms for devastating combos.",
-        "ru": "Невероятная кнопка спасения и создания комбо. Притягивайте врагов в ваши Пси-Штормы для разрушительных комбо."
-      }
-    },
-    {
-      "name": "Awakened Potential",
+      "name": "Cerebral Kill Switch",
       "rarity": "common",
       "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "All psionic units start with +25 energy and regenerate energy 50% faster.",
-        "ru": "Все псионические юниты начинают с +25 энергии и регенерируют энергию на 50% быстрее."
+        "en": "Topbar ability, 5 second cooldown. Instantly kills all units under Psychic Control in the target area",
+        "ru": "Способность верхней панели, перезарядка 5 секунд. Мгновенно убивает всех юнитов под Психическим Контролем в целевой области"
       },
       "analysis": {
-        "en": "Quality of life talent that lets you cast immediately on production. Pairs well with ability-heavy builds.",
-        "ru": "Талант качества жизни, позволяющий применять способности сразу при производстве. Хорошо сочетается с билдами на способности."
+        "en": "Provides a way to instantly destroy mind-controlled units on a very short 5-second cooldown. This can be used offensively to detonate controlled units inside enemy formations as suicide bombers, or defensively to clear controlled units that are about to expire.",
+        "ru": "Даёт возможность мгновенно уничтожить подконтрольных юнитов с очень короткой перезарядкой в 5 секунд. Можно использовать наступательно для подрыва подконтрольных юнитов внутри вражеских формаций как камикадзе, или оборонительно для устранения юнитов, чей контроль истекает."
       }
     },
     {
-      "name": "Collective Consciousness",
-      "rarity": "rare",
+      "name": "Psychic Tower",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Sensor Towers gain the ability to use Psychic Control, controlling up to two enemy units at a time",
+        "ru": "Сенсорные Башни получают возможность использовать Психический Контроль, контролируя до двух вражеских юнитов одновременно"
+      },
+      "analysis": {
+        "en": "Transforms defensive Sensor Towers into mind control platforms that can each control two enemy units. This provides passive, automated mind control coverage over key areas without requiring Psi-Corps Troopers. Excellent for base defense and chokepoint control.",
+        "ru": "Превращает оборонительные Сенсорные Башни в платформы контроля разума, каждая из которых может контролировать двух вражеских юнитов. Это обеспечивает пассивный автоматический контроль разума ключевых зон без необходимости в Пси-Корпус Трупперах. Отлично для обороны базы и контроля узких мест."
+      }
+    },
+    {
+      "name": "Force Of Will",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Psychic Control cooldown is reduced from 10 to 6, and it costs 20 energy down from 35",
+        "ru": "Перезарядка Психического Контроля снижена с 10 до 6, и стоимость уменьшена до 20 энергии вместо 35"
+      },
+      "analysis": {
+        "en": "Significantly reduces both the cooldown and energy cost of Psychic Control, allowing your troopers to take control of enemy units much more frequently. The energy reduction from 35 to 20 nearly doubles the number of casts per trooper before running out of energy.",
+        "ru": "Значительно снижает перезарядку и стоимость энергии Психического Контроля, позволяя трупперам гораздо чаще захватывать вражеских юнитов. Снижение энергии с 35 до 20 почти удваивает количество применений на одного труппера до исчерпания энергии."
+      }
+    },
+    {
+      "name": "Free Your Mind",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Psychic Control gives units +15% health, shields, and damage done for as long as you control them",
+        "ru": "Психический Контроль даёт юнитам +15% здоровья, щитов и наносимого урона, пока вы их контролируете"
+      },
+      "analysis": {
+        "en": "Buffs all mind-controlled units with +15% to health, shields, and damage while under your control. This makes stolen enemy units even more powerful than they were for the enemy, rewarding aggressive mind control usage on high-value targets.",
+        "ru": "Баффит всех подконтрольных юнитов на +15% здоровья, щитов и урона, пока они под вашим контролем. Это делает украденных вражеских юнитов ещё мощнее, чем они были у врага, вознаграждая агрессивное использование контроля разума на ценных целях."
+      }
+    },
+    {
+      "name": "Cranial Focus",
+      "rarity": "uncommon",
       "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "When a Psi-Corps Trooper dies, nearby allied units gain +20% attack speed for 10 seconds. Psi-Corps Troopers respawn once after death with 50% health.",
-        "ru": "Когда Пси-Корпус Труппер погибает, ближайшие союзные юниты получают +20% скорости атаки на 10 секунд. Пси-Корпус Трупперы возрождаются один раз после смерти с 50% здоровья."
+        "en": "Psi-Corps Troopers cost 25 less minerals and vespene, and are trained in -20% less time",
+        "ru": "Пси-Корпус Трупперы стоят на 25 меньше минералов и веспена и тренируются на 20% быстрее"
       },
       "analysis": {
-        "en": "Insurance policy for your troopers. The respawn makes them much more durable in extended fights.",
-        "ru": "Страховка для ваших трупперов. Возрождение делает их значительно прочнее в затяжных боях."
+        "en": "Makes Psi-Corps Troopers cheaper and faster to produce, allowing you to field more of them earlier. The combined cost and time reduction lets you build a larger psionics corps for more simultaneous mind control targets across the battlefield.",
+        "ru": "Делает Пси-Корпус Трупперов дешевле и быстрее в производстве, позволяя выставлять их больше и раньше. Совокупное снижение стоимости и времени позволяет создать более многочисленный псионический корпус для одновременного контроля большего числа целей."
       }
     },
     {
-      "name": "Terrazine Overdose",
+      "name": "Mind Is Quicker Than The Eye",
+      "rarity": "uncommon",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Psychic Control gains +2 range",
+        "ru": "Психический Контроль получает +2 к дальности"
+      },
+      "analysis": {
+        "en": "Extends the range of Psychic Control, allowing your troopers to take control of enemy units from a safer distance. The extra range reduces the risk of losing troopers to enemy fire during casting and enables mind control of units behind enemy lines.",
+        "ru": "Увеличивает дальность Психического Контроля, позволяя трупперам захватывать вражеских юнитов с более безопасного расстояния. Дополнительная дальность снижает риск потери трупперов под вражеским огнём и позволяет контролировать юнитов за линией фронта."
+      }
+    },
+    {
+      "name": "Epsilon Takeover",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Psychic Control can now take control of massive units",
+        "ru": "Психический Контроль теперь может захватывать массивных юнитов"
+      },
+      "analysis": {
+        "en": "Removes the massive-unit restriction from Psychic Control, allowing you to steal Thors, Ultralisks, Colossi, and other massive enemy units. This is a game-changing upgrade that lets you capture the enemy's most powerful units and turn them against their former allies.",
+        "ru": "Снимает ограничение на массивных юнитов с Психического Контроля, позволяя красть Торов, Ультралисков, Колоссов и других массивных вражеских юнитов. Это переломное улучшение, позволяющее захватывать самых мощных юнитов врага и обращать их против бывших союзников."
+      }
+    },
+    {
+      "name": "All Your Base Belongs To Us",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Psi-Corps Troopers gain the ability to steal enemy structures below 25% health for 20 energy",
+        "ru": "Пси-Корпус Трупперы получают способность захватывать вражеские строения с менее чем 25% здоровья за 20 энергии"
+      },
+      "analysis": {
+        "en": "Enables structure theft, allowing you to capture damaged enemy buildings. This can provide access to enemy tech, production facilities, and defensive structures. Prioritize capturing high-value buildings like enemy production structures or upgrade facilities for maximum impact.",
+        "ru": "Позволяет красть строения, захватывая повреждённые вражеские здания. Это может дать доступ к вражеским технологиям, производственным мощностям и оборонительным сооружениям. Приоритизируйте захват ценных зданий вроде производственных структур или исследовательских объектов для максимального эффекта."
+      }
+    },
+    {
+      "name": "Mind Break",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Controlling enemy units with Psychic Control for more than 60 seconds puts them permanently under your control",
+        "ru": "Контроль вражеских юнитов Психическим Контролем более 60 секунд навсегда переводит их под ваш контроль"
+      },
+      "analysis": {
+        "en": "After 60 seconds of continuous mind control, the unit becomes permanently yours, freeing up the trooper's control slot for another target. This creates a snowball effect where each trooper can accumulate a growing collection of permanently stolen units over the course of a mission.",
+        "ru": "После 60 секунд непрерывного контроля разума юнит навсегда становится вашим, освобождая слот контроля труппера для другой цели. Это создаёт эффект снежного кома, где каждый труппер накапливает растущую коллекцию постоянно украденных юнитов за миссию."
+      }
+    },
+    {
+      "name": "Power Of Psychic Domination",
+      "rarity": "epic",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Topbar ability. Creates an area that stuns controllable enemies for 3 seconds. When the effect expires, permanently take control of all stunned enemies",
+        "ru": "Способность верхней панели. Создаёт область, оглушающую контролируемых врагов на 3 секунды. По истечении эффекта навсегда берёт под контроль всех оглушённых врагов"
+      },
+      "analysis": {
+        "en": "The ultimate Psychic ability — a mass mind control spell that stuns and then permanently captures all controllable enemies in an area. This can swing entire battles by converting large portions of the enemy army to your side in one cast. Time it for maximum enemy density.",
+        "ru": "Абсолютная способность Психика — массовое заклинание контроля разума, оглушающее и затем навсегда захватывающее всех контролируемых врагов в области. Может переломить целые сражения, обращая большую часть вражеской армии на вашу сторону одним применением. Используйте при максимальной плотности врагов."
+      }
+    },
+    {
+      "name": "Environmental Distraction",
       "rarity": "curse",
       "tier": "C",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Your biological units lose 1 HP per second but deal +25% damage.",
-        "ru": "Ваши биологические юниты теряют 1 HP в секунду, но наносят +25% урона."
+        "en": "Your terran combat units cost +15% more",
+        "ru": "Ваши терранские боевые юниты стоят на 15% дороже"
       },
       "analysis": {
-        "en": "Manageable with Medics/Medivacs. The damage boost is significant if you have healing covered.",
-        "ru": "Управляемо с Медиками/Медиваками. Бонус к урону значителен, если у вас есть достаточно лечения."
+        "en": "Increases the cost of all terran combat units by 15%, putting economic pressure on your conventional army. This encourages heavier reliance on mind-controlled enemy units to supplement your forces, which aligns with the Psychic playstyle but punishes players who need a strong terran backbone.",
+        "ru": "Увеличивает стоимость всех терранских боевых юнитов на 15%, оказывая экономическое давление на обычную армию. Это поощряет более активное использование подконтрольных вражеских юнитов, что соответствует стилю Психика, но наказывает игроков, которым нужна сильная терранская основа."
       }
     },
     {
-      "name": "Psychic Backlash",
-      "rarity": "plague",
-      "tier": "D",
+      "name": "Mastermind's Ego",
+      "rarity": "curse",
+      "tier": "C",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Enemy units deal 10% of their damage back to your psionic units as bonus damage.",
-        "ru": "Вражеские юниты наносят 10% своего урона обратно вашим псионическим юнитам как бонусный урон."
+        "en": "Psi-Corps Troopers can now control up to 3 units. Controlling more than one unit deals 8 damage per second to the caster",
+        "ru": "Пси-Корпус Трупперы теперь могут контролировать до 3 юнитов. Контроль более одного юнита наносит 8 урона в секунду заклинателю"
       },
       "analysis": {
-        "en": "Painful for psionic-heavy compositions. Mitigate with extra health stacking or armor buffs.",
-        "ru": "Болезненно для композиций с большим количеством псиоников. Смягчайте дополнительным здоровьем или бронёй."
+        "en": "A double-edged talent that triples the control capacity of each trooper but punishes multi-control with self-damage. The 8 DPS to the caster means troopers controlling 2-3 units will slowly die without healing. Requires Medic or Medivac support to sustain, but the tripled control capacity is extremely powerful.",
+        "ru": "Палка о двух концах — утраивает вместимость контроля каждого труппера, но наказывает мультиконтроль самоповреждением. 8 урона в секунду заклинателю означает, что трупперы, контролирующие 2-3 юнита, будут медленно умирать без исцеления. Требует поддержки Медиков или Медиваков, но утроенная вместимость контроля крайне мощна."
       }
     }
   ],

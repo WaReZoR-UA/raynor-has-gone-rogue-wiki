@@ -90,183 +90,198 @@
   ],
   "talents": [
     {
-      "name": "Master Builder",
+      "name": "Construction Efficiency",
       "rarity": "core",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Buildings gain +50% HP and +25% attack damage. SCVs build 50% faster. Unlocks Missile Turret, Perdition Turret, and Fortified Bunker.",
-        "ru": "Здания получают +50% HP и +25% урона атак. SCV строят на 50% быстрее. Открывает Missile Turret, Perdition Turret и Fortified Bunker."
+        "en": "Buildings cost 25% less resources. Static defense buildings cost 35% less resources.",
+        "ru": "Здания стоят на 25% меньше ресурсов. Статические оборонительные здания стоят на 35% меньше ресурсов."
       },
       "analysis": {
-        "en": "Solid foundation. The stat buffs make all buildings substantially more durable and dangerous. Faster SCV build speed reduces setup time. The unlocked structures form the backbone of any Engineer defense.",
-        "ru": "Надёжная основа. Баффы характеристик делают все здания существенно прочнее и опаснее. Более быстрая скорость строительства SCV сокращает время установки. Разблокированные структуры формируют основу любой обороны Инженера."
+        "en": "The Engineer core talent provides massive economy savings across all building construction, with an even bigger discount on static defense. This lets you build significantly more turrets and defensive structures for the same resource investment. The 35% discount on static defense is the key enabler for turret-heavy strategies.",
+        "ru": "Ключевой талант Инженера обеспечивает массивную экономию ресурсов на всём строительстве зданий, с ещё большей скидкой на статическую оборону. Это позволяет строить значительно больше турелей и оборонительных сооружений за те же ресурсы. Скидка 35% на статическую оборону — ключевой фактор для стратегий с упором на турели."
       }
     },
     {
-      "name": "Reinforced Structure",
+      "name": "Titanium Plating",
       "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Buildings gain +5 armor and take 25% less damage from abilities.",
-        "ru": "Здания получают +5 брони и получают на 25% меньше урона от способностей."
+        "en": "Allied buildings gain +2 armor",
+        "ru": "Союзные здания получают +2 брони"
       },
       "analysis": {
-        "en": "Significant survivability boost. The armor helps against all physical attacks, and ability damage reduction protects against the biggest threats to buildings. Makes your defenses extremely hard to crack.",
-        "ru": "Значительный буст выживаемости. Броня помогает против всех физических атак, а снижение урона от способностей защищает от главных угроз зданиям. Делает вашу оборону крайне трудной для прорыва."
+        "en": "A straightforward but effective talent that adds flat +2 armor to all buildings, significantly reducing incoming damage especially from rapid-fire attacks. Stacks well with other building durability talents and makes your defensive structures considerably harder to destroy.",
+        "ru": "Простой, но эффективный талант, добавляющий плоские +2 брони всем зданиям, значительно снижая входящий урон, особенно от скорострельных атак. Хорошо сочетается с другими талантами прочности зданий и делает оборонительные сооружения значительно труднее для разрушения."
       }
     },
     {
-      "name": "Automated Turrets",
+      "name": "Supply Reactor",
       "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Turrets attack 30% faster and gain +2 weapon range.",
-        "ru": "Турели атакуют на 30% быстрее и получают +2 к дальности оружия."
+        "en": "Supply Depots give adjacent buildings +15% attack and work speed",
+        "ru": "Склады снабжения дают прилегающим зданиям +15% скорости атаки и работы"
       },
       "analysis": {
-        "en": "Turns turrets from support structures into primary damage dealers. The range increase extends your defensive perimeter. Combined with other turret buffs, this creates overlapping fields of fire.",
-        "ru": "Превращает турели из структур поддержки в основные источники урона. Увеличение дальности расширяет оборонительный периметр. В сочетании с другими баффами турелей создаёт перекрывающиеся зоны огня."
+        "en": "Turns Supply Depots from passive supply structures into active buffers for nearby buildings. The +15% attack speed boost for adjacent turrets directly increases their DPS, while work speed buffs production buildings. Encourages tight building placement around Supply Depots for maximum coverage.",
+        "ru": "Превращает Склады снабжения из пассивных структур в активные усилители ближайших зданий. Бафф +15% скорости атаки для прилегающих турелей напрямую увеличивает их DPS, а скорость работы баффает производственные здания. Поощряет плотное размещение зданий вокруг Складов снабжения для максимального покрытия."
       }
     },
     {
-      "name": "Bunker Buster",
+      "name": "Compact Turret",
       "rarity": "common",
       "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Fortified Bunkers hold +2 additional units and grant garrisoned units +20% attack damage.",
-        "ru": "Укреплённые бункеры вмещают +2 дополнительных юнита и дают загарнизонным юнитам +20% урона атаки."
+        "en": "Allows SCVs to build Compact Turrets. Take 1x1 space, deal 12 damage every 0.8 seconds, have 225 health, cost 65 minerals. Attack air and ground; benefit from Vehicle Weapon upgrades",
+        "ru": "Позволяет SCV строить компактные турели. Занимают 1x1 клетку, наносят 12 урона каждые 0.8 секунд, имеют 225 здоровья, стоят 65 минералов. Атакуют воздух и землю; получают улучшения Vehicle Weapon"
       },
       "analysis": {
-        "en": "Enhances bunkers as both defensive and offensive structures. More capacity means more firepower per bunker. The damage bonus rewards filling bunkers to capacity.",
-        "ru": "Усиливает бункеры как оборонительные и наступательные структуры. Больше вместимость — больше огневой мощи на бункер. Бонус урона вознаграждает заполнение бункеров до максимума."
+        "en": "A versatile small turret that can be packed into tight spaces where normal turrets cannot fit. The 1x1 footprint allows creative placement in chokepoints and gaps. At 65 minerals with 12 damage per 0.8s, the DPS-to-cost ratio is reasonable. Benefiting from Vehicle Weapon upgrades means they scale with your tech.",
+        "ru": "Универсальная маленькая турель, которую можно разместить в тесных пространствах, недоступных обычным турелям. Размер 1x1 позволяет креативное размещение в узких проходах и промежутках. При стоимости 65 минералов и 12 уроне за 0.8с соотношение DPS к стоимости разумное. Получение улучшений Vehicle Weapon означает масштабирование с вашими технологиями."
       }
     },
     {
-      "name": "Fortification Protocol",
-      "rarity": "common-infinite",
-      "tier": "A",
+      "name": "Static Offense",
+      "rarity": "uncommon-infinite",
+      "tier": "S",
       "stackable": true,
       "maxStacks": 100,
       "desc": {
-        "en": "Buildings deal +8% damage and gain +15% HP. Max 100 stacks.",
-        "ru": "Здания наносят +8% урона и получают +15% HP. Макс. 100 стаков."
+        "en": "Allied buildings have +10% health and +20% damage done. Max 100 stacks",
+        "ru": "Союзные здания имеют +10% здоровья и +20% наносимого урона. Максимум 100 стаков"
       },
       "analysis": {
-        "en": "The class infinite. Stacks with Master Builder's base buffs and Unobtanium Plating for massive building power. At 10+ stacks, turrets become serious damage threats and buildings are nearly indestructible. Always take offered stacks.",
-        "ru": "Классовый бесконечный талант. Стакается с базовыми баффами Master Builder и Unobtanium Plating для массивной мощи зданий. При 10+ стаках турели становятся серьёзной угрозой, а здания практически неразрушимы. Всегда берите предложенные стаки."
+        "en": "The Engineer class infinite and one of the most impactful building-scaling talents in the mod. Each stack adds a significant +20% damage, making turrets increasingly lethal. At 10+ stacks, even basic turrets deal enormous damage. The +10% health per stack also ensures buildings survive to deal that damage. Always take every offered stack.",
+        "ru": "Бесконечный талант класса Инженер и один из самых эффективных талантов масштабирования зданий в моде. Каждый стак добавляет значительные +20% урона, делая турели всё более смертоносными. При 10+ стаках даже базовые турели наносят огромный урон. +10% здоровья за стак также гарантирует, что здания выживут для нанесения этого урона. Всегда берите каждый предложенный стак."
       }
     },
     {
-      "name": "Supply Depot Defense",
+      "name": "Impending Deadline",
       "rarity": "uncommon",
       "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Supply Depots gain an auto-attack that deals moderate damage. Lowered Supply Depots slow enemies walking over them by 30%.",
-        "ru": "Склады снабжения получают автоатаку с умеренным уроном. Опущенные склады снабжения замедляют проходящих по ним врагов на 30%."
+        "en": "SCVs build structures in -30% less time",
+        "ru": "SCV строят здания на -30% быстрее"
       },
       "analysis": {
-        "en": "Turns otherwise passive buildings into defensive assets. The slow effect creates natural chokepoints. Excellent for funneling enemies into turret killzones.",
-        "ru": "Превращает иначе пассивные здания в оборонительные активы. Эффект замедления создаёт естественные узкие проходы. Отлично для направления врагов в зоны убийств турелей."
+        "en": "A solid quality-of-life talent that speeds up deployment of your entire building infrastructure. The 30% faster build time is especially valuable when rapidly setting up defenses under pressure or rebuilding after attacks. Less impactful than direct combat talents but reduces your vulnerability window.",
+        "ru": "Надёжный талант качества жизни, ускоряющий развёртывание всей строительной инфраструктуры. На 30% более быстрое строительство особенно ценно при срочной установке обороны под давлением или при перестройке после атак. Менее эффективен, чем прямые боевые таланты, но сокращает окно уязвимости."
       }
     },
     {
-      "name": "Siege Architecture",
+      "name": "Propaganda Holoboard",
       "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Unlocks Siege Turret — a heavy turret with long range and splash damage. Building limit: 4.",
-        "ru": "Открывает Осадную турель — тяжёлую турель с большой дальностью и площадным уроном. Лимит построек: 4."
+        "en": "Allows SCVs to build Propaganda Holoboards. Give nearby units +30% attack speed and +2 health per second in 10 radius. Effect doesn't stack. Cost 75 minerals and 56 vespene",
+        "ru": "Позволяет SCV строить Пропагандистские Голоборды. Дают ближайшим юнитам +30% скорости атаки и +2 здоровья в секунду в радиусе 10. Эффект не стакается. Стоимость 75 минералов и 56 газа"
       },
       "analysis": {
-        "en": "The Siege Turret is a game-changer for area denial. Long-range splash damage wipes out attack waves before they reach your walls. The building limit prevents it from being too oppressive but 4 turrets covering key approaches is usually sufficient.",
-        "ru": "Осадная турель меняет игру в плане контроля территории. Дальнобойный площадной урон уничтожает волны атак до достижения ваших стен. Лимит построек предотвращает чрезмерность, но 4 турели, покрывающие ключевые подходы, обычно достаточно."
+        "en": "An extremely powerful support building that provides a massive +30% attack speed aura plus passive healing in a large 10-radius area. The non-stacking limitation means one Holoboard per area is sufficient. At 75 minerals and 56 vespene it is an excellent investment for any chokepoint or forward position where your army fights.",
+        "ru": "Крайне мощное здание поддержки, предоставляющее массивную ауру +30% скорости атаки плюс пассивное лечение в большом радиусе 10. Ограничение нестакаемости означает, что одного Голоборда на область достаточно. При стоимости 75 минералов и 56 газа это отличная инвестиция для любого узкого прохода или передовой позиции, где сражается ваша армия."
       }
     },
     {
-      "name": "Emergency Repair",
+      "name": "Hi-Sec Auto Tracking",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": true,
+      "maxStacks": 6,
+      "desc": {
+        "en": "Allied buildings gain +1 range or +10%, whichever is higher. Max 6 stacks",
+        "ru": "Союзные здания получают +1 дальность или +10%, что больше. Максимум 6 стаков"
+      },
+      "analysis": {
+        "en": "Stacks up to 6 times for a massive range increase to all buildings. The \"whichever is higher\" clause ensures both short and long-range buildings benefit equally. At max stacks your turrets can engage enemies far before they can fight back, creating an enormous defensive perimeter. High priority for turret-focused builds.",
+        "ru": "Стакается до 6 раз для массивного увеличения дальности всех зданий. Условие \"что больше\" гарантирует равную пользу для зданий как с малой, так и с большой дальностью. При максимальных стаках ваши турели могут поражать врагов задолго до того, как те смогут ответить, создавая огромный оборонительный периметр. Высокий приоритет для билдов на турели."
+      }
+    },
+    {
+      "name": "Engineering Marvel",
+      "rarity": "uncommon",
+      "tier": "C",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Engineering Bay gains +900% health and +1 armor. Repair time proportionally increased",
+        "ru": "Engineering Bay получает +900% здоровья и +1 брони. Время ремонта пропорционально увеличено"
+      },
+      "analysis": {
+        "en": "A niche talent that turns the Engineering Bay into an incredibly durable structure with 10x normal health, but the proportionally increased repair time makes it very slow to fix when damaged. Situationally useful as a wall or distraction, but the Engineering Bay is rarely a priority target, making this low-impact in most games.",
+        "ru": "Нишевый талант, превращающий Engineering Bay в невероятно прочную структуру с 10-кратным обычным здоровьем, но пропорционально увеличенное время ремонта делает починку очень медленной при повреждении. Ситуативно полезен как стена или отвлечение, но Engineering Bay редко является приоритетной целью, что делает талант малоэффективным в большинстве игр."
+      }
+    },
+    {
+      "name": "Earthsplitter Artillery",
       "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Buildings automatically repair to full HP when below 30% health. 60-second cooldown per building.",
-        "ru": "Здания автоматически восстанавливаются до полного HP при падении ниже 30% здоровья. 60 секунд перезарядки на здание."
+        "en": "Allows SCVs to build Earthsplitter Artilleries. Bombard areas in 50 range every 12 seconds, dealing 100 damage. Cost 112 minerals and 75 vespene. Cannot attack map objectives",
+        "ru": "Позволяет SCV строить Earthsplitter Artillery. Бомбардируют области в радиусе 50 каждые 12 секунд, нанося 100 урона. Стоимость 112 минералов и 75 газа. Не могут атаковать цели миссий"
       },
       "analysis": {
-        "en": "Insurance against losing key structures. The auto-repair means buildings effectively have to be burst down from above 30% in one go. Incredible value for turrets and bunkers on the front line.",
-        "ru": "Страховка от потери ключевых структур. Автовосстановление означает, что здания нужно уничтожить от 30%+ за один заход. Невероятная ценность для турелей и бункеров на передовой."
+        "en": "An extremely long-range siege building with 50 range that can bombard almost anywhere on the map. The 100 damage every 12 seconds provides steady area denial. The restriction against map objectives prevents it from trivializing missions, but it excels at softening enemy waves and bases before your army arrives.",
+        "ru": "Крайне дальнобойное осадное здание с дальностью 50, способное бомбардировать почти любую точку карты. 100 урона каждые 12 секунд обеспечивает стабильный контроль территории. Ограничение на цели миссий предотвращает тривиализацию, но оно превосходно для размягчения вражеских волн и баз до прибытия вашей армии."
       }
     },
     {
-      "name": "Mobile Defense Platform",
+      "name": "Drakken Laser Drill",
       "rarity": "rare",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Unlocks deployable turrets that can be packed up and relocated. Deploy time: 5 seconds.",
-        "ru": "Открывает развёртываемые турели, которые можно собрать и переместить. Время развёртывания: 5 секунд."
-      },
-      "analysis": {
-        "en": "Addresses Engineer's biggest weakness — immobility. Mobile turrets let you push with your army while maintaining defensive firepower. The 5-second deploy time is short enough for repositioning during combat.",
-        "ru": "Решает главную слабость Инженера — неподвижность. Мобильные турели позволяют наступать с армией, сохраняя оборонительную огневую мощь. 5 секунд развёртывания достаточно мало для перепозиционирования в бою."
-      }
-    },
-    {
-      "name": "Fortress Command",
-      "rarity": "epic",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "All buildings gain an additional +100% HP, +50% attack damage, and +3 weapon range. Building limits doubled.",
-        "ru": "Все здания получают дополнительно +100% HP, +50% урона атаки и +3 к дальности оружия. Лимиты зданий удвоены."
+        "en": "Allows SCVs to build Drakken Laser Drill. Obliterates single target across map. Costs 812 minerals and 812 vespene. Cannot attack objectives. Limit 1",
+        "ru": "Позволяет SCV строить Drakken Laser Drill. Уничтожает одиночную цель через всю карту. Стоимость 812 минералов и 812 газа. Не может атаковать цели миссий. Лимит 1"
       },
       "analysis": {
-        "en": "The ultimate Engineer talent. Doubled building limits mean twice as many turrets and structures. The stat bonuses stack multiplicatively with everything else. With this, your defensive line becomes truly impenetrable.",
-        "ru": "Высший талант Инженера. Удвоенные лимиты зданий означают вдвое больше турелей и структур. Бонусы характеристик стакаются мультипликативно со всем остальным. С этим ваша оборонительная линия становится поистине непробиваемой."
+        "en": "The ultimate Engineer building — a map-wide single-target obliteration weapon. The 812/812 resource cost is enormous, but the Drakken Laser Drill can instantly destroy virtually any non-objective target anywhere on the map. Combined with Construction Efficiency discount, the effective cost is manageable. A game-winning building in late-game scenarios.",
+        "ru": "Ультимативное здание Инженера — оружие уничтожения одиночных целей через всю карту. Стоимость 812/812 ресурсов огромна, но Drakken Laser Drill может мгновенно уничтожить практически любую не-целевую мишень где угодно на карте. В сочетании со скидкой Construction Efficiency эффективная стоимость управляема. Побеждающее здание в поздних сценариях."
       }
     },
     {
-      "name": "Structural Weakness",
+      "name": "Extended Safety Precautions",
+      "rarity": "rare",
+      "tier": "D",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Salvaging structures now takes 60 seconds",
+        "ru": "Разбор зданий теперь занимает 60 секунд"
+      },
+      "analysis": {
+        "en": "A punishing rare talent that makes salvaging structures extremely slow at 60 seconds. This severely limits your ability to recoup resources from obsolete buildings or reposition defenses. In static defense builds this is less painful since you rarely salvage, but it cripples mobile or adaptive building strategies.",
+        "ru": "Наказывающий редкий талант, делающий разбор зданий крайне медленным — 60 секунд. Это серьёзно ограничивает возможность возврата ресурсов из устаревших зданий или перепозиционирования обороны. В билдах на статическую оборону это менее болезненно, так как вы редко разбираете здания, но это калечит мобильные или адаптивные строительные стратегии."
+      }
+    },
+    {
+      "name": "No OSHA In Koprulu",
       "rarity": "curse",
       "tier": "D",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Buildings take +30% damage from all sources. Building repair speed reduced by 50%.",
-        "ru": "Здания получают +30% урона от всех источников. Скорость ремонта зданий снижена на 50%."
+        "en": "Allied buildings destroyed instantly when damaged below 25% health",
+        "ru": "Союзные здания мгновенно уничтожаются при падении здоровья ниже 25%"
       },
       "analysis": {
-        "en": "Directly undermines the Engineer's core strength. Buildings become fragile and hard to maintain. Partially mitigated by Emergency Repair and high HP stacks, but still painful.",
-        "ru": "Напрямую подрывает основную силу Инженера. Здания становятся хрупкими и сложными в поддержании. Частично компенсируется Emergency Repair и высокими стаками HP, но всё равно болезненно."
-      }
-    },
-    {
-      "name": "Power Grid Failure",
-      "rarity": "plague",
-      "tier": "D",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Buildings periodically shut down for 5 seconds every 30 seconds, during which they cannot attack or provide benefits.",
-        "ru": "Здания периодически отключаются на 5 секунд каждые 30 секунд, в течение которых не могут атаковать или предоставлять бонусы."
-      },
-      "analysis": {
-        "en": "Devastating for Engineer. Regular shutdown windows create vulnerability gaps in your defense. Enemies that attack during downtime face no turret resistance. Requires mobile units to cover during outages.",
-        "ru": "Разрушительно для Инженера. Регулярные окна отключения создают пробелы уязвимости в обороне. Враги, атакующие во время простоя, не встречают сопротивления турелей. Требует мобильных юнитов для прикрытия во время отключений."
+        "en": "A devastating curse for Engineers that effectively reduces all building HP by 25% — once a building drops below that threshold, it is instantly destroyed with no chance to repair. This makes sustained siege attacks extremely dangerous and eliminates the safety margin for repairing damaged buildings. Prioritize building HP talents and proactive repair to mitigate.",
+        "ru": "Разрушительное проклятие для Инженеров, фактически снижающее HP всех зданий на 25% — как только здание падает ниже этого порога, оно мгновенно уничтожается без шанса на ремонт. Это делает затяжные осадные атаки крайне опасными и устраняет запас прочности для ремонта повреждённых зданий. Приоритизируйте таланты HP зданий и превентивный ремонт для смягчения."
       }
     }
   ],

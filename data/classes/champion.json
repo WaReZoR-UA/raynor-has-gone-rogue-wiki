@@ -86,168 +86,198 @@
   ],
   "talents": [
     {
-      "name": "Hero's Call",
+      "name": "This Is Jimmy",
       "rarity": "core",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Your first unit of each type trained becomes a Heroic unit with +50% HP and +25% damage. Heroic units have a golden glow effect.",
-        "ru": "Первый обученный юнит каждого типа становится героическим с +50% HP и +25% урона. Героические юниты имеют золотое свечение."
+        "en": "Allows you to summon Raynor from your Barracks for 200 minerals and 60 seconds. Limit 1",
+        "ru": "Позволяет призвать Рейнора из вашей Казармы за 200 минералов и 60 секунд. Лимит 1"
       },
       "analysis": {
-        "en": "The foundation talent. The stat bonuses are solid baseline, but the real value is enabling Super Heroic infinite scaling and all Champion-specific buffs. Every talent in the class builds on this.",
-        "ru": "Основополагающий талант. Бонусы характеристик — неплохая база, но настоящая ценность в активации бесконечного масштабирования Super Heroic и всех баффов Чемпиона. Каждый талант класса строится на этом."
+        "en": "The foundational Champion talent that unlocks the Raynor hero unit. At 200 minerals and 60 seconds build time, Raynor is a significant early investment but becomes the linchpin for all other Champion talents. Essential as it gates access to all hero-specific abilities and buffs.",
+        "ru": "Основополагающий талант Чемпиона, открывающий доступ к герою Рейнору. При стоимости в 200 минералов и 60 секундах на постройку Рейнор — значительная ранняя инвестиция, но становится опорой для всех остальных талантов Чемпиона. Необходим, так как открывает доступ ко всем способностям и баффам героя."
+      }
+    },
+    {
+      "name": "Plasma Gun",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Raynor ability. Deal 200 (250 vs. buildings) damage to a single target on a 10 second cooldown",
+        "ru": "Способность Рейнора. Наносит 200 (250 по зданиям) урона одной цели с перезарядкой 10 секунд"
+      },
+      "analysis": {
+        "en": "A solid single-target nuke with a short 10-second cooldown, making it excellent for burst-focus fire on priority targets. The 250 damage vs buildings makes Raynor a potent siege tool. Synergizes well with Ability Efficiency for even shorter cooldowns.",
+        "ru": "Надёжный нюк по одной цели с коротким кулдауном в 10 секунд, отлично подходит для сосредоточенного огня по приоритетным целям. 250 урона по зданиям делает Рейнора мощным осадным инструментом. Хорошо синергирует с Ability Efficiency для ещё более коротких перезарядок."
+      }
+    },
+    {
+      "name": "Adrenaline Rush",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Raynor ability. Instantly restore 10%, and an additional 30% health to Raynor on a 15 second cooldown",
+        "ru": "Способность Рейнора. Мгновенно восстанавливает 10% и дополнительно 30% здоровья Рейнору с перезарядкой 15 секунд"
+      },
+      "analysis": {
+        "en": "A powerful self-heal that restores a total of 40% HP, keeping Raynor alive through intense fights. The 15-second cooldown means it can be used multiple times per engagement. Critical for sustaining Raynor on the frontline, especially when combined with Heroic Fortitude for stacked survivability.",
+        "ru": "Мощное самолечение, восстанавливающее в сумме 40% HP, позволяя Рейнору выживать в интенсивных боях. Перезарядка в 15 секунд позволяет использовать способность несколько раз за бой. Критически важно для поддержания Рейнора на передовой, особенно в сочетании с Heroic Fortitude для накопленной выживаемости."
       }
     },
     {
       "name": "Heroic Fortitude",
       "rarity": "common",
       "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
+      "stackable": true,
+      "maxStacks": 2,
       "desc": {
-        "en": "Heroic units gain +100% HP regeneration and +2 armor.",
-        "ru": "Героические юниты получают +100% регенерации HP и +2 брони."
+        "en": "Raynor gains +150 health, +100% health regeneration, and +1 armor. Max 2 stacks",
+        "ru": "Рейнор получает +150 здоровья, +100% регенерации здоровья и +1 брони. Максимум 2 стака"
       },
       "analysis": {
-        "en": "Excellent survivability boost. The armor stacks additively with other sources, and doubled regen means your heroes heal back quickly between engagements. Core pickup for any Champion build.",
-        "ru": "Отличный буст выживаемости. Броня складывается с другими источниками, а удвоенная регенерация позволяет героям быстро восстанавливаться между боями. Основной выбор для любого билда Чемпиона."
+        "en": "Excellent survivability talent that stacks up to 2 times for a total of +300 HP, +200% health regen, and +2 armor. Makes Raynor significantly tankier and self-sustaining between fights. Pairs extremely well with Adrenaline Rush since more max HP means more healing from the percentage-based restore.",
+        "ru": "Отличный талант выживаемости, стакающийся до 2 раз для суммарных +300 HP, +200% регенерации здоровья и +2 брони. Делает Рейнора значительно живучее и самоподдерживающимся между боями. Превосходно сочетается с Adrenaline Rush, так как больше максимального HP означает больше лечения от процентного восстановления."
       }
     },
     {
-      "name": "Battle Hardened",
-      "rarity": "common",
+      "name": "Give 'Em Some Pepper",
+      "rarity": "common-infinite",
+      "tier": "S",
+      "stackable": true,
+      "maxStacks": 100,
+      "desc": {
+        "en": "Heroic units gain +15% health, damage, and +10% attack speed. Max 100 stacks",
+        "ru": "Героические юниты получают +15% здоровья, урона и +10% скорости атаки. Максимум 100 стаков"
+      },
+      "analysis": {
+        "en": "The Champion class infinite talent and one of the strongest scaling tools in the mod. Each stack gives a massive triple buff to all heroic units. At even 10 stacks, heroic units have +150% health and damage plus +100% attack speed. Always take every offered stack without exception.",
+        "ru": "Бесконечный талант класса Чемпион и один из сильнейших инструментов масштабирования в моде. Каждый стак даёт массивный тройной бафф всем героическим юнитам. Уже при 10 стаках героические юниты имеют +150% здоровья и урона плюс +100% скорости атаки. Всегда берите каждый предложенный стак без исключения."
+      }
+    },
+    {
+      "name": "Ranger Aura",
+      "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Heroic units gain +1% damage for every 5 seconds they survive in combat, up to +50%.",
-        "ru": "Героические юниты получают +1% урона за каждые 5 секунд выживания в бою, до +50%."
+        "en": "Raynor gives nearby units +1.5 attack range for ranged weapons",
+        "ru": "Рейнор даёт ближайшим юнитам +1.5 дальности атаки для дальнобойного оружия"
       },
       "analysis": {
-        "en": "Rewards keeping your heroes alive through long fights. At max stacks (+50% damage), it's a significant DPS boost. Synergizes well with Heroic Fortitude's survivability.",
-        "ru": "Награждает за сохранение героев в затяжных боях. При максимальных стаках (+50% урона) это значительный буст DPS. Хорошо синергирует с выживаемостью от Heroic Fortitude."
+        "en": "A strong aura that benefits your entire ranged army when positioned near Raynor. The +1.5 range lets your Marines and other ranged units outrange enemies, getting free shots before engagement. Best in bio-heavy compositions where many units cluster around Raynor.",
+        "ru": "Сильная аура, которая усиливает всю вашу дальнобойную армию при расположении рядом с Рейнором. +1.5 дальности позволяет Маринам и другим дальнобойным юнитам стрелять дальше врагов, нанося бесплатные удары до начала боя. Лучше всего в био-тяжёлых составах, где множество юнитов группируются вокруг Рейнора."
       }
     },
     {
-      "name": "Hero's Arsenal",
-      "rarity": "common",
+      "name": "Frag Grenade",
+      "rarity": "uncommon",
       "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Heroic units gain +1 weapon range and +20% attack speed.",
-        "ru": "Героические юниты получают +1 к дальности оружия и +20% скорости атаки."
+        "en": "Raynor ability. Deal 100 damage in an area on a 20 second cooldown",
+        "ru": "Способность Рейнора. Наносит 100 урона по площади с перезарядкой 20 секунд"
       },
       "analysis": {
-        "en": "Quality of life and DPS improvement. The range bonus helps ranged heroes stay safer while the attack speed boost is universal. Less impactful than raw damage/HP talents but still solid.",
-        "ru": "Улучшение качества жизни и DPS. Бонус дальности помогает дальнобойным героям оставаться в безопасности, а бонус скорости атаки универсален. Менее впечатляющ, чем чистые таланты урона/HP, но всё ещё надёжен."
+        "en": "A decent AoE damage ability with a moderate cooldown. The 100 area damage is useful for clearing clusters of light units, but less impactful against heavy targets. Good as a supplementary ability, but lower priority than Plasma Gun or Inspire for talent picks.",
+        "ru": "Неплохая способность AoE-урона с умеренной перезарядкой. 100 урона по площади полезно для зачистки скоплений лёгких юнитов, но менее эффективно против тяжёлых целей. Хорошо как дополнительная способность, но менее приоритетно, чем Plasma Gun или Inspire при выборе талантов."
       }
     },
     {
-      "name": "Legendary Valor",
-      "rarity": "common-infinite",
+      "name": "Chrono Rift",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Raynor ability. Greatly slow enemy units and projectiles in the target area. 45 second cooldown",
+        "ru": "Способность Рейнора. Сильно замедляет вражеские юниты и снаряды в целевой области. Перезарядка 45 секунд"
+      },
+      "analysis": {
+        "en": "An extremely powerful crowd control ability that slows both units and projectiles, giving your army a massive advantage in engagements. The projectile slowdown is especially valuable against ranged enemies, effectively reducing their DPS. The 45-second cooldown is long but the effect is fight-winning when used correctly.",
+        "ru": "Крайне мощная способность контроля толпы, замедляющая и юнитов, и снаряды, давая вашей армии огромное преимущество в боях. Замедление снарядов особенно ценно против дальнобойных врагов, фактически снижая их DPS. Перезарядка 45 секунд длинная, но эффект решает исход боя при правильном использовании."
+      }
+    },
+    {
+      "name": "Ability Efficiency",
+      "rarity": "rare",
       "tier": "A",
       "stackable": true,
-      "maxStacks": 100,
+      "maxStacks": 3,
       "desc": {
-        "en": "Heroic units deal +10% damage and gain +20% health. Max 100 stacks.",
-        "ru": "Героические юниты наносят +10% урона и получают +20% здоровья. Макс. 100 стаков."
+        "en": "Heroic abilities have their cooldowns reduced by 20%. Max 3 stacks",
+        "ru": "Героические способности имеют перезарядку, уменьшенную на 20%. Максимум 3 стака"
       },
       "analysis": {
-        "en": "The class-specific infinite. Stacks with Super Heroic for double scaling. Always take offered stacks. At 10+ stacks, your heroes become nearly unkillable damage machines.",
-        "ru": "Классовый бесконечный талант. Стакается с Super Heroic для двойного масштабирования. Всегда берите предложенные стаки. При 10+ стаках ваши герои становятся практически неубиваемыми машинами урона."
+        "en": "At max 3 stacks this provides 60% cooldown reduction to all heroic abilities, dramatically increasing Raynor's uptime on Plasma Gun, Adrenaline Rush, Chrono Rift, and Inspire. Turns Raynor into a rapid-fire ability machine. High priority in ability-focused builds.",
+        "ru": "При максимальных 3 стаках даёт 60% сокращения перезарядки всех героических способностей, резко увеличивая частоту использования Plasma Gun, Adrenaline Rush, Chrono Rift и Inspire Рейнором. Превращает Рейнора в машину быстрых способностей. Высокий приоритет в билдах на способности."
       }
     },
     {
-      "name": "Promotion",
-      "rarity": "uncommon",
+      "name": "Inspire",
+      "rarity": "rare",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "All trained units become Heroic, not just the first of each type.",
-        "ru": "Все обученные юниты становятся героическими, не только первый каждого типа."
+        "en": "Raynor ability. Once every 30 seconds, give Raynor and all nearby units +30% attack speed and -30% damage taken for 10 seconds",
+        "ru": "Способность Рейнора. Раз в 30 секунд даёт Рейнору и всем ближайшим юнитам +30% скорости атаки и -30% получаемого урона на 10 секунд"
       },
       "analysis": {
-        "en": "Transforms the entire class. Every unit you produce is now Heroic, benefiting from all Champion buffs and Super Heroic stacking. This is the single most important uncommon talent — it turns Champion from 'a few strong heroes' into 'an army of heroes'. Must-take.",
-        "ru": "Трансформирует весь класс. Каждый производимый юнит теперь героический, получающий все баффы Чемпиона и стаки Super Heroic. Это самый важный необычный талант — превращает Чемпиона из 'нескольких сильных героев' в 'армию героев'. Обязательный выбор."
+        "en": "One of the strongest Champion talents. A massive team-wide buff that combines offensive (+30% attack speed) and defensive (-30% damage taken) power for 10 seconds. With a 30-second cooldown it has 33% uptime, and Ability Efficiency can push this even higher. Absolutely essential in any Raynor build.",
+        "ru": "Один из сильнейших талантов Чемпиона. Массивный командный бафф, сочетающий наступательную (+30% скорости атаки) и оборонительную (-30% получаемого урона) мощь на 10 секунд. С перезарядкой 30 секунд имеет 33% аптайм, и Ability Efficiency может повысить это ещё. Абсолютно необходим в любом билде на Рейнора."
       }
     },
     {
-      "name": "Champion's Aura",
-      "rarity": "uncommon",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Heroic units grant +10% damage and +10% attack speed to nearby non-heroic allies.",
-        "ru": "Героические юниты дают +10% урона и +10% скорости атаки ближайшим не-героическим союзникам."
-      },
-      "analysis": {
-        "en": "Turns heroes into force multipliers. Even non-heroic units benefit from being near heroes. Less useful with Promotion (since all units are heroic) but excellent in mixed armies.",
-        "ru": "Превращает героев в усилители армии. Даже не-героические юниты получают пользу от близости к героям. Менее полезен с Promotion (все юниты героические), но отличен в смешанных армиях."
-      }
-    },
-    {
-      "name": "Undying Legend",
-      "rarity": "rare",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Heroic units revive once per mission at 50% HP after a 10-second delay.",
-        "ru": "Героические юниты воскресают раз за миссию на 50% HP после 10-секундной задержки."
-      },
-      "analysis": {
-        "en": "Insurance policy for your expensive heroes. The revive prevents catastrophic losses. With Promotion, every unit gets a free revive. Very strong on attrition-heavy missions.",
-        "ru": "Страховка для ваших дорогих героев. Воскрешение предотвращает катастрофические потери. С Promotion каждый юнит получает бесплатное воскрешение. Очень силён на миссиях с высокими потерями."
-      }
-    },
-    {
-      "name": "Legendary Ascension",
+      "name": "Summon Hyperion",
       "rarity": "epic",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Heroic units gain +100% to all stats. Their abilities have -50% cooldown.",
-        "ru": "Героические юниты получают +100% ко всем характеристикам. Их способности имеют -50% перезарядки."
+        "en": "Raynor ability. Summon the Hyperion to aid you for 4 minutes. 6 minute cooldown, starts on cooldown",
+        "ru": "Способность Рейнора. Призывает Гиперион на помощь на 4 минуты. Перезарядка 6 минут, начинается на перезарядке"
       },
       "analysis": {
-        "en": "Doubles all hero stats and halves ability cooldowns. With Promotion making everything heroic and Super Heroic stacking on top, this creates absurdly powerful units. The ability cooldown reduction adds significant utility value.",
-        "ru": "Удваивает все характеристики героев и вдвое сокращает перезарядку способностей. С Promotion, делающим всё героическим, и стаками Super Heroic поверх этого, создаёт абсурдно мощных юнитов. Сокращение перезарядки способностей добавляет значительную утилитарную ценность."
+        "en": "The ultimate Champion talent. The Hyperion is an incredibly powerful capital ship that dominates the battlefield for 4 full minutes. Starting on cooldown means you need to survive 6 minutes before first use, but once active it provides overwhelming firepower. Plan mission timings around the 6-minute cooldown cycle for maximum impact.",
+        "ru": "Ультимативный талант Чемпиона. Гиперион — невероятно мощный капитальный корабль, доминирующий на поле боя в течение полных 4 минут. Начало на перезарядке означает, что нужно продержаться 6 минут до первого использования, но после активации обеспечивает подавляющую огневую мощь. Планируйте тайминги миссий вокруг цикла перезарядки в 6 минут для максимального эффекта."
       }
     },
     {
-      "name": "Hubris",
+      "name": "Flashbacks Inside The Cantina",
       "rarity": "curse",
       "tier": "D",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Heroic units cost +50% more resources to train.",
-        "ru": "Героические юниты стоят на +50% больше ресурсов при обучении."
+        "en": "Raynor does not take defeat lightly. Each time he dies, his summoning takes +30 seconds and +50 minerals",
+        "ru": "Рейнор не воспринимает поражение легко. Каждый раз, когда он погибает, его призыв занимает +30 секунд и +50 минералов"
       },
       "analysis": {
-        "en": "Directly punishes the Champion playstyle. With Promotion, every unit costs 50% more. Requires strong economy talent stacks to offset. Painful but manageable.",
-        "ru": "Напрямую наказывает стиль игры Чемпиона. С Promotion каждый юнит стоит на 50% больше. Требует сильных экономических стаков для компенсации. Болезненно, но управляемо."
+        "en": "A punishing snowball curse that makes each Raynor death progressively more expensive. After 2-3 deaths the summoning cost becomes prohibitive. Forces extremely careful play to keep Raynor alive, or early deaths can spiral the cost out of control. Pairs terribly with aggressive playstyles.",
+        "ru": "Жёстокое снежное проклятие, делающее каждую смерть Рейнора прогрессивно дороже. После 2-3 смертей стоимость призыва становится запретительной. Вынуждает крайне осторожную игру для сохранения Рейнора, иначе ранние смерти раскрутят стоимость до неконтролируемой. Ужасно сочетается с агрессивным стилем игры."
       }
     },
     {
-      "name": "Fallen Heroes",
-      "rarity": "plague",
-      "tier": "D",
+      "name": "Gunning Under Influence",
+      "rarity": "curse",
+      "tier": "C",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "When a Heroic unit dies, all other Heroic units lose 5% damage for 30 seconds. Stacks.",
-        "ru": "Когда героический юнит гибнет, все остальные героические юниты теряют 5% урона на 30 секунд. Стакается."
+        "en": "Raynor had a few bottles too many, and as such every 30 seconds he may fire a Plasma Gun at a random unit in a range of 6",
+        "ru": "Рейнор выпил слишком много, и поэтому каждые 30 секунд он может выстрелить из Plasma Gun по случайному юниту в радиусе 6"
       },
       "analysis": {
-        "en": "Cascading debuff that punishes losing heroes. In big fights with losses, the damage reduction snowballs. Forces careful play to minimize casualties.",
-        "ru": "Каскадный дебафф, наказывающий за потерю героев. В больших боях с потерями снижение урона нарастает. Вынуждает играть осторожно для минимизации потерь."
+        "en": "A thematic and potentially dangerous curse — Raynor randomly fires Plasma Gun at any unit in range 6, including friendly units. The 30-second interval means it happens frequently. Can be mitigated by keeping Raynor away from fragile friendlies, but in tight formations this can cause friendly fire casualties.",
+        "ru": "Тематическое и потенциально опасное проклятие — Рейнор случайно стреляет из Plasma Gun по любому юниту в радиусе 6, включая союзных. Интервал в 30 секунд означает частое срабатывание. Можно смягчить, держа Рейнора подальше от хрупких союзников, но в плотных формациях это может вызвать потери от дружественного огня."
       }
     }
   ],

@@ -90,59 +90,55 @@
       "rarity": "core",
       "tier": "S",
       "stackable": false,
-      "maxStacks": null,
       "desc": {
-        "en": "Mercenaries gain +30% to all stats. Mercenary cooldowns are halved. Unlocks Merc Compound building and War Pigs mercenary unit.",
-        "ru": "Наёмники получают +30% ко всем характеристикам. Перезарядка наёмников сокращена вдвое. Открывает здание Merc Compound и наёмников War Pigs."
+        "en": "Mercenaries have bonus health and damage equal to 30% of the base unit's stats. Mercenary cooldowns are halved. Unlock the Merc Compound and War Pigs.",
+        "ru": "Наёмники получают бонус к здоровью и урону, равный 30% от базовых характеристик юнита. Перезарядка наёмников уполовинена. Открывает Merc Compound и War Pigs."
       },
       "analysis": {
-        "en": "The foundation of the entire class. The 30% stat boost and halved cooldowns are massive value from a single talent. Merc Compound gives access to additional merc types. War Pigs are a solid early-game mercenary option.",
-        "ru": "Основа всего класса. 30% буст характеристик и вдвое сокращённые перезарядки — огромная ценность от одного таланта. Merc Compound даёт доступ к дополнительным типам наёмников. War Pigs — надёжный ранний наёмник."
+        "en": "Your starting talent and the foundation of the entire class. Without it, nothing works. The 30% bonus is calculated from the base unit stats, not the merc stats. Halved cooldowns mean you can resummon faster than any other class can produce.",
+        "ru": "Ваш стартовый талант и фундамент всего класса. Без него ничего не работает. 30% бонус рассчитывается от базовых статов юнита, а не наёмника. Уполовиненные кулдауны означают, что вы можете призывать повторно быстрее, чем любой другой класс может производить."
       }
     },
     {
       "name": "Kickstart",
       "rarity": "common",
-      "tier": "A",
+      "tier": "B",
       "stackable": false,
-      "maxStacks": null,
       "desc": {
-        "en": "+50% attack speed and +50% movement speed for 45 seconds at the start of each mission.",
-        "ru": "+50% скорости атаки и +50% скорости передвижения на 45 секунд в начале каждой миссии."
+        "en": "Summoning units from the Merc Compound gives them +50% attack and movement speed for 45 seconds.",
+        "ru": "Вызов юнитов из Merc Compound даёт им +50% скорости атаки и передвижения на 45 секунд."
       },
       "analysis": {
-        "en": "Excellent for fast mission starts and early aggression. The 45-second window is enough to clear initial waves or secure early expansions. Particularly strong on timed objectives.",
-        "ru": "Отлично подходит для быстрого старта миссий и ранней агрессии. 45-секундного окна достаточно для зачистки начальных волн или захвата ранних экспансий. Особенно силён на миссиях с таймером."
+        "en": "Powerful 45-second burst when mercs arrive. +50% attack speed is enormous DPS boost. Allows freshly summoned mercs to immediately fight at peak performance. Not permanent, but 45s is often enough to win the engagement.",
+        "ru": "Мощный 45-секундный burst при появлении наёмников. +50% скорости атаки — огромный буст DPS. Позволяет только что вызванным наёмникам сразу сражаться на пиковой мощности. Не постоянный, но 45с часто хватает чтобы выиграть бой."
       }
     },
     {
       "name": "Team Effort",
       "rarity": "common",
-      "tier": "A",
+      "tier": "B",
       "stackable": false,
-      "maxStacks": null,
       "desc": {
-        "en": "+1 mercenary unit per summon call.",
-        "ru": "+1 наёмник за каждый вызов."
+        "en": "Mercenary squads come with one extra mercenary from the Merc Compound for extra cost. Does not affect Jackson's Revenge.",
+        "ru": "Наёмные отряды приходят с одним дополнительным наёмником из Merc Compound за дополнительную плату. Не влияет на Jackson's Revenge."
       },
       "analysis": {
-        "en": "Doubles your merc output per cooldown cycle. Combined with Deadman's Hardware stacks, this is one of the strongest talents in the class. Priority pickup after core.",
-        "ru": "Удваивает выход наёмников за цикл перезарядки. В сочетании со стаками Deadman's Hardware это один из сильнейших талантов класса. Приоритетный выбор после ядра."
+        "en": "Each summon gives +1 merc at proportional cost. Value scales with expensive units — extra Thor or Siege Breaker is massive. Jackson's Revenge (Battlecruiser merc) is specifically excluded. Good for army mass.",
+        "ru": "Каждый вызов даёт +1 наёмника за пропорциональную стоимость. Ценность растёт с дорогими юнитами — дополнительный Thor или Siege Breaker огромен. Jackson's Revenge (наёмный линкор) специально исключён. Хорош для массы армии."
       }
     },
     {
       "name": "Free Sample",
       "rarity": "common",
-      "tier": "B",
+      "tier": "C",
       "stackable": false,
-      "maxStacks": null,
       "desc": {
-        "en": "Receive 3 free War Pigs once per mission (no cooldown or cost).",
-        "ru": "Получите 3 бесплатных War Pigs раз за миссию (без перезарядки и стоимости)."
+        "en": "Once per mission, automatically deploy 3 War Pigs from the Merc Compound for free. Does not benefit from Team Effort.",
+        "ru": "Один раз за миссию автоматически разместить 3 War Pigs из Merc Compound бесплатно. Не получает бонус от Team Effort."
       },
       "analysis": {
-        "en": "Nice early-game boost but falls off compared to other commons. The free units help with early pressure. Better in early campaign, loses relative value as Deadman's Hardware stacks accumulate.",
-        "ru": "Хороший ранний буст, но уступает другим обычным талантам. Бесплатные юниты помогают с ранним давлением. Лучше в начале кампании, теряет относительную ценность по мере накопления стаков Deadman's Hardware."
+        "en": "3 free War Pigs per mission save early-game resources. Does NOT get the +1 from Team Effort. Value drops significantly in late game when resources are plentiful. Take early if offered, skip later.",
+        "ru": "3 бесплатных War Pigs за миссию экономят ресурсы в ранней игре. НЕ получает +1 от Team Effort. Ценность значительно падает к поздней игре, когда ресурсов достаточно. Берите рано если предложено, пропускайте позже."
       }
     },
     {
@@ -152,12 +148,12 @@
       "stackable": true,
       "maxStacks": 100,
       "desc": {
-        "en": "Mercenary units gain +15% HP and +15% damage. Max 100 stacks.",
-        "ru": "Наёмники получают +15% HP и +15% урона. Макс. 100 стаков."
+        "en": "Mercenaries have +15% health and damage done. This talent stacks. Max 100 stacks.",
+        "ru": "Наёмники имеют +15% здоровья и наносимого урона. Этот талант стакается. Макс. 100 стаков."
       },
       "analysis": {
-        "en": "THE best infinite talent in the entire mod. At 10 stacks your mercs have +150% HP and damage, at 20 stacks +300%. This scales multiplicatively with Premium Contract's 30% buff. Always take every stack offered — there is no ceiling where this stops being useful. This single talent is why Hunter is top tier.",
-        "ru": "ЛУЧШИЙ бесконечный талант во всём моде. При 10 стаках ваши наёмники имеют +150% HP и урона, при 20 стаках +300%. Это масштабируется мультипликативно с 30% баффом Premium Contract. Всегда берите каждый предложенный стак — нет потолка, после которого он перестаёт быть полезным. Именно этот талант делает Охотника топ-тиром."
+        "en": "THE BEST INFINITE TALENT IN THE ENTIRE MOD. At 100 stacks = +1500% HP and damage. Each stack is a massive investment in merc power. Take EVERY single one you see. Buy in talent shop ALWAYS. Realistic: 20-40 stacks per run turns every merc into a mini-boss. Scaling math: 5 stacks = x1.75, 10 = x2.50, 20 = x4.00, 30 = x5.50, 50 = x8.50, 100 = x16.00.",
+        "ru": "ЛУЧШИЙ БЕСКОНЕЧНЫЙ ТАЛАНТ ВО ВСЁМ МОДЕ. При 100 стаках = +1500% HP и урона. Каждый стак — массивная инвестиция в мощь наёмников. Берите КАЖДЫЙ, который видите. Покупайте в магазине ВСЕГДА. Реалистично: 20-40 стаков за прохождение превращают каждого наёмника в мини-босса. Математика: 5 стаков = x1.75, 10 = x2.50, 20 = x4.00, 30 = x5.50, 50 = x8.50, 100 = x16.00."
       }
     },
     {
@@ -165,74 +161,70 @@
       "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
-      "maxStacks": null,
       "desc": {
-        "en": "Mercenaries have no starting cooldown at the beginning of missions.",
-        "ru": "Наёмники не имеют начальной перезарядки в начале миссий."
+        "en": "Removes the starting cooldown on mercenaries.",
+        "ru": "Убирает стартовый кулдаун наёмников."
       },
       "analysis": {
-        "en": "Lets you call mercs immediately when a mission starts. Combined with Kickstart, this creates devastating early-game pushes. Essential for aggressive play styles.",
-        "ru": "Позволяет вызывать наёмников сразу при старте миссии. В сочетании с Kickstart создаёт разрушительные ранние атаки. Необходим для агрессивного стиля игры."
+        "en": "Normally mercs start a mission on cooldown — you have to wait before first summon. This removes that delay entirely. Lets you summon mercs immediately when a mission begins. Critical for missions with fast enemy attacks or Budget Cuts challenge.",
+        "ru": "Обычно наёмники начинают миссию на кулдауне — нужно ждать перед первым вызовом. Это полностью убирает задержку. Позволяет вызывать наёмников сразу при начале миссии. Критично для миссий с быстрыми атаками или челленджем Budget Cuts."
       }
     },
     {
       "name": "Performance Compensation",
       "rarity": "uncommon",
-      "tier": "B",
+      "tier": "A",
       "stackable": false,
-      "maxStacks": null,
       "desc": {
-        "en": "Non-mercenary units deal +40% damage but take +40% extra incoming damage.",
-        "ru": "Не-наёмники наносят +40% урона, но получают +40% дополнительного входящего урона."
+        "en": "Mercenaries are so much better than your units, that they cause their non-mercenary counterparts to compensate, causing them to deal +40% damage and take -40% damage.",
+        "ru": "Наёмники настолько лучше ваших юнитов, что это заставляет их не-наёмных собратьев компенсировать, нанося +40% урона и получая -40% урона."
       },
       "analysis": {
-        "en": "A double-edged sword. Good in hybrid builds where you mix mercs with regular units — your regular units become glass cannons while mercs remain tanky. Risky if your army is mostly non-mercs.",
-        "ru": "Палка о двух концах. Хорош в гибридных билдах, где вы смешиваете наёмников с обычными юнитами — обычные юниты становятся стеклянными пушками, а наёмники остаются танками. Рискованно, если армия в основном из не-наёмников."
+        "en": "Makes your REGULAR army significantly stronger: +40% damage dealt AND -40% damage taken. This is NOT a penalty — it buffs non-mercs. Effectively doubles the efficiency of your non-mercenary units. One of the best uncommon talents for any build that uses both mercs and regular units.",
+        "ru": "Делает вашу ОБЫЧНУЮ армию значительно сильнее: +40% наносимого урона И -40% получаемого урона. Это НЕ штраф — это бафф не-наёмников. Фактически удваивает эффективность ваших не-наёмных юнитов. Один из лучших необычных талантов для любого билда, использующего и наёмников, и обычные юниты."
       }
     },
     {
       "name": "Emergency Access",
       "rarity": "uncommon",
-      "tier": "A",
+      "tier": "B",
       "stackable": false,
-      "maxStacks": null,
       "desc": {
-        "en": "Reset all mercenary cooldowns. Can be used 3 times per mission.",
-        "ru": "Сбросить все перезарядки наёмников. Можно использовать 3 раза за миссию."
+        "en": "Merc Compound ability. Reset the cooldown of all mercenaries. Can only be used 3 times per mission.",
+        "ru": "Способность Merc Compound. Сбрасывает кулдаун всех наёмников. Можно использовать только 3 раза за миссию."
       },
       "analysis": {
-        "en": "Extremely powerful panic button and burst reinforcement tool. Three uses per mission means you can call in a massive wave of mercs when you need them most. Synergizes with Team Effort for double output on each reset.",
-        "ru": "Крайне мощная тревожная кнопка и инструмент экстренного подкрепления. Три использования за миссию означают массовый вызов наёмников в критический момент. Синергирует с Team Effort для двойного выхода при каждом сбросе."
+        "en": "An active ability on the Merc Compound building — click it to instantly refresh all merc cooldowns. 3 charges per mission. Use for: big enemy pushes, recovering after army losses, final pushes on objectives. Do NOT waste on convenience — save for critical moments.",
+        "ru": "Активная способность здания Merc Compound — нажмите чтобы мгновенно обновить все кулдауны наёмников. 3 заряда за миссию. Используйте для: больших вражеских пушей, восстановления после потерь, финальных рывков. НЕ тратьте на удобство — сохраните для критических моментов."
       }
     },
     {
       "name": "Loyalty Bonus",
       "rarity": "rare",
-      "tier": "S",
+      "tier": "A",
       "stackable": true,
       "maxStacks": 3,
       "desc": {
-        "en": "Mercenary cooldowns reduced by 30% (multiplicative). Max 3 stacks.",
-        "ru": "Перезарядка наёмников сокращена на 30% (мультипликативно). Макс. 3 стака."
+        "en": "Mercenaries have their cooldown reduced by 30%. Stacks multiplicatively. Does not affect starting cooldowns. Max 3 stacks.",
+        "ru": "Перезарядка наёмников уменьшена на 30%. Стакается мультипликативно. Не влияет на стартовые кулдауны. Макс. 3 стака."
       },
       "analysis": {
-        "en": "Multiplicative cooldown reduction is incredible. At 3 stacks, combined with Premium Contract's halved cooldowns, your mercs recharge extremely fast. This turns sustained fights into constant merc waves. One of the best rare talents in the class.",
-        "ru": "Мультипликативное сокращение перезарядки невероятно. При 3 стаках в сочетании с половинной перезарядкой от Premium Contract наёмники восстанавливаются крайне быстро. Это превращает затяжные бои в непрерывные волны наёмников. Один из лучших редких талантов класса."
+        "en": "Stacks multiplicatively: 1 stack = 70% CD, 2 stacks = 49% CD, 3 stacks = 34.3% CD. Combined with Premium Contract (50%): at 3 stacks total CD is ~17.15% of original. Example: 120s base -> 60s (PC) -> 42s (1 LB) -> 29.4s (2 LB) -> 20.6s (3 LB). Does NOT reduce starting cooldown — for that you need Priority Pass.",
+        "ru": "Стакается мультипликативно: 1 стак = 70% КД, 2 стака = 49% КД, 3 стака = 34.3% КД. С Premium Contract (50%): при 3 стаках общий КД ~17.15% от оригинала. Пример: 120с база -> 60с (PC) -> 42с (1 LB) -> 29.4с (2 LB) -> 20.6с (3 LB). НЕ уменьшает стартовый кулдаун — для этого нужен Priority Pass."
       }
     },
     {
       "name": "Supply And Demand",
       "rarity": "rare",
-      "tier": "S",
+      "tier": "C",
       "stackable": false,
-      "maxStacks": null,
       "desc": {
-        "en": "All mercenary units gain 999 charges.",
-        "ru": "Все наёмники получают 999 зарядов."
+        "en": "All mercenaries have 999 charges.",
+        "ru": "Все наёмники имеют 999 зарядов."
       },
       "analysis": {
-        "en": "Effectively removes the charge limit on mercs, giving you infinite summons. In long missions this is game-changing — you never run out of merc calls. Combined with Loyalty Bonus stacks, you have a neverending stream of reinforcements.",
-        "ru": "Фактически снимает лимит зарядов на наёмников, давая бесконечные вызовы. На длинных миссиях это меняет игру — вызовы наёмников никогда не закончатся. В сочетании со стаками Loyalty Bonus у вас бесконечный поток подкреплений."
+        "en": "Removes the charge limit on mercenary summons — normally each merc type has limited charges. 999 is effectively unlimited. Not essential unless you lose massive amounts of army repeatedly. Do NOT buy in shop — rare talents are expensive, and this is low priority. Wait for random drop.",
+        "ru": "Снимает ограничение зарядов на вызовы наёмников — обычно каждый тип наёмника имеет ограниченное число зарядов. 999 — фактически бесконечно. Не критичен, если вы не теряете огромную армию постоянно. НЕ покупайте в магазине — редкие таланты дорогие, а приоритет низкий. Ждите случайного выпадения."
       }
     },
     {
@@ -240,29 +232,27 @@
       "rarity": "epic",
       "tier": "A",
       "stackable": false,
-      "maxStacks": null,
       "desc": {
-        "en": "40% of trained units become their mercenary counterpart upon completion.",
-        "ru": "40% обученных юнитов становятся наёмным аналогом при завершении тренировки."
+        "en": "Trained units have a 40% chance to become their mercenary counterpart, if they have one.",
+        "ru": "Тренируемые юниты имеют 40% шанс стать своим наёмным аналогом, если таковой существует."
       },
       "analysis": {
-        "en": "Turns your production into a merc factory. The converted units benefit from all merc buffs including Deadman's Hardware. Best in hybrid builds — you get the production flexibility of trained units with the stat bonuses of mercs. Weaker in pure merc builds where you're not training many units anyway.",
-        "ru": "Превращает ваше производство в фабрику наёмников. Конвертированные юниты получают все баффы наёмников включая Deadman's Hardware. Лучше всего в гибридных билдах — вы получаете гибкость производства с бонусами наёмников. Слабее в чисто наёмных билдах, где вы и так мало тренируете юнитов."
+        "en": "Despite being an \"epic\" talent, this is a MASSIVE BUFF. 40% of units you train automatically become mercenaries — which means they get ALL Hunter bonuses including Deadman's Hardware stacks, Premium Contract +30%, etc. for FREE. No extra cost, no cooldown usage. Works on any unit that has a merc counterpart (Marine->War Pig, Marauder->Hammer Security, etc.). Essentially a free army upgrade on 40% of production.",
+        "ru": "Несмотря на то, что это \"эпический\" талант, это ОГРОМНЫЙ БАФФ. 40% тренируемых юнитов автоматически становятся наёмниками — что означает, они получают ВСЕ бонусы Hunter включая стаки Deadman's Hardware, Premium Contract +30% и т.д. БЕСПЛАТНО. Без доп. стоимости, без использования кулдауна. Работает на любом юните с наёмным аналогом (Marine->War Pig, Marauder->Hammer Security и т.д.). По сути бесплатный апгрейд армии на 40% производства."
       }
     },
     {
       "name": "Pay The Middleman",
       "rarity": "curse",
-      "tier": "D",
+      "tier": "C",
       "stackable": false,
-      "maxStacks": null,
       "desc": {
-        "en": "All mercenary calls cost an additional +100 minerals and +50 gas as commission.",
-        "ru": "Все вызовы наёмников стоят дополнительно +100 минералов и +50 газа в качестве комиссии."
+        "en": "Summoning mercenaries from the Merc Compound has a +100 mineral and +50 vespene commission fee.",
+        "ru": "Вызов наёмников из Merc Compound имеет комиссию +100 минералов и +50 газа."
       },
       "analysis": {
-        "en": "Painful for Hunter since you're calling mercs constantly. Mitigated somewhat by good economy talent stacks (Salvage Operation, Renewable Fuel). More punishing in early game before your economy stabilizes.",
-        "ru": "Болезненно для Охотника, поскольку вы постоянно вызываете наёмников. Частично компенсируется хорошими экономическими стаками (Salvage Operation, Renewable Fuel). Больнее в начале игры, пока экономика не стабилизируется."
+        "en": "Adds flat +100 minerals and +50 gas to EVERY merc summon from the Compound. Hurts more for cheap mercs (War Pigs) than expensive ones (proportionally). Manageable if you have Salvage Operation stacks for income. Take this curse if the alternatives are worse — it's annoying but not crippling.",
+        "ru": "Добавляет фиксированные +100 минералов и +50 газа к КАЖДОМУ вызову наёмников из Compound. Бьёт сильнее по дешёвым наёмникам (War Pigs), чем по дорогим (пропорционально). Управляемо, если есть стаки Salvage Operation для дохода. Берите это проклятие, если альтернативы хуже — раздражает, но не калечит."
       }
     },
     {
@@ -270,14 +260,13 @@
       "rarity": "plague",
       "tier": "D",
       "stackable": false,
-      "maxStacks": null,
       "desc": {
-        "en": "Mercenary costs increase by 25% each time a mercenary dies.",
-        "ru": "Стоимость наёмников увеличивается на 25% каждый раз, когда наёмник погибает."
+        "en": "When a mercenary dies, increase its own cost by 25%. This does not affect commission fee.",
+        "ru": "Когда наёмник погибает, увеличить его собственную стоимость на 25%. Не влияет на комиссию."
       },
       "analysis": {
-        "en": "The worst plague for Hunter. As mercs die (and they will), costs spiral out of control. Forces you to play extremely carefully to preserve mercs. Particularly devastating on missions with heavy attrition.",
-        "ru": "Худшая чума для Охотника. По мере гибели наёмников (а они будут гибнуть) затраты выходят из-под контроля. Вынуждает играть крайне осторожно для сохранения наёмников. Особенно разрушительна на миссиях с высокими потерями."
+        "en": "EXTREMELY DANGEROUS. Every merc death permanently increases that merc type's cost by 25%. This STACKS with each death — lose 5 War Pigs and they cost 1.25^5 = 3.05x the original price. Snowballs catastrophically in long missions or on high difficulty. The cost increase does NOT affect Pay The Middleman commission. BAN THIS IMMEDIATELY if you see it. The single worst plague for Hunter class.",
+        "ru": "КРАЙНЕ ОПАСНО. Каждая смерть наёмника НАВСЕГДА увеличивает стоимость этого типа наёмника на 25%. Это СТАКАЕТСЯ с каждой смертью — потеряйте 5 War Pigs и они стоят 1.25^5 = 3.05x от оригинальной цены. Катастрофически нарастает в длинных миссиях или на высокой сложности. Увеличение стоимости НЕ влияет на комиссию Pay The Middleman. БАНЬТЕ НЕМЕДЛЕННО если видите. Худшая чума для класса Hunter."
       }
     }
   ],

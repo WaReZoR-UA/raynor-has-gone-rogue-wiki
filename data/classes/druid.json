@@ -83,183 +83,198 @@
   ],
   "talents": [
     {
-      "name": "Infestation",
+      "name": "Cerberus Hatchery",
       "rarity": "core",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Unlock Infested Command Center. Infested buildings spawn Infested Terrans every 30 seconds. You can build Spine Crawlers and Spore Crawlers.",
-        "ru": "Разблокирует Заражённый Командный Центр. Заражённые здания порождают Заражённых Терранов каждые 30 секунд. Вы можете строить Шипастые и Споровые Ползуны."
+        "en": "Allows SCVs to build Cerberus Hatcheries. Hatcheries automatically summon uncontrollable zerg units every 10 seconds to attack enemies for greatly reduced cost.",
+        "ru": "Позволяет SCV строить Инкубаторы Цербера. Инкубаторы автоматически призывают неконтролируемых юнитов зергов каждые 10 секунд для атаки врагов по значительно сниженной стоимости."
       },
       "analysis": {
-        "en": "The gateway to all Druid gameplay. Infested buildings are free unit factories — infest every Command Center ASAP. Spine/Spore Crawlers provide excellent static defense.",
-        "ru": "Врата ко всему геймплею Друида. Заражённые здания — бесплатные фабрики юнитов. Заражайте каждый Командный Центр как можно скорее. Шипастые/Споровые Ползуны дают отличную статическую оборону."
+        "en": "The defining mechanic of the Druid class. Cerberus Hatcheries create a constant stream of zerg units that attack-move toward enemies automatically. Placement is critical — position hatcheries near enemy attack paths to create a steady meatshield and supplemental damage source.",
+        "ru": "Определяющая механика класса Друид. Инкубаторы Цербера создают постоянный поток юнитов зергов, которые автоматически атакуют врагов. Размещение критически важно — ставьте инкубаторы рядом с маршрутами атаки врагов для создания постоянного живого щита и дополнительного источника урона."
       }
     },
     {
-      "name": "Spawning Pool",
+      "name": "Evolution Delta",
       "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Unlock Zerglings and Banelings. Zerglings spawn in pairs and cost no supply.",
-        "ru": "Разблокирует Зерглингов и Банелингов. Зерглинги порождаются парами и не стоят снабжения."
+        "en": "Gain Hardened Carapace, Regenerative Acid, Adaptive Plating, Ancillary Carapace, Rapid Regeneration, Swarm Host Burrow, and Tissue Assimilation upgrades",
+        "ru": "Получите улучшения Закалённый Панцирь, Регенеративная Кислота, Адаптивная Броня, Вспомогательный Панцирь, Быстрая Регенерация, Нора Роевого Носителя и Усвоение Тканей"
       },
       "analysis": {
-        "en": "Free supply Zerglings are incredible — they provide infinite expendable units for tanking, scouting, and swarming. Banelings add powerful splash damage.",
-        "ru": "Бесплатные по снабжению Зерглинги невероятны — они дают бесконечные расходные юниты для танкования, разведки и роения. Банелинги добавляют мощный площадной урон."
+        "en": "Provides a large batch of defensive and sustain upgrades for your zerg units. These upgrades improve survivability across the board, making your hatchery-spawned units last longer in combat and regenerate health more effectively between fights.",
+        "ru": "Даёт большой набор оборонительных улучшений и улучшений выживаемости для юнитов зергов. Эти улучшения повышают живучесть по всем фронтам, позволяя юнитам из инкубаторов дольше выживать в бою и эффективнее восстанавливать здоровье между сражениями."
       }
     },
     {
-      "name": "Hydralisk Den",
+      "name": "Rapid Emission",
       "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Unlock Hydralisks. They gain +20% attack speed when near infested buildings.",
-        "ru": "Разблокирует Гидралисков. Они получают +20% скорости атаки рядом с заражёнными зданиями."
+        "en": "Psi Drone and Attack at will cooldown reduced by 15 seconds, down to 5 seconds",
+        "ru": "Перезарядка Пси-Дрона и Атаки по желанию снижена на 15 секунд, до 5 секунд"
       },
       "analysis": {
-        "en": "Hydralisks are excellent ranged DPS. The attack speed bonus near infested buildings incentivizes fighting near your base — great for defense missions.",
-        "ru": "Гидралиски — отличный дальнобойный DPS. Бонус скорости атаки рядом с заражёнными зданиями стимулирует бой вблизи базы — отлично для оборонительных миссий."
+        "en": "Dramatically reduces the cooldown of two key topbar abilities to just 5 seconds. This allows near-constant use of Psi Drone for detection/support and Attack at will for directing your forces, greatly increasing your tactical flexibility and responsiveness.",
+        "ru": "Значительно снижает перезарядку двух ключевых способностей верхней панели до 5 секунд. Это позволяет почти постоянно использовать Пси-Дрон для обнаружения/поддержки и Атаку по желанию для направления сил, существенно повышая тактическую гибкость."
       }
     },
     {
-      "name": "Creep Spread",
+      "name": "Evolution Epsilon",
       "rarity": "common",
-      "tier": "B",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Infested buildings spread creep. All allied units on creep gain +15% movement speed and +1 HP/s regeneration.",
-        "ru": "Заражённые здания распространяют крип. Все союзные юниты на крипе получают +15% скорости движения и +1 HP/с регенерации."
-      },
-      "analysis": {
-        "en": "The movement speed is nice for Zerg units, and creep spreads quickly from infested buildings. Less useful on attack maps where you push forward.",
-        "ru": "Скорость движения полезна для юнитов зергов, а крип быстро распространяется от заражённых зданий. Менее полезен на атакующих картах."
-      }
-    },
-    {
-      "name": "Mutalisk Roost",
-      "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Unlock Mutalisks. Their bounce attack hits +2 additional targets.",
-        "ru": "Разблокирует Муталисков. Их отскакивающая атака поражает +2 дополнительные цели."
+        "en": "Gain Metabolic Boost, Rupture, Tunneling Claws, Grooved Spines, Vicious Glaive, Pressurized Glands, and Burrow Charge upgrades",
+        "ru": "Получите улучшения Метаболический Буст, Разрыв, Когти Подкопа, Заточенные Шипы, Хищный Глеф, Сжатые Железы и Заряд Подкопа"
       },
       "analysis": {
-        "en": "Mutalisks with extra bounces shred clustered enemies. Excellent harassment unit that complements Terran ground forces perfectly.",
-        "ru": "Муталиски с дополнительными отскоками разрывают скученных врагов. Отличный юнит для харассмента, идеально дополняющий наземные силы терранов."
+        "en": "Unlocks offensive and mobility upgrades for zerg units including speed boosts, ranged attack improvements, and burrowing abilities. These complement Evolution Delta by making your zerg forces both faster and deadlier, significantly improving their combat effectiveness.",
+        "ru": "Открывает наступательные и мобильные улучшения для юнитов зергов, включая ускорение, улучшения дальних атак и способности подкопа. Дополняет Evolution Delta, делая ваших зергов быстрее и смертоноснее, значительно повышая их боевую эффективность."
       }
     },
     {
-      "name": "Brood Lord Ascension",
-      "rarity": "rare",
+      "name": "Incubation Efficiency",
+      "rarity": "uncommon-infinite",
       "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Unlock Brood Lords (morphed from Mutalisks). Brood Lords spawn Broodlings on attack that last 15 seconds.",
-        "ru": "Разблокирует Владык Стаи (мутируют из Муталисков). Владыки Стаи порождают Бродлингов при атаке, живущих 15 секунд."
-      },
-      "analysis": {
-        "en": "Brood Lords are devastating siege units. Each attack spawns free Broodlings that tank and DPS. Combined with Terran anti-air, they're nearly unstoppable.",
-        "ru": "Владыки Стаи — разрушительные осадные юниты. Каждая атака порождает бесплатных Бродлингов для танкования и DPS. В сочетании с терранским ПВО они почти неудержимы."
-      }
-    },
-    {
-      "name": "Hive Mind",
-      "rarity": "common-infinite",
-      "tier": "A",
       "stackable": true,
-      "maxStacks": 50,
+      "maxStacks": 100,
       "desc": {
-        "en": "All Zerg units gain +4% damage and +4% HP per stack. Max 50 stacks.",
-        "ru": "Все юниты зергов получают +4% урона и +4% HP за стак. Макс. 50 стаков."
+        "en": "All units from Cerberus Hatcheries cost 15% less. Stacks multiplicatively. Max 100 stacks",
+        "ru": "Все юниты из Инкубаторов Цербера стоят на 15% дешевле. Стакается мультипликативно. Макс. 100 стаков"
       },
       "analysis": {
-        "en": "Essential scaling for your Zerg army. Stack this aggressively — even Zerglings become dangerous with high stacks.",
-        "ru": "Необходимое масштабирование для армии зергов. Стакайте агрессивно — даже Зерглинги становятся опасными с высокими стаками."
+        "en": "The infinite scaling talent for Druid. Because it stacks multiplicatively, each additional stack provides diminishing but still substantial cost reduction. At high stacks, hatchery units become nearly free, allowing massive swarm production that overwhelms any enemy force.",
+        "ru": "Бесконечно стакающийся талант Друида. Поскольку стакается мультипликативно, каждый дополнительный стак даёт убывающее, но всё ещё существенное снижение стоимости. При высоких стаках юниты из инкубаторов становятся почти бесплатными, позволяя массовое производство роя."
       }
     },
     {
-      "name": "Infested Armory",
-      "rarity": "uncommon",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Terran biological units can be infested, gaining +30% HP, +10% damage, and a toxic death explosion.",
-        "ru": "Терранские биологические юниты могут быть заражены, получая +30% HP, +10% урона и токсичный взрыв при смерти."
-      },
-      "analysis": {
-        "en": "Infesting your own Marines/Marauders makes them significantly stronger. The death explosion is a nice bonus against melee enemies.",
-        "ru": "Заражение собственных Морпехов/Мародёров делает их значительно сильнее. Взрыв при смерти — приятный бонус против юнитов ближнего боя."
-      }
-    },
-    {
-      "name": "Ultralisk Cavern",
-      "rarity": "rare",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Unlock Ultralisks. They have cleave damage and +4 base armor.",
-        "ru": "Разблокирует Ультралисков. Они имеют рассекающий урон и +4 базовой брони."
-      },
-      "analysis": {
-        "en": "Ultralisks are the ultimate frontline tanks for your Zerg army. Cleave damage handles swarms while armor makes them durable. Use them to protect ranged units.",
-        "ru": "Ультралиски — ультимативные танки переднего края для армии зергов. Рассекающий урон обрабатывает толпы, а броня делает их прочными. Используйте для защиты дальнобойных юнитов."
-      }
-    },
-    {
-      "name": "Swarm Queen",
-      "rarity": "epic",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Spawn a heroic Swarm Queen unit. She can transfuse allies (heal 125 HP), spawn 4 Zerglings, and has an aura granting +15% attack speed to nearby Zerg units.",
-        "ru": "Порождает героического юнита Королеву Роя. Она может переливать союзникам (лечит 125 HP), порождать 4 Зерглингов и имеет ауру, дающую +15% скорости атаки ближайшим юнитам зергов."
-      },
-      "analysis": {
-        "en": "An incredible hero unit. Transfuse keeps key units alive, Zergling spawn provides constant reinforcements, and the aura boosts your entire Zerg army. Protect her at all costs.",
-        "ru": "Невероятный героический юнит. Переливание сохраняет ключевые юниты живыми, порождение Зерглингов даёт постоянные подкрепления, а аура усиливает всю армию зергов. Защищайте её любой ценой."
-      }
-    },
-    {
-      "name": "Adaptive Carapace",
-      "rarity": "epic",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "All Zerg units gain +2 armor and evolve: Zerglings gain burrow, Hydralisks gain +2 range, Mutalisks gain +20% speed, Ultralisks gain +50% HP.",
-        "ru": "Все юниты зергов получают +2 брони и эволюционируют: Зерглинги получают зарывание, Гидралиски +2 дальность, Муталиски +20% скорость, Ультралиски +50% HP."
-      },
-      "analysis": {
-        "en": "Massive quality-of-life and power boost for all Zerg units. Hydralisk range and Ultralisk HP are the standout upgrades. Take this whenever offered.",
-        "ru": "Массивный буст удобства и мощи для всех юнитов зергов. Дальность Гидралисков и HP Ультралисков — выдающиеся улучшения. Берите при каждом предложении."
-      }
-    },
-    {
-      "name": "Nydus Network",
+      "name": "Malignant Infusion",
       "rarity": "uncommon",
       "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Unlock Nydus Worms. Units can travel between Nydus Worms instantly. Nydus Worms spawn 2 Zerglings when they emerge.",
-        "ru": "Разблокирует Нидус-Червей. Юниты могут мгновенно перемещаться между Нидус-Червями. Нидус-Черви порождают 2 Зерглингов при появлении."
+        "en": "Cerberus Zerg have +0.6 movement speed bonus and regenerate +1 health per second",
+        "ru": "Зерги Цербера имеют бонус +0.6 к скорости передвижения и регенерируют +1 здоровье в секунду"
       },
       "analysis": {
-        "en": "Incredible mobility tool. Move your entire army across the map instantly. The free Zerglings on emergence are a nice bonus.",
-        "ru": "Невероятный инструмент мобильности. Перемещайте всю армию через карту мгновенно. Бесплатные Зерглинги при появлении — приятный бонус."
+        "en": "Provides a solid quality-of-life improvement for all Cerberus zerg units. The movement speed bonus helps them reach enemies faster, while the health regeneration keeps them alive longer between engagements. Especially valuable for melee units like Zerglings that need to close distance.",
+        "ru": "Обеспечивает хорошее улучшение качества жизни для всех зергов Цербера. Бонус к скорости помогает быстрее достигать врагов, а регенерация здоровья дольше поддерживает их между боями. Особенно ценно для юнитов ближнего боя вроде Зерглингов."
+      }
+    },
+    {
+      "name": "Cerberus Infestation",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Hatcheries can turn on Infestor production. Infestors cost 60 minerals and 90 vespene, automatically cast Fungal Growth, Parasitic Domination, and Consumption when needed",
+        "ru": "Инкубаторы могут включить производство Инфесторов. Инфесторы стоят 60 минералов и 90 веспена, автоматически применяют Грибковый Рост, Паразитическое Подчинение и Поглощение при необходимости"
+      },
+      "analysis": {
+        "en": "Adds powerful spellcaster support to your hatchery output. Infestors with automatic casting of Fungal Growth, Parasitic Domination and Consumption provide crowd control, mind control, and sustain without requiring micro. The automated casting makes them extremely efficient.",
+        "ru": "Добавляет мощную поддержку заклинателей к выходу инкубаторов. Инфесторы с автоматическим применением Грибкового Роста, Паразитического Подчинения и Поглощения обеспечивают контроль толпы, контроль разума и регенерацию без необходимости микро."
+      }
+    },
+    {
+      "name": "Evolution Gamma",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Gain Adrenal Overload, Corrosive Acid, Hydriodic Bile, Frenzy, Sundering Glave, Rapid Incubation, and Monarch Blades upgrades",
+        "ru": "Получите улучшения Адреналиновая Перегрузка, Коррозивная Кислота, Йодистая Желчь, Бешенство, Раскалывающий Глеф, Быстрая Инкубация и Монаршие Клинки"
+      },
+      "analysis": {
+        "en": "Another batch of powerful upgrades focusing on damage output and attack speed. These upgrades make your zerg units significantly more lethal in combat. Combined with Evolution Delta and Epsilon, your zerg forces gain a comprehensive set of enhancements.",
+        "ru": "Ещё одна партия мощных улучшений, сфокусированных на уроне и скорости атаки. Эти улучшения делают юнитов зергов значительно более смертоносными в бою. В сочетании с Evolution Delta и Epsilon ваши зерги получают комплексный набор усилений."
+      }
+    },
+    {
+      "name": "Simplified Sequences",
+      "rarity": "uncommon",
+      "tier": "B",
+      "stackable": true,
+      "maxStacks": 2,
+      "desc": {
+        "en": "Summoning time reduced by -2 seconds. Max 2 stacks",
+        "ru": "Время призыва сокращено на 2 секунды. Макс. 2 стака"
+      },
+      "analysis": {
+        "en": "Reduces the spawn timer of hatchery units, increasing the rate at which your swarm replenishes. At 2 stacks, units spawn 4 seconds faster, which is a significant throughput increase. Synergizes well with Incubation Efficiency for cheaper and faster unit production.",
+        "ru": "Сокращает таймер появления юнитов из инкубатора, увеличивая скорость пополнения роя. При 2 стаках юниты появляются на 4 секунды быстрее — существенное увеличение пропускной способности. Синергия с Incubation Efficiency для более дешёвого и быстрого производства."
+      }
+    },
+    {
+      "name": "Evolution Complete",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "When summoning unit with evolution, summon random evolution instead. Hydralisks and Mutalisks have 25% chance for upgraded version",
+        "ru": "При призыве юнита с эволюцией вместо этого призывается случайная эволюция. Гидралиски и Муталиски имеют 25% шанс на улучшённую версию"
+      },
+      "analysis": {
+        "en": "Adds variety and potential power spikes to your hatchery units by randomizing evolutions. The 25% chance for Hydralisks and Mutalisks to spawn as upgraded versions provides occasional but impactful bonuses. Works best with large hatchery output where probability averages out.",
+        "ru": "Добавляет разнообразие и потенциальные скачки мощности юнитам из инкубатора за счёт рандомизации эволюций. 25% шанс на улучшённую версию Гидралисков и Муталисков даёт редкие, но значимые бонусы. Лучше работает с большим выходом инкубатора, где вероятность усредняется."
+      }
+    },
+    {
+      "name": "Always A Bigger Zerg",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Topbar ability. Summon Leviathan (HotS) or Brutalisk for resources at target location on 60-second cooldown each. Units are uncontrollable and cost resources",
+        "ru": "Способность верхней панели. Призовите Левиафана (HotS) или Бруталиска за ресурсы в указанное место с перезарядкой 60 секунд каждый. Юниты неконтролируемые и стоят ресурсов"
+      },
+      "analysis": {
+        "en": "Provides access to two of the most powerful zerg units in the game as topbar abilities. Though uncontrollable, a Leviathan or Brutalisk dropped on an enemy position can single-handedly destroy bases. The 60-second cooldown allows frequent deployment for sustained pressure.",
+        "ru": "Даёт доступ к двум из самых мощных юнитов зергов в игре через верхнюю панель. Хотя неконтролируемые, Левиафан или Бруталиск, сброшенные на вражескую позицию, могут в одиночку уничтожить базу. 60-секундная перезарядка позволяет частое развёртывание для постоянного давления."
+      }
+    },
+    {
+      "name": "To Slay The Beast",
+      "rarity": "rare",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Periodically Dark Templars assault your Cerberus Hatcheries",
+        "ru": "Периодически Тёмные Храмовники атакуют ваши Инкубаторы Цербера"
+      },
+      "analysis": {
+        "en": "A double-edged talent that sends cloaked Dark Templars to attack your hatcheries. You need detection near your hatcheries to defend against them, but the killed Dark Templars can provide experience or loot depending on other talents. Requires defensive preparation but manageable with proper detection.",
+        "ru": "Палка о двух концах — посылает замаскированных Тёмных Храмовников атаковать ваши инкубаторы. Нужно обнаружение рядом с инкубаторами для защиты, но убитые Тёмные Храмовники могут дать опыт или лут в зависимости от других талантов. Требует оборонительной подготовки, но управляемо с правильным обнаружением."
+      }
+    },
+    {
+      "name": "Zerg Are Not Toys",
+      "rarity": "curse",
+      "tier": "C",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Units from Cerberus Hatcheries are hostile to non-zerg units while outside base",
+        "ru": "Юниты из Инкубаторов Цербера враждебны к не-зерг юнитам, находясь за пределами базы"
+      },
+      "analysis": {
+        "en": "A significant curse that makes your hatchery zerg units attack your own terran forces when outside your base perimeter. This forces careful army positioning — keep terran and zerg forces separated, or rely primarily on one race for offensive operations outside your base.",
+        "ru": "Значительное проклятие — юниты зергов из инкубаторов атакуют ваши терранские силы за пределами базы. Это требует тщательного позиционирования армии — держите терранов и зергов раздельно или полагайтесь преимущественно на одну расу для наступательных операций."
       }
     }
   ],

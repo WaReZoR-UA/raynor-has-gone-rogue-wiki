@@ -83,198 +83,198 @@
   ],
   "talents": [
     {
-      "name": "Inner Focus",
+      "name": "Windstep Maneuver",
       "rarity": "core",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "All production buildings train units 25% faster. Workers gather resources 15% faster. Units gain +10% movement speed.",
-        "ru": "Все производственные здания тренируют юнитов на 25% быстрее. Рабочие собирают ресурсы на 15% быстрее. Юниты получают +10% скорости передвижения."
+        "en": "All of your units gain +50% movement and +25% attack speed for 15 seconds. 60 second cooldown.",
+        "ru": "Все ваши юниты получают +50% скорости передвижения и +25% скорости атаки на 15 секунд. Перезарядка 60 секунд."
       },
       "analysis": {
-        "en": "Three incredibly powerful bonuses in one talent. 25% faster training means you consistently outnumber opponents. 15% faster gathering compounds over the campaign. +10% speed improves everything.",
-        "ru": "Три невероятно мощных бонуса в одном таланте. На 25% быстрее тренировка означает постоянное численное превосходство. На 15% быстрее сбор ресурсов компаундится за кампанию. +10% скорости улучшает всё."
+        "en": "The core ability of the Monk class provides a powerful army-wide buff on a moderate cooldown. The movement speed boost allows rapid repositioning and enemy chasing, while the attack speed increase provides significant DPS improvement during critical engagements.",
+        "ru": "Основная способность класса Монах даёт мощный бафф на всю армию с умеренной перезарядкой. Бонус к скорости передвижения позволяет быстро перегруппировываться и преследовать врагов, а увеличение скорости атаки значительно повышает DPS в критических столкновениях."
       }
     },
     {
-      "name": "Swift Strikes",
+      "name": "First Things First",
       "rarity": "common",
-      "tier": "A",
+      "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Units gain +10% attack speed for 10 seconds after completing movement (moving more than 5 distance).",
-        "ru": "Юниты получают +10% скорости атаки на 10 секунд после завершения перемещения (более 5 дистанции)."
+        "en": "In the first 60 seconds, your initial buildings operate +150% faster",
+        "ru": "В первые 60 секунд ваши начальные здания работают на 150% быстрее"
       },
       "analysis": {
-        "en": "Rewards mobile play. Move your army around the map and engage with a burst of attack speed. Works great with hit-and-run tactics.",
-        "ru": "Вознаграждает мобильный стиль игры. Перемещайте армию по карте и вступайте в бой со всплеском скорости атаки. Отлично работает с тактикой ударил-убежал."
+        "en": "Provides an explosive early game boost by making your starting buildings produce at 2.5x speed for the first minute. This allows you to get an early army out much faster than normal, giving a strong start on any mission. Less impactful on missions with slow openings.",
+        "ru": "Обеспечивает взрывной буст ранней игры, заставляя стартовые здания производить в 2.5 раза быстрее в первую минуту. Это позволяет получить раннюю армию гораздо быстрее обычного, давая сильный старт на любой миссии. Менее значимо на миссиях с медленным началом."
       }
     },
     {
-      "name": "Rapid Deployment",
+      "name": "Spark Of Momentum",
+      "rarity": "common",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Killing enemy units gives nearby units of yours a buff that regenerates 10% health over 5 seconds",
+        "ru": "Убийство вражеских юнитов даёт ближайшим вашим юнитам бафф, регенерирующий 10% здоровья за 5 секунд"
+      },
+      "analysis": {
+        "en": "Provides sustain during combat by healing your units as they score kills. The 10% health regeneration over 5 seconds keeps your army topped off during prolonged engagements. Most effective with large armies that are constantly killing enemy units in the frontline.",
+        "ru": "Обеспечивает устойчивость в бою, исцеляя юнитов при убийствах. Регенерация 10% здоровья за 5 секунд поддерживает армию в длительных столкновениях. Наиболее эффективно с большими армиями, которые постоянно убивают врагов на передовой."
+      }
+    },
+    {
+      "name": "Swift Recharge",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": true,
+      "maxStacks": 2,
+      "desc": {
+        "en": "Cooldown of Windstep Maneuver is reduced by 10 seconds. Max 2 stacks",
+        "ru": "Перезарядка Ветрошага уменьшена на 10 секунд. Макс. 2 стака"
+      },
+      "analysis": {
+        "en": "Reduces Windstep Maneuver cooldown from 60 to 50 seconds (or 40 at 2 stacks). This increases the uptime of the core ability significantly. At 2 stacks, you have a 15-second buff with only 25 seconds of downtime, maintaining high combat tempo.",
+        "ru": "Снижает перезарядку Ветрошага с 60 до 50 секунд (или 40 при 2 стаках). Это значительно увеличивает время активности основной способности. При 2 стаках у вас 15 секунд баффа с лишь 25 секундами простоя, поддерживая высокий боевой темп."
+      }
+    },
+    {
+      "name": "Celerity",
       "rarity": "common-infinite",
       "tier": "S",
       "stackable": true,
-      "maxStacks": 50,
+      "maxStacks": 100,
       "desc": {
-        "en": "All units train +3% faster per stack. Max 50 stacks.",
-        "ru": "Все юниты тренируются на +3% быстрее за стак. Макс. 50 стаков."
+        "en": "Your units gain +10% attack, movement and operating speed. This effect loses 0.5% effectiveness every 8 seconds. Max 100 stacks",
+        "ru": "Ваши юниты получают +10% к скорости атаки, передвижения и работы. Этот эффект теряет 0.5% эффективности каждые 8 секунд. Макс. 100 стаков"
       },
       "analysis": {
-        "en": "Your primary scaling talent. Stacks with Inner Focus multiplicatively. At 10+ stacks, units train almost instantly. Essential for any Monk build.",
-        "ru": "Ваш основной талант масштабирования. Стакается с Inner Focus мультипликативно. На 10+ стаках юниты тренируются почти мгновенно. Необходим для любого билда Монаха."
+        "en": "The infinite scaling talent for Monk with a unique decay mechanic. Each stack gives +10% to all speeds but gradually loses effectiveness over time. This means you benefit most at the start of each mission, creating an incentive to play aggressively and fast before the decay reduces the bonus.",
+        "ru": "Бесконечно стакающийся талант Монаха с уникальной механикой затухания. Каждый стак даёт +10% ко всем скоростям, но постепенно теряет эффективность. Это значит, что наибольшую пользу вы получаете в начале каждой миссии, стимулируя агрессивную и быструю игру до того, как затухание снизит бонус."
       }
     },
     {
-      "name": "Meditation",
-      "rarity": "common",
-      "tier": "B",
-      "stackable": false,
-      "maxStacks": null,
+      "name": "Flurry Of Blows",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": true,
+      "maxStacks": 3,
       "desc": {
-        "en": "Units that remain stationary for 5 seconds gain +3 HP/s regeneration and +5% damage.",
-        "ru": "Юниты, стоящие неподвижно 5 секунд, получают +3 HP/с регенерации и +5% урона."
+        "en": "Windstep Maneuver gives an additional +25% attack speed. Max 3 stacks",
+        "ru": "Ветрошаг даёт дополнительные +25% скорости атаки. Макс. 3 стака"
       },
       "analysis": {
-        "en": "Anti-synergy with movement builds but good for defense missions. Siege tanks and turrets benefit most from this.",
-        "ru": "Анти-синергия с билдами на движение, но хорош для оборонительных миссий. Осадные танки и турели получают наибольшую выгоду."
+        "en": "At 3 stacks, Windstep Maneuver grants +100% attack speed total (25% base + 75% from this talent), effectively doubling your army's attack rate during the buff. This transforms the ability from a good buff into a devastating combat steroid for burst damage windows.",
+        "ru": "При 3 стаках Ветрошаг даёт +100% скорости атаки суммарно (25% базовые + 75% от этого таланта), фактически удваивая скорость атаки армии во время баффа. Это превращает способность из хорошего баффа в разрушительный боевой стероид для окон взрывного урона."
       }
     },
     {
-      "name": "Free Sample",
+      "name": "Evasion",
       "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "At the start of each mission, receive 4 free War Pigs (elite Marines). They spawn instantly at your Command Center.",
-        "ru": "В начале каждой миссии получите 4 бесплатных War Pigs (элитные Морпехи). Они появляются мгновенно у Командного Центра."
+        "en": "Windstep Maneuver gives a 25% chance to evade incoming damage",
+        "ru": "Ветрошаг даёт 25% шанс уклониться от входящего урона"
       },
       "analysis": {
-        "en": "Free elite units every mission is incredible tempo. War Pigs are strong early-game units that can handle initial objectives while you build up.",
-        "ru": "Бесплатные элитные юниты каждую миссию — невероятный темп. War Pigs — сильные юниты ранней игры, справляющиеся с начальными задачами пока вы отстраиваетесь."
+        "en": "Adds a powerful defensive component to Windstep Maneuver. A 25% evasion chance effectively increases your army's survivability by a third during the buff duration. Combined with the movement speed bonus, your units become extremely difficult to pin down and kill.",
+        "ru": "Добавляет мощный оборонительный компонент к Ветрошагу. 25% шанс уклонения фактически увеличивает живучесть армии на треть во время действия баффа. В сочетании с бонусом к скорости передвижения ваших юнитов становится крайне сложно остановить и уничтожить."
       }
     },
     {
-      "name": "Fleetfoot",
-      "rarity": "common",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "All units gain +20% movement speed. Units move 30% faster on roads and ramps.",
-        "ru": "Все юниты получают +20% скорости передвижения. Юниты двигаются на 30% быстрее на дорогах и рампах."
-      },
-      "analysis": {
-        "en": "Combined with Inner Focus, your army moves 30%+ faster than normal. This lets you split armies, reinforce faster, and dodge enemy attacks.",
-        "ru": "В сочетании с Inner Focus ваша армия двигается на 30%+ быстрее нормы. Это позволяет разделять армии, быстрее подкреплять и уклоняться от атак врагов."
-      }
-    },
-    {
-      "name": "Assembly Line",
+      "name": "Dexterity",
       "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Buildings construct 30% faster. Supply Depots and add-ons are built instantly.",
-        "ru": "Здания строятся на 30% быстрее. Депо снабжения и пристройки строятся мгновенно."
+        "en": "Your units deal +25% attack damage if they moved in the last 1.5 seconds",
+        "ru": "Ваши юниты наносят +25% урона атакой, если двигались в последние 1.5 секунды"
       },
       "analysis": {
-        "en": "Instant Supply Depots alone is game-changing — no more supply blocks. Faster buildings mean faster tech and production online.",
-        "ru": "Мгновенные Депо снабжения сами по себе меняют игру — больше никаких блоков снабжения. Быстрее здания — быстрее техи и производство."
+        "en": "Rewards active micro and mobile playstyle with a significant damage bonus. With Windstep Maneuver's movement speed buff, it is easy to keep this active during engagements. Especially powerful on stutter-stepping ranged units like Marines and Marauders.",
+        "ru": "Вознаграждает активное микро и мобильный стиль игры значительным бонусом к урону. С бонусом скорости от Ветрошага легко поддерживать этот эффект активным в боях. Особенно мощно на дальних юнитах со стаггер-степпингом вроде Маринов и Мародёров."
       }
     },
     {
-      "name": "Wind Walk",
+      "name": "No Task Too Small",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Completing a bonus objective, or collecting lab research samples will trigger Windstep Maneuver",
+        "ru": "Выполнение бонусного задания или сбор образцов лабораторных исследований активирует Ветрошаг"
+      },
+      "analysis": {
+        "en": "Provides free Windstep Maneuver activations tied to mission objectives. On maps with many bonus objectives or research samples, this can dramatically increase your Windstep uptime. The timing often aligns perfectly with when you need the speed boost to push to the next objective.",
+        "ru": "Даёт бесплатные активации Ветрошага, привязанные к миссионным целям. На картах с множеством бонусных заданий или образцов исследований это может значительно увеличить время активности Ветрошага. Тайминг часто идеально совпадает с моментом, когда нужен буст скорости для продвижения к следующей цели."
+      }
+    },
+    {
+      "name": "Secret Technique",
       "rarity": "rare",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Activate to make all units immune to slowing effects and gain +50% movement speed for 15 seconds. 60 second cooldown.",
-        "ru": "Активация делает все юниты невосприимчивыми к замедлениям и даёт +50% скорости передвижения на 15 секунд. 60 секунд перезарядка."
+        "en": "Topbar ability. Can only be used once per mission. Gives all of your units +40% attack, movement, and operating speed for 20 seconds",
+        "ru": "Способность верхней панели. Может быть использована только один раз за миссию. Даёт всем вашим юнитам +40% к скорости атаки, передвижения и работы на 20 секунд"
       },
       "analysis": {
-        "en": "Incredible for retreats, engagements, and objective rushes. The slow immunity is extremely valuable against certain mission enemies. Use it to rush objectives.",
-        "ru": "Невероятно для отступлений, вступлений в бой и рывков к объектам. Иммунитет к замедлению крайне ценен против определённых врагов на миссиях. Используйте для рывков к целям."
+        "en": "An incredibly powerful one-time-use ability that provides a massive +40% to all speeds for 20 seconds. Save this for the most critical moment of each mission — a final push, a desperate defense, or a timed objective. The operating speed bonus also affects production buildings.",
+        "ru": "Невероятно мощная одноразовая способность, дающая массивные +40% ко всем скоростям на 20 секунд. Приберегите для самого критического момента миссии — финального натиска, отчаянной обороны или временного задания. Бонус к скорости работы также влияет на производственные здания."
       }
     },
     {
-      "name": "Momentum",
-      "rarity": "uncommon",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Each allied unit kill grants your army +1% movement speed and +1% attack speed for 20 seconds, stacking up to 15 times.",
-        "ru": "Каждое убийство союзным юнитом даёт вашей армии +1% скорости движения и +1% скорости атаки на 20 секунд, стакается до 15 раз."
-      },
-      "analysis": {
-        "en": "Snowball talent — the more you kill, the faster you become. In large battles this easily reaches max stacks for +15% to both speeds.",
-        "ru": "Талант снежного кома — чем больше убиваете, тем быстрее становитесь. В крупных боях легко достигает максимума для +15% к обеим скоростям."
-      }
-    },
-    {
-      "name": "Efficient Logistics",
-      "rarity": "common",
-      "tier": "B",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "All units cost 10% less supply. Medivacs and Dropships move 25% faster.",
-        "ru": "Все юниты стоят на 10% меньше снабжения. Медиваки и Десантные корабли двигаются на 25% быстрее."
-      },
-      "analysis": {
-        "en": "Less supply per unit means more units overall. Faster Medivacs enable better drops and evacuations.",
-        "ru": "Меньше снабжения на юнита — больше юнитов в общем. Быстрее Медиваки — лучше десантирования и эвакуации."
-      }
-    },
-    {
-      "name": "Transcendence",
-      "rarity": "epic",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "All speed bonuses also grant half their value as damage bonuses. Units with +50% speed gain +25% damage.",
-        "ru": "Все бонусы скорости также дают половину своего значения как бонусы к урону. Юниты с +50% скорости получают +25% урона."
-      },
-      "analysis": {
-        "en": "The ultimate Monk talent — converts all your speed investment into damage. With high speed stacks, this gives more damage than most dedicated damage talents.",
-        "ru": "Ультимативный талант Монаха — конвертирует все инвестиции в скорость в урон. С высокими стаками скорости даёт больше урона, чем большинство специализированных талантов на урон."
-      }
-    },
-    {
-      "name": "Zen Mastery",
-      "rarity": "epic",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Production buildings can queue unlimited units. Every 5th unit produced from any building is free. Workers never idle — they automatically find new resource patches.",
-        "ru": "Производственные здания могут ставить неограниченную очередь юнитов. Каждый 5-й юнит, произведённый любым зданием, бесплатен. Рабочие никогда не простаивают — автоматически находят новые ресурсные точки."
-      },
-      "analysis": {
-        "en": "Quality of life and economy rolled into one. Free units every 5th production adds up massively over a campaign. Auto-workers prevent resource waste.",
-        "ru": "Удобство и экономика в одном. Бесплатный юнит каждый 5-й в производстве массивно накапливается за кампанию. Авто-рабочие предотвращают потерю ресурсов."
-      }
-    },
-    {
-      "name": "One-Inch Punch",
+      "name": "Sixty Second Strike",
       "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "After 60 seconds, all enemy units gain a debuff that lasts 60 seconds slowing attack and movement speed by 80%",
+        "ru": "Через 60 секунд все вражеские юниты получают дебафф на 60 секунд, замедляющий скорость атаки и передвижения на 80%"
+      },
+      "analysis": {
+        "en": "Creates a devastating 60-second window where all enemies are nearly immobilized with 80% slow to both attack and movement. This effectively neutralizes entire enemy armies for a full minute, giving you time to push objectives or eliminate key threats with minimal resistance.",
+        "ru": "Создаёт разрушительное 60-секундное окно, когда все враги почти обездвижены с 80% замедлением атаки и передвижения. Это фактически нейтрализует целые вражеские армии на полную минуту, давая время для продвижения к целям или уничтожения ключевых угроз с минимальным сопротивлением."
+      }
+    },
+    {
+      "name": "Time For Preparation Is Over",
+      "rarity": "epic",
       "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Melee units deal +40% damage and have +20% attack speed. Their attacks knock back small enemies.",
-        "ru": "Юниты ближнего боя наносят +40% урона и имеют +20% скорости атаки. Их атаки отбрасывают мелких врагов."
+        "en": "Each mission, after 10 minutes, you lose the ability to train SCVs",
+        "ru": "В каждой миссии через 10 минут вы теряете возможность тренировать SCV"
       },
       "analysis": {
-        "en": "Niche but strong for melee-heavy compositions. Firebats and Zealots benefit enormously. Knockback disrupts enemy formations.",
-        "ru": "Нишевый, но сильный для составов с ближним боем. Огнемётчики и Зилоты получают огромную выгоду. Отброс разрушает формации врагов."
+        "en": "A harsh restriction that forces you to complete your economy setup within the first 10 minutes. After that, you cannot replace lost workers, making economy preservation critical. This talent rewards the Monk's speed-focused playstyle by punishing slow, turtling approaches.",
+        "ru": "Жёсткое ограничение, заставляющее завершить экономическую подготовку в первые 10 минут. После этого нельзя заменить потерянных рабочих, делая сохранение экономики критически важным. Этот талант вознаграждает скоростной стиль Монаха, наказывая медленные, черепашьи подходы."
+      }
+    },
+    {
+      "name": "Burnout",
+      "rarity": "curse",
+      "tier": "C",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Every 6 minutes, gain a stacking +10% damage taken until the end of the mission",
+        "ru": "Каждые 6 минут получаете стакающийся +10% получаемого урона до конца миссии"
+      },
+      "analysis": {
+        "en": "A time-pressure curse that makes your army increasingly fragile as the mission progresses. After 30 minutes, you take 50% extra damage, making prolonged missions extremely dangerous. This strongly incentivizes fast play and quick mission completion — fitting the Monk's speed theme.",
+        "ru": "Проклятие временного давления, делающее армию всё более хрупкой по мере продвижения миссии. Через 30 минут вы получаете на 50% больше урона, делая затяжные миссии крайне опасными. Это сильно стимулирует быструю игру и скорое завершение миссий — в духе темы скорости Монаха."
       }
     }
   ],

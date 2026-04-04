@@ -79,213 +79,198 @@
   ],
   "talents": [
     {
-      "name": "Dark Pact",
+      "name": "Voidforged Pact",
       "rarity": "core",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Unlocks the Warlock Pact system. Choose a pact at the start of each mission: gain power in exchange for a restriction. Pact level increases with kills, powering up your Hybrid summons.",
-        "ru": "Открывает систему Пактов Чернокнижника. Выбирайте пакт в начале каждой миссии: получайте силу в обмен на ограничение. Уровень пакта растёт с убийствами, усиливая ваши призывы Гибридов."
+        "en": "Allows SCVs to build Hybrid Labs. Hybrid Lab can train Hybrid Destroyers and Hybrid Reavers. Hybrid units can sacrifice your units to heal and level up to 5 levels.",
+        "ru": "Позволяет SCV строить Гибридные Лаборатории. Гибридная Лаборатория может обучать Гибридных Разрушителей и Гибридных Жнецов. Гибриды могут жертвовать вашими юнитами, чтобы исцеляться и повышать уровень до 5."
       },
       "analysis": {
-        "en": "Core system of the class. Pact levels are your primary scaling mechanism — always take pacts that align with your playstyle.",
-        "ru": "Ядро класса. Уровни пакта — ваш основной механизм масштабирования — всегда выбирайте пакты, соответствующие вашему стилю игры."
+        "en": "The foundation of the entire Warlock class. Prioritize building a Hybrid Lab early and start leveling Hybrids through sacrifice immediately. Position sacrificial units near your Hybrids to minimize downtime.",
+        "ru": "Основа всего класса Чернокнижник. Приоритизируйте раннее строительство Гибридной Лаборатории и начинайте прокачку Гибридов через жертвоприношения немедленно. Размещайте жертвенных юнитов рядом с Гибридами для минимизации простоя."
       }
     },
     {
-      "name": "Hybrid Summoning: Reaver",
-      "rarity": "core",
+      "name": "Lambs To The Slaughter",
+      "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Summon Hybrid Reavers — melee assault Hybrids with high health and damage. 5 upgradeable levels. Level 5 Reavers gain cleaving attacks and life steal.",
-        "ru": "Призывайте Гибридных Жнецов — ближнебойных штурмовых Гибридов с высоким здоровьем и уроном. 5 уровней улучшений. Жнецы 5-го уровня получают рассекающие атаки и кражу жизни."
+        "en": "Hybrid Sacrifice can now target allied units, neutral units, and critters. In addition, increase the range of Sacrifice by +2",
+        "ru": "Жертвоприношение Гибридов теперь может нацеливаться на союзных юнитов, нейтральных юнитов и мелких существ. Кроме того, увеличивает дальность Жертвоприношения на +2."
       },
       "analysis": {
-        "en": "Your starting Hybrid. Reavers are excellent front-line tanks and melee damage dealers.",
-        "ru": "Ваш стартовый Гибрид. Жнецы — отличные передовые танки и ближнебойные бойцы."
+        "en": "Massively expands the pool of valid sacrifice targets. Allied and neutral units mean you can always find something to feed your Hybrids, and the +2 range makes sacrifice much more convenient in combat.",
+        "ru": "Значительно расширяет пул допустимых целей для жертвоприношения. Союзные и нейтральные юниты означают, что вы всегда найдёте чем кормить Гибридов, а +2 к дальности делает жертвоприношение намного удобнее в бою."
       }
     },
     {
-      "name": "Hybrid Summoning: Destroyer",
+      "name": "Life Tap",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Sacrifice also either restores 50 energy to the Hybrid, or reduces its cooldowns by 5 seconds if it has no energy",
+        "ru": "Жертвоприношение также восстанавливает 50 энергии Гибриду, или снижает его перезарядки на 5 секунд, если у него нет энергии."
+      },
+      "analysis": {
+        "en": "Adds significant utility to every sacrifice. Energy restoration keeps Hybrids casting abilities, while the cooldown reduction alternative ensures even non-energy Hybrids benefit from every sacrifice.",
+        "ru": "Добавляет значительную полезность к каждому жертвоприношению. Восстановление энергии поддерживает способности Гибридов, а альтернативное снижение перезарядки гарантирует пользу даже для Гибридов без энергии."
+      }
+    },
+    {
+      "name": "Sacrificial Offering",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Sacrifice healing is increased to 250 health, and it also restores 100 shields",
+        "ru": "Исцеление от Жертвоприношения увеличено до 250 здоровья, а также восстанавливает 100 щитов."
+      },
+      "analysis": {
+        "en": "Dramatically increases the sustain from each sacrifice. The 250 health plus 100 shields makes each sacrifice restore a substantial chunk of Hybrid vitals, keeping them alive through intense combat.",
+        "ru": "Значительно увеличивает выживаемость от каждого жертвоприношения. 250 здоровья плюс 100 щитов делают каждое жертвоприношение восстанавливающим существенную часть жизненных сил Гибрида, поддерживая их в интенсивных боях."
+      }
+    },
+    {
+      "name": "Pact Mastery",
+      "rarity": "uncommon-infinite",
+      "tier": "S",
+      "stackable": true,
+      "maxStacks": 100,
+      "desc": {
+        "en": "Hybrids gain +20% more health, shields and attack damage from levels. Does not apply to level specific bonuses. Max 100 stacks",
+        "ru": "Гибриды получают +20% больше здоровья, щитов и урона атаки от уровней. Не применяется к бонусам, специфичным для уровня. Максимум 100 стаков."
+      },
+      "analysis": {
+        "en": "The primary infinite scaling talent for Warlock. Each stack multiplicatively boosts Hybrid base stats from levels, making high-level Hybrids exponentially more powerful. Prioritize this whenever offered.",
+        "ru": "Основной бесконечно масштабируемый талант Чернокнижника. Каждый стак мультипликативно усиливает базовые характеристики Гибридов от уровней, делая высокоуровневых Гибридов экспоненциально мощнее. Приоритизируйте при каждом предложении."
+      }
+    },
+    {
+      "name": "Warlock Adept Training",
       "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Summon Hybrid Destroyers — ranged spellcaster Hybrids with psionic storm and plasma blast. 5 upgradeable levels. Level 5 Destroyers gain chain lightning.",
-        "ru": "Призывайте Гибридных Разрушителей — дальнобойных заклинателей с псионическим штормом и плазменным взрывом. 5 уровней улучшений. Разрушители 5-го уровня получают цепную молнию."
+        "en": "Unlock the Hybrid Behemoth, Hybrid Dominator, and Hybrid Nemesis units",
+        "ru": "Открывает юнитов Гибридный Бегемот, Гибридный Доминатор и Гибридный Немезида."
       },
       "analysis": {
-        "en": "Primary ranged Hybrid. Excellent AoE damage and utility. Pair with Reavers for balanced composition.",
-        "ru": "Основной дальнобойный Гибрид. Отличный AoE урон и утилита. Сочетайте с Жнецами для сбалансированной композиции."
+        "en": "Essential expansion of your Hybrid roster. Behemoths provide tanking, Dominators are versatile elites, and Nemeses are assassins. Take this to diversify your Hybrid army composition.",
+        "ru": "Необходимое расширение вашего реестра Гибридов. Бегемоты обеспечивают танкование, Доминаторы — универсальные элиты, а Немезиды — убийцы. Берите для диверсификации состава армии Гибридов."
       }
     },
     {
-      "name": "Hybrid Summoning: Nemesis",
+      "name": "Essence Syphon",
       "rarity": "uncommon",
       "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Summon Hybrid Nemeses — assassin Hybrids with blink and high single-target damage. 5 upgradeable levels. Level 5 Nemeses gain stealth and execute on low-health targets.",
-        "ru": "Призывайте Гибридных Немезид — убийц-Гибридов с блинком и высоким уроном по одной цели. 5 уровней улучшений. Немезиды 5-го уровня получают невидимость и казнь целей с низким здоровьем."
+        "en": "Hybrid Sacrifice can now target enemy Marines, Zerglings and Zealots, but targeting enemy units has a 5 second cooldown (per Hybrid)",
+        "ru": "Жертвоприношение Гибридов теперь может нацеливаться на вражеских Маринов, Зерглингов и Зилотов, но нацеливание на вражеских юнитов имеет перезарядку 5 секунд (для каждого Гибрида)."
       },
       "analysis": {
-        "en": "Specialized assassin. Best for picking off high-value targets. Less generally useful than Reavers or Destroyers.",
-        "ru": "Специализированный убийца. Лучше всего для снятия ценных целей. Менее универсален, чем Жнецы или Разрушители."
+        "en": "Turns enemy light units into fuel for your Hybrids. The 5-second per-Hybrid cooldown limits abuse, but being able to sacrifice enemy units during combat provides both healing and denies the enemy forces.",
+        "ru": "Превращает лёгких вражеских юнитов в топливо для ваших Гибридов. Перезарядка 5 секунд на каждого Гибрида ограничивает злоупотребление, но способность жертвовать вражескими юнитами в бою даёт и лечение, и лишает врага сил."
       }
     },
     {
-      "name": "Hybrid Summoning: Behemoth",
+      "name": "Infinite Void",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Hybrid maximum levels are increased to 10. Levels above 5 do not give level specific bonuses",
+        "ru": "Максимальный уровень Гибридов увеличен до 10. Уровни выше 5 не дают бонусов, специфичных для уровня."
+      },
+      "analysis": {
+        "en": "Doubles the level cap for massive stat scaling. While levels 6-10 lack unique bonuses, the raw stat growth from Pact Mastery stacks makes each additional level extremely valuable.",
+        "ru": "Удваивает лимит уровней для масштабного роста характеристик. Хотя уровни 6-10 не имеют уникальных бонусов, рост базовых характеристик от стаков Мастерства Пакта делает каждый дополнительный уровень крайне ценным."
+      }
+    },
+    {
+      "name": "Warlock Master Training",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Unlock the Hybrid Mastermind and Void Thrasher units",
+        "ru": "Открывает юнитов Гибридный Мастермайнд и Пустотный Молотильщик."
+      },
+      "analysis": {
+        "en": "Unlocks the two most powerful Hybrid types. The Mastermind is a hero-tier caster, and the Void Thrasher provides crucial air coverage. Essential for a complete Hybrid army.",
+        "ru": "Открывает два самых мощных типа Гибридов. Мастермайнд — заклинатель героического уровня, а Пустотный Молотильщик обеспечивает критически важное воздушное покрытие. Необходим для полной армии Гибридов."
+      }
+    },
+    {
+      "name": "Void Rift",
       "rarity": "rare",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Summon Hybrid Behemoths — massive tank Hybrids with 3000 base HP and a damage-absorbing shield. 5 upgradeable levels. Level 5 Behemoths taunt all nearby enemies.",
-        "ru": "Призывайте Гибридных Бегемотов — массивных Гибридов-танков с 3000 базовым HP и поглощающим урон щитом. 5 уровней улучшений. Бегемоты 5-го уровня провоцируют всех ближайших врагов."
+        "en": "Hybrid Labs gain the ability to summon a swarm of Void Shades on a 30 second cooldown. Void Shades have a timed life of 40 seconds, and consist of Marines, Zerglings and Zealots",
+        "ru": "Гибридные Лаборатории получают способность призывать рой Теней Пустоты с перезарядкой 30 секунд. Тени Пустоты имеют ограниченное время жизни 40 секунд и состоят из Маринов, Зерглингов и Зилотов."
       },
       "analysis": {
-        "en": "The ultimate tank. One Behemoth can hold an entire chokepoint while your army does the damage.",
-        "ru": "Абсолютный танк. Один Бегемот может удерживать целый узкий проход, пока ваша армия наносит урон."
-      }
-    },
-    {
-      "name": "Hybrid Summoning: Dominator",
-      "rarity": "epic",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Summon Hybrid Dominators — all-purpose elite Hybrids with multiple abilities. 5 upgradeable levels. Level 5 Dominators gain an aura that buffs all nearby Hybrids +20% damage.",
-        "ru": "Призывайте Гибридных Доминаторов — универсальных элитных Гибридов с множеством способностей. 5 уровней улучшений. Доминаторы 5-го уровня получают ауру, бафающую всех ближайших Гибридов на +20% урона."
-      },
-      "analysis": {
-        "en": "The best general-purpose Hybrid. The level 5 aura makes your entire Hybrid army significantly stronger.",
-        "ru": "Лучший универсальный Гибрид. Аура 5-го уровня значительно усиливает всю вашу армию Гибридов."
-      }
-    },
-    {
-      "name": "Hybrid Summoning: Mastermind",
-      "rarity": "epic",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Summon a Hybrid Mastermind — unique hero-tier Hybrid with mind control, mass psionic storm, and a void rift ability. Only one can exist at a time. 5 upgradeable levels.",
-        "ru": "Призывайте Гибридного Мастермайнда — уникального Гибрида героического уровня с контролем разума, массовым пси-штормом и способностью разрыва пустоты. Только один может существовать одновременно. 5 уровней улучшений."
-      },
-      "analysis": {
-        "en": "The pinnacle of Warlock power. A fully leveled Mastermind can solo entire enemy bases.",
-        "ru": "Вершина мощи Чернокнижника. Полностью развитый Мастермайнд может в одиночку уничтожить вражескую базу."
-      }
-    },
-    {
-      "name": "Void Thrasher",
-      "rarity": "rare",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Summon Hybrid Void Thrashers — flying Hybrids with anti-air and anti-ground attacks. 5 upgradeable levels. Level 5 Void Thrashers project a void field that slows all enemies below them.",
-        "ru": "Призывайте Гибридных Пустотных Молотильщиков — летающих Гибридов с противовоздушными и наземными атаками. 5 уровней улучшений. Молотильщики 5-го уровня создают поле пустоты, замедляющее всех врагов под ними."
-      },
-      "analysis": {
-        "en": "Solves Warlock's air coverage problem. The slow field at level 5 is exceptional utility.",
-        "ru": "Решает проблему Чернокнижника с воздушным покрытием. Поле замедления на 5-м уровне — исключительная утилита."
+        "en": "Provides a constant stream of disposable units every 30 seconds. These Void Shades serve double duty as combat reinforcements and sacrifice fodder for your Hybrids.",
+        "ru": "Обеспечивает постоянный поток одноразовых юнитов каждые 30 секунд. Тени Пустоты служат двойной цели — боевое подкрепление и жертвенный корм для ваших Гибридов."
       }
     },
     {
       "name": "The Host",
       "rarity": "epic",
-      "tier": "A",
+      "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Summon The Host — a massive Hybrid entity that periodically spawns lesser Hybrids. 5 upgradeable levels. Level 5 Host spawns Reavers and Destroyers automatically.",
-        "ru": "Призывайте Хозяина — массивную Гибридную сущность, периодически порождающую меньших Гибридов. 5 уровней улучшений. Хозяин 5-го уровня автоматически порождает Жнецов и Разрушителей."
+        "en": "Allows two level 5 Hybrid Destroyers or Hybrid Reavers to spend 1000 minerals and 500 vespene to merge in order to create Amon's Host body. The Host benefits from all Warlock talents.",
+        "ru": "Позволяет двум Гибридным Разрушителям или Гибридным Жнецам 5-го уровня потратить 1000 минералов и 500 газа веспен для слияния и создания тела Хозяина Амона. Хозяин получает преимущества от всех талантов Чернокнижника."
       },
       "analysis": {
-        "en": "The ultimate Hybrid production facility. A fully leveled Host constantly replenishes your army with free Hybrids.",
-        "ru": "Абсолютная фабрика Гибридов. Полностью развитый Хозяин постоянно пополняет вашу армию бесплатными Гибридами."
+        "en": "The ultimate Warlock endgame unit. Merging two max-level Hybrids creates a supremely powerful entity that benefits from every Warlock talent, including Pact Mastery stacks. Expensive but game-ending.",
+        "ru": "Абсолютный юнит эндгейма Чернокнижника. Слияние двух Гибридов максимального уровня создаёт невероятно мощную сущность, получающую преимущества от всех талантов Чернокнижника, включая стаки Мастерства Пакта. Дорого, но завершает игру."
       }
     },
     {
-      "name": "Pact Acceleration",
-      "rarity": "common-infinite",
-      "tier": "A",
-      "stackable": true,
-      "maxStacks": 100,
-      "desc": {
-        "en": "Pact level gain rate increased by +5% per stack. Hybrid level-up thresholds reduced by 2% per stack. Max 100 stacks.",
-        "ru": "Скорость набора уровня пакта увеличена на +5% за стак. Пороги повышения уровня Гибридов снижены на 2% за стак. Макс. 100 стаков."
-      },
-      "analysis": {
-        "en": "Core scaling talent. Faster pact levels mean faster Hybrid upgrades. Take as many stacks as offered.",
-        "ru": "Основной масштабирующий талант. Быстрее уровни пакта — быстрее улучшения Гибридов. Берите столько стаков, сколько предложат."
-      }
-    },
-    {
-      "name": "Forbidden Knowledge",
-      "rarity": "rare",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Unlock all Hybrid types immediately. All Hybrids start at level 2. Pact restrictions are 20% less severe.",
-        "ru": "Немедленно открывает все типы Гибридов. Все Гибриды стартуют на 2-м уровне. Ограничения пактов на 20% менее суровые."
-      },
-      "analysis": {
-        "en": "Incredible time saver. Starting at level 2 and having all types available immediately accelerates your power curve dramatically.",
-        "ru": "Невероятная экономия времени. Старт на 2-м уровне и немедленный доступ ко всем типам драматически ускоряет вашу кривую мощи."
-      }
-    },
-    {
-      "name": "Soul Harvest",
-      "rarity": "common",
-      "tier": "B",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Killing enemy units has a 15% chance to heal the nearest Hybrid for 10% of the killed unit's max health. Hybrids regenerate 1 HP/sec.",
-        "ru": "Убийство вражеских юнитов имеет 15% шанс исцелить ближайшего Гибрида на 10% максимального здоровья убитого юнита. Гибриды регенерируют 1 HP/сек."
-      },
-      "analysis": {
-        "en": "Sustain for your expensive Hybrids. Particularly good on Behemoths and The Host.",
-        "ru": "Поддержка жизни для ваших дорогих Гибридов. Особенно хорош на Бегемотах и Хозяине."
-      }
-    },
-    {
-      "name": "Eldritch Corruption",
+      "name": "Otherworldly Hunger",
       "rarity": "curse",
       "tier": "C",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Your non-Hybrid units deal -20% damage. Hybrid summons cost 15% less and gain +10% all stats.",
-        "ru": "Ваши не-Гибридные юниты наносят -20% урона. Призыв Гибридов стоит на 15% меньше, и они получают +10% всех характеристик."
+        "en": "Your Hybrid will at random cast Sacrifice on an available target",
+        "ru": "Ваши Гибриды будут случайным образом применять Жертвоприношение на доступную цель."
       },
       "analysis": {
-        "en": "Good curse if you are running a Hybrid-heavy army anyway. The buff to Hybrids outweighs the non-Hybrid penalty.",
-        "ru": "Хорошее проклятие, если вы и так используете армию с большим количеством Гибридов. Баф Гибридам перевешивает штраф не-Гибридам."
+        "en": "A risky curse that causes Hybrids to consume units unpredictably. Keep valuable units away from Hybrids to avoid losing key assets. Use cheap expendable units as nearby sacrifice bait to minimize losses.",
+        "ru": "Рискованное проклятие, заставляющее Гибридов бесконтрольно поглощать юнитов. Держите ценных юнитов подальше от Гибридов. Используйте дешёвых одноразовых юнитов как жертвенную приманку поблизости для минимизации потерь."
       }
     },
     {
-      "name": "Void Instability",
-      "rarity": "plague",
+      "name": "Amon's Due",
+      "rarity": "curse",
       "tier": "D",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Hybrids have a 3% chance per attack to enter a void frenzy: +50% damage but attacking allies for 5 seconds.",
-        "ru": "Гибриды имеют 3% шанс за атаку войти в безумие пустоты: +50% урона, но атакуют союзников на 5 секунд."
+        "en": "Allied Hybrids that do not perform sacrifices for more than 2 minutes gain a stack of Amon's Due every minute, reducing their vitals and damage by 10%. This effect stacks. Sacrifice removes two stacks of Amon's Due.",
+        "ru": "Союзные Гибриды, не совершающие жертвоприношения более 2 минут, получают стак Долга Амона каждую минуту, снижая их жизненные силы и урон на 10%. Этот эффект стакается. Жертвоприношение снимает два стака Долга Амона."
       },
       "analysis": {
-        "en": "Dangerous plague. Keep your army spread and avoid clustering Hybrids near squishy units.",
-        "ru": "Опасная чума. Держите армию рассредоточенной и не группируйте Гибридов рядом с хрупкими юнитами."
+        "en": "A demanding curse that forces constant sacrifice upkeep. Neglecting sacrifices causes Hybrids to weaken rapidly. Maintain a pipeline of expendable units and sacrifice regularly to prevent stacks from accumulating.",
+        "ru": "Требовательное проклятие, вынуждающее постоянно поддерживать жертвоприношения. Пренебрежение жертвоприношениями быстро ослабляет Гибридов. Поддерживайте поток одноразовых юнитов и жертвуйте регулярно, чтобы стаки не накапливались."
       }
     }
   ],

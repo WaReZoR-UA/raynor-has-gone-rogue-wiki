@@ -86,168 +86,198 @@
   ],
   "talents": [
     {
-      "name": "Death's Embrace",
+      "name": "Deathrattle",
       "rarity": "core",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Allied units gain deathrattle: on death, deal 50% of their max HP as AoE damage to nearby enemies.",
-        "ru": "Союзные юниты получают deathrattle: при гибели наносят 50% от своего макс. HP как AoE урон ближайшим врагам."
+        "en": "Units trigger Deathrattle on death, dealing 15 damage in a 2.5 radius. Damages ground and air enemies.",
+        "ru": "Юниты запускают Deathrattle при смерти, нанося 15 урона в радиусе 2.5. Наносит урон наземным и воздушным врагам."
       },
       "analysis": {
-        "en": "The core of the class. Every unit death becomes a bomb. Scales with HP buffs — Medical Breakthrough stacks increase deathrattle damage directly. High-HP units like Thors create massive explosions on death.",
-        "ru": "Ядро класса. Каждая гибель юнита становится бомбой. Масштабируется с баффами HP — стаки Medical Breakthrough напрямую увеличивают урон deathrattle. Юниты с высоким HP вроде Thors создают массивные взрывы при гибели."
+        "en": "The core Deathknight mechanic that makes every unit death deal AoE damage. The 15 base damage and 2.5 radius seem modest, but scale enormously with Corpse Exploder stacks. Hitting both ground and air makes it universally useful in all encounters.",
+        "ru": "Ключевая механика Рыцаря Смерти, превращающая каждую гибель юнита в AoE-урон. Базовые 15 урона и радиус 2.5 кажутся скромными, но масштабируются огромно со стаками Corpse Exploder. Поражение и наземных, и воздушных целей делает способность универсально полезной во всех столкновениях."
       }
     },
     {
-      "name": "Soul Harvest",
+      "name": "Debilitating Plague",
       "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "When an allied unit dies, nearby allies gain +15% attack speed for 10 seconds.",
-        "ru": "Когда союзный юнит гибнет, ближайшие союзники получают +15% скорости атаки на 10 секунд."
+        "en": "Deathrattle reduces enemy attack and movement speed by 10%. Effect stacks; doesn't apply to heroes",
+        "ru": "Deathrattle снижает скорость атаки и передвижения врагов на 10%. Эффект стакается; не действует на героев"
       },
       "analysis": {
-        "en": "Creates a ramping damage effect during big fights. As units die, survivors hit faster and faster. Synergizes with expendable unit compositions where constant deaths are expected.",
-        "ru": "Создаёт нарастающий эффект урона во время больших боёв. По мере гибели юнитов выжившие бьют всё быстрее. Синергирует с расходными составами, где ожидается постоянная гибель."
+        "en": "A powerful debuff that stacks with each Deathrattle trigger — after just a few unit deaths, enemies are significantly slowed in both movement and attack speed. The stacking nature means mass casualties create near-immobile enemies. Does not affect heroes, but is devastating against regular enemy waves.",
+        "ru": "Мощный дебафф, стакающийся с каждым срабатыванием Deathrattle — после всего нескольких гибелей юнитов враги значительно замедлены в скорости передвижения и атаки. Стакающаяся природа означает, что массовые потери создают почти неподвижных врагов. Не действует на героев, но разрушительно против обычных вражеских волн."
       }
     },
     {
-      "name": "Corpse Explosion",
+      "name": "Ghoulish Renewal",
       "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Deathrattle AoE damage radius increased by 50%. Deathrattle deals additional +25% damage.",
-        "ru": "Радиус AoE deathrattle увеличен на 50%. Deathrattle наносит дополнительно +25% урона."
+        "en": "Deathrattle heals allies in its area. Healing equals the damage of deathrattle",
+        "ru": "Deathrattle лечит союзников в своей области. Лечение равно урону deathrattle"
       },
       "analysis": {
-        "en": "Directly enhances the core talent. Larger explosions with more damage means each death clears more enemies. Essential for maximizing deathrattle value in clustered fights.",
-        "ru": "Напрямую усиливает ключевой талант. Большие взрывы с большим уроном означают, что каждая смерть зачищает больше врагов. Необходим для максимизации ценности deathrattle в плотных боях."
+        "en": "Turns every unit death into a heal for nearby allies, scaling directly with Deathrattle damage from Corpse Exploder stacks. In large battles with frequent deaths, this provides continuous healing to your surviving forces. Excellent synergy with expendable unit compositions.",
+        "ru": "Превращает каждую гибель юнита в лечение ближайших союзников, масштабируясь напрямую с уроном Deathrattle от стаков Corpse Exploder. В крупных боях с частыми гибелями это обеспечивает непрерывное лечение выживающих сил. Отличная синергия с расходными составами юнитов."
       }
     },
     {
-      "name": "Undead Conscription",
+      "name": "Unholy Resilience",
       "rarity": "common",
       "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "When an allied unit dies, 20% chance to raise a zombie unit at the same location with 50% of original stats.",
-        "ru": "Когда союзный юнит гибнет, 20% шанс поднять юнит-зомби на том же месте с 50% от оригинальных характеристик."
+        "en": "Deathrattle gives allies in area +2 armor for 10 seconds. Effect doesn't stack",
+        "ru": "Deathrattle даёт союзникам в области +2 брони на 10 секунд. Эффект не стакается"
       },
       "analysis": {
-        "en": "Free replacement units from deaths. The zombies are weak but they can trigger deathrattle themselves when they die, creating chain reactions. RNG-dependent but high upside.",
-        "ru": "Бесплатные юниты-замены от гибели. Зомби слабые, но могут сами запустить deathrattle при гибели, создавая цепные реакции. Зависит от RNG, но высокий потенциал."
+        "en": "Provides a defensive buff to nearby allies after each Deathrattle trigger, but the non-stacking nature limits its value — multiple rapid deaths do not increase the armor beyond +2. Still useful for keeping your army tanky during engagements, but less impactful than stacking alternatives like Debilitating Plague.",
+        "ru": "Предоставляет защитный бафф ближайшим союзникам после каждого срабатывания Deathrattle, но нестакающаяся природа ограничивает ценность — множественные быстрые гибели не увеличивают броню выше +2. Всё ещё полезно для поддержания живучести армии, но менее эффективно, чем стакающиеся альтернативы вроде Debilitating Plague."
       }
     },
     {
-      "name": "Lingering Death",
-      "rarity": "common-infinite",
-      "tier": "A",
+      "name": "Corpse Exploder",
+      "rarity": "uncommon-infinite",
+      "tier": "S",
       "stackable": true,
       "maxStacks": 100,
       "desc": {
-        "en": "Deathrattle effects deal +10% damage and leave a damage-over-time zone for 5 seconds. Max 100 stacks.",
-        "ru": "Deathrattle-эффекты наносят +10% урона и оставляют зону урона на 5 секунд. Макс. 100 стаков."
+        "en": "Deathrattle deals +33% damage in +20% area. Talent stacks. Max 100 stacks",
+        "ru": "Deathrattle наносит +33% урона в +20% области. Талант стакается. Максимум 100 стаков"
       },
       "analysis": {
-        "en": "The class infinite. Each stack makes deathrattles stronger and adds persistent ground damage. At high stacks, death zones become lethal killing fields. Always take offered stacks.",
-        "ru": "Классовый бесконечный талант. Каждый стак усиливает deathrattle и добавляет постоянный наземный урон. При высоких стаках зоны смерти становятся смертельными полями убийств. Всегда берите предложенные стаки."
+        "en": "The defining infinite talent for Deathknight. Each stack massively increases both damage and area, creating exponential scaling. At 10 stacks Deathrattle deals roughly 5x base damage in 3x the area. At high stacks, a single unit death can wipe entire enemy formations. Always take every stack offered.",
+        "ru": "Определяющий бесконечный талант Рыцаря Смерти. Каждый стак массивно увеличивает и урон, и область, создавая экспоненциальное масштабирование. При 10 стаках Deathrattle наносит примерно 5-кратный базовый урон в 3-кратной области. При высоких стаках одна гибель юнита может уничтожить целые вражеские формации. Всегда берите каждый предложенный стак."
       }
     },
     {
-      "name": "Death Pact",
+      "name": "Echo Of Death",
       "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "You can sacrifice allied units on demand. Sacrificed units trigger deathrattle effects and grant 50% of their resource cost back.",
-        "ru": "Вы можете жертвовать союзных юнитов по команде. Пожертвованные юниты запускают deathrattle и возвращают 50% их стоимости."
+        "en": "Deathrattle has 25% chance to create second explosion 1 second later",
+        "ru": "Deathrattle имеет 25% шанс создать второй взрыв через 1 секунду"
       },
       "analysis": {
-        "en": "Turns controlled sacrifice into a tool. You choose when and where units die. The partial resource refund helps sustain the constant replacement cycle. Essential for advanced Deathknight play.",
-        "ru": "Превращает контролируемое жертвоприношение в инструмент. Вы выбираете когда и где юниты гибнут. Частичный возврат ресурсов помогает поддерживать цикл постоянной замены. Необходим для продвинутой игры Рыцарем Смерти."
+        "en": "Effectively a 25% chance to double your Deathrattle damage from each death. The 1-second delay means enemies moving through the area get hit twice. Statistically adds 25% more total Deathrattle damage over time, which compounds powerfully with Corpse Exploder stacks.",
+        "ru": "Фактически 25% шанс удвоить урон Deathrattle от каждой гибели. Задержка в 1 секунду означает, что враги, движущиеся через область, получают урон дважды. Статистически добавляет 25% больше общего урона Deathrattle со временем, что мощно сочетается со стаками Corpse Exploder."
       }
     },
     {
-      "name": "Grave Robber",
+      "name": "Once More Unto The Breach",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "After triggering Deathrattle 150 times, summon Stukov. Limit 1",
+        "ru": "После 150 срабатываний Deathrattle призывается Стуков. Лимит 1"
+      },
+      "analysis": {
+        "en": "A powerful hero unit reward for sustained Deathrattle usage. 150 triggers sounds like a lot, but in attrition-heavy missions this happens naturally. Stukov is a formidable hero that adds significant combat power. Best in builds that produce many cheap expendable units to reach the trigger count faster.",
+        "ru": "Мощная награда в виде героя за устойчивое использование Deathrattle. 150 срабатываний звучит как много, но в миссиях на истощение это происходит естественно. Стуков — грозный герой, добавляющий значительную боевую мощь. Лучше всего в билдах, производящих много дешёвых расходных юнитов для более быстрого достижения счётчика."
+      }
+    },
+    {
+      "name": "Vengeful Frenzy",
       "rarity": "uncommon",
       "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Enemy unit deaths also trigger a small deathrattle effect dealing damage to other nearby enemies.",
-        "ru": "Гибель вражеских юнитов также запускает малый deathrattle-эффект, наносящий урон ближайшим врагам."
+        "en": "Deathrattle increases attack and movement speed of nearby allies by 7%. Stacks",
+        "ru": "Deathrattle увеличивает скорость атаки и передвижения ближайших союзников на 7%. Стакается"
       },
       "analysis": {
-        "en": "Turns enemy deaths against them. In large-scale battles with many enemy casualties, this creates chain explosions on the enemy side. Better against swarmy enemies, weaker against few tough targets.",
-        "ru": "Обращает гибель врагов против них. В крупномасштабных боях с большими вражескими потерями это создаёт цепные взрывы на стороне врага. Лучше против масс врагов, слабее против немногих крепких целей."
+        "en": "The offensive counterpart to Debilitating Plague — buffs allies instead of debuffing enemies. The stacking 7% speed buff per death means your surviving units become progressively faster and more dangerous as casualties mount. Less immediately impactful than Debilitating Plague but strong in prolonged engagements.",
+        "ru": "Наступательный аналог Debilitating Plague — баффает союзников вместо дебаффа врагов. Стакающийся 7% бафф скорости за каждую гибель означает, что выжившие юниты становятся прогрессивно быстрее и опаснее с ростом потерь. Менее немедленно эффективен, чем Debilitating Plague, но силён в затяжных боях."
       }
     },
     {
-      "name": "Army of the Dead",
+      "name": "Ouroboros",
+      "rarity": "uncommon",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Deathrattle refunds 10 minerals. Doesn't benefit from Echo Of Death or summoned units",
+        "ru": "Deathrattle возвращает 10 минералов. Не работает с Echo Of Death или призванными юнитами"
+      },
+      "analysis": {
+        "en": "An economy talent that partially refunds unit costs on death. The 10-mineral refund per death adds up significantly with cheap mass units like Marines. The restriction against Echo Of Death and summoned units prevents exploitation. Solid for sustaining production in attrition-heavy builds.",
+        "ru": "Экономический талант, частично возмещающий стоимость юнитов при гибели. Возврат 10 минералов за гибель значительно суммируется с дешёвыми массовыми юнитами вроде Маринов. Ограничение на Echo Of Death и призванных юнитов предотвращает злоупотребление. Надёжен для поддержания производства в билдах на истощение."
+      }
+    },
+    {
+      "name": "Infested Rebirth",
+      "rarity": "uncommon",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Deathrattle has 25% chance to summon an infested marine. Doesn't benefit from Echo Of Death",
+        "ru": "Deathrattle имеет 25% шанс призвать заражённого морпеха. Не работает с Echo Of Death"
+      },
+      "analysis": {
+        "en": "Creates free replacement units from deaths, generating a self-sustaining army cycle. The infested marines themselves trigger Deathrattle when they die, creating chain value. The Echo Of Death restriction prevents infinite loops. Good for building a disposable swarm that feeds more Deathrattle triggers.",
+        "ru": "Создаёт бесплатных юнитов-замен при гибели, генерируя самоподдерживающийся армейский цикл. Заражённые морпехи сами запускают Deathrattle при гибели, создавая цепную ценность. Ограничение на Echo Of Death предотвращает бесконечные циклы. Хорош для построения расходного роя, питающего больше срабатываний Deathrattle."
+      }
+    },
+    {
+      "name": "Mutually Assured Destruction",
       "rarity": "rare",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Every 10th allied unit death summons a powerful undead champion unit with 200% stats that lasts 60 seconds.",
-        "ru": "Каждая 10-я гибель союзного юнита призывает мощного чемпиона нежити с 200% характеристик на 60 секунд."
+        "en": "When Deathrattle triggers with no units in 8 radius, create nuclear explosion. Max once per 60 seconds",
+        "ru": "Когда Deathrattle срабатывает без юнитов в радиусе 8, создаётся ядерный взрыв. Максимум раз в 60 секунд"
       },
       "analysis": {
-        "en": "The ultimate reward for sacrificial play. The undead champion is extremely powerful and itself triggers a massive deathrattle when it expires. In heavy attrition fights, you can spawn multiple champions.",
-        "ru": "Высшая награда за жертвенную игру. Чемпион нежити крайне мощен и сам запускает массивный deathrattle при исчезновении. В тяжёлых боях на истощение можно призвать несколько чемпионов."
+        "en": "An incredibly powerful conditional ability — when a unit dies isolated from others, it triggers a nuclear explosion instead of a normal Deathrattle. The 60-second internal cooldown prevents spam, but the nuclear explosion deals devastating damage. Best used by sending lone expendable units into enemy bases for suicide nuclear strikes.",
+        "ru": "Невероятно мощная условная способность — когда юнит гибнет в изоляции от других, вместо обычного Deathrattle запускается ядерный взрыв. Внутренняя перезарядка 60 секунд предотвращает спам, но ядерный взрыв наносит разрушительный урон. Лучше всего использовать, отправляя одиночных расходных юнитов на вражеские базы для суицидальных ядерных ударов."
       }
     },
     {
-      "name": "Death's Dominion",
-      "rarity": "epic",
-      "tier": "S",
+      "name": "Deathwish",
+      "rarity": "rare",
+      "tier": "C",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Deathrattle damage is doubled. Units that die within deathrattle zones are instantly raised as permanent undead allies with 75% stats.",
-        "ru": "Урон deathrattle удвоен. Юниты, гибнущие в зонах deathrattle, мгновенно поднимаются как постоянные нежить-союзники с 75% характеристик."
+        "en": "Units have ranged weapon attack range reduced by -1",
+        "ru": "Юниты имеют дальность атаки дальнобойного оружия уменьшенную на -1"
       },
       "analysis": {
-        "en": "The class-defining epic. Doubled deathrattle damage is already excellent, but raising enemies killed in death zones is game-breaking. In big fights, every enemy that dies in your deathrattle zones joins your side. Creates a snowball effect.",
-        "ru": "Определяющий класс эпик. Удвоенный урон deathrattle уже отличен, но поднятие врагов, убитых в зонах смерти, ломает игру. В больших боях каждый враг, гибнущий в зонах deathrattle, присоединяется к вам. Создаёт эффект снежного кома."
+        "en": "A double-edged rare talent that reduces your ranged units' attack range by 1. This forces closer engagements where your units take more damage and die faster — which feeds more Deathrattle triggers. Can be powerful in Deathknight builds that want maximum deaths, but the DPS loss from reduced kiting ability makes this risky.",
+        "ru": "Обоюдоострый редкий талант, снижающий дальность атаки дальнобойных юнитов на 1. Это вынуждает более близкие столкновения, где юниты получают больше урона и гибнут быстрее — что питает больше срабатываний Deathrattle. Может быть мощным в билдах Рыцаря Смерти, желающих максимума гибелей, но потеря DPS из-за сниженной возможности кайтинга делает это рискованным."
       }
     },
     {
-      "name": "Rigor Mortis",
-      "rarity": "curse",
-      "tier": "D",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Allied units move 20% slower. Attack speed reduced by 10%.",
-        "ru": "Союзные юниты двигаются на 20% медленнее. Скорость атаки снижена на 10%."
-      },
-      "analysis": {
-        "en": "Slows your army down and reduces DPS. Painful but somewhat mitigated by deathrattle playstyle — slower units die more, which triggers more deathrattles. Still a net negative.",
-        "ru": "Замедляет армию и снижает DPS. Болезненно, но частично компенсируется стилем deathrattle — более медленные юниты чаще гибнут, что запускает больше deathrattle. Всё равно чистый минус."
-      }
-    },
-    {
-      "name": "Cursed Ground",
+      "name": "Dead Men Walking",
       "rarity": "plague",
       "tier": "D",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Deathrattle zones also damage allied units that walk through them.",
-        "ru": "Зоны deathrattle также наносят урон союзным юнитам, проходящим через них."
+        "en": "All non-heroic combat units have timed life of 6 minutes",
+        "ru": "Все не-героические боевые юниты имеют ограниченное время жизни в 6 минут"
       },
       "analysis": {
-        "en": "Your own deathrattles become hazards for your army. Forces careful positioning to avoid walking through death zones. Can create unintended chain death cascades. Very punishing in tight maps.",
-        "ru": "Ваши собственные deathrattle становятся опасностью для армии. Вынуждает осторожное позиционирование, чтобы не проходить через зоны смерти. Может создать непреднамеренные каскады гибели. Очень болезненно на тесных картах."
+        "en": "A brutal plague that guarantees all your non-heroic units will die within 6 minutes, creating constant Deathrattle triggers but requiring endless unit replacement. This turns the game into a pure attrition race where your economy must sustain constant production. Synergizes with Deathrattle builds thematically, but the resource drain is punishing.",
+        "ru": "Жестокая чума, гарантирующая гибель всех не-героических юнитов в течение 6 минут, создавая постоянные срабатывания Deathrattle, но требуя бесконечной замены юнитов. Это превращает игру в чистую гонку на истощение, где экономика должна поддерживать постоянное производство. Синергирует с билдами на Deathrattle тематически, но расход ресурсов болезненный."
       }
     }
   ],

@@ -79,198 +79,198 @@
   ],
   "talents": [
     {
-      "name": "Shadow Operations",
+      "name": "Rogue Initiation",
       "rarity": "core",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "All cloaked units deal +40% damage on their first attack out of cloak (Ambush Bonus). Cloak energy cost reduced by 25%.",
-        "ru": "Все замаскированные юниты наносят +40% урона первой атакой из маскировки (Бонус Засады). Стоимость энергии маскировки снижена на 25%."
+        "en": "Medic, Raven, and Science Vessel gain the ability to cloak. Gain access to both Ghosts and Spectres.",
+        "ru": "Медик, Ворон и Научное Судно получают способность маскировки. Получите доступ к Призракам и Спектрам."
       },
       "analysis": {
-        "en": "Defines the class. Ambush Bonus is your primary damage multiplier. Build around units that can re-cloak quickly.",
-        "ru": "Определяет класс. Бонус Засады — ваш основной множитель урона. Стройте билд вокруг юнитов, которые могут быстро перемаскироваться."
+        "en": "The core talent gives cloak to three key support units and unlocks both Ghost and Spectre production. Cloaked Medics can safely heal frontline units, cloaked Ravens provide undetectable detection, and access to both stealth infantry types gives maximum tactical flexibility.",
+        "ru": "Основной талант даёт маскировку трём ключевым юнитам поддержки и открывает производство Призраков и Спектров. Замаскированные Медики безопасно лечат передовые юниты, замаскированные Вороны обеспечивают необнаруживаемое обнаружение, а доступ к обоим типам скрытной пехоты даёт максимальную тактическую гибкость."
       }
     },
     {
-      "name": "Ghost Protocol",
-      "rarity": "core",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Ghosts and Spectres gain permanent cloak (no energy cost) and +2 range. Snipe damage increased by 50%.",
-        "ru": "Призраки и Спектры получают постоянную маскировку (без затрат энергии) и +2 дальности. Урон Снайпера увеличен на 50%."
-      },
-      "analysis": {
-        "en": "Core talent making Ghosts/Spectres your primary strike force. Permanent cloak is game-changing.",
-        "ru": "Ядровой талант, делающий Призраков/Спектров вашей основной ударной силой. Постоянная маскировка меняет правила игры."
-      }
-    },
-    {
-      "name": "Assassination",
-      "rarity": "rare",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Ambush Bonus increased to +100%. Killing a unit from cloak resets the Ambush Bonus for the attacking unit.",
-        "ru": "Бонус Засады увеличен до +100%. Убийство юнита из маскировки сбрасывает Бонус Засады для атакующего юнита."
-      },
-      "analysis": {
-        "en": "Massive damage amplification. Chain-killing from cloak turns your Ghosts into serial assassins.",
-        "ru": "Огромное усиление урона. Цепные убийства из маскировки превращают ваших Призраков в серийных убийц."
-      }
-    },
-    {
-      "name": "Cloaked Armada",
-      "rarity": "rare",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Wraiths gain permanent cloak. All cloaked air units gain +25% attack speed and +15% movement speed.",
-        "ru": "Рейфы получают постоянную маскировку. Все замаскированные воздушные юниты получают +25% скорости атаки и +15% скорости движения."
-      },
-      "analysis": {
-        "en": "Enables air-based Rogue builds. Permanently cloaked Wraiths are devastating harass units.",
-        "ru": "Открывает воздушные билды Разбойника. Постоянно замаскированные Рейфы — разрушительные юниты для харасса."
-      }
-    },
-    {
-      "name": "Shadow Strike",
-      "rarity": "uncommon",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Cloaked units gain Shadow Strike ability: teleport to target and deal 150 damage. 20 second cooldown. Does not break cloak.",
-        "ru": "Замаскированные юниты получают способность Теневой Удар: телепортация к цели и нанесение 150 урона. Перезарядка 20 секунд. Не снимает маскировку."
-      },
-      "analysis": {
-        "en": "Excellent assassination tool. Use on high-value targets like spellcasters and siege units.",
-        "ru": "Отличный инструмент убийств. Используйте на ценных целях, таких как заклинатели и осадные юниты."
-      }
-    },
-    {
-      "name": "Phantom Cloak",
-      "rarity": "uncommon",
-      "tier": "B",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Bunkers and Hercules transports can cloak. Cloaked buildings are immune to targeted abilities.",
-        "ru": "Бункеры и транспорты Геркулес могут маскироваться. Замаскированные здания невосприимчивы к целевым способностям."
-      },
-      "analysis": {
-        "en": "Enables the Cloaked Bus Killer and Spectral Defense strategies. Niche but incredibly fun.",
-        "ru": "Открывает стратегии Cloaked Bus Killer и Spectral Defense. Нишевый, но невероятно весёлый."
-      }
-    },
-    {
-      "name": "Deadly Precision",
-      "rarity": "common-infinite",
-      "tier": "A",
-      "stackable": true,
-      "maxStacks": 100,
-      "desc": {
-        "en": "Ambush Bonus damage increased by +10% per stack. Max 100 stacks.",
-        "ru": "Урон Бонуса Засады увеличен на +10% за стак. Макс. 100 стаков."
-      },
-      "analysis": {
-        "en": "Core scaling talent. Each stack makes your first-hit burst even more devastating.",
-        "ru": "Основной масштабирующий талант. Каждый стак делает ваш первый удар ещё разрушительнее."
-      }
-    },
-    {
-      "name": "EMP Mastery",
+      "name": "Harmless Disguise",
       "rarity": "common",
       "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Ghost EMP radius increased by 50% and also deals 50 bonus damage to shields. EMP does not break cloak.",
-        "ru": "Радиус EMP Призрака увеличен на 50% и также наносит 50 бонусного урона щитам. EMP не снимает маскировку."
+        "en": "SCVs gain permanent cloak",
+        "ru": "SCV получают постоянную маскировку"
       },
       "analysis": {
-        "en": "Great against Protoss-heavy missions. Not breaking cloak is the key part.",
-        "ru": "Отлично против миссий с большим количеством Протоссов. Ключевой момент — не снимает маскировку."
+        "en": "Permanently cloaks all SCVs, protecting your workers from harass and targeted attacks. This is particularly valuable on missions with frequent enemy raids on your economy. Cloaked SCVs can also safely repair units in combat without being targeted.",
+        "ru": "Навсегда маскирует всех SCV, защищая рабочих от харасса и целенаправленных атак. Особенно ценно на миссиях с частыми вражескими рейдами на экономику. Замаскированные SCV также могут безопасно чинить юнитов в бою, не будучи целями."
       }
     },
     {
-      "name": "Nuclear Specialist",
-      "rarity": "epic",
-      "tier": "S",
+      "name": "Cheap Shot",
+      "rarity": "common",
+      "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Nukes deal +100% damage, have -50% launch time, and Ghosts remain cloaked during nuke targeting. Nuke cooldown reduced by 60 seconds.",
-        "ru": "Ядерки наносят +100% урона, время запуска -50%, и Призраки остаются замаскированными при наведении ядерки. Перезарядка ядерки снижена на 60 секунд."
+        "en": "Your Hellions, Hellbats, Reapers and Vultures gain the Void Stasis ability",
+        "ru": "Ваши Адские Машины, Адские Бойцы, Жнецы и Стервятники получают способность Стазис Пустоты"
       },
       "analysis": {
-        "en": "Turns nukes from situational to devastating. Cloaked nuke targeting is incredibly hard to counter.",
-        "ru": "Превращает ядерки из ситуационных в разрушительные. Наведение ядерки из маскировки крайне тяжело контрить."
+        "en": "Adds Void Stasis to fast harassment units, giving them a powerful crowd control option. This allows your light, mobile units to disable key enemy units during engagements. Particularly effective when combined with hit-and-run tactics the Rogue class excels at.",
+        "ru": "Добавляет Стазис Пустоты быстрым юнитам харасса, давая им мощную способность контроля толпы. Это позволяет лёгким мобильным юнитам выводить из строя ключевых врагов в столкновениях. Особенно эффективно в сочетании с тактикой хит-энд-ран, в которой Разбойник преуспевает."
       }
     },
     {
-      "name": "Vanishing Act",
-      "rarity": "epic",
+      "name": "Ambush",
+      "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "When a cloaked unit takes fatal damage, it instead becomes invulnerable for 2 seconds and re-cloaks. 60 second cooldown per unit.",
-        "ru": "Когда замаскированный юнит получает смертельный урон, он вместо этого становится неуязвимым на 2 секунды и перемаскировывается. Перезарядка 60 секунд на юнита."
+        "en": "Ghosts, Spectres, Wraiths and Banshees gain +25% damage on their next attack while cloaked every 2 seconds",
+        "ru": "Призраки, Спектры, Рейфы и Банши получают +25% урона к следующей атаке в маскировке каждые 2 секунды"
       },
       "analysis": {
-        "en": "Amazing survivability for your expensive stealth units. The safety net lets you play aggressively.",
-        "ru": "Потрясающая живучесть для ваших дорогих стелс-юнитов. Страховка позволяет играть агрессивно."
+        "en": "Provides a recurring damage bonus for cloaked stealth units. Every 2 seconds while cloaked, their next attack deals 25% more damage. This creates a steady DPS increase for your core stealth units, rewarding keeping them cloaked as much as possible during combat.",
+        "ru": "Даёт повторяющийся бонус урона для замаскированных юнитов. Каждые 2 секунды в маскировке их следующая атака наносит на 25% больше урона. Это создаёт постоянное увеличение DPS для основных скрытных юнитов, вознаграждая поддержание маскировки в бою."
       }
     },
     {
-      "name": "Cloak Field Generator",
+      "name": "Backstab",
+      "rarity": "uncommon-infinite",
+      "tier": "S",
+      "stackable": true,
+      "maxStacks": 100,
+      "desc": {
+        "en": "Your units deal +25% damage while cloaked. Max 100 stacks",
+        "ru": "Ваши юниты наносят +25% урона в маскировке. Макс. 100 стаков"
+      },
+      "analysis": {
+        "en": "The infinite scaling talent for Rogue. Each stack adds +25% damage to all cloaked units, creating massive damage multipliers at high stacks. This is the primary reason to give cloak to as many units as possible — even a few stacks make cloaked units vastly superior to their uncloaked counterparts.",
+        "ru": "Бесконечно стакающийся талант Разбойника. Каждый стак добавляет +25% урона всем замаскированным юнитам, создавая огромные множители урона при высоких стаках. Это основная причина давать маскировку максимальному числу юнитов — даже несколько стаков делают замаскированных юнитов значительно сильнее."
+      }
+    },
+    {
+      "name": "Camouflage",
+      "rarity": "uncommon",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "For 50 minerals and 20 vespene, you can equip each of your buildings with camouflage",
+        "ru": "За 50 минералов и 20 веспена вы можете снарядить каждое здание камуфляжем"
+      },
+      "analysis": {
+        "en": "Allows cloaking individual buildings for a moderate cost. Cloaked buildings cannot be targeted by enemy attacks without detection, protecting key structures like production facilities, tech labs, and supply depots from enemy raids and targeted destruction.",
+        "ru": "Позволяет маскировать отдельные здания за умеренную цену. Замаскированные здания не могут быть атакованы без обнаружения, защищая ключевые структуры вроде производственных зданий, технических лабораторий и складов снабжения от рейдов и целенаправленного разрушения."
+      }
+    },
+    {
+      "name": "Shroud Of Concealment",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Medics and Medivacs gain the ability to give nearby allies cloak in a range of 6",
+        "ru": "Медики и Медиваки получают способность давать ближайшим союзникам маскировку в радиусе 6"
+      },
+      "analysis": {
+        "en": "Transforms Medics and Medivacs into mobile cloaking field generators with range 6. This allows your entire army to benefit from cloak-based damage bonuses like Backstab while near a healer. Creates a powerful synergy where your healers also enable your damage amplification.",
+        "ru": "Превращает Медиков и Медиваков в мобильные генераторы поля маскировки с радиусом 6. Это позволяет всей армии пользоваться бонусами урона от маскировки вроде Backstab рядом с целителем. Создаёт мощную синергию, где целители также усиливают ваш урон."
+      }
+    },
+    {
+      "name": "Vanish",
       "rarity": "rare",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Ravens and Science Vessels project a cloaking field that cloaks all nearby allied units within range 8.",
-        "ru": "Вороны и Научные Суда проецируют поле маскировки, которое маскирует всех ближайших союзных юнитов в радиусе 8."
+        "en": "Marines, Reapers, Hellions, Hellbats and Vultures gain the ability to enter cloak for 20 seconds",
+        "ru": "Марины, Жнецы, Адские Машины, Адские Бойцы и Стервятники получают способность входить в маскировку на 20 секунд"
       },
       "analysis": {
-        "en": "Extends stealth to your entire army. Combine with Ambush Bonus for devastating first strikes with your whole force.",
-        "ru": "Распространяет скрытность на всю вашу армию. Комбинируйте с Бонусом Засады для разрушительных первых ударов всей армией."
+        "en": "Extends temporary cloak to your core combat and harassment units. 20 seconds of cloak is enough for a full engagement or escape, and combined with Backstab stacks this turns Marines and other basic units into devastating damage dealers while cloaked.",
+        "ru": "Расширяет временную маскировку на основные боевые юниты и юниты харасса. 20 секунд маскировки достаточно для полного столкновения или отступления, а в сочетании со стаками Backstab это превращает Маринов и других базовых юнитов в разрушительных бойцов в маскировке."
       }
     },
     {
-      "name": "Exposed Weakness",
+      "name": "Supercloak",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Your Ghosts, Spectres, Banshees and Wraiths gain the ability to enter supercloak for 10 seconds",
+        "ru": "Ваши Призраки, Спектры, Банши и Рейфы получают способность входить в суперскрытность на 10 секунд"
+      },
+      "analysis": {
+        "en": "Grants supercloak — undetectable even by detectors — to your primary stealth units for 10 seconds. This creates a window of absolute safety for assassination strikes, nukes, or retreats. Supercloak cannot be countered by any detection, making it a guaranteed escape or engagement tool.",
+        "ru": "Даёт суперскрытность — необнаруживаемую даже детекторами — основным скрытным юнитам на 10 секунд. Это создаёт окно абсолютной безопасности для убийств, ядерных ударов или отступлений. Суперскрытность не может быть преодолена никаким обнаружением — гарантированный инструмент атаки или бегства."
+      }
+    },
+    {
+      "name": "Vendetta",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": true,
+      "maxStacks": 3,
+      "desc": {
+        "en": "Units with cloak gain +25% attack and movement speed. Max 3 stacks",
+        "ru": "Юниты с маскировкой получают +25% скорости атаки и передвижения. Макс. 3 стака"
+      },
+      "analysis": {
+        "en": "At 3 stacks, all cloaked units gain +75% attack and movement speed, making them extremely fast and lethal. Combined with Backstab's damage bonus, cloaked units become both faster and harder-hitting. This creates an army that strikes with overwhelming speed and retreats before the enemy can respond.",
+        "ru": "При 3 стаках все замаскированные юниты получают +75% скорости атаки и передвижения, становясь крайне быстрыми и смертоносными. В сочетании с бонусом урона Backstab замаскированные юниты становятся и быстрее, и сильнее. Это создаёт армию, атакующую с подавляющей скоростью и отступающую до ответа врага."
+      }
+    },
+    {
+      "name": "Expertise",
+      "rarity": "epic",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Steady Targeting no longer requires channel, and Ultrasonic Pulse now casts Mind Blasts on impact",
+        "ru": "Точное Прицеливание больше не требует каналирования, а Ультразвуковой Импульс теперь применяет Удары Разума при попадании"
+      },
+      "analysis": {
+        "en": "Two powerful upgrades in one talent. Instant Steady Targeting removes the vulnerability window of channeling, making Ghost snipes instant-cast assassination tools. Mind Blasts on Ultrasonic Pulse adds devastating AoE crowd control to Spectre attacks, combining stealth with area denial.",
+        "ru": "Два мощных улучшения в одном таланте. Мгновенное Точное Прицеливание убирает уязвимое окно каналирования, делая снайперские выстрелы Призраков мгновенными инструментами убийства. Удары Разума от Ультразвукового Импульса добавляют разрушительный AoE контроль толпы к атакам Спектров."
+      }
+    },
+    {
+      "name": "Oversight",
       "rarity": "curse",
       "tier": "C",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Your units have -2 armor but deal +15% critical hit damage from cloak.",
-        "ru": "Ваши юниты имеют -2 брони, но наносят +15% критического урона из маскировки."
+        "en": "Randomly enemy Overseers appear around the map, causing them to patrol. Maximum of 15 Overseers at a time",
+        "ru": "Случайно по карте появляются вражеские Надзиратели, патрулирующие территорию. Максимум 15 Надзирателей одновременно"
       },
       "analysis": {
-        "en": "Acceptable trade for Rogue builds since you ideally avoid being hit at all.",
-        "ru": "Приемлемый обмен для билдов Разбойника, поскольку в идеале вы вообще избегаете попаданий."
+        "en": "Directly counters the Rogue's core mechanic by spawning up to 15 patrolling enemy Overseers with detection. This forces you to actively hunt Overseers before executing stealth operations, or find alternative routes around their patrol paths. Manageable but requires constant awareness.",
+        "ru": "Напрямую контрит основную механику Разбойника, создавая до 15 патрулирующих вражеских Надзирателей с обнаружением. Это заставляет активно охотиться на Надзирателей перед скрытными операциями или искать альтернативные маршруты вокруг патрульных путей. Управляемо, но требует постоянной внимательности."
       }
     },
     {
-      "name": "Detection Plague",
-      "rarity": "plague",
-      "tier": "D",
+      "name": "Going Rogue",
+      "rarity": "curse",
+      "tier": "C",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Enemy detectors have +4 range. New enemy detectors spawn 30% more frequently.",
-        "ru": "Вражеские детекторы имеют +4 дальности. Новые вражеские детекторы появляются на 30% чаще."
+        "en": "Your cloaked units will randomly go rogue, becoming invulnerable, untargetable, and super cloaked",
+        "ru": "Ваши замаскированные юниты будут случайно уходить в самоволку, становясь неуязвимыми, неприцеливаемыми и суперскрытными"
       },
       "analysis": {
-        "en": "Brutal counter to Rogue playstyle. Prioritize eliminating detectors before any engagement.",
-        "ru": "Жёсткий контр стилю Разбойника. Приоритизируйте уничтожение детекторов перед любым боем."
+        "en": "A chaotic curse that randomly removes cloaked units from your control, making them invulnerable and untargetable. While this temporarily loses you units, they eventually return. The unpredictability can disrupt carefully planned operations, but the units are not permanently lost.",
+        "ru": "Хаотичное проклятие, случайно выводящее замаскированных юнитов из-под контроля, делая их неуязвимыми и неприцеливаемыми. Хотя это временно лишает вас юнитов, они в итоге возвращаются. Непредсказуемость может нарушить тщательно спланированные операции, но юниты не теряются навсегда."
       }
     }
   ],

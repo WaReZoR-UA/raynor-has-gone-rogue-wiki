@@ -83,213 +83,198 @@
   ],
   "talents": [
     {
-      "name": "Dark Ritual",
+      "name": "Essence Of Divinity",
       "rarity": "core",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Sacrifice 5 units to gain a permanent +10% damage and +10% HP buff for all allied units. Can be triggered once per mission.",
-        "ru": "Пожертвуйте 5 юнитами, чтобы получить перманентный бафф +10% урона и +10% HP для всех союзных юнитов. Можно активировать раз за миссию."
+        "en": "Allies gain 4% extra health and damage done. Repeat for each of your duplicates on the infinite talent of yours with the most duplicates.",
+        "ru": "Союзники получают 4% дополнительного здоровья и наносимого урона. Повторяется для каждого вашего дубликата на бесконечном таланте, у которого больше всего дубликатов."
       },
       "analysis": {
-        "en": "The defining talent of Acolyte. Sacrifice cheap units (Marines, SCVs) early for permanent scaling. Each mission adds another stack — by late game your army is unstoppable.",
-        "ru": "Определяющий талант Аколита. Жертвуйте дешёвыми юнитами (Морпехи, SCV) в начале ради перманентного масштабирования. Каждая миссия добавляет стак — к лейту ваша армия неудержима."
+        "en": "The Acolyte core talent that scales based on your highest-stacked infinite talent. At 10 stacks of your most-duplicated infinite, this provides 40% extra health and damage to all allies. This creates a unique incentive to aggressively stack one specific infinite talent for exponential army-wide scaling. The foundation for all Acolyte builds.",
+        "ru": "Ключевой талант Аколита, масштабирующийся от наиболее стакаемого бесконечного таланта. При 10 стаках наиболее дублируемого бесконечного таланта это даёт 40% дополнительного здоровья и урона всем союзникам. Создаёт уникальный стимул агрессивно стакать один конкретный бесконечный талант для экспоненциального масштабирования всей армии. Основа для всех билдов Аколита."
       }
     },
     {
-      "name": "Profane Offering",
+      "name": "Shield Of Faith",
+      "rarity": "common",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Allied units gain +1 armor if you have at least 2 unique epic talents",
+        "ru": "Союзные юниты получают +1 брони, если у вас есть как минимум 2 уникальных эпических таланта"
+      },
+      "analysis": {
+        "en": "A conditional defensive buff requiring 2 unique epic talents to activate. The +1 armor is universally useful once active, reducing all incoming physical damage. The condition is manageable since Acolyte builds naturally accumulate epic talents through Gift Of The Xel'Naga and other talent generation. Best picked after you already have or are close to 2 epics.",
+        "ru": "Условный защитный бафф, требующий 2 уникальных эпических таланта для активации. +1 брони универсально полезен после активации, снижая весь входящий физический урон. Условие выполнимо, так как билды Аколита естественно накапливают эпические таланты через Gift Of The Xel'Naga и другую генерацию талантов. Лучше брать, когда у вас уже есть или почти есть 2 эпика."
+      }
+    },
+    {
+      "name": "Oraculum",
       "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "When a friendly unit dies, gain +2 minerals and +1 vespene. Stacks with other death-triggered effects.",
-        "ru": "Когда союзный юнит погибает, получите +2 минерала и +1 газ. Стакается с другими эффектами при смерти."
+        "en": "At the start of each mission, gain either +1 reroll or +1 ban at random",
+        "ru": "В начале каждой миссии случайно получаете +1 реролл или +1 бан"
       },
       "analysis": {
-        "en": "Excellent economy talent that synergizes with sacrifice playstyle. Works well with cheap expendable units.",
-        "ru": "Отличный экономический талант, синергирующий с стилем игры на жертвоприношениях. Хорошо работает с дешёвыми расходными юнитами."
+        "en": "Provides a free reroll or ban every mission, which is extremely valuable for talent selection control. Over a full campaign this accumulates massive pick flexibility. Both outcomes are useful — rerolls help find key talents while bans remove unwanted curses or bad options. Consistent value that improves every talent selection screen.",
+        "ru": "Предоставляет бесплатный реролл или бан каждую миссию, что крайне ценно для контроля выбора талантов. За полную кампанию это накапливает массивную гибкость выбора. Оба результата полезны — рероллы помогают найти ключевые таланты, а баны убирают нежелательные проклятия или плохие варианты. Стабильная ценность, улучшающая каждый экран выбора талантов."
       }
     },
     {
-      "name": "Forbidden Knowledge",
+      "name": "Guidance",
       "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Each curse you have increases all damage dealt by +5%. Converting a curse via other talents retains this bonus.",
-        "ru": "Каждое ваше проклятие увеличивает весь наносимый урон на +5%. Конвертация проклятия через другие таланты сохраняет этот бонус."
+        "en": "Gain one stack of the infinite talent that you have the most stacks of. Remove this talent afterward",
+        "ru": "Получите один стак бесконечного таланта, у которого у вас больше всего стаков. Этот талант удаляется после использования"
       },
       "analysis": {
-        "en": "Core curse synergy talent. Don't be afraid of curses — each one is now +5% damage. Pairs perfectly with Dark Sacrament.",
-        "ru": "Ключевой талант синергии проклятий. Не бойтесь проклятий — каждое теперь +5% урона. Идеально сочетается с Dark Sacrament."
+        "en": "A self-consuming talent that gives a free stack of your most-stacked infinite talent — which also directly buffs Essence Of Divinity. Since it removes itself after use, it takes no permanent talent slot. Essentially a free +4% health and damage for all allies via Essence Of Divinity plus whatever the infinite talent itself gives. Always take when offered.",
+        "ru": "Самоуничтожающийся талант, дающий бесплатный стак наиболее стакаемого бесконечного таланта — что также напрямую баффает Essence Of Divinity. Поскольку удаляется после использования, не занимает постоянный слот таланта. По сути бесплатные +4% здоровья и урона для всех союзников через Essence Of Divinity плюс то, что даёт сам бесконечный талант. Всегда берите при предложении."
       }
     },
     {
-      "name": "Dark Sacrament",
-      "rarity": "uncommon",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Convert one curse into a random epic talent. Can be used once per campaign.",
-        "ru": "Превращает одно проклятие в случайный эпический талант. Можно использовать раз за кампанию."
-      },
-      "analysis": {
-        "en": "Incredibly powerful — trades a debuff for a top-tier talent. Save it for a particularly nasty curse or use it early for tempo.",
-        "ru": "Невероятно мощный — обменивает дебафф на талант высшего уровня. Сохраните для особенно противного проклятия или используйте рано для темпа."
-      }
-    },
-    {
-      "name": "Soul Harvest",
+      "name": "Gift Of The Xel'Naga",
       "rarity": "common-infinite",
-      "tier": "A",
+      "tier": "S",
       "stackable": true,
-      "maxStacks": 50,
-      "desc": {
-        "en": "Dark Ritual grants +3% additional damage per stack. Max 50 stacks.",
-        "ru": "Dark Ritual даёт +3% дополнительного урона за стак. Макс. 50 стаков."
-      },
-      "analysis": {
-        "en": "Multiplies your core talent's effectiveness. Even 3-5 stacks make Dark Ritual significantly stronger.",
-        "ru": "Умножает эффективность вашего основного таланта. Даже 3-5 стаков делают Dark Ritual значительно сильнее."
-      }
-    },
-    {
-      "name": "Blood Tithe",
-      "rarity": "common",
-      "tier": "B",
-      "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "At the start of each mission, lose 100 minerals. Allied units gain +8% attack speed for the entire mission.",
-        "ru": "В начале каждой миссии теряете 100 минералов. Союзные юниты получают +8% скорости атаки на всю миссию."
+        "en": "Gain a random uncommon talent. Has a 20% chance to give an epic talent instead",
+        "ru": "Получите случайный необычный талант. Имеет 20% шанс дать эпический талант вместо этого"
       },
       "analysis": {
-        "en": "Decent trade-off. The mineral loss hurts early but attack speed is powerful for bio builds.",
-        "ru": "Неплохой компромисс. Потеря минералов болезненна в начале, но скорость атаки мощна для био-билдов."
+        "en": "The Acolyte class infinite and one of the most unique in the game — each stack gives a random talent instead of a static buff. The 20% epic chance means roughly every 5th stack could yield a powerful epic talent. This talent also feeds Essence Of Divinity stacks, making it doubly valuable. The randomness adds variance but the average outcome is excellent. Always take every offered stack.",
+        "ru": "Бесконечный талант класса Аколит и один из самых уникальных в игре — каждый стак даёт случайный талант вместо статического баффа. 20% шанс эпика означает, что примерно каждый 5-й стак может дать мощный эпический талант. Этот талант также питает стаки Essence Of Divinity, удваивая ценность. Случайность добавляет разброс, но средний результат превосходен. Всегда берите каждый предложенный стак."
       }
     },
     {
-      "name": "Cursed Resilience",
+      "name": "Divine Aid",
       "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "For each curse you have, allied units gain +6% max HP. This is recalculated dynamically.",
-        "ru": "За каждое ваше проклятие союзные юниты получают +6% макс. HP. Пересчитывается динамически."
+        "en": "Gain instantly, and at the start of each mission 50 minerals and vespene for each unique curse you have",
+        "ru": "Мгновенно получите, и в начале каждой миссии получайте 50 минералов и газа за каждое уникальное проклятие"
       },
       "analysis": {
-        "en": "Turns curses into a defensive buff. Combined with Forbidden Knowledge, curses give both offense and defense.",
-        "ru": "Превращает проклятия в защитный бафф. В сочетании с Forbidden Knowledge проклятия дают и атаку, и защиту."
+        "en": "Converts curses into economy — 50 minerals and vespene per curse per mission adds up significantly over a campaign. With 3 curses that is 150 minerals and 150 vespene every mission start. Encourages accepting curses for their economic benefit, synergizing with other curse-related Acolyte talents. Stronger the more curses you accumulate.",
+        "ru": "Конвертирует проклятия в экономику — 50 минералов и газа за проклятие за миссию значительно суммируется за кампанию. При 3 проклятиях это 150 минералов и 150 газа каждое начало миссии. Поощряет принятие проклятий ради экономической выгоды, синергируя с другими талантами Аколита на проклятия. Сильнее с накоплением большего числа проклятий."
       }
     },
     {
-      "name": "Altar of Sacrifice",
-      "rarity": "rare",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Sacrifice a non-core talent to permanently gain +20% damage and +20% HP for all units. Cannot sacrifice epic talents.",
-        "ru": "Пожертвуйте не-core талантом, чтобы перманентно получить +20% урона и +20% HP для всех юнитов. Нельзя жертвовать эпическими талантами."
-      },
-      "analysis": {
-        "en": "Extremely powerful. Sacrifice weak or redundant talents for massive permanent buffs. Plan your talent path around this.",
-        "ru": "Крайне мощный. Жертвуйте слабыми или избыточными талантами ради массивных перманентных баффов. Планируйте путь талантов вокруг этого."
-      }
-    },
-    {
-      "name": "Void Pact",
-      "rarity": "rare",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Curses no longer have negative effects. You still count as having them for talent synergies.",
-        "ru": "Проклятия больше не имеют негативных эффектов. Вы всё ещё считаетесь обладателем проклятий для синергий талантов."
-      },
-      "analysis": {
-        "en": "The dream talent for curse-stacking builds. All downside removed, all upside retained. Take every curse you see.",
-        "ru": "Талант мечты для билдов на стаке проклятий. Все минусы убраны, все плюсы сохранены. Берите каждое проклятие."
-      }
-    },
-    {
-      "name": "Sacrificial Lambs",
-      "rarity": "common",
-      "tier": "B",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Marines, Firebats, and Medics cost 25% less minerals and vespene.",
-        "ru": "Морпехи, Огнемётчики и Медики стоят на 25% меньше минералов и газа."
-      },
-      "analysis": {
-        "en": "Makes cheap units even cheaper for sacrifice fodder. Good early talent for Dark Ritual builds.",
-        "ru": "Делает дешёвых юнитов ещё дешевле для жертвенного материала. Хороший ранний талант для билдов на Dark Ritual."
-      }
-    },
-    {
-      "name": "Reaping",
+      "name": "Devotion",
       "rarity": "uncommon",
       "tier": "B",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "When you sacrifice units via Dark Ritual, they explode dealing 50 damage to nearby enemies.",
-        "ru": "Когда вы жертвуете юнитами через Dark Ritual, они взрываются, нанося 50 урона ближайшим врагам."
+        "en": "Your units deal +10% extra attack damage for each talent (or curse) specific to their unit type",
+        "ru": "Ваши юниты наносят +10% дополнительного урона атаки за каждый талант (или проклятие), специфичный для их типа юнита"
       },
       "analysis": {
-        "en": "Fun but niche. Can clear early attack waves while you sacrifice. Not essential.",
-        "ru": "Забавный, но нишевый. Может зачистить ранние волны во время жертвоприношения. Не обязателен."
+        "en": "Rewards specialization in specific unit types — units with many type-specific talents get massive damage bonuses. At 3 unit-specific talents, a unit deals +30% damage. Works with curses too, turning unit-specific debuffs into partial damage bonuses. Best in builds focused on one or two unit types with many dedicated talents.",
+        "ru": "Вознаграждает специализацию в конкретных типах юнитов — юниты с множеством типоспецифичных талантов получают массивные бонусы урона. При 3 типоспецифичных талантах юнит наносит +30% урона. Работает и с проклятиями, превращая типоспецифичные дебаффы в частичные бонусы урона. Лучше всего в билдах, сфокусированных на одном-двух типах юнитов с множеством посвящённых талантов."
       }
     },
     {
-      "name": "Unholy Fervor",
+      "name": "Blessing Of Fortitude",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Allied units gain +3% health for each of your Acolyte class talents (or curses)",
+        "ru": "Союзные юниты получают +3% здоровья за каждый ваш талант (или проклятие) класса Аколит"
+      },
+      "analysis": {
+        "en": "Scales with the number of Acolyte-specific talents and curses you hold. With 10 Acolyte talents, this provides +30% HP to all allies. Since Gift Of The Xel'Naga generates many additional talents, your Acolyte talent count naturally grows high, amplifying this buff. Curses counting toward the total further incentivizes accepting them.",
+        "ru": "Масштабируется с количеством талантов и проклятий класса Аколит. При 10 талантах Аколита это даёт +30% HP всем союзникам. Поскольку Gift Of The Xel'Naga генерирует множество дополнительных талантов, число талантов Аколита естественно растёт, усиливая этот бафф. Проклятия, учитываемые в счёте, дополнительно стимулируют их принятие."
+      }
+    },
+    {
+      "name": "Forbidden Power",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Allied units gain +3.5% attack speed for each of your unique epic talents",
+        "ru": "Союзные юниты получают +3.5% скорости атаки за каждый ваш уникальный эпический талант"
+      },
+      "analysis": {
+        "en": "Provides scaling attack speed based on your epic talent count. With Gift Of The Xel'Naga's 20% chance to give epics, Acolyte accumulates epic talents faster than other classes. At 5 unique epics, this is +17.5% attack speed for all allies. Synergizes with Shield Of Faith which also triggers from epic talent count. Strong in late-game when epic count is high.",
+        "ru": "Обеспечивает масштабируемую скорость атаки на основе числа эпических талантов. С 20% шансом Gift Of The Xel'Naga на эпики Аколит накапливает эпические таланты быстрее других классов. При 5 уникальных эпиках это +17.5% скорости атаки для всех союзников. Синергирует с Shield Of Faith, который тоже зависит от числа эпиков. Силён в лейте при высоком числе эпиков."
+      }
+    },
+    {
+      "name": "Threefold Blessing",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Gain 3 random common talents. This will not give you talents that would trigger Law Of Absolution",
+        "ru": "Получите 3 случайных обычных таланта. Не даст вам таланты, которые активировали бы Law Of Absolution"
+      },
+      "analysis": {
+        "en": "Three free common talents in a single pick is outstanding value. The Law Of Absolution protection ensures these random talents cannot activate that curse's penalty. Each talent gained also feeds Blessing Of Fortitude's HP scaling. The random nature means variable quality, but three talents for one pick is always a strong trade.",
+        "ru": "Три бесплатных обычных таланта за один выбор — выдающаяся ценность. Защита от Law Of Absolution гарантирует, что эти случайные таланты не активируют штраф этого проклятия. Каждый полученный талант также питает масштабирование HP от Blessing Of Fortitude. Случайная природа означает переменное качество, но три таланта за один выбор — всегда сильный обмен."
+      }
+    },
+    {
+      "name": "Power Of The Infinite",
       "rarity": "epic",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Dark Ritual now triggers automatically at the start of each mission (still requires 5 units). All sacrifice bonuses are doubled.",
-        "ru": "Dark Ritual теперь срабатывает автоматически в начале каждой миссии (всё ещё требует 5 юнитов). Все бонусы жертвоприношения удвоены."
+        "en": "Gain double the health and damage done from Essence of Divinity",
+        "ru": "Получайте удвоенное здоровье и наносимый урон от Essence of Divinity"
       },
       "analysis": {
-        "en": "The ultimate Acolyte talent. Auto-triggering with doubled bonuses means your scaling is guaranteed and massive. Build around this.",
-        "ru": "Ультимативный талант Аколита. Авто-срабатывание с удвоенными бонусами означает гарантированное и массивное масштабирование. Стройте билд вокруг этого."
+        "en": "Doubles the Essence Of Divinity scaling from 4% to 8% per duplicate stack. This means at 10 stacks of your most-duplicated infinite, all allies get 80% extra health and damage instead of 40%. This is a massive multiplier on the class's entire power curve and makes aggressive infinite stacking even more rewarding. The single most impactful Acolyte epic talent.",
+        "ru": "Удваивает масштабирование Essence Of Divinity с 4% до 8% за дубликат. Это означает, что при 10 стаках наиболее дублируемого бесконечного таланта все союзники получают 80% дополнительного здоровья и урона вместо 40%. Массивный множитель на всю кривую мощи класса, делающий агрессивное стакание бесконечных талантов ещё более вознаграждающим. Наиболее эффективный эпический талант Аколита."
       }
     },
     {
-      "name": "Echoes of the Fallen",
-      "rarity": "epic",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Units sacrificed via Dark Ritual leave behind spectral copies that fight for 30 seconds with 50% of original stats.",
-        "ru": "Юниты, принесённые в жертву через Dark Ritual, оставляют призрачные копии, которые сражаются 30 секунд с 50% исходных характеристик."
-      },
-      "analysis": {
-        "en": "Gives you free temporary units from sacrifices. Great for early-mission defense while your real army builds up.",
-        "ru": "Даёт бесплатных временных юнитов от жертвоприношений. Отлично для обороны в начале миссии, пока строится настоящая армия."
-      }
-    },
-    {
-      "name": "Desecration",
+      "name": "Law Of Absolution",
       "rarity": "curse",
-      "tier": "C",
+      "tier": "D",
       "stackable": true,
-      "maxStacks": 5,
+      "maxStacks": 3,
       "desc": {
-        "en": "All units cost +10% more minerals per stack. Max 5 stacks.",
-        "ru": "Все юниты стоят на +10% больше минералов за стак. Макс. 5 стаков."
+        "en": "Allied units move -10% slower for each common infinite duplicate talent after the 1st. Max 3 stacks",
+        "ru": "Союзные юниты двигаются на -10% медленнее за каждый дубликат обычного бесконечного таланта после 1-го. Максимум 3 стака"
       },
       "analysis": {
-        "en": "Nasty on its own, but Acolyte's curse synergies can turn this into a net positive. With Forbidden Knowledge, each stack is +5% damage.",
-        "ru": "Неприятно само по себе, но синергии проклятий Аколита могут превратить это в чистый плюс. С Forbidden Knowledge каждый стак — это +5% урона."
+        "en": "Directly punishes the Acolyte's core strategy of stacking infinite talents by slowing your army for each duplicate. At max 3 stacks with many infinite duplicates, the movement speed penalty can be severe. Forces a difficult trade-off between power scaling via Essence Of Divinity and army mobility. Threefold Blessing specifically avoids triggering this.",
+        "ru": "Напрямую наказывает основную стратегию Аколита по стакированию бесконечных талантов, замедляя армию за каждый дубликат. При максимальных 3 стаках с множеством бесконечных дубликатов штраф скорости движения может быть серьёзным. Вынуждает трудный выбор между масштабированием мощи через Essence Of Divinity и мобильностью армии. Threefold Blessing специально избегает активации этого проклятия."
+      }
+    },
+    {
+      "name": "Blue Heresy",
+      "rarity": "curse",
+      "tier": "D",
+      "stackable": true,
+      "maxStacks": 2,
+      "desc": {
+        "en": "Allied units take +10% damage for each of your rare talents. Max 2 stacks",
+        "ru": "Союзные юниты получают +10% урона за каждый ваш редкий талант. Максимум 2 стака"
+      },
+      "analysis": {
+        "en": "A dangerous curse that increases damage taken based on your rare talent count. With 3 rare talents and 2 stacks of this curse, your units take +60% extra damage. This heavily penalizes accumulating rare talents, creating tension with Forbidden Power and Threefold Blessing which reward having many talents. Requires careful rare talent management to avoid spiraling vulnerability.",
+        "ru": "Опасное проклятие, увеличивающее получаемый урон на основе числа редких талантов. При 3 редких талантах и 2 стаках этого проклятия юниты получают +60% дополнительного урона. Сильно штрафует накопление редких талантов, создавая напряжение с Forbidden Power и Threefold Blessing, которые вознаграждают большое число талантов. Требует аккуратного управления редкими талантами для избежания нарастающей уязвимости."
       }
     }
   ],

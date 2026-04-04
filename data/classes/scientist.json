@@ -79,183 +79,198 @@
   ],
   "talents": [
     {
-      "name": "Unifying Theory",
+      "name": "Combat Prototypes",
       "rarity": "core",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Each unique unit talent you possess grants all your units +2% damage and +2% health. Applies retroactively.",
-        "ru": "Каждый уникальный талант юнитов, которым вы владеете, даёт всем вашим юнитам +2% урона и +2% здоровья. Применяется ретроактивно."
+        "en": "Your units can be individually upgraded by one of two exclusive upgrades for resources.",
+        "ru": "Ваши юниты могут быть индивидуально улучшены одним из двух эксклюзивных улучшений за ресурсы."
       },
       "analysis": {
-        "en": "Incredible scaling talent. With 20+ unit talents, this provides a massive army-wide stat boost. Take every unit talent you can.",
-        "ru": "Невероятный масштабирующий талант. С 20+ талантами юнитов это обеспечивает огромный буст характеристик на всю армию. Берите каждый талант юнитов."
+        "en": "The core mechanic of the Scientist class allows individual unit upgrades, creating customized forces. Each unit gets a choice of two exclusive upgrades, letting you tailor units to specific roles. This per-unit investment rewards keeping upgraded units alive and creates an army of specialists.",
+        "ru": "Основная механика класса Учёный позволяет индивидуально улучшать юнитов, создавая настроенные силы. Каждый юнит получает выбор из двух эксклюзивных улучшений, позволяя адаптировать юнитов под конкретные роли. Инвестиция в каждого юнита вознаграждает их сохранение и создаёт армию специалистов."
       }
     },
     {
-      "name": "Universal Booster",
-      "rarity": "core",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "All unit upgrade levels provide +50% more effectiveness. Applies to attack, armor, and shield upgrades.",
-        "ru": "Все уровни улучшений юнитов дают +50% больше эффективности. Применяется к улучшениям атаки, брони и щитов."
-      },
-      "analysis": {
-        "en": "Turns standard upgrades into super-upgrades. Prioritize the Engineering Bay and Armory upgrades early.",
-        "ru": "Превращает стандартные улучшения в супер-улучшения. Приоритизируйте улучшения в Инженерном Отсеке и Арсенале на ранней стадии."
-      }
-    },
-    {
-      "name": "3rd Opinion",
-      "rarity": "rare",
-      "tier": "S",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "When offered a talent choice, one additional option is always a unit talent. Unit talents have a 20% chance to not consume a talent slot.",
-        "ru": "При выборе таланта одна дополнительная опция всегда является талантом юнита. Таланты юнитов имеют 20% шанс не занять слот таланта."
-      },
-      "analysis": {
-        "en": "Essential for Scientist. More unit talents means more Unifying Theory stacks. The free talent chance is a huge bonus.",
-        "ru": "Необходим для Учёного. Больше талантов юнитов — больше стаков Unifying Theory. Шанс бесплатного таланта — огромный бонус."
-      }
-    },
-    {
-      "name": "Next-gen Prototypes",
-      "rarity": "rare",
+      "name": "Experimental Upgrades",
+      "rarity": "common",
       "tier": "A",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Units with 3+ unit talents are classified as Prototypes: they gain +25% all stats, +1 armor, and a unique ability based on their unit type.",
-        "ru": "Юниты с 3+ талантами юнитов классифицируются как Прототипы: они получают +25% всех характеристик, +1 брони и уникальную способность на основе типа юнита."
+        "en": "For 10 minerals and vespene, your Engineering Bays and Armories can give your units +1 armor, or +10% damage",
+        "ru": "За 10 минералов и веспена ваши Инженерные Отсеки и Арсеналы могут дать вашим юнитам +1 брони или +10% урона"
       },
       "analysis": {
-        "en": "Powerful threshold reward. Focus your unit talents on 2-3 unit types to hit the prototype threshold quickly.",
-        "ru": "Мощная пороговая награда. Сосредоточьте таланты юнитов на 2-3 типах юнитов, чтобы быстро достичь порога прототипа."
+        "en": "Provides cheap, accessible upgrades through your existing upgrade buildings. For just 10 minerals and vespene per unit, you can add either armor or damage — a cost-effective way to incrementally boost your entire army. Scales well with large armies where the per-unit cost is trivial.",
+        "ru": "Даёт дешёвые доступные улучшения через существующие здания улучшений. Всего за 10 минералов и веспена за юнита можно добавить броню или урон — экономичный способ постепенно усилить всю армию. Хорошо масштабируется с большими армиями, где стоимость за юнита незначительна."
+      }
+    },
+    {
+      "name": "Hardware Improvement",
+      "rarity": "common",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Gives your buildings with weapons Combat Prototypes as well",
+        "ru": "Даёт вашим зданиям с оружием Боевые Прототипы"
+      },
+      "analysis": {
+        "en": "Extends Combat Prototypes to armed buildings like Bunkers, Missile Turrets, and Planetary Fortresses. This allows defensive structures to receive the same individual upgrades as units, significantly improving base defense capability when combined with prototype bonuses.",
+        "ru": "Распространяет Боевые Прототипы на вооружённые здания вроде Бункеров, Ракетных Турелей и Планетарных Крепостей. Это позволяет оборонительным структурам получать те же индивидуальные улучшения, что и юниты, значительно улучшая оборону базы в сочетании с бонусами прототипов."
+      }
+    },
+    {
+      "name": "Applied Science",
+      "rarity": "common",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Gives SCVs Combat Prototypes as well",
+        "ru": "Даёт SCV Боевые Прототипы"
+      },
+      "analysis": {
+        "en": "Extends Combat Prototypes to SCVs, allowing your workers to receive individual upgrades. Upgraded SCVs can gain improved repair speed, durability, or gathering bonuses depending on the prototype options. Useful for making workers more resilient to harassment or for combat SCV strategies.",
+        "ru": "Распространяет Боевые Прототипы на SCV, позволяя рабочим получать индивидуальные улучшения. Улучшенные SCV могут получить улучшенную скорость ремонта, прочность или бонусы к добыче. Полезно для повышения устойчивости рабочих к харассу или для стратегий боевых SCV."
+      }
+    },
+    {
+      "name": "Next-Gen Prototypes",
+      "rarity": "uncommon-infinite",
+      "tier": "S",
+      "stackable": true,
+      "maxStacks": 100,
+      "desc": {
+        "en": "Combat Prototypes are 30% more effective. Max 100 stacks",
+        "ru": "Боевые Прототипы на 30% эффективнее. Макс. 100 стаков"
+      },
+      "analysis": {
+        "en": "The infinite scaling talent for Scientist. Each stack makes all prototype upgrades 30% more effective, compounding into enormous bonuses at high stacks. This is the primary reason to invest heavily in prototyping every unit — the more prototypes you apply, the more value each stack provides.",
+        "ru": "Бесконечно стакающийся талант Учёного. Каждый стак делает все прототипные улучшения на 30% эффективнее, создавая огромные бонусы при высоких стаках. Это основная причина инвестировать в прототипирование каждого юнита — чем больше прототипов вы применяете, тем больше ценности даёт каждый стак."
+      }
+    },
+    {
+      "name": "Green Solution",
+      "rarity": "uncommon",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "When a unit with at least one prototype dies, there is a 75% chance to refund 10 minerals and vespene",
+        "ru": "Когда юнит с хотя бы одним прототипом погибает, есть 75% шанс возврата 10 минералов и веспена"
+      },
+      "analysis": {
+        "en": "Provides economic recovery when prototyped units die, partially offsetting the investment in their upgrades. The 75% chance and 10 resource refund may seem small, but over the course of a long mission with many prototyped units dying, it adds up to significant resource recovery.",
+        "ru": "Обеспечивает экономическое восстановление при гибели прототипированных юнитов, частично компенсируя инвестиции в их улучшения. 75% шанс и возврат 10 ресурсов может казаться малым, но за длинную миссию с гибелью многих прототипов это складывается в значительное восстановление ресурсов."
       }
     },
     {
       "name": "Corner Cutting Machine",
       "rarity": "uncommon",
       "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
+      "stackable": true,
+      "maxStacks": 3,
       "desc": {
-        "en": "Prototype units cost 15% less minerals and gas. Prototype production time reduced by 25%.",
-        "ru": "Прототипные юниты стоят на 15% меньше минералов и газа. Время производства прототипов снижено на 25%."
+        "en": "Combat Prototypes cost 5 less minerals and vespene. Max 3 stacks",
+        "ru": "Боевые Прототипы стоят на 5 меньше минералов и веспена. Макс. 3 стака"
       },
       "analysis": {
-        "en": "Solves the economy problem of expensive prototypes. Pairs perfectly with Next-gen Prototypes.",
-        "ru": "Решает экономическую проблему дорогих прототипов. Идеально сочетается с Next-gen Prototypes."
+        "en": "Reduces the per-unit cost of applying prototypes. At 3 stacks, each prototype costs 15 less minerals and vespene, which is a substantial saving when prototyping every unit in a large army. Essential for making the Scientist playstyle economically sustainable in longer missions.",
+        "ru": "Снижает стоимость применения прототипов за юнит. При 3 стаках каждый прототип стоит на 15 меньше минералов и веспена — существенная экономия при прототипировании каждого юнита в большой армии. Необходим для экономической устойчивости стиля Учёного в длинных миссиях."
       }
     },
     {
-      "name": "Fenrir Protocol",
+      "name": "Universal Booster",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": true,
+      "maxStacks": 4,
+      "desc": {
+        "en": "Units with at least one prototype have +20% health and damage done. Max 4 stacks",
+        "ru": "Юниты с хотя бы одним прототипом имеют +20% здоровья и наносимого урона. Макс. 4 стака"
+      },
+      "analysis": {
+        "en": "At 4 stacks, all prototyped units gain +80% health and damage — a massive army-wide buff. This single talent makes prototyping every unit in your army an absolute priority. The scaling is enormous and incentivizes applying at least one prototype to every combat unit.",
+        "ru": "При 4 стаках все прототипированные юниты получают +80% здоровья и урона — огромный бафф на всю армию. Один этот талант делает прототипирование каждого юнита абсолютным приоритетом. Масштабирование огромно и стимулирует применять хотя бы один прототип на каждого боевого юнита."
+      }
+    },
+    {
+      "name": "3rd Opinion",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Combat Prototypes gain a 3rd possible upgrade to chose from",
+        "ru": "Боевые Прототипы получают 3-й возможный вариант улучшения на выбор"
+      },
+      "analysis": {
+        "en": "Adds a third upgrade option to each Combat Prototype selection, giving more flexibility in customizing each unit. With three choices instead of two, you are much more likely to find the optimal upgrade for each situation, improving the overall quality of your prototyped army.",
+        "ru": "Добавляет третий вариант улучшения к каждому выбору Боевого Прототипа, давая больше гибкости в настройке каждого юнита. С тремя вариантами вместо двух гораздо вероятнее найти оптимальное улучшение для каждой ситуации, повышая общее качество прототипированной армии."
+      }
+    },
+    {
+      "name": "Positive Side Effects",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Combat Prototypes also give a secondary buff to the unit",
+        "ru": "Боевые Прототипы также дают вторичный бафф юниту"
+      },
+      "analysis": {
+        "en": "Each Combat Prototype now provides an additional bonus on top of the chosen upgrade. This effectively doubles the value of each prototype application, making every unit that receives a prototype significantly stronger than before. Excellent synergy with Universal Booster and Next-Gen Prototypes.",
+        "ru": "Каждый Боевой Прототип теперь даёт дополнительный бонус поверх выбранного улучшения. Это фактически удваивает ценность каждого применения прототипа, делая каждого улучшенного юнита значительно сильнее. Отличная синергия с Universal Booster и Next-Gen Prototypes."
+      }
+    },
+    {
+      "name": "Unifying Theory",
       "rarity": "epic",
       "tier": "S",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Unlocks the Fenrir — a super-heavy experimental Thor variant. Fenrir has massive AoE, 1500 HP, and gains +5% all stats per mission completed.",
-        "ru": "Открывает Фенрир — сверхтяжёлый экспериментальный вариант Тора. Фенрир имеет мощный AoE, 1500 HP и получает +5% всех характеристик за каждую пройденную миссию."
+        "en": "Combat Prototypes are no longer exclusive",
+        "ru": "Боевые Прототипы больше не являются эксклюзивными"
       },
       "analysis": {
-        "en": "The crown jewel of Scientist. Fenrir scales throughout the campaign and becomes an army unto itself.",
-        "ru": "Жемчужина Учёного. Фенрир масштабируется на протяжении всей кампании и становится армией в одном юните."
+        "en": "Removes the exclusivity restriction, allowing units to receive ALL available prototype upgrades instead of just one. This is a game-changing talent that multiplies the value of every prototype-related talent. Units with multiple prototypes become extraordinarily powerful, especially with Universal Booster and Next-Gen Prototypes stacks.",
+        "ru": "Снимает ограничение эксклюзивности, позволяя юнитам получать ВСЕ доступные прототипные улучшения вместо одного. Это переломный талант, умножающий ценность каждого таланта, связанного с прототипами. Юниты с несколькими прототипами становятся невероятно мощными, особенно со стаками Universal Booster и Next-Gen Prototypes."
       }
     },
     {
-      "name": "Jormungand Batteries",
-      "rarity": "epic",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Unlocks Jormungand — experimental Siege Tank variant with triple barrels and siege range 18. Jormungand shots create lingering damage zones.",
-        "ru": "Открывает Ёрмунганд — экспериментальный вариант Осадного Танка с тройными стволами и дальностью осады 18. Выстрелы Ёрмунганда создают зоны продолжительного урона."
-      },
-      "analysis": {
-        "en": "Insane siege potential. Jormungand controls entire areas with lingering damage. Excellent on defense missions.",
-        "ru": "Безумный осадный потенциал. Ёрмунганд контролирует целые зоны продолжительным уроном. Отлично на оборонительных миссиях."
-      }
-    },
-    {
-      "name": "Hel's Wrath",
-      "rarity": "epic",
-      "tier": "A",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Unlocks Hel — experimental Ghost variant with enhanced psionic abilities. Hel can use all Ghost abilities simultaneously and gains +100% Snipe damage.",
-        "ru": "Открывает Хель — экспериментальный вариант Призрака с усиленными псионическими способностями. Хель может использовать все способности Призрака одновременно и получает +100% урона Снайпера."
-      },
-      "analysis": {
-        "en": "The ultimate Ghost. Hel is a one-unit army for assassination and special operations.",
-        "ru": "Абсолютный Призрак. Хель — армия в одном юните для убийств и спецопераций."
-      }
-    },
-    {
-      "name": "Research Acceleration",
-      "rarity": "common-infinite",
-      "tier": "A",
-      "stackable": true,
-      "maxStacks": 100,
-      "desc": {
-        "en": "All research and upgrade times reduced by 3% per stack. Prototype stat bonus increased by +2% per stack. Max 100 stacks.",
-        "ru": "Все исследования и улучшения занимают на 3% меньше времени за стак. Бонус характеристик прототипов увеличен на +2% за стак. Макс. 100 стаков."
-      },
-      "analysis": {
-        "en": "Core scaling talent. The prototype stat increase is the main draw — each stack compounds with Next-gen Prototypes.",
-        "ru": "Основной масштабирующий талант. Увеличение характеристик прототипов — главная ценность — каждый стак комбинируется с Next-gen Prototypes."
-      }
-    },
-    {
-      "name": "Experimental Ordnance",
-      "rarity": "uncommon",
-      "tier": "B",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Prototype units gain explosive attacks: their attacks deal 30% splash damage in a small area.",
-        "ru": "Прототипные юниты получают взрывные атаки: их атаки наносят 30% сплеш-урона в малой области."
-      },
-      "analysis": {
-        "en": "Adds AoE to units that normally lack it. Particularly strong on Marines and Marauders with prototype status.",
-        "ru": "Добавляет AoE юнитам, которые обычно его не имеют. Особенно силён на Маринах и Мародёрах с прототипным статусом."
-      }
-    },
-    {
-      "name": "Field Testing",
-      "rarity": "common",
-      "tier": "B",
-      "stackable": false,
-      "maxStacks": null,
-      "desc": {
-        "en": "Prototype units gain experience from kills. At 10 kills, they gain an additional +15% all stats permanently.",
-        "ru": "Прототипные юниты получают опыт от убийств. При 10 убийствах они получают дополнительные +15% всех характеристик навсегда."
-      },
-      "analysis": {
-        "en": "Rewards keeping your prototypes alive. Strong on durable units like Fenrir that survive many engagements.",
-        "ru": "Вознаграждает за сохранение ваших прототипов. Силён на прочных юнитах вроде Фенрира, которые переживают много боёв."
-      }
-    },
-    {
-      "name": "Unstable Compounds",
+      "name": "Technocratic Dependency",
       "rarity": "curse",
       "tier": "C",
       "stackable": false,
       "maxStacks": null,
       "desc": {
-        "en": "Prototype units have a 5% chance to malfunction each attack, stunning themselves for 2 seconds. Non-prototype units deal -10% damage.",
-        "ru": "Прототипные юниты имеют 5% шанс сбоя при каждой атаке, оглушая себя на 2 секунды. Не-прототипные юниты наносят -10% урона."
+        "en": "Your units have -15% health and damage while they have no prototypes",
+        "ru": "Ваши юниты имеют -15% здоровья и урона, пока у них нет прототипов"
       },
       "analysis": {
-        "en": "Annoying but manageable. The non-prototype penalty pushes you harder toward prototype threshold.",
-        "ru": "Раздражающе, но управляемо. Штраф для не-прототипов сильнее толкает вас к порогу прототипа."
+        "en": "Penalizes unprototyped units with -15% health and damage, creating urgency to prototype every unit as soon as possible. Newly produced units are weaker until they receive a prototype, making early-game rushes and sudden reinforcements less effective. Manageable with good prototype application habits.",
+        "ru": "Штрафует юнитов без прототипов на -15% здоровья и урона, создавая срочность прототипирования каждого юнита как можно скорее. Новые юниты слабее до получения прототипа, делая ранние раши и внезапные подкрепления менее эффективными. Управляемо при хорошей дисциплине применения прототипов."
+      }
+    },
+    {
+      "name": "Limited Budget",
+      "rarity": "curse",
+      "tier": "C",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Each combat prototype can only be applied 30 times per mission",
+        "ru": "Каждый боевой прототип может быть применён только 30 раз за миссию"
+      },
+      "analysis": {
+        "en": "Caps prototype applications at 30 per mission, limiting the number of units you can upgrade. This forces careful prioritization of which units receive prototypes and punishes attrition-heavy playstyles where you constantly rebuild and re-prototype. Keep your prototyped units alive to avoid wasting applications.",
+        "ru": "Ограничивает применение прототипов до 30 за миссию, лимитируя количество улучшаемых юнитов. Это заставляет тщательно приоритизировать, какие юниты получают прототипы, и наказывает стиль игры с высоким износом, где постоянно перестраиваются и перепрототипируются юниты. Берегите прототипированных юнитов."
       }
     }
   ],
