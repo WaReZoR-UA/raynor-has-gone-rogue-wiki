@@ -212,10 +212,13 @@ const App = {
     },
 
     renderTalentCard(t) {
-        const rc = t.rarity === 'common-infinite' ? 'rarity-infinite' : `rarity-${t.rarity}`;
-        const dr = t.rarity === 'common-infinite' ? 'common' : t.rarity;
-        const bc = t.rarity === 'common-infinite' ? 'badge-common' : `badge-${t.rarity}`;
-        const rl = t.rarity === 'common-infinite' ? this.t('talent_common')+' ('+this.t('talent_infinite')+')' : (this.t('talent_'+t.rarity)||t.rarity);
+        const isCurse = t.category === 'curse';
+        const rc = isCurse ? 'rarity-curse' : (t.rarity === 'common-infinite' ? 'rarity-infinite' : `rarity-${t.rarity}`);
+        const dr = isCurse ? 'curse' : (t.rarity === 'common-infinite' ? 'common' : t.rarity);
+        const bc = isCurse ? 'badge-curse' : (t.rarity === 'common-infinite' ? 'badge-common' : `badge-${t.rarity}`);
+        const rl = isCurse
+            ? (t.stackable ? this.t('talent_curse')+' ('+this.t('talent_infinite')+')' : this.t('talent_curse'))
+            : (t.rarity === 'common-infinite' ? this.t('talent_common')+' ('+this.t('talent_infinite')+')' : (this.t('talent_'+t.rarity)||t.rarity));
 
         let badges = `<span class="badge ${bc}">${rl}</span>`;
         if (t.stackable) badges += `<span class="badge badge-stackable">${this.t('talent_stackable')}${t.maxStacks?' (max '+t.maxStacks+')':''}</span>`;
@@ -361,10 +364,51 @@ const App = {
 
     // ---- RENDER: GENERIC TALENTS ----
     async renderGenericTalents(app) {
-        const talents = await this.loadShared('generic-talents');
+        const all = await this.loadShared('generic-talents');
+        const talents = all.filter(t => t.category === 'talent');
+        const curses = all.filter(t => t.category === 'curse');
+
+        const filterBtns = `
+            <button class="filter-btn active" data-filter="all">${this.t('talent_filter_all')}</button>
+            <button class="filter-btn" data-filter="talent">${this.lang==='ru'?'Таланты':'Talents'}</button>
+            <button class="filter-btn" data-filter="curse">${this.lang==='ru'?'Проклятия':'Curses'}</button>`;
+
         app.innerHTML = `
-        <div class="page-hero"><h1>${this.t('nav_talents')}</h1></div>
-        <div class="container"><div class="talent-list">${talents.map(t=>this.renderTalentCard(t)).join('')}</div></div>`;
+        <div class="page-hero"><h1>${this.t('nav_talents')}</h1>
+            <p class="subtitle">${this.lang==='ru'?'Общие таланты и проклятия, доступные всем классам':'Generic talents and curses available to all classes'}</p>
+        </div>
+        <div class="container">
+            <div class="search-wrap"><input type="text" class="search-input" id="gt-search" placeholder="${this.t('talent_search_placeholder')}"></div>
+            <div class="filter-bar">${filterBtns}</div>
+            ${talents.length ? `<h3 style="margin:20px 0 12px;color:var(--text-bright)">${this.lang==='ru'?'Таланты':'Talents'}</h3>` : ''}
+            <div class="talent-list">${talents.map(t=>this.renderTalentCard(t)).join('')}</div>
+            ${curses.length ? `<h3 style="margin:28px 0 12px;color:var(--curse)">${this.lang==='ru'?'Проклятия':'Curses'}</h3>` : ''}
+            <div class="talent-list">${curses.map(t=>{
+                const card = this.renderTalentCard(t);
+                return card.replace('data-rarity="common-infinite"','data-rarity="curse"').replace('data-rarity="uncommon"','data-rarity="curse"');
+            }).join('')}</div>
+        </div>`;
+
+        // Filters work on category attribute
+        const filterContainer = app.querySelector('.filter-bar');
+        const allCards = app.querySelectorAll('.talent-card');
+        allCards.forEach(c => c.dataset.category = c.closest('.talent-list')?.previousElementSibling?.style?.color === 'var(--curse)' ? 'curse' : 'talent');
+        // Simpler: tag by source data
+        const allItems = app.querySelectorAll('.talent-card');
+        let idx = 0;
+        talents.forEach(() => { if(allItems[idx]) allItems[idx].dataset.cat = 'talent'; idx++; });
+        curses.forEach(() => { if(allItems[idx]) allItems[idx].dataset.cat = 'curse'; idx++; });
+
+        filterContainer?.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterContainer.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+                btn.classList.add('active');
+                const v = btn.dataset.filter;
+                allItems.forEach(i => i.style.display = (v==='all'||i.dataset.cat===v)?'':'none');
+            });
+        });
+
+        this.initSearch('#gt-search', '.talent-card', '.talent-name');
     },
 
     // ---- HELPERS ----

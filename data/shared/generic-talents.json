@@ -1,14 +1,125 @@
 [
-  {"name":"Salvage Operation","rarity":"common-infinite","stackable":true,"maxStacks":900,"tier":"A","desc":{"en":"+300 Minerals instantly and at the start of each mission. Max 900 stacks.","ru":"+300 минералов мгновенно и в начале каждой миссии. Макс. 900 стаков."},"analysis":{"en":"Essential economy talent. Take 3-5+ stacks for comfortable play.","ru":"Необходимый экономический талант. Берите 3-5+ стаков для комфортной игры."}},
-  {"name":"Renewable Fuel","rarity":"common-infinite","stackable":true,"maxStacks":900,"tier":"A","desc":{"en":"+200 Vespene instantly and at the start of each mission. Max 900 stacks.","ru":"+200 газа мгновенно и в начале каждой миссии. Макс. 900 стаков."},"analysis":{"en":"Important for expensive units. Take 2-3 stacks.","ru":"Важен для дорогих юнитов. Берите 2-3 стака."}},
-  {"name":"Use More Gun","rarity":"common-infinite","stackable":true,"maxStacks":100,"tier":"S","desc":{"en":"Allied units deal +6% damage. Max 100 stacks. Affects spells, deathrattles, topbar abilities (NOT Ripfield Generators).","ru":"Союзные юниты наносят +6% урона. Макс. 100 стаков. Влияет на заклинания, deathrattle, способности топбара (НЕ Ripfield Generators)."},"analysis":{"en":"Universal DPS boost. Affects almost all damage sources.","ru":"Универсальный буст DPS. Влияет на почти все источники урона."}},
-  {"name":"Medical Breakthrough","rarity":"common-infinite","stackable":true,"maxStacks":100,"tier":"S","desc":{"en":"Allies gain +8% health. Max 100 stacks.","ru":"Союзники получают +8% здоровья. Макс. 100 стаков."},"analysis":{"en":"Universal HP boost. Scales with everything.","ru":"Универсальный буст HP. Масштабируется со всем."}},
-  {"name":"Unobtanium Plating","rarity":"common-infinite","stackable":true,"maxStacks":100,"tier":"B","desc":{"en":"Allied buildings gain +20% health. Max 100 stacks.","ru":"Союзные здания получают +20% здоровья. Макс. 100 стаков."},"analysis":{"en":"Good for defensive builds.","ru":"Хорош для оборонительных билдов."}},
-  {"name":"Accelerated Logistics","rarity":"common-infinite","stackable":true,"maxStacks":100,"tier":"B","desc":{"en":"Your units move +10% faster. Max 100 stacks.","ru":"Ваши юниты двигаются на +10% быстрее. Макс. 100 стаков."},"analysis":{"en":"Nice QoL but not priority.","ru":"Приятный QoL, но не приоритет."}},
-  {"name":"Light In The Darkness","rarity":"common-infinite","stackable":true,"maxStacks":100,"tier":"B","desc":{"en":"Replace one curse option with a common talent, remove one stack. Max 100 stacks.","ru":"Заменяет одно проклятие на обычный талант, снимает один стак. Макс. 100 стаков."},"analysis":{"en":"Anti-curse insurance.","ru":"Страховка от проклятий."}},
-  {"name":"Super Heroic","rarity":"common-infinite","stackable":true,"maxStacks":100,"tier":"A","desc":{"en":"Allied heroic units deal +15% damage and have +35% extra health. Max 100 stacks.","ru":"Героические юниты союзника наносят +15% урона и имеют +35% доп. здоровья. Макс. 100 стаков."},"analysis":{"en":"Amazing with Royal Mercenaries or Champion class.","ru":"Потрясающе с Royal Mercenaries или классом Champion."}},
-  {"name":"Multiclass","rarity":"rare","stackable":false,"tier":"A","desc":{"en":"Enables choosing a second class. Required for multiclass epic talents.","ru":"Позволяет выбрать второй класс. Необходим для мультикласс эпических талантов."},"analysis":{"en":"Gateway to powerful multiclass synergies.","ru":"Путь к мощным мультикласс синергиям."}},
-  {"name":"Tech Reactor","rarity":"rare","stackable":false,"tier":"A","desc":{"en":"Tech Lab and Reactor on the same building.","ru":"Тех. лаборатория и реактор на одном здании."},"analysis":{"en":"Huge production boost.","ru":"Огромный буст производства."}},
-  {"name":"Orbital Command","rarity":"uncommon","stackable":false,"tier":"B","desc":{"en":"Orbital command upgrades available.","ru":"Доступны улучшения орбитального командования."},"analysis":{"en":"MULE and scan utility.","ru":"Утилита MULE и скан."}},
-  {"name":"Automated Refinery","rarity":"uncommon","stackable":false,"tier":"B","desc":{"en":"Refineries automatically harvest gas without workers.","ru":"Рефайнери автоматически добывают газ без рабочих."},"analysis":{"en":"Saves workers for minerals.","ru":"Экономит рабочих для минералов."}}
+  {"name":"Salvage Operation","rarity":"common-infinite","stackable":true,"maxStacks":900,"tier":"A","category":"talent",
+    "desc":{"en":"+300 Minerals instantly, and at the start of each mission. Max 900 stacks.","ru":"+300 минералов мгновенно и в начале каждой миссии. Макс. 900 стаков."},
+    "analysis":{"en":"Essential economy talent for any class that needs resources. Hunter, Paladin (Veneration cost increase), and Warlock (Hybrid costs) benefit most. Take 3-5+ stacks for comfortable play.","ru":"Необходимый экономический талант для любого класса, нуждающегося в ресурсах. Hunter, Paladin (рост стоимости от Veneration) и Warlock (стоимость гибридов) выигрывают больше всего. Берите 3-5+ стаков."}},
+
+  {"name":"Renewable Fuel","rarity":"common-infinite","stackable":true,"maxStacks":900,"tier":"A","category":"talent",
+    "desc":{"en":"+200 Vespene instantly, and at the start of each mission. Max 900 stacks.","ru":"+200 газа мгновенно и в начале каждой миссии. Макс. 900 стаков."},
+    "analysis":{"en":"Important for gas-heavy compositions. Scientist (prototypes cost gas), Wizard (spell units are gas-heavy), and Hunter (expensive mercs) need this most. 2-3 stacks usually sufficient.","ru":"Важен для газо-тяжёлых композиций. Scientist (прототипы стоят газ), Wizard (заклинательные юниты дорогие по газу) и Hunter (дорогие наёмники) нуждаются больше всего. 2-3 стака обычно достаточно."}},
+
+  {"name":"Use More Gun","rarity":"common-infinite","stackable":true,"maxStacks":100,"tier":"S","category":"talent",
+    "desc":{"en":"Allied units deal +6% damage. Max 100 stacks. Also includes every other indirect source of damage, like spells, deathrattles from DK, topbar abilities and more (but not Ripfield Generators).","ru":"Союзные юниты наносят +6% урона. Макс. 100 стаков. Также включает все непрямые источники урона: заклинания, deathrattle от DK, способности топбара и другие (но НЕ Ripfield Generators)."},
+    "analysis":{"en":"Universal DPS boost affecting almost ALL damage sources including spells, deathrattles, and topbar abilities. One of the two best generic infinites. At 50 stacks = +300% damage. Take aggressively.","ru":"Универсальный буст DPS, влияющий почти на ВСЕ источники урона включая заклинания, deathrattle и способности топбара. Один из двух лучших общих бесконечных. При 50 стаках = +300% урона. Берите агрессивно."}},
+
+  {"name":"Medical Breakthrough","rarity":"common-infinite","stackable":true,"maxStacks":100,"tier":"S","category":"talent",
+    "desc":{"en":"Allies gain +8% health. Max 100 stacks.","ru":"Союзники получают +8% здоровья. Макс. 100 стаков."},
+    "analysis":{"en":"Universal HP boost that scales with everything. Multiplicative with class-specific HP bonuses (Deadman's Hardware, Veneration, etc.). At 50 stacks = +400% HP. Take alongside Use More Gun as core generic scaling.","ru":"Универсальный буст HP, масштабирующийся со всем. Мультипликативен с классовыми бонусами HP (Deadman's Hardware, Veneration и т.д.). При 50 стаках = +400% HP. Берите вместе с Use More Gun как основу общего скейлинга."}},
+
+  {"name":"Unobtanium Plating","rarity":"common-infinite","stackable":true,"maxStacks":100,"tier":"B","category":"talent",
+    "desc":{"en":"Allied buildings gain +20% health. Max 100 stacks.","ru":"Союзные здания получают +20% здоровья. Макс. 100 стаков."},
+    "analysis":{"en":"Excellent for Engineer class and defensive missions. Makes turrets, bunkers and planetary fortresses incredibly tanky. Lower priority for mobile army compositions.","ru":"Отлично для класса Engineer и оборонительных миссий. Делает турели, бункеры и планетарные крепости невероятно живучими. Низкий приоритет для мобильных армейских композиций."}},
+
+  {"name":"Accelerated Logistics","rarity":"common-infinite","stackable":true,"maxStacks":100,"tier":"B","category":"talent",
+    "desc":{"en":"Your units move +10% faster. Max 100 stacks.","ru":"Ваши юниты двигаются на +10% быстрее. Макс. 100 стаков."},
+    "analysis":{"en":"Nice quality of life but rarely a priority. Monk class benefits most as it synergizes with movement-based bonuses (Dexterity). A few stacks help with kiting and map traversal.","ru":"Приятный QoL, но редко приоритет. Класс Monk выигрывает больше всего, так как синергирует с бонусами от движения (Dexterity). Пара стаков помогает с кайтингом и передвижением по карте."}},
+
+  {"name":"Light In The Darkness","rarity":"common-infinite","stackable":true,"maxStacks":100,"tier":"B","category":"talent",
+    "desc":{"en":"Replace one curse option with a common talent, remove one stack. Max 100 stacks.","ru":"Заменить одну опцию проклятия на обычный талант, убрать один стак. Макс. 100 стаков."},
+    "analysis":{"en":"Anti-curse insurance. Each stack replaces one curse option you'd be offered with a common talent instead. Consumes itself on use. Good early to avoid snowballing bad curses.","ru":"Страховка от проклятий. Каждый стак заменяет одну предложенную опцию проклятия на обычный талант. Расходует себя при использовании. Хорош рано, чтобы избежать лавины плохих проклятий."}},
+
+  {"name":"Super Heroic","rarity":"common-infinite","stackable":true,"maxStacks":100,"tier":"A","category":"talent",
+    "desc":{"en":"Allied heroic units deal +15% damage and have +35% extra health. Max 100 stacks.","ru":"Героические юниты союзника наносят +15% урона и имеют +35% дополнительного здоровья. Макс. 100 стаков."},
+    "analysis":{"en":"S-tier with Royal Mercenaries (Hunter+Champion) since ALL mercs become heroic. Also excellent with Paladin's Fanaticism (level 5 units become heroic) and Champion's Raynor/Hyperion. Otherwise only affects a handful of hero units.","ru":"S-тир с Royal Mercenaries (Hunter+Champion), так как ВСЕ наёмники становятся героическими. Также отлично с Fanaticism Паладина (юниты 5 уровня становятся героическими) и Raynor/Hyperion Champion. Иначе влияет только на несколько героических юнитов."}},
+
+  {"name":"Multiclass","rarity":"rare","stackable":false,"tier":"A","category":"talent",
+    "desc":{"en":"Enables choosing a second class. Required for multiclass epic talents.","ru":"Позволяет выбрать второй класс. Необходим для мультикласс эпических талантов."},
+    "analysis":{"en":"Gateway to powerful multiclass synergies and unique epic talents. Some of the strongest builds in the game require multiclass (Royal Mercenaries, Oathbreaker, Hardware Amplification). Take when you have a specific multiclass plan.","ru":"Путь к мощным мультикласс синергиям и уникальным эпическим талантам. Некоторые из сильнейших билдов в игре требуют мультикласс (Royal Mercenaries, Oathbreaker, Hardware Amplification). Берите когда есть конкретный план мультикласса."}},
+
+  {"name":"Tech Reactor","rarity":"rare","stackable":false,"tier":"A","category":"talent",
+    "desc":{"en":"Tech Lab and Reactor on the same building.","ru":"Тех. лаборатория и реактор на одном здании."},
+    "analysis":{"en":"Massive production boost — build tech units in pairs. Normally you choose between tech lab (advanced units) or reactor (double production). This gives both. Especially powerful for Scientist (mass prototyped units) and any composition needing advanced units quickly.","ru":"Массивный буст производства — стройте техничных юнитов парами. Обычно выбираете между тех. лабораторией (продвинутые юниты) или реактором (двойное производство). Это даёт оба. Особенно мощно для Scientist (массовые прототипные юниты) и любой композиции, нуждающейся в продвинутых юнитах быстро."}},
+
+  {"name":"Orbital Command","rarity":"uncommon","stackable":false,"tier":"B","category":"talent",
+    "desc":{"en":"Orbital Command upgrades available.","ru":"Доступны улучшения орбитального командования."},
+    "analysis":{"en":"Gives access to MULE (temporary mineral mining boost), Scanner Sweep (reveal map area), and Supply Drop. Good economy and scouting utility, but not essential for most builds.","ru":"Даёт доступ к MULE (временный буст добычи минералов), Scanner Sweep (открытие области карты) и Supply Drop. Хорошая экономическая и разведывательная утилита, но не критично для большинства билдов."}},
+
+  {"name":"Automated Refinery","rarity":"uncommon","stackable":false,"tier":"B","category":"talent",
+    "desc":{"en":"Refineries automatically harvest gas without workers.","ru":"Рефайнери автоматически добывают газ без рабочих."},
+    "analysis":{"en":"Frees 3 workers per geyser for mineral mining. Solid economy boost especially on maps with many geysers. Less impactful than Salvage Operation/Renewable Fuel direct income.","ru":"Освобождает 3 рабочих с каждого гейзера для добычи минералов. Солидный экономический буст, особенно на картах с множеством гейзеров. Менее эффективен чем прямой доход от Salvage Operation/Renewable Fuel."}},
+
+  {"name":"Arms Race","rarity":"common-infinite","stackable":true,"maxStacks":100,"tier":"C","category":"curse",
+    "desc":{"en":"Enemies deal +15% damage. Max 100 stacks.","ru":"Враги наносят +15% урона. Макс. 100 стаков."},
+    "analysis":{"en":"Each stack makes enemies hit 15% harder. At 5 stacks enemies deal +75% damage. Manageable if your units are tanky (high DH stacks, Medical Breakthrough), but snowballs dangerously. Ban early if alternatives are tolerable.","ru":"Каждый стак делает врагов на 15% больнее. При 5 стаках враги наносят +75% урона. Управляемо если ваши юниты живучие (высокие стаки DH, Medical Breakthrough), но опасно нарастает. Баньте рано если альтернативы терпимы."}},
+
+  {"name":"Extra Plating","rarity":"common-infinite","stackable":true,"maxStacks":100,"tier":"C","category":"curse",
+    "desc":{"en":"Enemy units gain +1 armor. Max 100 stacks.","ru":"Вражеские юниты получают +1 брони. Макс. 100 стаков."},
+    "analysis":{"en":"Each stack gives all enemies +1 armor, reducing damage from each hit. Most painful for fast-attacking low-damage units (Marines). Less impactful against high-damage units (Siege Tanks, Thors). A few stacks are tolerable, but 5+ gets rough.","ru":"Каждый стак даёт всем врагам +1 брони, уменьшая урон от каждого удара. Больнее всего для быстро-атакующих маломощных юнитов (Marines). Менее заметно против высоко-урональных юнитов (Siege Tanks, Thors). Пара стаков терпима, но 5+ становится тяжко."}},
+
+  {"name":"Fiendish Fortitude","rarity":"common-infinite","stackable":true,"maxStacks":100,"tier":"C","category":"curse",
+    "desc":{"en":"Enemies gain +20% health. Max 100 stacks.","ru":"Враги получают +20% здоровья. Макс. 100 стаков."},
+    "analysis":{"en":"Each stack makes enemies 20% tankier. At 5 stacks enemies have double HP. Directly countered by Use More Gun stacks. Take if you have strong DPS scaling, ban if your damage is lagging.","ru":"Каждый стак делает врагов на 20% живучее. При 5 стаках у врагов двойное HP. Напрямую противостоит стакам Use More Gun. Берите если у вас сильное масштабирование DPS, баньте если ваш урон отстаёт."}},
+
+  {"name":"Swarming Reinforcements","rarity":"common-infinite","stackable":true,"maxStacks":900,"tier":"D","category":"curse",
+    "desc":{"en":"Enemy attack waves send +25% extra units. Max 900 stacks.","ru":"Вражеские атакующие волны отправляют +25% дополнительных юнитов. Макс. 900 стаков."},
+    "analysis":{"en":"DANGEROUS infinite curse. Each stack adds 25% more units to every enemy wave. At 4 stacks enemies send DOUBLE waves. Snowballs catastrophically. Necromancer actually benefits (more kills = more Infested). Ban for most other classes.","ru":"ОПАСНОЕ бесконечное проклятие. Каждый стак добавляет 25% юнитов к каждой вражеской волне. При 4 стаках враги отправляют ДВОЙНЫЕ волны. Катастрофически нарастает. Некромант реально выигрывает (больше убийств = больше Заражённых). Баньте для большинства других классов."}},
+
+  {"name":"Blackout","rarity":"uncommon","stackable":false,"tier":"D","category":"curse",
+    "desc":{"en":"Fog of war is completely dark, hiding all items not in vision.","ru":"Туман войны полностью тёмный, скрывает всё, что не в зоне видимости."},
+    "analysis":{"en":"Removes minimap awareness. You can't see anything outside your units' vision — no terrain memory. Makes defending against surprise attacks extremely difficult. Decide early: if you take it, adapt your scouting. If not, ban immediately.","ru":"Убирает видимость на миникарте. Вы не видите ничего за пределами видимости юнитов — нет памяти местности. Крайне затрудняет оборону от внезапных атак. Решайте рано: если берёте — адаптируйте разведку. Если нет — баньте немедленно."}},
+
+  {"name":"Chrono Dilation","rarity":"uncommon","stackable":false,"tier":"C","category":"curse",
+    "desc":{"en":"Enemies attack, move and operate 15% faster.","ru":"Враги атакуют, двигаются и действуют на 15% быстрее."},
+    "analysis":{"en":"Global 15% speed buff for all enemies — attacks, movement, production. Functionally similar to Arms Race but also affects move speed and production rate. Moderate impact, tolerable in most cases.","ru":"Глобальный 15% буст скорости для всех врагов — атаки, движение, производство. Функционально похоже на Arms Race, но также влияет на скорость движения и производства. Умеренное влияние, терпимо в большинстве случаев."}},
+
+  {"name":"Supply Disruption","rarity":"uncommon","stackable":true,"maxStacks":4,"tier":"C","category":"curse",
+    "desc":{"en":"Maximum supply is reduced by -25. Max 4 stacks.","ru":"Максимальный supply уменьшен на -25. Макс. 4 стака."},
+    "analysis":{"en":"Each stack removes 25 supply cap. At 4 stacks you lose 100 supply — nearly half your army capacity. 1-2 stacks are manageable, 3+ severely limits army size. Worse for mass-unit compositions, better for elite-few-unit builds.","ru":"Каждый стак убирает 25 supply cap. При 4 стаках вы теряете 100 supply — почти половину вместимости армии. 1-2 стака управляемы, 3+ серьёзно ограничивают размер армии. Хуже для масс-юнит композиций, лучше для элитных малоюнитных билдов."}},
+
+  {"name":"Worker Harassment","rarity":"uncommon","stackable":false,"tier":"C","category":"curse",
+    "desc":{"en":"Periodic enemy air unit raids on your workers.","ru":"Периодические рейды вражеских воздушных юнитов на ваших рабочих."},
+    "analysis":{"en":"Air units periodically attack your mineral lines. Need anti-air defense or turrets near bases. Engineer handles this easily. Annoying but manageable with basic defenses.","ru":"Воздушные юниты периодически атакуют ваши линии добычи. Нужна ПВО или турели у баз. Engineer справляется легко. Раздражает, но управляемо с базовой обороной."}},
+
+  {"name":"Stimpack Addiction","rarity":"uncommon","stackable":false,"tier":"C","category":"curse",
+    "desc":{"en":"Units randomly use stimpack ability outside combat.","ru":"Юниты случайно используют стимпак вне боя."},
+    "analysis":{"en":"Units randomly stim themselves, losing HP for no benefit. Needs attention or auto-heal (Medics). Only affects stim-capable units (Marines, Marauders, Firebats). Annoying but rarely lethal with decent healing.","ru":"Юниты случайно стимятся, теряя HP без пользы. Нужно внимание или авто-лечение (Медики). Влияет только на юниты со стимом (Marines, Marauders, Firebats). Раздражает, но редко смертельно с хорошим лечением."}},
+
+  {"name":"Mira's Bargain","rarity":"uncommon","stackable":false,"tier":"D","category":"curse",
+    "desc":{"en":"Automatically purchases medivacs or vultures for 6000 minerals when you can afford it.","ru":"Автоматически покупает медивак или вультуру за 6000 минералов, когда можете себе позволить."},
+    "analysis":{"en":"Drains 6000 minerals whenever you accumulate enough. Devastating for economy. Prevents saving up for expensive purchases. One of the worst curses — ban if possible.","ru":"Высасывает 6000 минералов, когда накопите достаточно. Разрушительно для экономики. Не даёт копить на дорогие покупки. Одно из худших проклятий — баньте если возможно."}},
+
+  {"name":"Pull The Boys!","rarity":"uncommon","stackable":false,"tier":"C","category":"curse",
+    "desc":{"en":"SCVs are added to army select button.","ru":"SCV добавляются к кнопке выбора армии."},
+    "analysis":{"en":"Pressing the select-all-army hotkey now includes SCVs, pulling them away from mining. Annoying for macro. Adapt by using control groups instead of army select. Tolerable if you're disciplined.","ru":"Нажатие горячей клавиши выбора всей армии теперь включает SCV, вытаскивая их из добычи. Раздражает для макро. Адаптируйтесь, используя контрольные группы вместо выбора армии. Терпимо если вы дисциплинированы."}},
+
+  {"name":"Bullets From Lowest Bidder","rarity":"uncommon","stackable":false,"tier":"C","category":"curse",
+    "desc":{"en":"Your Marines and War Pigs lose the ability to attack air units.","ru":"Ваши Marines и War Pigs теряют возможность атаковать воздушные юниты."},
+    "analysis":{"en":"Removes anti-air from your cheapest and most numerous ground unit. Critical for Hunter since War Pigs are affected! Need alternative AA (Goliaths, Vikings, Missile Turrets). Worse on missions with heavy air attacks.","ru":"Убирает ПВО у самого дешёвого и массового наземного юнита. Критично для Hunter, так как War Pigs тоже затронуты! Нужна альтернативная ПВО (Goliaths, Vikings, Missile Turrets). Хуже на миссиях с интенсивными воздушными атаками."}},
+
+  {"name":"Armor Shredder","rarity":"uncommon","stackable":false,"tier":"C","category":"curse",
+    "desc":{"en":"Enemy Marines, Zerglings, and Zealots stack -0.5 armor debuff per attack on your units.","ru":"Вражеские Marines, Зерглинги и Zealots накладывают -0.5 брони за каждую атаку на ваши юниты."},
+    "analysis":{"en":"Fast-attacking light enemy units strip your armor over time. Painful against zerg (mass zergling) and terran (mass marine) waves. Armor becomes negative, increasing damage taken. Heavy armor units affected worst.","ru":"Быстро-атакующие лёгкие вражеские юниты снимают вашу броню со временем. Болезненно против зергов (масс зерглингов) и террановских (масс marines) волн. Броня становится отрицательной, увеличивая получаемый урон. Тяжело-бронированные юниты страдают больше."}},
+
+  {"name":"Carrion Swarm","rarity":"uncommon","stackable":true,"maxStacks":5,"tier":"C","category":"curse",
+    "desc":{"en":"Killing enemies triggers zerg drop pods. Stacks improve chance, cooldown, and unit quality.","ru":"Убийство врагов вызывает зерговские десантные капсулы. Стаки улучшают шанс, кулдаун и качество юнитов."},
+    "analysis":{"en":"Killed enemies can spawn hostile zerg units via drop pods. More stacks = more frequent spawns with better units. Creates constant pressure. Necromancer benefits slightly (more kills to reanimate). Most classes should ban this.","ru":"Убитые враги могут порождать враждебных зерговских юнитов через десантные капсулы. Больше стаков = более частые появления с лучшими юнитами. Создаёт постоянное давление. Некромант слегка выигрывает (больше убийств для реанимации). Большинству классов стоит банить."}},
+
+  {"name":"Deathless Propaganda","rarity":"uncommon","stackable":false,"tier":"C","category":"curse",
+    "desc":{"en":"Nearby allies suffer +10% damage for 10 seconds when one of your units dies. Stacks up to 10 times.","ru":"Ближайшие союзники получают +10% урона на 10 секунд, когда один из ваших юнитов гибнет. Стакается до 10 раз."},
+    "analysis":{"en":"Cascade death penalty: losing units makes survivors take more damage, leading to more deaths. At 10 stacks = +100% incoming damage. Extremely dangerous for army-loss scenarios. Especially bad for Paladin (Moment of Silence curse stacks similarly).","ru":"Каскадный штраф за смерть: потеря юнитов заставляет выживших получать больше урона, ведя к новым смертям. При 10 стаках = +100% входящего урона. Крайне опасно при потере армии. Особенно плохо для Paladin (проклятие Moment of Silence стакается аналогично)."}},
+
+  {"name":"Juggernaut Chitin","rarity":"uncommon","stackable":false,"tier":"B","category":"curse",
+    "desc":{"en":"Enemy Firebats, Roaches and Stalkers gain +2 armor.","ru":"Вражеские Firebats, Roaches и Stalkers получают +2 брони."},
+    "analysis":{"en":"Only affects three specific enemy unit types. If the mission doesn't feature these enemies heavily, it's nearly free. One of the safer curses to take.","ru":"Влияет только на три конкретных типа вражеских юнитов. Если миссия не изобилует этими врагами — почти бесплатно. Одно из более безопасных проклятий."}},
+
+  {"name":"Suppressing Fire","rarity":"uncommon","stackable":false,"tier":"B","category":"curse",
+    "desc":{"en":"Enemy Marauders, Hydralisks and Stalkers gain +25% attack speed.","ru":"Вражеские Marauders, Hydralisks и Stalkers получают +25% скорости атаки."},
+    "analysis":{"en":"Affects three common enemy types but only their attack speed. More impactful than Juggernaut Chitin since these units are more common. Still limited in scope — a reasonable curse to take if alternatives are worse.","ru":"Влияет на три распространённых типа врагов, но только на их скорость атаки. Более заметно чем Juggernaut Chitin, так как эти юниты чаще встречаются. Но всё ещё ограничено — разумное проклятие, если альтернативы хуже."}},
+
+  {"name":"We Control The Skies","rarity":"uncommon","stackable":false,"tier":"C","category":"curse",
+    "desc":{"en":"Enemy Battlecruisers, Brood Lords, Leviathans, Carriers and Tempests gain +2 range.","ru":"Вражеские Battlecruisers, Brood Lords, Leviathans, Carriers и Tempests получают +2 дальности."},
+    "analysis":{"en":"Only affects heavy air enemies. Dangerous on missions like Maw of the Void (Bronze Armada challenge) where these units are common. Safe on most ground-focused missions.","ru":"Влияет только на тяжёлых воздушных врагов. Опасно на миссиях типа Maw of the Void (челлендж Bronze Armada), где эти юниты частые. Безопасно на большинстве наземных миссий."}},
+
+  {"name":"Super Massive","rarity":"uncommon","stackable":false,"tier":"B","category":"curse",
+    "desc":{"en":"Enemy Thors, Ultralisks, and Colossi gain +50% health and size but -30% movement speed, halved attack speed, and +200% damage.","ru":"Вражеские Thors, Ultralisks и Colossi получают +50% здоровья и размера, но -30% скорости движения, вдвое уменьшенную скорость атаки и +200% урона."},
+    "analysis":{"en":"Turns these heavy units into slow mini-bosses that hit extremely hard. Easier to kite but devastating if they reach your army. More of a trade-off than a pure debuff — their slower speed often helps you.","ru":"Превращает этих тяжёлых юнитов в медленных мини-боссов, бьющих крайне больно. Легче кайтить, но разрушительны если достанут вашу армию. Больше компромисс, чем чистый дебафф — их медлительность часто помогает вам."}}
 ]
