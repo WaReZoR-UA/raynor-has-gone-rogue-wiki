@@ -1,0 +1,488 @@
+{
+  "id": "druid",
+  "name": "Druid",
+  "icon": "🦌",
+  "color": "#65a30d",
+  "subtitle": {
+    "en": "Embrace the Swarm. Become the Hive.",
+    "ru": "Прими Рой. Стань Ульем."
+  },
+  "summary": {
+    "en": "The Druid specializes in Zerg infestation and biological transformation, converting Terran units and structures into powerful infested versions. This class spawns Zerg units, infests buildings for bonus production, and eventually transforms the entire army into a hybrid Terran-Zerg force. The Druid is one of the most unique classes in the game, fundamentally changing how you play by adding Zerg mechanics to a Terran campaign. Cannot multiclass with Psychic, Sorcerer, Bard, Monk, Gambler, or Mad Genius.",
+    "ru": "Друид специализируется на заражении зергами и биологической трансформации, превращая терранские юниты и строения в мощные заражённые версии. Этот класс порождает юнитов зергов, заражает здания для бонусного производства и в итоге трансформирует всю армию в гибридную терранско-зерговскую силу. Друид — один из самых уникальных классов в игре, фундаментально меняющий стиль игры добавлением механик зергов в терранскую кампанию. Не может мультиклассить с Псиоником, Колдуном, Бардом, Монахом, Игроком или Безумным Гением."
+  },
+  "unlock": {
+    "en": "Complete All In",
+    "ru": "Пройдите All In"
+  },
+  "stats": [
+    {"value": "S", "label": {"en": "Army diversity", "ru": "Разнообразие армии"}},
+    {"value": "A", "label": {"en": "Sustained DPS", "ru": "Продолжительный DPS"}},
+    {"value": "A", "label": {"en": "Swarm economy", "ru": "Экономика роя"}},
+    {"value": "C", "label": {"en": "Micromanagement demand", "ru": "Требования к микро"}}
+  ],
+  "strengths": [
+    {"en": "Adds powerful Zerg units to your Terran army", "ru": "Добавляет мощных юнитов зергов к вашей терранской армии"},
+    {"en": "Infested buildings provide free reinforcements", "ru": "Заражённые здания дают бесплатные подкрепления"},
+    {"en": "Overwhelming numbers through spawning mechanics", "ru": "Подавляющее численное превосходство через механику порождения"},
+    {"en": "Strong synergy with biological damage upgrades", "ru": "Сильная синергия с улучшениями биологического урона"}
+  ],
+  "weaknesses": [
+    {"en": "Cannot multiclass with 6 classes — severely limits options", "ru": "Не может мультиклассить с 6 классами — сильно ограничивает выбор"},
+    {"en": "Zerg units are individually weaker — relies on numbers", "ru": "Юниты зергов индивидуально слабее — полагается на численность"},
+    {"en": "High micro requirement to manage two races", "ru": "Высокие требования к микро для управления двумя расами"},
+    {"en": "Infestation mechanics take time to ramp up", "ru": "Механики заражения требуют времени для раскачки"}
+  ],
+  "talents": [
+    {
+      "name": "Infestation",
+      "rarity": "core",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Unlock Infested Command Center. Infested buildings spawn Infested Terrans every 30 seconds. You can build Spine Crawlers and Spore Crawlers.",
+        "ru": "Разблокирует Заражённый Командный Центр. Заражённые здания порождают Заражённых Терранов каждые 30 секунд. Вы можете строить Шипастые и Споровые Ползуны."
+      },
+      "analysis": {
+        "en": "The gateway to all Druid gameplay. Infested buildings are free unit factories — infest every Command Center ASAP. Spine/Spore Crawlers provide excellent static defense.",
+        "ru": "Врата ко всему геймплею Друида. Заражённые здания — бесплатные фабрики юнитов. Заражайте каждый Командный Центр как можно скорее. Шипастые/Споровые Ползуны дают отличную статическую оборону."
+      }
+    },
+    {
+      "name": "Spawning Pool",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Unlock Zerglings and Banelings. Zerglings spawn in pairs and cost no supply.",
+        "ru": "Разблокирует Зерглингов и Банелингов. Зерглинги порождаются парами и не стоят снабжения."
+      },
+      "analysis": {
+        "en": "Free supply Zerglings are incredible — they provide infinite expendable units for tanking, scouting, and swarming. Banelings add powerful splash damage.",
+        "ru": "Бесплатные по снабжению Зерглинги невероятны — они дают бесконечные расходные юниты для танкования, разведки и роения. Банелинги добавляют мощный площадной урон."
+      }
+    },
+    {
+      "name": "Hydralisk Den",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Unlock Hydralisks. They gain +20% attack speed when near infested buildings.",
+        "ru": "Разблокирует Гидралисков. Они получают +20% скорости атаки рядом с заражёнными зданиями."
+      },
+      "analysis": {
+        "en": "Hydralisks are excellent ranged DPS. The attack speed bonus near infested buildings incentivizes fighting near your base — great for defense missions.",
+        "ru": "Гидралиски — отличный дальнобойный DPS. Бонус скорости атаки рядом с заражёнными зданиями стимулирует бой вблизи базы — отлично для оборонительных миссий."
+      }
+    },
+    {
+      "name": "Creep Spread",
+      "rarity": "common",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Infested buildings spread creep. All allied units on creep gain +15% movement speed and +1 HP/s regeneration.",
+        "ru": "Заражённые здания распространяют крип. Все союзные юниты на крипе получают +15% скорости движения и +1 HP/с регенерации."
+      },
+      "analysis": {
+        "en": "The movement speed is nice for Zerg units, and creep spreads quickly from infested buildings. Less useful on attack maps where you push forward.",
+        "ru": "Скорость движения полезна для юнитов зергов, а крип быстро распространяется от заражённых зданий. Менее полезен на атакующих картах."
+      }
+    },
+    {
+      "name": "Mutalisk Roost",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Unlock Mutalisks. Their bounce attack hits +2 additional targets.",
+        "ru": "Разблокирует Муталисков. Их отскакивающая атака поражает +2 дополнительные цели."
+      },
+      "analysis": {
+        "en": "Mutalisks with extra bounces shred clustered enemies. Excellent harassment unit that complements Terran ground forces perfectly.",
+        "ru": "Муталиски с дополнительными отскоками разрывают скученных врагов. Отличный юнит для харассмента, идеально дополняющий наземные силы терранов."
+      }
+    },
+    {
+      "name": "Brood Lord Ascension",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Unlock Brood Lords (morphed from Mutalisks). Brood Lords spawn Broodlings on attack that last 15 seconds.",
+        "ru": "Разблокирует Владык Стаи (мутируют из Муталисков). Владыки Стаи порождают Бродлингов при атаке, живущих 15 секунд."
+      },
+      "analysis": {
+        "en": "Brood Lords are devastating siege units. Each attack spawns free Broodlings that tank and DPS. Combined with Terran anti-air, they're nearly unstoppable.",
+        "ru": "Владыки Стаи — разрушительные осадные юниты. Каждая атака порождает бесплатных Бродлингов для танкования и DPS. В сочетании с терранским ПВО они почти неудержимы."
+      }
+    },
+    {
+      "name": "Hive Mind",
+      "rarity": "common-infinite",
+      "tier": "A",
+      "stackable": true,
+      "maxStacks": 50,
+      "desc": {
+        "en": "All Zerg units gain +4% damage and +4% HP per stack. Max 50 stacks.",
+        "ru": "Все юниты зергов получают +4% урона и +4% HP за стак. Макс. 50 стаков."
+      },
+      "analysis": {
+        "en": "Essential scaling for your Zerg army. Stack this aggressively — even Zerglings become dangerous with high stacks.",
+        "ru": "Необходимое масштабирование для армии зергов. Стакайте агрессивно — даже Зерглинги становятся опасными с высокими стаками."
+      }
+    },
+    {
+      "name": "Infested Armory",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Terran biological units can be infested, gaining +30% HP, +10% damage, and a toxic death explosion.",
+        "ru": "Терранские биологические юниты могут быть заражены, получая +30% HP, +10% урона и токсичный взрыв при смерти."
+      },
+      "analysis": {
+        "en": "Infesting your own Marines/Marauders makes them significantly stronger. The death explosion is a nice bonus against melee enemies.",
+        "ru": "Заражение собственных Морпехов/Мародёров делает их значительно сильнее. Взрыв при смерти — приятный бонус против юнитов ближнего боя."
+      }
+    },
+    {
+      "name": "Ultralisk Cavern",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Unlock Ultralisks. They have cleave damage and +4 base armor.",
+        "ru": "Разблокирует Ультралисков. Они имеют рассекающий урон и +4 базовой брони."
+      },
+      "analysis": {
+        "en": "Ultralisks are the ultimate frontline tanks for your Zerg army. Cleave damage handles swarms while armor makes them durable. Use them to protect ranged units.",
+        "ru": "Ультралиски — ультимативные танки переднего края для армии зергов. Рассекающий урон обрабатывает толпы, а броня делает их прочными. Используйте для защиты дальнобойных юнитов."
+      }
+    },
+    {
+      "name": "Swarm Queen",
+      "rarity": "epic",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Spawn a heroic Swarm Queen unit. She can transfuse allies (heal 125 HP), spawn 4 Zerglings, and has an aura granting +15% attack speed to nearby Zerg units.",
+        "ru": "Порождает героического юнита Королеву Роя. Она может переливать союзникам (лечит 125 HP), порождать 4 Зерглингов и имеет ауру, дающую +15% скорости атаки ближайшим юнитам зергов."
+      },
+      "analysis": {
+        "en": "An incredible hero unit. Transfuse keeps key units alive, Zergling spawn provides constant reinforcements, and the aura boosts your entire Zerg army. Protect her at all costs.",
+        "ru": "Невероятный героический юнит. Переливание сохраняет ключевые юниты живыми, порождение Зерглингов даёт постоянные подкрепления, а аура усиливает всю армию зергов. Защищайте её любой ценой."
+      }
+    },
+    {
+      "name": "Adaptive Carapace",
+      "rarity": "epic",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "All Zerg units gain +2 armor and evolve: Zerglings gain burrow, Hydralisks gain +2 range, Mutalisks gain +20% speed, Ultralisks gain +50% HP.",
+        "ru": "Все юниты зергов получают +2 брони и эволюционируют: Зерглинги получают зарывание, Гидралиски +2 дальность, Муталиски +20% скорость, Ультралиски +50% HP."
+      },
+      "analysis": {
+        "en": "Massive quality-of-life and power boost for all Zerg units. Hydralisk range and Ultralisk HP are the standout upgrades. Take this whenever offered.",
+        "ru": "Массивный буст удобства и мощи для всех юнитов зергов. Дальность Гидралисков и HP Ультралисков — выдающиеся улучшения. Берите при каждом предложении."
+      }
+    },
+    {
+      "name": "Nydus Network",
+      "rarity": "uncommon",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Unlock Nydus Worms. Units can travel between Nydus Worms instantly. Nydus Worms spawn 2 Zerglings when they emerge.",
+        "ru": "Разблокирует Нидус-Червей. Юниты могут мгновенно перемещаться между Нидус-Червями. Нидус-Черви порождают 2 Зерглингов при появлении."
+      },
+      "analysis": {
+        "en": "Incredible mobility tool. Move your entire army across the map instantly. The free Zerglings on emergence are a nice bonus.",
+        "ru": "Невероятный инструмент мобильности. Перемещайте всю армию через карту мгновенно. Бесплатные Зерглинги при появлении — приятный бонус."
+      }
+    }
+  ],
+  "builds": [
+    {
+      "name": {"en": "Full Swarm", "ru": "Полный Рой"},
+      "subtitle": {"en": "Overwhelm with Zerg numbers", "ru": "Подавляйте численностью зергов"},
+      "desc": {
+        "en": "Go all-in on Zerg units. Spawning Pool for free Zerglings, Hive Mind for scaling, and Swarm Queen for command. The goal is to flood the map with cheap, buffed Zerg units that overwhelm any defense through sheer numbers.",
+        "ru": "Идите ва-банк на юнитах зергов. Spawning Pool для бесплатных Зерглингов, Hive Mind для масштабирования и Swarm Queen для командования. Цель — затопить карту дешёвыми, забаффанными юнитами зергов, подавляющими любую оборону чистой численностью."
+      },
+      "tags": [
+        {"name": "Infestation", "type": "core"},
+        {"name": "Spawning Pool", "type": "required"},
+        {"name": "Hive Mind", "type": "required"},
+        {"name": "Swarm Queen", "type": "required"},
+        {"name": "Hydralisk Den", "type": "optional"},
+        {"name": "Use More Gun", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"},
+          "text": {
+            "en": "Infest your Command Center immediately. Build Spawning Pool ASAP for free Zerglings. Use Terran bio as filler while Zerg army grows. Stack Hive Mind whenever offered.",
+            "ru": "Немедленно заразите Командный Центр. Постройте Spawning Pool как можно скорее для бесплатных Зерглингов. Используйте терранское био как наполнитель пока армия зергов растёт. Стакайте Hive Mind при каждом предложении."
+          }
+        },
+        {
+          "title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"},
+          "text": {
+            "en": "Your Zergling swarm should be self-sustaining now. Add Hydralisks for ranged DPS. Swarm Queen transforms your army's effectiveness with heals and aura. Keep stacking Hive Mind.",
+            "ru": "Ваш рой Зерглингов должен быть самодостаточным. Добавьте Гидралисков для дальнобойного DPS. Swarm Queen трансформирует эффективность армии лечением и аурой. Продолжайте стакать Hive Mind."
+          }
+        },
+        {
+          "title": {"en": "Late (16+)", "ru": "Поздняя (16+)"},
+          "text": {
+            "en": "With high Hive Mind stacks, even Zerglings hit hard. Your army should be 80%+ Zerg at this point. Use Nydus Worms for map control. For All In, flood with everything you have.",
+            "ru": "С высокими стаками Hive Mind даже Зерглинги бьют сильно. Ваша армия должна быть 80%+ зергов. Используйте Нидус-Червей для контроля карты. Для All In бросайте всё что есть."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Zerglings cost no supply — build unlimited amounts as cannon fodder", "ru": "Зерглинги не стоят снабжения — стройте неограниченно как пушечное мясо"},
+        {"en": "Swarm Queen's Transfuse should target Ultralisks or Hydralisks — not Zerglings", "ru": "Переливание Королевы Роя нацеливайте на Ультралисков или Гидралисков — не на Зерглингов"},
+        {"en": "Use More Gun affects Zerg units too — it's still essential", "ru": "Use More Gun влияет и на юнитов зергов — он по-прежнему необходим"}
+      ]
+    },
+    {
+      "name": {"en": "Hybrid Army", "ru": "Гибридная Армия"},
+      "subtitle": {"en": "Best of both Terran and Zerg", "ru": "Лучшее от Терранов и Зергов"},
+      "desc": {
+        "en": "Use Infested Armory to buff Terran bio with infestation while adding Zerg air (Mutalisks, Brood Lords) for support. This creates a flexible combined-arms force that handles any situation.",
+        "ru": "Используйте Infested Armory для баффа терранского био заражением, добавляя воздух зергов (Муталиски, Владыки Стаи) для поддержки. Это создаёт гибкую комбинированную силу для любой ситуации."
+      },
+      "tags": [
+        {"name": "Infestation", "type": "core"},
+        {"name": "Infested Armory", "type": "required"},
+        {"name": "Mutalisk Roost", "type": "required"},
+        {"name": "Brood Lord Ascension", "type": "optional"},
+        {"name": "Hive Mind", "type": "optional"},
+        {"name": "Medical Breakthrough", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"},
+          "text": {
+            "en": "Build normal Terran bio (Marines, Medics, Marauders). Once you get Infested Armory, infest them for +30% HP and +10% damage. Start Mutalisk production when economy allows.",
+            "ru": "Стройте обычное терранское био (Морпехи, Медики, Мародёры). Получив Infested Armory, заразите их для +30% HP и +10% урона. Начните производство Муталисков когда экономика позволит."
+          }
+        },
+        {
+          "title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"},
+          "text": {
+            "en": "Infested Marines are your frontline, Mutalisks handle air and harass. Morph Mutalisks into Brood Lords for siege capability. Your army can handle any composition.",
+            "ru": "Заражённые Морпехи — ваш фронт, Муталиски берут воздух и харассят. Мутируйте Муталисков во Владык Стаи для осадных возможностей. Ваша армия справится с любым составом."
+          }
+        },
+        {
+          "title": {"en": "Late (16+)", "ru": "Поздняя (16+)"},
+          "text": {
+            "en": "Full hybrid force: infested bio on the ground, Brood Lords in the air, Ultralisks tanking. This is one of the most versatile late-game armies in the game.",
+            "ru": "Полная гибридная сила: заражённое био на земле, Владыки Стаи в воздухе, Ультралиски танкуют. Это одна из самых универсальных армий лейт-гейма в игре."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Infested Terran bio still benefits from Terran upgrades — research both Terran and Zerg upgrades", "ru": "Заражённое терранское био получает выгоду от терранских улучшений — исследуйте и терранские и зерговские апгрейды"},
+        {"en": "Brood Lords are slow — use Nydus Worms or Medivac transport for repositioning", "ru": "Владыки Стаи медленны — используйте Нидус-Червей или Медиваки для перемещения"},
+        {"en": "The death explosion from Infested Armory makes infested Marines effective even when they die", "ru": "Взрыв при смерти от Infested Armory делает заражённых Морпехов эффективными даже когда они гибнут"}
+      ]
+    },
+    {
+      "name": {"en": "Brood Lord Siege", "ru": "Осада Владыками Стаи"},
+      "subtitle": {"en": "Unstoppable aerial assault", "ru": "Неудержимый воздушный штурм"},
+      "desc": {
+        "en": "Rush to Brood Lords through Mutalisk Roost and Brood Lord Ascension. Brood Lords attack from range, spawn Broodlings, and with Adaptive Carapace become virtually untouchable. Use Terran ground as anti-air escort.",
+        "ru": "Рвитесь к Владыкам Стаи через Mutalisk Roost и Brood Lord Ascension. Владыки Стаи атакуют с дистанции, порождают Бродлингов и с Adaptive Carapace становятся практически неприкосновенными. Используйте терранскую землю как ПВО-эскорт."
+      },
+      "tags": [
+        {"name": "Infestation", "type": "core"},
+        {"name": "Mutalisk Roost", "type": "required"},
+        {"name": "Brood Lord Ascension", "type": "required"},
+        {"name": "Adaptive Carapace", "type": "required"},
+        {"name": "Hive Mind", "type": "optional"},
+        {"name": "Renewable Fuel", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"},
+          "text": {
+            "en": "Use Terran army for early missions. Build gas infrastructure aggressively — Brood Lords are expensive. Take Mutalisk Roost as first priority.",
+            "ru": "Используйте терранскую армию для ранних миссий. Агрессивно стройте газовую инфраструктуру — Владыки Стаи дороги. Берите Mutalisk Roost как первый приоритет."
+          }
+        },
+        {
+          "title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"},
+          "text": {
+            "en": "Once you have Brood Lord Ascension, start morphing Mutalisks. Even 2-3 Brood Lords change the game — their Broodlings create a constant frontline while they siege safely.",
+            "ru": "Получив Brood Lord Ascension, начинайте мутировать Муталисков. Даже 2-3 Владыки Стаи меняют игру — их Бродлинги создают постоянный фронт пока они осаждают безопасно."
+          }
+        },
+        {
+          "title": {"en": "Late (16+)", "ru": "Поздняя (16+)"},
+          "text": {
+            "en": "With Adaptive Carapace, Brood Lords are armored flying siege engines. Keep Marines/Vikings underneath for anti-air escort. Your Broodlings tank while Brood Lords deal devastating damage.",
+            "ru": "С Adaptive Carapace Владыки Стаи — бронированные летающие осадные машины. Держите Морпехов/Викингов внизу для ПВО-эскорта. Ваши Бродлинги танкуют пока Владыки Стаи наносят разрушительный урон."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Brood Lords hard-counter any ground army — their Broodlings absorb all damage", "ru": "Владыки Стаи хард-контрят любую наземную армию — их Бродлинги поглощают весь урон"},
+        {"en": "Keep anti-air escort nearby — Vikings or Goliaths protect against air threats", "ru": "Держите ПВО-эскорт рядом — Викинги или Голиафы защитят от воздушных угроз"},
+        {"en": "Renewable Fuel is critical — you'll need 3-4+ stacks for constant Brood Lord production", "ru": "Renewable Fuel критичен — вам нужно 3-4+ стака для постоянного производства Владык Стаи"}
+      ]
+    }
+  ],
+  "multiclass_epics": [
+    {
+      "name": "Heroes Of The Swarm",
+      "classes": ["Druid", "Champion"],
+      "tier": "S",
+      "desc": {
+        "en": "Heroic units become infested, gaining +40% HP, +20% damage, and toxic blood (melee attackers take 10 damage per hit). Swarm Queen becomes a super-heroic unit.",
+        "ru": "Героические юниты становятся заражёнными, получая +40% HP, +20% урона и токсичную кровь (атакующие в ближнем бою получают 10 урона за удар). Королева Роя становится супер-героическим юнитом."
+      },
+      "analysis": {
+        "en": "Incredible synergy — Champion's heroic buffs stack with infestation bonuses. Swarm Queen with super-heroic status is one of the strongest units in the game.",
+        "ru": "Невероятная синергия — героические баффы Чемпиона стакаются с бонусами заражения. Королева Роя с супер-героическим статусом — один из сильнейших юнитов в игре."
+      }
+    },
+    {
+      "name": "Spontaneous Acidification",
+      "classes": ["Druid", "Deathknight"],
+      "tier": "A",
+      "desc": {
+        "en": "Zerg units that die leave acid pools dealing 15 damage/second for 5 seconds. Deathrattle effects trigger on Zerg unit deaths.",
+        "ru": "Юниты зергов при смерти оставляют кислотные лужи, наносящие 15 урона/сек 5 секунд. Эффекты deathrattle срабатывают при смерти юнитов зергов."
+      },
+      "analysis": {
+        "en": "Zergling deaths become area denial weapons. Combined with DK deathrattle stacking, mass Zergling deaths create deadly kill zones.",
+        "ru": "Смерти Зерглингов становятся оружием контроля зоны. В сочетании со стакингом deathrattle DK, массовые смерти Зерглингов создают смертельные зоны убийства."
+      }
+    },
+    {
+      "name": "Purpose Of The Zerg",
+      "classes": ["Druid", "Warlock"],
+      "tier": "A",
+      "desc": {
+        "en": "Hybrids summoned by Warlock gain Zerg classification and benefit from Hive Mind stacks. Zerg units deal +15% damage to enemies affected by Warlock debuffs.",
+        "ru": "Гибриды, призванные Варлоком, получают классификацию зергов и пользуются стаками Hive Mind. Юниты зергов наносят +15% урона врагам под дебаффами Варлока."
+      },
+      "analysis": {
+        "en": "Warlock Hybrids getting Hive Mind stacks makes them incredibly strong. The damage bonus against debuffed enemies further empowers your swarm.",
+        "ru": "Гибриды Варлока, получающие стаки Hive Mind, становятся невероятно сильными. Бонус урона против дебаффнутых врагов дополнительно усиливает ваш рой."
+      }
+    },
+    {
+      "name": "Cerberus Salvage",
+      "classes": ["Druid", "Acolyte"],
+      "tier": "A",
+      "desc": {
+        "en": "Infested units count as double for Dark Ritual sacrifices. Sacrificed infested units spawn 2 Broodlings.",
+        "ru": "Заражённые юниты считаются за двух при жертвоприношениях Dark Ritual. Принесённые в жертву заражённые юниты порождают 2 Бродлингов."
+      },
+      "analysis": {
+        "en": "Druid provides cheap infested Zerglings that count double for Acolyte sacrifices — extremely efficient. Broodling spawns add free units.",
+        "ru": "Друид предоставляет дешёвых заражённых Зерглингов, считающихся за двух для жертв Аколита — крайне эффективно. Порождение Бродлингов добавляет бесплатных юнитов."
+      }
+    },
+    {
+      "name": "Infested Drop",
+      "classes": ["Druid", "Engineer"],
+      "tier": "B",
+      "desc": {
+        "en": "Engineer turrets can be infested, gaining +50% HP and spawning Zerglings when destroyed. Infested buildings repair 50% faster.",
+        "ru": "Турели Инженера могут быть заражены, получая +50% HP и порождая Зерглингов при уничтожении. Заражённые здания ремонтируются на 50% быстрее."
+      },
+      "analysis": {
+        "en": "Infested turrets are much harder to kill and spawn Zerglings as a last resort. Niche but effective for defense-heavy missions.",
+        "ru": "Заражённые турели гораздо сложнее убить и порождают Зерглингов как последнее средство. Нишевый, но эффективный для оборонительных миссий."
+      }
+    },
+    {
+      "name": "Infested Hivemind",
+      "classes": ["Druid", "Necromancer"],
+      "tier": "A",
+      "desc": {
+        "en": "Cursed Zerg units gain +20% to all stats instead of curse penalties. Infested buildings spawn cursed units that are stronger but uncontrollable.",
+        "ru": "Проклятые юниты зергов получают +20% ко всем характеристикам вместо штрафов проклятий. Заражённые здания порождают проклятых юнитов, которые сильнее, но неуправляемы."
+      },
+      "analysis": {
+        "en": "Necromancer's curse synergy applied to Zerg units — curses become buffs. Uncontrollable spawns are fine since they attack-move toward enemies anyway.",
+        "ru": "Синергия проклятий Некроманта, применённая к юнитам зергов — проклятия становятся баффами. Неуправляемые порождения допустимы, так как они и так атакуют-двигаются к врагам."
+      }
+    },
+    {
+      "name": "Fourier Scrambler",
+      "classes": ["Druid", "Rogue"],
+      "tier": "B",
+      "desc": {
+        "en": "Zerg units can burrow to cloak. First attack from burrow deals +50% damage. Infested buildings cannot be targeted while no enemies are nearby.",
+        "ru": "Юниты зергов могут зарываться для маскировки. Первая атака из зарывания наносит +50% урона. Заражённые здания не могут быть целью пока враги не рядом."
+      },
+      "analysis": {
+        "en": "Burrow ambush with Zerglings can be devastating. Building protection is nice QoL. Overall a fun but situational combo.",
+        "ru": "Засада из зарывания Зерглингами может быть разрушительной. Защита зданий — приятный QoL. В целом забавное, но ситуативное сочетание."
+      }
+    },
+    {
+      "name": "Omega Outbreak",
+      "classes": ["Druid", "Wizard"],
+      "tier": "A",
+      "desc": {
+        "en": "Wizard spell enhancements can be applied to Zerg units. Zerg units gain a chance to spawn a Zergling on spell cast.",
+        "ru": "Улучшения заклинаний Визарда могут применяться к юнитам зергов. Юниты зергов получают шанс породить Зерглинга при применении заклинания."
+      },
+      "analysis": {
+        "en": "Wizard spells on Zerg units is a unique and powerful combination. Hydralisks with spell enhancements become top-tier ranged DPS.",
+        "ru": "Заклинания Визарда на юнитах зергов — уникальная и мощная комбинация. Гидралиски с улучшениями заклинаний становятся DPS высшего уровня."
+      }
+    },
+    {
+      "name": "Hounds Of War",
+      "classes": ["Druid", "Scientist"],
+      "tier": "B",
+      "desc": {
+        "en": "Zerg units can be upgraded with Scientist prototypes. Prototype Zerglings split into 2 on death. Prototype Hydralisks gain +3 range.",
+        "ru": "Юниты зергов могут быть улучшены прототипами Учёного. Прототипные Зерглинги разделяются на 2 при смерти. Прототипные Гидралиски получают +3 дальности."
+      },
+      "analysis": {
+        "en": "Splitting Zerglings create even more numbers. +3 range Hydralisks are excellent. Solid if you can access Scientist talents.",
+        "ru": "Разделяющиеся Зерглинги создают ещё больше численности. +3 дальности Гидралиски отличны. Солидно если есть доступ к талантам Учёного."
+      }
+    },
+    {
+      "name": "Chittering Crusade",
+      "classes": ["Druid", "Paladin"],
+      "tier": "A",
+      "desc": {
+        "en": "Paladin auras affect Zerg units. Zerg units near Paladin oath-bearers gain +10% to all stats. Ultralisks count as oath-bearers.",
+        "ru": "Ауры Паладина влияют на юнитов зергов. Юниты зергов рядом с носителями клятвы Паладина получают +10% ко всем характеристикам. Ультралиски считаются носителями клятвы."
+      },
+      "analysis": {
+        "en": "Paladin auras on Zerg units is extremely powerful — especially defensive auras on Ultralisks. Ultralisks as oath-bearers spread buffs across your swarm.",
+        "ru": "Ауры Паладина на юнитах зергов крайне мощны — особенно защитные ауры на Ультралисках. Ультралиски как носители клятвы распространяют баффы по всему рою."
+      }
+    }
+  ],
+  "multiclass_intro": {
+    "en": "Druid's multiclass options are limited by restrictions (cannot pair with Psychic, Sorcerer, Bard, Monk, Gambler, or Mad Genius), but the available combinations are excellent. The best pairings enhance Zerg units directly (Champion, Paladin) or create death-triggered synergies (Deathknight, Necromancer). Druid + Champion (Heroes Of The Swarm) is considered one of the strongest multiclass combinations in the game.",
+    "ru": "Мультикласс-опции Друида ограничены рестрикциями (нельзя сочетать с Псиоником, Колдуном, Бардом, Монахом, Игроком или Безумным Гением), но доступные комбинации отличны. Лучшие сочетания усиливают юнитов зергов напрямую (Чемпион, Паладин) или создают синергии при смерти (Рыцарь Смерти, Некромант). Друид + Чемпион (Heroes Of The Swarm) считается одной из сильнейших мультикласс-комбинаций в игре."
+  }
+}

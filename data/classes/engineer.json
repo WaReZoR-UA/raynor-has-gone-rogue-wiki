@@ -1,0 +1,363 @@
+{
+  "id": "engineer",
+  "name": "Engineer",
+  "icon": "&#9881;",
+  "color": "#f97316",
+  "subtitle": {
+    "en": "Fortification Specialist",
+    "ru": "Специалист по укреплениям"
+  },
+  "summary": {
+    "en": "The Engineer class excels at building impregnable defenses. Its core talent enhances all buildings and unlocks advanced turret and fortification options. Engineers create layered defenses of bunkers, turrets, and siege tanks that can hold any position against overwhelming odds. The class is particularly strong on defensive missions and maps with chokepoints, transforming the terrain into a gauntlet of death for attacking enemies. While less mobile than other classes, the Engineer's defensive power is unmatched.",
+    "ru": "Класс Инженер превосходен в создании неприступных оборонительных позиций. Его ключевой талант усиливает все здания и открывает продвинутые турели и укрепления. Инженеры создают многослойную оборону из бункеров, турелей и осадных танков, способную удержать любую позицию против подавляющего превосходства. Класс особенно силён на оборонительных миссиях и картах с узкими проходами, превращая местность в смертельную полосу для атакующих врагов. Хотя менее мобилен, чем другие классы, оборонительная мощь Инженера не имеет равных."
+  },
+  "unlock": {
+    "en": "None",
+    "ru": "Нет"
+  },
+  "stats": [
+    {"value": "A", "label": {"en": "Late-Game Power", "ru": "Сила в лейте"}},
+    {"value": "B", "label": {"en": "Early-Game Power", "ru": "Сила в начале"}},
+    {"value": "B", "label": {"en": "Scaling", "ru": "Масштабирование"}},
+    {"value": "C", "label": {"en": "Versatility", "ru": "Универсальность"}},
+    {"value": "B", "label": {"en": "Difficulty", "ru": "Сложность"}}
+  ],
+  "strengths": [
+    {"en": "Unmatched defensive power — can hold any position against any attack", "ru": "Непревзойдённая оборонительная мощь — может удержать любую позицию против любой атаки"},
+    {"en": "Buildings are permanent investments that don't require resupply", "ru": "Здания — постоянные инвестиции, не требующие пополнения"},
+    {"en": "Excellent on defensive missions like Holdout and base defense", "ru": "Превосходен на оборонительных миссиях вроде Holdout и обороны базы"},
+    {"en": "Unobtanium Plating generic infinite scales building HP massively", "ru": "Общий бесконечный талант Unobtanium Plating массивно масштабирует HP зданий"}
+  ],
+  "weaknesses": [
+    {"en": "Low mobility — buildings can't move with your army", "ru": "Низкая мобильность — здания не могут двигаться с армией"},
+    {"en": "Weak on offensive missions that require pushing across the map", "ru": "Слаб на наступательных миссиях, требующих продвижения по карте"},
+    {"en": "Setup time means you're vulnerable during initial deployment", "ru": "Время установки означает уязвимость при начальном развёртывании"},
+    {"en": "Resource-heavy — building a fortress requires significant investment", "ru": "Ресурсоёмкий — постройка крепости требует значительных инвестиций"}
+  ],
+  "talents": [
+    {
+      "name": "Master Builder",
+      "rarity": "core",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Buildings gain +50% HP and +25% attack damage. SCVs build 50% faster. Unlocks Missile Turret, Perdition Turret, and Fortified Bunker.",
+        "ru": "Здания получают +50% HP и +25% урона атак. SCV строят на 50% быстрее. Открывает Missile Turret, Perdition Turret и Fortified Bunker."
+      },
+      "analysis": {
+        "en": "Solid foundation. The stat buffs make all buildings substantially more durable and dangerous. Faster SCV build speed reduces setup time. The unlocked structures form the backbone of any Engineer defense.",
+        "ru": "Надёжная основа. Баффы характеристик делают все здания существенно прочнее и опаснее. Более быстрая скорость строительства SCV сокращает время установки. Разблокированные структуры формируют основу любой обороны Инженера."
+      }
+    },
+    {
+      "name": "Reinforced Structure",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Buildings gain +5 armor and take 25% less damage from abilities.",
+        "ru": "Здания получают +5 брони и получают на 25% меньше урона от способностей."
+      },
+      "analysis": {
+        "en": "Significant survivability boost. The armor helps against all physical attacks, and ability damage reduction protects against the biggest threats to buildings. Makes your defenses extremely hard to crack.",
+        "ru": "Значительный буст выживаемости. Броня помогает против всех физических атак, а снижение урона от способностей защищает от главных угроз зданиям. Делает вашу оборону крайне трудной для прорыва."
+      }
+    },
+    {
+      "name": "Automated Turrets",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Turrets attack 30% faster and gain +2 weapon range.",
+        "ru": "Турели атакуют на 30% быстрее и получают +2 к дальности оружия."
+      },
+      "analysis": {
+        "en": "Turns turrets from support structures into primary damage dealers. The range increase extends your defensive perimeter. Combined with other turret buffs, this creates overlapping fields of fire.",
+        "ru": "Превращает турели из структур поддержки в основные источники урона. Увеличение дальности расширяет оборонительный периметр. В сочетании с другими баффами турелей создаёт перекрывающиеся зоны огня."
+      }
+    },
+    {
+      "name": "Bunker Buster",
+      "rarity": "common",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Fortified Bunkers hold +2 additional units and grant garrisoned units +20% attack damage.",
+        "ru": "Укреплённые бункеры вмещают +2 дополнительных юнита и дают загарнизонным юнитам +20% урона атаки."
+      },
+      "analysis": {
+        "en": "Enhances bunkers as both defensive and offensive structures. More capacity means more firepower per bunker. The damage bonus rewards filling bunkers to capacity.",
+        "ru": "Усиливает бункеры как оборонительные и наступательные структуры. Больше вместимость — больше огневой мощи на бункер. Бонус урона вознаграждает заполнение бункеров до максимума."
+      }
+    },
+    {
+      "name": "Fortification Protocol",
+      "rarity": "common-infinite",
+      "tier": "A",
+      "stackable": true,
+      "maxStacks": 100,
+      "desc": {
+        "en": "Buildings deal +8% damage and gain +15% HP. Max 100 stacks.",
+        "ru": "Здания наносят +8% урона и получают +15% HP. Макс. 100 стаков."
+      },
+      "analysis": {
+        "en": "The class infinite. Stacks with Master Builder's base buffs and Unobtanium Plating for massive building power. At 10+ stacks, turrets become serious damage threats and buildings are nearly indestructible. Always take offered stacks.",
+        "ru": "Классовый бесконечный талант. Стакается с базовыми баффами Master Builder и Unobtanium Plating для массивной мощи зданий. При 10+ стаках турели становятся серьёзной угрозой, а здания практически неразрушимы. Всегда берите предложенные стаки."
+      }
+    },
+    {
+      "name": "Supply Depot Defense",
+      "rarity": "uncommon",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Supply Depots gain an auto-attack that deals moderate damage. Lowered Supply Depots slow enemies walking over them by 30%.",
+        "ru": "Склады снабжения получают автоатаку с умеренным уроном. Опущенные склады снабжения замедляют проходящих по ним врагов на 30%."
+      },
+      "analysis": {
+        "en": "Turns otherwise passive buildings into defensive assets. The slow effect creates natural chokepoints. Excellent for funneling enemies into turret killzones.",
+        "ru": "Превращает иначе пассивные здания в оборонительные активы. Эффект замедления создаёт естественные узкие проходы. Отлично для направления врагов в зоны убийств турелей."
+      }
+    },
+    {
+      "name": "Siege Architecture",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Unlocks Siege Turret — a heavy turret with long range and splash damage. Building limit: 4.",
+        "ru": "Открывает Осадную турель — тяжёлую турель с большой дальностью и площадным уроном. Лимит построек: 4."
+      },
+      "analysis": {
+        "en": "The Siege Turret is a game-changer for area denial. Long-range splash damage wipes out attack waves before they reach your walls. The building limit prevents it from being too oppressive but 4 turrets covering key approaches is usually sufficient.",
+        "ru": "Осадная турель меняет игру в плане контроля территории. Дальнобойный площадной урон уничтожает волны атак до достижения ваших стен. Лимит построек предотвращает чрезмерность, но 4 турели, покрывающие ключевые подходы, обычно достаточно."
+      }
+    },
+    {
+      "name": "Emergency Repair",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Buildings automatically repair to full HP when below 30% health. 60-second cooldown per building.",
+        "ru": "Здания автоматически восстанавливаются до полного HP при падении ниже 30% здоровья. 60 секунд перезарядки на здание."
+      },
+      "analysis": {
+        "en": "Insurance against losing key structures. The auto-repair means buildings effectively have to be burst down from above 30% in one go. Incredible value for turrets and bunkers on the front line.",
+        "ru": "Страховка от потери ключевых структур. Автовосстановление означает, что здания нужно уничтожить от 30%+ за один заход. Невероятная ценность для турелей и бункеров на передовой."
+      }
+    },
+    {
+      "name": "Mobile Defense Platform",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Unlocks deployable turrets that can be packed up and relocated. Deploy time: 5 seconds.",
+        "ru": "Открывает развёртываемые турели, которые можно собрать и переместить. Время развёртывания: 5 секунд."
+      },
+      "analysis": {
+        "en": "Addresses Engineer's biggest weakness — immobility. Mobile turrets let you push with your army while maintaining defensive firepower. The 5-second deploy time is short enough for repositioning during combat.",
+        "ru": "Решает главную слабость Инженера — неподвижность. Мобильные турели позволяют наступать с армией, сохраняя оборонительную огневую мощь. 5 секунд развёртывания достаточно мало для перепозиционирования в бою."
+      }
+    },
+    {
+      "name": "Fortress Command",
+      "rarity": "epic",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "All buildings gain an additional +100% HP, +50% attack damage, and +3 weapon range. Building limits doubled.",
+        "ru": "Все здания получают дополнительно +100% HP, +50% урона атаки и +3 к дальности оружия. Лимиты зданий удвоены."
+      },
+      "analysis": {
+        "en": "The ultimate Engineer talent. Doubled building limits mean twice as many turrets and structures. The stat bonuses stack multiplicatively with everything else. With this, your defensive line becomes truly impenetrable.",
+        "ru": "Высший талант Инженера. Удвоенные лимиты зданий означают вдвое больше турелей и структур. Бонусы характеристик стакаются мультипликативно со всем остальным. С этим ваша оборонительная линия становится поистине непробиваемой."
+      }
+    },
+    {
+      "name": "Structural Weakness",
+      "rarity": "curse",
+      "tier": "D",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Buildings take +30% damage from all sources. Building repair speed reduced by 50%.",
+        "ru": "Здания получают +30% урона от всех источников. Скорость ремонта зданий снижена на 50%."
+      },
+      "analysis": {
+        "en": "Directly undermines the Engineer's core strength. Buildings become fragile and hard to maintain. Partially mitigated by Emergency Repair and high HP stacks, but still painful.",
+        "ru": "Напрямую подрывает основную силу Инженера. Здания становятся хрупкими и сложными в поддержании. Частично компенсируется Emergency Repair и высокими стаками HP, но всё равно болезненно."
+      }
+    },
+    {
+      "name": "Power Grid Failure",
+      "rarity": "plague",
+      "tier": "D",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Buildings periodically shut down for 5 seconds every 30 seconds, during which they cannot attack or provide benefits.",
+        "ru": "Здания периодически отключаются на 5 секунд каждые 30 секунд, в течение которых не могут атаковать или предоставлять бонусы."
+      },
+      "analysis": {
+        "en": "Devastating for Engineer. Regular shutdown windows create vulnerability gaps in your defense. Enemies that attack during downtime face no turret resistance. Requires mobile units to cover during outages.",
+        "ru": "Разрушительно для Инженера. Регулярные окна отключения создают пробелы уязвимости в обороне. Враги, атакующие во время простоя, не встречают сопротивления турелей. Требует мобильных юнитов для прикрытия во время отключений."
+      }
+    }
+  ],
+  "builds": [
+    {
+      "name": {"en": "Fortress", "ru": "Крепость"},
+      "subtitle": {"en": "Impenetrable layered defenses", "ru": "Непробиваемая многослойная оборона"},
+      "desc": {
+        "en": "The classic Engineer build. Create overlapping defensive lines of turrets, bunkers, and siege structures. Stack building HP and damage infinites to make each structure a significant threat. The goal is to make your base position completely untakeable.",
+        "ru": "Классический билд Инженера. Создайте перекрывающиеся оборонительные линии из турелей, бункеров и осадных сооружений. Копите бесконечные таланты HP и урона зданий для превращения каждой структуры в серьёзную угрозу. Цель — сделать вашу базовую позицию полностью неприступной."
+      },
+      "tags": [
+        {"name": "Master Builder", "type": "core"},
+        {"name": "Reinforced Structure", "type": "required"},
+        {"name": "Fortification Protocol", "type": "required"},
+        {"name": "Siege Architecture", "type": "required"},
+        {"name": "Fortress Command", "type": "optional"},
+        {"name": "Emergency Repair", "type": "optional"},
+        {"name": "Unobtanium Plating", "type": "generic"},
+        {"name": "Salvage Operation", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "text": {
+            "en": "Establish your initial defensive perimeter with Missile Turrets and Bunkers at chokepoints. Reinforced Structure is a priority early pickup. Start stacking Fortification Protocol and Unobtanium Plating for scaling.",
+            "ru": "Установите начальный оборонительный периметр из Missile Turrets и бункеров на узких проходах. Reinforced Structure — приоритетный ранний выбор. Начинайте копить Fortification Protocol и Unobtanium Plating для масштабирования."
+          }
+        },
+        {
+          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "text": {
+            "en": "Expand your defensive network. Siege Architecture adds long-range splash damage. Layer your defenses: Supply Depots slow enemies, turrets deal damage, bunkers hold the line, siege turrets clean up. Economy talents fund the expansion.",
+            "ru": "Расширяйте оборонительную сеть. Siege Architecture добавляет дальнобойный площадной урон. Выстраивайте оборону слоями: склады замедляют врагов, турели наносят урон, бункеры держат линию, осадные турели добивают. Экономические таланты финансируют расширение."
+          }
+        },
+        {
+          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "text": {
+            "en": "With Fortress Command doubling building limits and stacked infinites, your defense network is impenetrable. Even the strongest attack waves dissolve before reaching your structures. Use a mobile army for objectives while the fortress holds the base.",
+            "ru": "С Fortress Command, удваивающим лимиты зданий, и накопленными бесконечными талантами ваша оборонительная сеть непробиваема. Даже сильнейшие волны атак растворяются, не достигнув структур. Используйте мобильную армию для целей, пока крепость держит базу."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Place turrets in overlapping fields of fire — each turret should cover at least one other turret.", "ru": "Размещайте турели с перекрывающимися зонами огня — каждая турель должна прикрывать минимум одну другую."},
+        {"en": "Unobtanium Plating stacks multiply with Fortification Protocol for enormous building HP.", "ru": "Стаки Unobtanium Plating умножаются с Fortification Protocol для огромного HP зданий."},
+        {"en": "Always keep some SCVs near your defenses for repair during attacks.", "ru": "Всегда держите несколько SCV рядом с обороной для ремонта во время атак."}
+      ]
+    },
+    {
+      "name": {"en": "Turret Army", "ru": "Армия турелей"},
+      "subtitle": {"en": "Turrets as your primary fighting force", "ru": "Турели как основная боевая сила"},
+      "desc": {
+        "en": "Instead of static defenses, this build focuses on Mobile Defense Platforms — deployable turrets that move with your army. Combined with turret-specific buffs, you create a mobile artillery force that sets up and tears down as you advance across the map.",
+        "ru": "Вместо статичной обороны этот билд фокусируется на Mobile Defense Platform — развёртываемых турелях, двигающихся с армией. В сочетании со специфическими баффами турелей вы создаёте мобильную артиллерийскую силу, которая разворачивается и сворачивается по мере продвижения по карте."
+      },
+      "tags": [
+        {"name": "Master Builder", "type": "core"},
+        {"name": "Mobile Defense Platform", "type": "required"},
+        {"name": "Automated Turrets", "type": "required"},
+        {"name": "Fortification Protocol", "type": "required"},
+        {"name": "Fortress Command", "type": "optional"},
+        {"name": "Use More Gun", "type": "generic"},
+        {"name": "Unobtanium Plating", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "text": {
+            "en": "Use static turrets for base defense while building toward Mobile Defense Platform. Automated Turrets makes all turrets more effective. Push objectives with your regular army and turret support.",
+            "ru": "Используйте стационарные турели для обороны базы, стремясь к Mobile Defense Platform. Automated Turrets делает все турели эффективнее. Выполняйте цели с армией и турельной поддержкой."
+          }
+        },
+        {
+          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "text": {
+            "en": "With Mobile Defense Platforms, you can push aggressively. Deploy turrets at each new position, fight, then pack up and move. The 5-second deploy time allows rapid repositioning. Stack Fortification Protocol for turret damage.",
+            "ru": "С Mobile Defense Platforms можно наступать агрессивно. Разворачивайте турели на каждой новой позиции, сражайтесь, затем собирайте и двигайтесь. 5 секунд развёртывания позволяют быстрое перепозиционирование. Копите Fortification Protocol для урона турелей."
+          }
+        },
+        {
+          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "text": {
+            "en": "Your mobile turret army is a rolling fortress. Set up, obliterate the enemy, move forward, repeat. Fortress Command doubles your turret count for overwhelming firepower on the move.",
+            "ru": "Ваша мобильная турельная армия — передвижная крепость. Разверните, уничтожьте врага, двигайтесь вперёд, повторите. Fortress Command удваивает число турелей для подавляющей огневой мощи в движении."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Mobile turrets benefit from ALL building buffs — they're just as strong as static ones.", "ru": "Мобильные турели получают ВСЕ баффы зданий — они так же сильны, как стационарные."},
+        {"en": "Deploy turrets in a semi-circle facing the enemy for maximum focused fire.", "ru": "Разворачивайте турели полукругом к врагу для максимального сосредоточенного огня."},
+        {"en": "Keep SCVs with your turret push for field repairs between engagements.", "ru": "Держите SCV с турельным продвижением для полевого ремонта между боями."}
+      ]
+    },
+    {
+      "name": {"en": "Bunker Rush", "ru": "Бункер раш"},
+      "subtitle": {"en": "Aggressive bunker-forward tactics", "ru": "Агрессивная тактика с бункерами"},
+      "desc": {
+        "en": "An aggressive Engineer build that pushes bunkers forward into enemy territory. Fortified Bunkers with Bunker Buster capacity and damage bonuses become mobile fortresses when filled with Marines or other ranged units. SCVs build bunkers rapidly at the front line while the army pushes.",
+        "ru": "Агрессивный билд Инженера, продвигающий бункеры на вражескую территорию. Укреплённые бункеры с вместимостью и бонусами урона от Bunker Buster становятся мобильными крепостями при заполнении Маринерами или другими дальнобойными юнитами. SCV быстро строят бункеры на передовой, пока армия наступает."
+      },
+      "tags": [
+        {"name": "Master Builder", "type": "core"},
+        {"name": "Bunker Buster", "type": "required"},
+        {"name": "Reinforced Structure", "type": "required"},
+        {"name": "Emergency Repair", "type": "optional"},
+        {"name": "Fortification Protocol", "type": "optional"},
+        {"name": "Use More Gun", "type": "generic"},
+        {"name": "Medical Breakthrough", "type": "generic"},
+        {"name": "Salvage Operation", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "text": {
+            "en": "Build Marines and SCVs. Push forward by building bunkers at each new position and loading Marines. The fast SCV build speed from Master Builder makes forward bunkers viable. Bunker Buster increases firepower per bunker.",
+            "ru": "Стройте Маринеров и SCV. Наступайте, строя бункеры на каждой новой позиции и загружая Маринеров. Быстрая скорость строительства SCV от Master Builder делает передовые бункеры жизнеспособными. Bunker Buster увеличивает огневую мощь на бункер."
+          }
+        },
+        {
+          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "text": {
+            "en": "Your bunker push becomes increasingly powerful with stacked Fortification Protocol. Emergency Repair makes bunkers very hard to destroy. Each new position is secured with a forward bunker before advancing further.",
+            "ru": "Ваше бункерное продвижение становится всё мощнее с накопленным Fortification Protocol. Emergency Repair делает бункеры очень трудными для уничтожения. Каждая новая позиция закрепляется передовым бункером перед дальнейшим продвижением."
+          }
+        },
+        {
+          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "text": {
+            "en": "Bunkers with max upgrades are nearly indestructible and deal massive damage from garrisoned units. You methodically advance by building bunker after bunker, creating an expanding network of fortifications across the map.",
+            "ru": "Бункеры с максимальными улучшениями практически неразрушимы и наносят массивный урон от загарнизонных юнитов. Вы методично наступаете, строя бункер за бункером, создавая расширяющуюся сеть укреплений по карте."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Always bring 3-4 SCVs with your push — they build bunkers and repair under fire.", "ru": "Всегда берите 3-4 SCV с продвижением — они строят бункеры и ремонтируют под огнём."},
+        {"en": "Load bunkers with your strongest ranged units — the +20% damage bonus applies to all garrisoned units.", "ru": "Загружайте бункеры сильнейшими дальнобойными юнитами — +20% бонус урона применяется ко всем загарнизонным юнитам."},
+        {"en": "Salvage depleted bunkers to recover minerals for building the next ones forward.", "ru": "Разбирайте истощённые бункеры для возврата минералов на строительство следующих на передовой."}
+      ]
+    }
+  ],
+  "multiclass_epics": [],
+  "multiclass_intro": {
+    "en": "Engineer currently has no named multiclass epic talents with the classes covered in this wiki section. However, the Multiclass rare talent can still unlock a secondary class for access to its talent pool. Good secondary class choices include Champion (heroic garrisoned units), Deathknight (buildings with deathrattle effects), or Sorcerer (drop pod delivery of building materials). The Multiclass generic rare talent is required to unlock any secondary class.",
+    "ru": "У Инженера в настоящее время нет именованных мультикласс эпических талантов с классами, описанными в этом разделе вики. Однако редкий талант Multiclass всё ещё может открыть второй класс для доступа к его пулу талантов. Хорошие варианты второго класса включают Чемпиона (героические загарнизонные юниты), Рыцаря Смерти (здания с deathrattle-эффектами) или Колдуна (доставка строительных материалов через капсулы). Общий редкий талант Multiclass необходим для разблокировки любого второго класса."
+  }
+}

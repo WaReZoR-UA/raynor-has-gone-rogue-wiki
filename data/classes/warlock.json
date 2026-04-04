@@ -1,0 +1,489 @@
+{
+  "id": "warlock",
+  "name": "Warlock",
+  "icon": "&#128420;",
+  "color": "#991b1b",
+  "subtitle": {
+    "en": "Keeper of Dark Pacts",
+    "ru": "Хранитель Тёмных Пактов"
+  },
+  "summary": {
+    "en": "The Warlock class draws power from dark pacts and forbidden knowledge, culminating in the ability to summon powerful Hybrid units. With a unique leveling system, Warlocks grow their Hybrid army from basic Reavers to terrifying Dominators and Masterminds, each with 5 upgradeable levels. This class offers immense late-game power at the cost of careful resource management and pact obligations.",
+    "ru": "Класс Чернокнижник черпает силу из тёмных пактов и запретных знаний, достигая кульминации в способности призывать мощных Гибридов. С уникальной системой уровней, Чернокнижники развивают свою армию Гибридов от базовых Жнецов до ужасающих Доминаторов и Мастермайндов, каждый с 5 уровнями улучшений. Этот класс предлагает огромную мощь в поздней игре ценой тщательного управления ресурсами и обязательств пактов."
+  },
+  "unlock": {
+    "en": "Take on 20 different mission challenges",
+    "ru": "Возьмите 20 разных миссионных челленджей"
+  },
+  "stats": [
+    {"value": "S", "label": {"en": "Late Game Power", "ru": "Сила в поздней игре"}},
+    {"value": "S", "label": {"en": "Army Power", "ru": "Мощь армии"}},
+    {"value": "C", "label": {"en": "Early Game", "ru": "Ранняя игра"}},
+    {"value": "B", "label": {"en": "Flexibility", "ru": "Гибкость"}}
+  ],
+  "strengths": [
+    {"en": "Hybrid summons are among the most powerful units available", "ru": "Призванные Гибриды — одни из самых мощных доступных юнитов"},
+    {"en": "Warlock leveling system provides continuous scaling throughout the campaign", "ru": "Система уровней Чернокнижника обеспечивает непрерывное масштабирование на протяжении кампании"},
+    {"en": "Eight different Hybrid types offer solutions for every situation", "ru": "Восемь различных типов Гибридов предлагают решения для каждой ситуации"},
+    {"en": "Exceptional multiclass options with almost every other class", "ru": "Исключительные мультикласс-опции с почти каждым другим классом"}
+  ],
+  "weaknesses": [
+    {"en": "Extremely weak early game before Hybrid summons come online", "ru": "Крайне слабая ранняя игра до появления призыва Гибридов"},
+    {"en": "Dark pacts can impose harsh penalties if not managed carefully", "ru": "Тёмные пакты могут наложить суровые штрафы при неосторожном управлении"},
+    {"en": "Hybrid units are supply-intensive and expensive", "ru": "Гибриды требуют много саплая и дороги"}
+  ],
+  "talents": [
+    {
+      "name": "Dark Pact",
+      "rarity": "core",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Unlocks the Warlock Pact system. Choose a pact at the start of each mission: gain power in exchange for a restriction. Pact level increases with kills, powering up your Hybrid summons.",
+        "ru": "Открывает систему Пактов Чернокнижника. Выбирайте пакт в начале каждой миссии: получайте силу в обмен на ограничение. Уровень пакта растёт с убийствами, усиливая ваши призывы Гибридов."
+      },
+      "analysis": {
+        "en": "Core system of the class. Pact levels are your primary scaling mechanism — always take pacts that align with your playstyle.",
+        "ru": "Ядро класса. Уровни пакта — ваш основной механизм масштабирования — всегда выбирайте пакты, соответствующие вашему стилю игры."
+      }
+    },
+    {
+      "name": "Hybrid Summoning: Reaver",
+      "rarity": "core",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Summon Hybrid Reavers — melee assault Hybrids with high health and damage. 5 upgradeable levels. Level 5 Reavers gain cleaving attacks and life steal.",
+        "ru": "Призывайте Гибридных Жнецов — ближнебойных штурмовых Гибридов с высоким здоровьем и уроном. 5 уровней улучшений. Жнецы 5-го уровня получают рассекающие атаки и кражу жизни."
+      },
+      "analysis": {
+        "en": "Your starting Hybrid. Reavers are excellent front-line tanks and melee damage dealers.",
+        "ru": "Ваш стартовый Гибрид. Жнецы — отличные передовые танки и ближнебойные бойцы."
+      }
+    },
+    {
+      "name": "Hybrid Summoning: Destroyer",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Summon Hybrid Destroyers — ranged spellcaster Hybrids with psionic storm and plasma blast. 5 upgradeable levels. Level 5 Destroyers gain chain lightning.",
+        "ru": "Призывайте Гибридных Разрушителей — дальнобойных заклинателей с псионическим штормом и плазменным взрывом. 5 уровней улучшений. Разрушители 5-го уровня получают цепную молнию."
+      },
+      "analysis": {
+        "en": "Primary ranged Hybrid. Excellent AoE damage and utility. Pair with Reavers for balanced composition.",
+        "ru": "Основной дальнобойный Гибрид. Отличный AoE урон и утилита. Сочетайте с Жнецами для сбалансированной композиции."
+      }
+    },
+    {
+      "name": "Hybrid Summoning: Nemesis",
+      "rarity": "uncommon",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Summon Hybrid Nemeses — assassin Hybrids with blink and high single-target damage. 5 upgradeable levels. Level 5 Nemeses gain stealth and execute on low-health targets.",
+        "ru": "Призывайте Гибридных Немезид — убийц-Гибридов с блинком и высоким уроном по одной цели. 5 уровней улучшений. Немезиды 5-го уровня получают невидимость и казнь целей с низким здоровьем."
+      },
+      "analysis": {
+        "en": "Specialized assassin. Best for picking off high-value targets. Less generally useful than Reavers or Destroyers.",
+        "ru": "Специализированный убийца. Лучше всего для снятия ценных целей. Менее универсален, чем Жнецы или Разрушители."
+      }
+    },
+    {
+      "name": "Hybrid Summoning: Behemoth",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Summon Hybrid Behemoths — massive tank Hybrids with 3000 base HP and a damage-absorbing shield. 5 upgradeable levels. Level 5 Behemoths taunt all nearby enemies.",
+        "ru": "Призывайте Гибридных Бегемотов — массивных Гибридов-танков с 3000 базовым HP и поглощающим урон щитом. 5 уровней улучшений. Бегемоты 5-го уровня провоцируют всех ближайших врагов."
+      },
+      "analysis": {
+        "en": "The ultimate tank. One Behemoth can hold an entire chokepoint while your army does the damage.",
+        "ru": "Абсолютный танк. Один Бегемот может удерживать целый узкий проход, пока ваша армия наносит урон."
+      }
+    },
+    {
+      "name": "Hybrid Summoning: Dominator",
+      "rarity": "epic",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Summon Hybrid Dominators — all-purpose elite Hybrids with multiple abilities. 5 upgradeable levels. Level 5 Dominators gain an aura that buffs all nearby Hybrids +20% damage.",
+        "ru": "Призывайте Гибридных Доминаторов — универсальных элитных Гибридов с множеством способностей. 5 уровней улучшений. Доминаторы 5-го уровня получают ауру, бафающую всех ближайших Гибридов на +20% урона."
+      },
+      "analysis": {
+        "en": "The best general-purpose Hybrid. The level 5 aura makes your entire Hybrid army significantly stronger.",
+        "ru": "Лучший универсальный Гибрид. Аура 5-го уровня значительно усиливает всю вашу армию Гибридов."
+      }
+    },
+    {
+      "name": "Hybrid Summoning: Mastermind",
+      "rarity": "epic",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Summon a Hybrid Mastermind — unique hero-tier Hybrid with mind control, mass psionic storm, and a void rift ability. Only one can exist at a time. 5 upgradeable levels.",
+        "ru": "Призывайте Гибридного Мастермайнда — уникального Гибрида героического уровня с контролем разума, массовым пси-штормом и способностью разрыва пустоты. Только один может существовать одновременно. 5 уровней улучшений."
+      },
+      "analysis": {
+        "en": "The pinnacle of Warlock power. A fully leveled Mastermind can solo entire enemy bases.",
+        "ru": "Вершина мощи Чернокнижника. Полностью развитый Мастермайнд может в одиночку уничтожить вражескую базу."
+      }
+    },
+    {
+      "name": "Void Thrasher",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Summon Hybrid Void Thrashers — flying Hybrids with anti-air and anti-ground attacks. 5 upgradeable levels. Level 5 Void Thrashers project a void field that slows all enemies below them.",
+        "ru": "Призывайте Гибридных Пустотных Молотильщиков — летающих Гибридов с противовоздушными и наземными атаками. 5 уровней улучшений. Молотильщики 5-го уровня создают поле пустоты, замедляющее всех врагов под ними."
+      },
+      "analysis": {
+        "en": "Solves Warlock's air coverage problem. The slow field at level 5 is exceptional utility.",
+        "ru": "Решает проблему Чернокнижника с воздушным покрытием. Поле замедления на 5-м уровне — исключительная утилита."
+      }
+    },
+    {
+      "name": "The Host",
+      "rarity": "epic",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Summon The Host — a massive Hybrid entity that periodically spawns lesser Hybrids. 5 upgradeable levels. Level 5 Host spawns Reavers and Destroyers automatically.",
+        "ru": "Призывайте Хозяина — массивную Гибридную сущность, периодически порождающую меньших Гибридов. 5 уровней улучшений. Хозяин 5-го уровня автоматически порождает Жнецов и Разрушителей."
+      },
+      "analysis": {
+        "en": "The ultimate Hybrid production facility. A fully leveled Host constantly replenishes your army with free Hybrids.",
+        "ru": "Абсолютная фабрика Гибридов. Полностью развитый Хозяин постоянно пополняет вашу армию бесплатными Гибридами."
+      }
+    },
+    {
+      "name": "Pact Acceleration",
+      "rarity": "common-infinite",
+      "tier": "A",
+      "stackable": true,
+      "maxStacks": 100,
+      "desc": {
+        "en": "Pact level gain rate increased by +5% per stack. Hybrid level-up thresholds reduced by 2% per stack. Max 100 stacks.",
+        "ru": "Скорость набора уровня пакта увеличена на +5% за стак. Пороги повышения уровня Гибридов снижены на 2% за стак. Макс. 100 стаков."
+      },
+      "analysis": {
+        "en": "Core scaling talent. Faster pact levels mean faster Hybrid upgrades. Take as many stacks as offered.",
+        "ru": "Основной масштабирующий талант. Быстрее уровни пакта — быстрее улучшения Гибридов. Берите столько стаков, сколько предложат."
+      }
+    },
+    {
+      "name": "Forbidden Knowledge",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Unlock all Hybrid types immediately. All Hybrids start at level 2. Pact restrictions are 20% less severe.",
+        "ru": "Немедленно открывает все типы Гибридов. Все Гибриды стартуют на 2-м уровне. Ограничения пактов на 20% менее суровые."
+      },
+      "analysis": {
+        "en": "Incredible time saver. Starting at level 2 and having all types available immediately accelerates your power curve dramatically.",
+        "ru": "Невероятная экономия времени. Старт на 2-м уровне и немедленный доступ ко всем типам драматически ускоряет вашу кривую мощи."
+      }
+    },
+    {
+      "name": "Soul Harvest",
+      "rarity": "common",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Killing enemy units has a 15% chance to heal the nearest Hybrid for 10% of the killed unit's max health. Hybrids regenerate 1 HP/sec.",
+        "ru": "Убийство вражеских юнитов имеет 15% шанс исцелить ближайшего Гибрида на 10% максимального здоровья убитого юнита. Гибриды регенерируют 1 HP/сек."
+      },
+      "analysis": {
+        "en": "Sustain for your expensive Hybrids. Particularly good on Behemoths and The Host.",
+        "ru": "Поддержка жизни для ваших дорогих Гибридов. Особенно хорош на Бегемотах и Хозяине."
+      }
+    },
+    {
+      "name": "Eldritch Corruption",
+      "rarity": "curse",
+      "tier": "C",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Your non-Hybrid units deal -20% damage. Hybrid summons cost 15% less and gain +10% all stats.",
+        "ru": "Ваши не-Гибридные юниты наносят -20% урона. Призыв Гибридов стоит на 15% меньше, и они получают +10% всех характеристик."
+      },
+      "analysis": {
+        "en": "Good curse if you are running a Hybrid-heavy army anyway. The buff to Hybrids outweighs the non-Hybrid penalty.",
+        "ru": "Хорошее проклятие, если вы и так используете армию с большим количеством Гибридов. Баф Гибридам перевешивает штраф не-Гибридам."
+      }
+    },
+    {
+      "name": "Void Instability",
+      "rarity": "plague",
+      "tier": "D",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Hybrids have a 3% chance per attack to enter a void frenzy: +50% damage but attacking allies for 5 seconds.",
+        "ru": "Гибриды имеют 3% шанс за атаку войти в безумие пустоты: +50% урона, но атакуют союзников на 5 секунд."
+      },
+      "analysis": {
+        "en": "Dangerous plague. Keep your army spread and avoid clustering Hybrids near squishy units.",
+        "ru": "Опасная чума. Держите армию рассредоточенной и не группируйте Гибридов рядом с хрупкими юнитами."
+      }
+    }
+  ],
+  "builds": [
+    {
+      "name": {"en": "Hybrid Supremacy", "ru": "Гибридное Превосходство"},
+      "subtitle": {"en": "All-Hybrid army", "ru": "Армия из одних Гибридов"},
+      "desc": {
+        "en": "Go all-in on Hybrid summons, collecting as many Hybrid types as possible and leveling them aggressively through pact kills. The endgame is a diverse army of fully-leveled Hybrids that overwhelms everything.",
+        "ru": "Делайте ставку на призывы Гибридов, собирая как можно больше типов и агрессивно прокачивая их через убийства пактом. Эндгейм — разнообразная армия полностью прокачанных Гибридов, которая подавляет всё."
+      },
+      "tags": [
+        {"name": "Dark Pact", "type": "core"},
+        {"name": "Hybrid Summoning: Dominator", "type": "required"},
+        {"name": "Forbidden Knowledge", "type": "required"},
+        {"name": "Pact Acceleration", "type": "required"},
+        {"name": "Soul Harvest", "type": "optional"},
+        {"name": "Salvage Operation", "type": "generic"}
+      ],
+      "phases": [
+        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Your Hybrids are weak at level 1. Supplement with a normal Terran army while aggressively completing pact requirements. Focus on getting pact levels up ASAP.", "ru": "Ваши Гибриды слабы на 1-м уровне. Дополняйте нормальной Терранской армией, агрессивно выполняя требования пактов. Фокус на повышении уровней пакта как можно скорее."}},
+        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "Hybrids should be level 3-4 by now. Start phasing out your Terran army in favor of more Hybrids. Get Dominator and Forbidden Knowledge if possible.", "ru": "Гибриды должны быть 3-4 уровня к этому моменту. Начинайте замещать вашу Терранскую армию большим количеством Гибридов. Получите Доминатора и Запретные Знания, если возможно."}},
+        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "Full Hybrid army with level 5 units. Dominator aura buffs the entire team. Add Mastermind if available for the ultimate endgame power.", "ru": "Полная армия Гибридов с юнитами 5-го уровня. Аура Доминатора бафает всю команду. Добавьте Мастермайнда, если доступен, для абсолютной мощи эндгейма."}}
+      ],
+      "tips": [
+        {"en": "Always choose pacts that let you kill aggressively — kills drive your leveling", "ru": "Всегда выбирайте пакты, позволяющие агрессивно убивать — убийства двигают вашу прокачку"},
+        {"en": "Behemoth + Dominator + Destroyers is the strongest all-around Hybrid comp", "ru": "Бегемот + Доминатор + Разрушители — сильнейшая универсальная композиция Гибридов"},
+        {"en": "Soul Harvest sustain is critical — your Hybrids are expensive to replace", "ru": "Восстановление Soul Harvest критически важно — ваши Гибриды дороги в замене"}
+      ]
+    },
+    {
+      "name": {"en": "Mastermind Ascension", "ru": "Вознесение Мастермайнда"},
+      "subtitle": {"en": "One Hybrid to rule them all", "ru": "Один Гибрид, чтобы править всеми"},
+      "desc": {
+        "en": "Rush Mastermind summoning and focus everything on leveling your single hero-tier Hybrid. A fully leveled Mastermind with pact support can dominate entire missions solo.",
+        "ru": "Спешите к призыву Мастермайнда и фокусируйте всё на прокачке вашего единственного Гибрида героического уровня. Полностью прокачанный Мастермайнд с поддержкой пакта может доминировать на миссиях в одиночку."
+      },
+      "tags": [
+        {"name": "Dark Pact", "type": "core"},
+        {"name": "Hybrid Summoning: Mastermind", "type": "required"},
+        {"name": "Pact Acceleration", "type": "required"},
+        {"name": "Forbidden Knowledge", "type": "optional"},
+        {"name": "The Host", "type": "optional"},
+        {"name": "Medical Breakthrough", "type": "generic"}
+      ],
+      "phases": [
+        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Play normally while hunting for Mastermind epic. Use Reavers as your early Hybrids. Stack Pact Acceleration for faster leveling.", "ru": "Играйте нормально, ища эпик Мастермайнда. Используйте Жнецов как ранних Гибридов. Стакайте Pact Acceleration для быстрой прокачки."}},
+        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "Once Mastermind is online, build everything around keeping it alive and leveling it. The Mastermind should handle most combat while your army provides support.", "ru": "Когда Мастермайнд появится, выстраивайте всё вокруг его выживания и прокачки. Мастермайнд должен вести основной бой, пока ваша армия поддерживает."}},
+        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "Level 5 Mastermind is a one-unit army. Its mind control and void rift abilities win fights alone. Add The Host for automatic Hybrid reinforcements.", "ru": "Мастермайнд 5-го уровня — армия в одном юните. Его контроль разума и разрыв пустоты выигрывают бои сами по себе. Добавьте Хозяина для автоматических подкреплений Гибридов."}}
+      ],
+      "tips": [
+        {"en": "Mastermind is unique — if it dies, there is a long respawn timer. Protect it at all costs", "ru": "Мастермайнд уникален — если он погибнет, будет долгий таймер возрождения. Защищайте его любой ценой"},
+        {"en": "Use Mastermind's mind control on the strongest enemy unit in each fight", "ru": "Используйте контроль разума Мастермайнда на сильнейшем вражеском юните в каждом бою"},
+        {"en": "The Host complements Mastermind perfectly — free Hybrid spawns while Mastermind fights", "ru": "Хозяин идеально дополняет Мастермайнда — бесплатные Гибриды, пока Мастермайнд сражается"}
+      ]
+    },
+    {
+      "name": {"en": "Pact of Blood", "ru": "Пакт Крови"},
+      "subtitle": {"en": "Maximum pact investment", "ru": "Максимальное вложение в пакт"},
+      "desc": {
+        "en": "Focus on maximizing pact level through aggressive play. Take the hardest pact restrictions for the biggest power gains. Pair with a standard Terran army buffed by high pact levels.",
+        "ru": "Фокус на максимизации уровня пакта через агрессивную игру. Берите самые жёсткие ограничения пактов для максимального прироста мощи. Сочетайте со стандартной Терранской армией, усиленной высокими уровнями пакта."
+      },
+      "tags": [
+        {"name": "Dark Pact", "type": "core"},
+        {"name": "Pact Acceleration", "type": "required"},
+        {"name": "Hybrid Summoning: Reaver", "type": "core"},
+        {"name": "Hybrid Summoning: Destroyer", "type": "optional"},
+        {"name": "Use More Gun", "type": "generic"},
+        {"name": "Medical Breakthrough", "type": "generic"}
+      ],
+      "phases": [
+        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Take aggressive pacts and play for maximum kills. Your Terran army does most of the heavy lifting while pact levels feed your Reavers.", "ru": "Берите агрессивные пакты и играйте на максимум убийств. Ваша Терранская армия делает основную работу, пока уровни пакта кормят ваших Жнецов."}},
+        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "High pact levels start providing global bonuses to all your units. Mix Hybrids into your Terran army for a hybrid (no pun intended) composition.", "ru": "Высокие уровни пакта начинают давать глобальные бонусы всем вашим юнитам. Примешивайте Гибридов к вашей Терранской армии для смешанной композиции."}},
+        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "With maximum pact level, even your basic Marines benefit from dark energy bonuses. Your mixed army is incredibly powerful across all engagements.", "ru": "С максимальным уровнем пакта даже ваши базовые Марины получают бонусы тёмной энергии. Ваша смешанная армия невероятно мощна во всех боях."}}
+      ],
+      "tips": [
+        {"en": "Do not be afraid to take harsh pact restrictions — the power gains are worth it", "ru": "Не бойтесь жёстких ограничений пактов — прирост мощи того стоит"},
+        {"en": "Mix 2-3 Reavers into a bio army for an excellent combined force", "ru": "Примешивайте 2-3 Жнецов в био-армию для отличной комбинированной силы"},
+        {"en": "Pact Acceleration stacks are your highest priority after the core talents", "ru": "Стаки Pact Acceleration — ваш высший приоритет после ядровых талантов"}
+      ]
+    }
+  ],
+  "multiclass_epics": [
+    {
+      "name": "Dark Energy",
+      "classes": ["Warlock", "Mad Genius"],
+      "tier": "S",
+      "desc": {
+        "en": "Hybrid summons gain chaotic energy: their abilities have double effectiveness but random targeting. Pact levels increase Mad Genius ability power by +5% each.",
+        "ru": "Призванные Гибриды получают хаотическую энергию: их способности удвоены в эффективности, но имеют случайное наведение. Уровни пакта увеличивают мощь способностей Безумного Гения на +5% каждый."
+      },
+      "analysis": {
+        "en": "Incredibly powerful but chaotic. Double-effectiveness Hybrids are absurd when the targeting works in your favor.",
+        "ru": "Невероятно мощно, но хаотично. Гибриды с удвоенной эффективностью абсурдны, когда наведение работает в вашу пользу."
+      }
+    },
+    {
+      "name": "Unending Servitude",
+      "classes": ["Warlock", "Deathknight"],
+      "tier": "A",
+      "desc": {
+        "en": "Hybrids that die leave behind a void shade at 40% stats for 20 seconds. Pact kills grant Deathknight deathrattle stacks.",
+        "ru": "Погибшие Гибриды оставляют за собой теневой призрак с 40% характеристик на 20 секунд. Убийства пактом дают стаки deathrattle Рыцаря Смерти."
+      },
+      "analysis": {
+        "en": "Double value from your expensive Hybrids. The shade mechanic gives you 20 more seconds of Hybrid presence.",
+        "ru": "Двойная ценность от ваших дорогих Гибридов. Механика призрака даёт ещё 20 секунд присутствия Гибрида."
+      }
+    },
+    {
+      "name": "Oathbreaker",
+      "classes": ["Warlock", "Paladin"],
+      "tier": "A",
+      "desc": {
+        "en": "Dark pacts and holy oaths combine: choose to break an oath each mission for massive power but severe penalties, or keep both for steady balanced buffs.",
+        "ru": "Тёмные пакты и святые клятвы комбинируются: выберите — нарушить клятву за огромную мощь с суровыми штрафами, или сохранить обе для стабильных сбалансированных бафов."
+      },
+      "analysis": {
+        "en": "Fascinating decision each mission. Breaking oaths is extremely powerful but risky. Keeping both provides reliable scaling.",
+        "ru": "Захватывающее решение каждую миссию. Нарушение клятв крайне мощно, но рискованно. Сохранение обоих даёт надёжное масштабирование."
+      }
+    },
+    {
+      "name": "Otherworldly Power",
+      "classes": ["Warlock", "Wizard"],
+      "tier": "A",
+      "desc": {
+        "en": "Hybrid summons gain Wizard spell abilities. Pact levels increase spell damage by +3% each. Hybrids count as spell-enhanced units.",
+        "ru": "Призванные Гибриды получают заклинания Волшебника. Уровни пакта увеличивают урон заклинаний на +3% каждый. Гибриды считаются юнитами, усиленными заклинаниями."
+      },
+      "analysis": {
+        "en": "Spellcasting Hybrids are terrifying. Pact scaling on spell damage makes this combination scale endlessly.",
+        "ru": "Гибриды-заклинатели ужасающи. Масштабирование пакта на уроне заклинаний делает эту комбинацию бесконечно масштабирующейся."
+      }
+    },
+    {
+      "name": "Eldritch Blast",
+      "classes": ["Warlock", "Sorcerer"],
+      "tier": "B",
+      "desc": {
+        "en": "Dark pact energy enhances drop pod abilities. Pact level grants +2% drop pod damage per level. Hybrids can be delivered via drop pods.",
+        "ru": "Энергия тёмного пакта усиливает способности капсул доставки. Уровень пакта даёт +2% урона капсул за уровень. Гибриды могут быть доставлены через капсулы."
+      },
+      "analysis": {
+        "en": "Drop podding Hybrids is both fun and tactically powerful for rapid deployment.",
+        "ru": "Доставка Гибридов через капсулы — и весело, и тактически мощно для быстрого развёртывания."
+      }
+    },
+    {
+      "name": "Brainfood",
+      "classes": ["Warlock", "Psychic"],
+      "tier": "A",
+      "desc": {
+        "en": "Mind-controlled units feed the Warlock pact system. Each converted unit grants 1 pact level. Hybrid summons gain terrazine enhancement.",
+        "ru": "Подконтрольные юниты питают систему пактов Чернокнижника. Каждый обращённый юнит даёт 1 уровень пакта. Призванные Гибриды получают террациновое усиление."
+      },
+      "analysis": {
+        "en": "Mind controlling enemies to fuel your pact levels is incredibly efficient scaling.",
+        "ru": "Контроль разума врагов для питания уровней пакта — невероятно эффективное масштабирование."
+      }
+    },
+    {
+      "name": "Purpose Of The Zerg",
+      "classes": ["Warlock", "Druid"],
+      "tier": "B",
+      "desc": {
+        "en": "Hybrids can be infested. Infested Hybrids gain Zerg regeneration and +20% health. Infested units count as pact kills for leveling.",
+        "ru": "Гибриды могут быть заражены. Заражённые Гибриды получают регенерацию зергов и +20% здоровья. Заражённые юниты считаются убийствами пакта для прокачки."
+      },
+      "analysis": {
+        "en": "Zerg regen on Hybrids solves their sustain problem. Infested kills feeding pact levels is great.",
+        "ru": "Регенерация зергов на Гибридах решает их проблему выживания. Засчитывание заражённых как убийств пакта — отлично."
+      }
+    },
+    {
+      "name": "Cannibalism",
+      "classes": ["Warlock", "Necromancer"],
+      "tier": "B",
+      "desc": {
+        "en": "Hybrids can consume curse stacks to gain +8% all stats per curse consumed. Curse removal through Hybrids grants bonus pact experience.",
+        "ru": "Гибриды могут поглощать стаки проклятий, получая +8% всех характеристик за каждое поглощённое проклятие. Снятие проклятий через Гибридов даёт бонусный опыт пакта."
+      },
+      "analysis": {
+        "en": "Turns curses into Hybrid buffs. The more curses you have, the stronger your Hybrids become.",
+        "ru": "Превращает проклятия в бафы Гибридов. Чем больше проклятий — тем сильнее ваши Гибриды."
+      }
+    },
+    {
+      "name": "Dark Enlightenment",
+      "classes": ["Warlock", "Monk"],
+      "tier": "B",
+      "desc": {
+        "en": "Hybrids gain +15% movement speed. Pact restrictions generate speed and production bonuses instead of penalties.",
+        "ru": "Гибриды получают +15% скорости движения. Ограничения пактов генерируют бонусы к скорости и производству вместо штрафов."
+      },
+      "analysis": {
+        "en": "Makes pacts pure upside. Faster Hybrids are also harder to kite and more responsive.",
+        "ru": "Делает пакты чисто полезными. Быстрые Гибриды также сложнее кайтить и они более отзывчивы."
+      }
+    },
+    {
+      "name": "Grim Ascension",
+      "classes": ["Warlock", "Bard"],
+      "tier": "C",
+      "desc": {
+        "en": "Capital ships gain dark pact auras. Nearby Hybrids gain +10% all stats per capital ship. Capital ships heal 2 HP/sec per nearby Hybrid.",
+        "ru": "Капитальные корабли получают ауры тёмного пакта. Ближайшие Гибриды получают +10% всех характеристик за каждый капитальный корабль. Капитальные корабли исцеляются на 2 HP/сек за каждого ближайшего Гибрида."
+      },
+      "analysis": {
+        "en": "Niche combination but mutually beneficial. Battlecruisers and Hybrids sustain each other.",
+        "ru": "Нишевая комбинация, но взаимовыгодная. Линкоры и Гибриды поддерживают друг друга."
+      }
+    },
+    {
+      "name": "Enveloping Shadows",
+      "classes": ["Warlock", "Rogue"],
+      "tier": "B",
+      "desc": {
+        "en": "Hybrid summons can cloak. Dark pact abilities cast from cloak deal +35% damage.",
+        "ru": "Призванные Гибриды могут маскироваться. Способности тёмного пакта, применённые из маскировки, наносят +35% урона."
+      },
+      "analysis": {
+        "en": "Cloaked Hybrids ambushing from nowhere is as terrifying as it sounds.",
+        "ru": "Замаскированные Гибриды, нападающие из ниоткуда — это так же ужасно, как звучит."
+      }
+    },
+    {
+      "name": "Technovore",
+      "classes": ["Warlock", "Scientist"],
+      "tier": "A",
+      "desc": {
+        "en": "Hybrid summons count as prototype units. Prototype kills feed pact levels at double rate. Hybrids gain experimental ordnance.",
+        "ru": "Призванные Гибриды считаются прототипными юнитами. Убийства прототипов питают уровни пакта с двойной скоростью. Гибриды получают экспериментальное вооружение."
+      },
+      "analysis": {
+        "en": "Prototype Hybrids are a deadly combination of two powerful scaling systems.",
+        "ru": "Прототипные Гибриды — смертельная комбинация двух мощных систем масштабирования."
+      }
+    }
+  ],
+  "multiclass_intro": {
+    "en": "Warlock has the widest multiclass compatibility in the game, with powerful synergies for almost every class. The Hybrid summoning system combines naturally with almost any other mechanic — whether it is Psychic terrazine, Scientist prototypes, or Rogue cloaking. Mad Genius provides the most extreme power spike but with chaotic drawbacks.",
+    "ru": "Чернокнижник имеет самую широкую совместимость мультикласса в игре, с мощными синергиями для почти каждого класса. Система призыва Гибридов естественно комбинируется с почти любой другой механикой — будь то террацин Психика, прототипы Учёного или маскировка Разбойника. Безумный Гений даёт самый экстремальный пик мощи, но с хаотическими недостатками."
+  }
+}

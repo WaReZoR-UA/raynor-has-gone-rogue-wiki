@@ -1,0 +1,321 @@
+[
+  {
+    "name":"Liberation Day",
+    "location":"Mar Sara 1",
+    "chain":"mar-sara",
+    "challenge":"Alpha, Here Is Omega",
+    "challengeDesc":{
+      "en":"Enemy spawns Alpha and Omega hybrid units during the mission.",
+      "ru":"Враг создаёт гибридных юнитов Альфа и Омега во время миссии."
+    },
+    "verdict":"take"
+  },
+  {
+    "name":"The Outlaws",
+    "location":"Mar Sara 2",
+    "chain":"mar-sara",
+    "challenge":"Prod It With A Stick!",
+    "challengeDesc":{
+      "en":"Poking enemy units with Raynor triggers aggressive waves.",
+      "ru":"Тыканье вражеских юнитов Рейнором вызывает агрессивные волны."
+    },
+    "verdict":"take"
+  },
+  {
+    "name":"Zero Hour",
+    "location":"Mar Sara 3",
+    "chain":"mar-sara",
+    "challenge":"Sticky Claws",
+    "challengeDesc":{
+      "en":"Zerg units have increased movement speed and sticky claws that slow your units.",
+      "ru":"Юниты зергов имеют повышенную скорость и липкие когти, замедляющие ваших юнитов."
+    },
+    "verdict":"depends"
+  },
+  {
+    "name":"Smash and Grab",
+    "location":"Monlyth",
+    "chain":"artifact",
+    "challenge":"Weeping Zealots",
+    "challengeDesc":{
+      "en":"Zealots periodically spawn and charge your base with increased damage.",
+      "ru":"Зилоты периодически появляются и атакуют вашу базу с повышенным уроном."
+    },
+    "verdict":"take"
+  },
+  {
+    "name":"The Dig",
+    "location":"Xil",
+    "chain":"artifact",
+    "challenge":"Under The Dragoon's Wings",
+    "challengeDesc":{
+      "en":"Dragoons provide cover fire and support to enemy Protoss forces.",
+      "ru":"Драгуны обеспечивают огневую поддержку вражеским силам протоссов."
+    },
+    "verdict":"depends"
+  },
+  {
+    "name":"The Moebius Factor",
+    "location":"Tyrador VIII",
+    "chain":"artifact",
+    "challenge":"What's The Plural Of Kerrigan?",
+    "challengeDesc":{
+      "en":"Multiple Kerrigan copies appear throughout the map as powerful enemies.",
+      "ru":"Множественные копии Керриган появляются на карте как мощные враги."
+    },
+    "verdict":"depends"
+  },
+  {
+    "name":"Supernova",
+    "location":"Typhon XI",
+    "chain":"artifact",
+    "challenge":"By Fire Be Purged!",
+    "challengeDesc":{
+      "en":"The supernova wall moves faster, and fire damage is increased.",
+      "ru":"Стена сверхновой движется быстрее, а урон от огня увеличен."
+    },
+    "verdict":"take"
+  },
+  {
+    "name":"Maw of the Void",
+    "location":"Sigma Quadrant",
+    "chain":"artifact",
+    "challenge":"The Bronze Armada",
+    "challengeDesc":{
+      "en":"A powerful Protoss armada reinforces the enemy with capital ships.",
+      "ru":"Мощная армада протоссов усиливает врага капитальными кораблями."
+    },
+    "verdict":"depends"
+  },
+  {
+    "name":"Evacuation",
+    "location":"Agria",
+    "chain":"colony",
+    "challenge":"Wrong Evacuation",
+    "challengeDesc":{
+      "en":"Colonist transports go to wrong locations, requiring rerouting and extra defense.",
+      "ru":"Транспорты колонистов летят не туда, требуя перенаправления и дополнительной защиты."
+    },
+    "verdict":"depends"
+  },
+  {
+    "name":"Outbreak",
+    "location":"Meinhoff",
+    "chain":"colony",
+    "challenge":"They Infest Marines Too",
+    "challengeDesc":{
+      "en":"Your Marines can become infested when killed, turning into enemies.",
+      "ru":"Ваши морпехи могут стать заражёнными после гибели, превращаясь во врагов."
+    },
+    "verdict":"depends"
+  },
+  {
+    "name":"Safe Haven",
+    "location":"Haven A",
+    "chain":"colony",
+    "challenge":"Crackin' Not Only Planets",
+    "challengeDesc":{
+      "en":"Protoss purification beams target your forces in addition to the colony.",
+      "ru":"Лучи очищения протоссов нацелены на ваши силы в дополнение к колонии."
+    },
+    "verdict":"skip"
+  },
+  {
+    "name":"Haven's Fall",
+    "location":"Haven B",
+    "chain":"colony",
+    "challenge":"Social Distancing Required",
+    "challengeDesc":{
+      "en":"Units that group too closely together take splash damage from infestation.",
+      "ru":"Юниты, стоящие слишком близко друг к другу, получают сплэш-урон от заражения."
+    },
+    "verdict":"depends"
+  },
+  {
+    "name":"Devil's Playground",
+    "location":"Redstone",
+    "chain":"covert",
+    "challenge":"Sunscreen Needed",
+    "challengeDesc":{
+      "en":"Lava rises more frequently and deals increased damage to exposed units.",
+      "ru":"Лава поднимается чаще и наносит повышенный урон незащищённым юнитам."
+    },
+    "verdict":"take"
+  },
+  {
+    "name":"Welcome to the Jungle",
+    "location":"Bel'Shir",
+    "chain":"covert",
+    "challenge":"Hallucinatory Fumes",
+    "challengeDesc":{
+      "en":"Jungle fumes cause hallucinations, spawning illusory enemy units.",
+      "ru":"Джунглевые испарения вызывают галлюцинации, создавая иллюзорных вражеских юнитов."
+    },
+    "verdict":"take"
+  },
+  {
+    "name":"Breakout",
+    "location":"New Folsom",
+    "chain":"covert",
+    "challenge":"Anti-Hero Mines",
+    "challengeDesc":{
+      "en":"Mines specifically target heroic units with bonus damage.",
+      "ru":"Мины специально нацелены на героических юнитов с бонусным уроном."
+    },
+    "verdict":"take"
+  },
+  {
+    "name":"Ghost of a Chance",
+    "location":"Avernus Station",
+    "chain":"covert",
+    "challenge":"Budget Cuts",
+    "challengeDesc":{
+      "en":"Reduced starting resources and limited reinforcement options.",
+      "ru":"Уменьшенные стартовые ресурсы и ограниченные варианты подкреплений."
+    },
+    "verdict":"depends"
+  },
+  {
+    "name":"Great Train Robbery",
+    "location":"Tarsonis",
+    "chain":"rebellion",
+    "challenge":"Pain Train",
+    "challengeDesc":{
+      "en":"Trains are heavily armored and escorted by powerful Dominion forces.",
+      "ru":"Поезда тяжело бронированы и охраняются мощными силами Доминиона."
+    },
+    "verdict":"take"
+  },
+  {
+    "name":"Cutthroat",
+    "location":"Deadman's Port",
+    "chain":"rebellion",
+    "challenge":"Tactical Lessons From Mengsk",
+    "challengeDesc":{
+      "en":"Enemy AI uses advanced tactics and builds counter-compositions.",
+      "ru":"Вражеский ИИ использует продвинутую тактику и собирает контр-композиции."
+    },
+    "verdict":"depends"
+  },
+  {
+    "name":"Engine of Destruction",
+    "location":"Valhalla",
+    "chain":"rebellion",
+    "challenge":"Child Safety Restrictions",
+    "challengeDesc":{
+      "en":"The Odin has reduced damage output and movement restrictions.",
+      "ru":"Один имеет сниженный урон и ограничения по передвижению."
+    },
+    "verdict":"take"
+  },
+  {
+    "name":"Media Blitz",
+    "location":"Korhal",
+    "chain":"rebellion",
+    "challenge":"Doom Of Odin",
+    "challengeDesc":{
+      "en":"The Odin takes increasing damage over time, creating urgency.",
+      "ru":"Один получает нарастающий урон со временем, создавая срочность."
+    },
+    "verdict":"depends"
+  },
+  {
+    "name":"Piercing the Shroud",
+    "location":"Castanar",
+    "chain":"rebellion",
+    "challenge":"Premature Detonation",
+    "challengeDesc":{
+      "en":"Self-destruct sequence triggers earlier with less time to escape.",
+      "ru":"Последовательность самоуничтожения запускается раньше с меньшим временем на побег."
+    },
+    "verdict":"skip"
+  },
+  {
+    "name":"Whispers of Doom",
+    "location":"Ulaan",
+    "chain":"prophecy",
+    "challenge":"The Zerg Can Hear You",
+    "challengeDesc":{
+      "en":"Using abilities alerts nearby Zerg, triggering additional spawns.",
+      "ru":"Использование способностей привлекает ближайших зергов, вызывая дополнительные волны."
+    },
+    "verdict":"take"
+  },
+  {
+    "name":"A Sinister Turn",
+    "location":"Zhakul",
+    "chain":"prophecy",
+    "challenge":"Maar Is Evolving!",
+    "challengeDesc":{
+      "en":"Maar gains new abilities and grows stronger throughout the mission.",
+      "ru":"Маар получает новые способности и становится сильнее на протяжении миссии."
+    },
+    "verdict":"depends"
+  },
+  {
+    "name":"Echoes of the Future",
+    "location":"Aiur",
+    "chain":"prophecy",
+    "challenge":"To Chain The Beast",
+    "challengeDesc":{
+      "en":"The Overmind's tendrils must be contained while defending against waves.",
+      "ru":"Щупальца Сверхразума нужно сдерживать, защищаясь от волн."
+    },
+    "verdict":"depends"
+  },
+  {
+    "name":"In Utter Darkness",
+    "location":"Distant World",
+    "chain":"prophecy",
+    "challenge":"In Utter Chaos",
+    "challengeDesc":{
+      "en":"Randomized enemy compositions and attack patterns each wave.",
+      "ru":"Случайные вражеские составы и паттерны атак каждую волну."
+    },
+    "verdict":"skip"
+  },
+  {
+    "name":"Gates of Hell",
+    "location":"Char 1",
+    "chain":"char",
+    "challenge":"Impossible, Hybrid On Char!",
+    "challengeDesc":{
+      "en":"Hybrid units appear among the Zerg forces on Char.",
+      "ru":"Гибридные юниты появляются среди сил зергов на Чаре."
+    },
+    "verdict":"depends"
+  },
+  {
+    "name":"Belly of the Beast",
+    "location":"Char 2a",
+    "chain":"char",
+    "challenge":"Daughter Of The Swarm",
+    "challengeDesc":{
+      "en":"Kerrigan herself hunts your squad through the tunnels.",
+      "ru":"Сама Керриган охотится на ваш отряд в тоннелях."
+    },
+    "verdict":"depends"
+  },
+  {
+    "name":"Shatter the Sky",
+    "location":"Char 2b",
+    "chain":"char",
+    "challenge":"Megalophobia",
+    "challengeDesc":{
+      "en":"Massive Zerg units appear with greatly increased size and power.",
+      "ru":"Массивные юниты зергов появляются с сильно увеличенным размером и мощью."
+    },
+    "verdict":"depends"
+  },
+  {
+    "name":"All In",
+    "location":"Char 3",
+    "chain":"char",
+    "challenge":"Threat Level: Omega",
+    "challengeDesc":{
+      "en":"Maximum difficulty final mission with all enemy types and hybrid waves.",
+      "ru":"Финальная миссия максимальной сложности со всеми типами врагов и волнами гибридов."
+    },
+    "verdict":"special"
+  }
+]

@@ -1,0 +1,440 @@
+{
+  "id": "acolyte",
+  "name": "Acolyte",
+  "icon": "🔮",
+  "color": "#8b5cf6",
+  "subtitle": {
+    "en": "Sacrifice. Empower. Transcend.",
+    "ru": "Жертвуй. Усиливай. Превосходи."
+  },
+  "summary": {
+    "en": "The Acolyte harnesses dark rituals and sacrifice-based mechanics to achieve extreme power scaling. By willingly offering units, resources, or even talents, the Acolyte converts losses into exponential gains. This class excels at turning curses into blessings and thrives in long campaigns where sacrificial stacks accumulate. The Acolyte is a high-risk, high-reward class that rewards careful resource management and strategic sacrifice timing.",
+    "ru": "Аколит использует тёмные ритуалы и механики жертвоприношения для достижения экстремального масштабирования силы. Добровольно жертвуя юнитами, ресурсами или даже талантами, Аколит превращает потери в экспоненциальный рост. Этот класс превосходно превращает проклятия в благословения и процветает в длинных кампаниях, где стаки жертвоприношений накапливаются. Аколит — класс высокого риска и высокой награды, вознаграждающий аккуратное управление ресурсами и стратегический тайминг жертвоприношений."
+  },
+  "unlock": {
+    "en": "Have 5 unique epic talents at once",
+    "ru": "Имейте 5 уникальных эпических талантов одновременно"
+  },
+  "stats": [
+    {"value": "S", "label": {"en": "Late-game scaling", "ru": "Масштабирование в лейте"}},
+    {"value": "A", "label": {"en": "Curse synergy", "ru": "Синергия с проклятиями"}},
+    {"value": "B", "label": {"en": "Early-game strength", "ru": "Сила в ранней игре"}},
+    {"value": "C", "label": {"en": "Ease of use", "ru": "Простота освоения"}}
+  ],
+  "strengths": [
+    {"en": "Incredible late-game scaling through sacrifice stacks", "ru": "Невероятное масштабирование в лейте через стаки жертвоприношений"},
+    {"en": "Can convert curses into powerful buffs", "ru": "Может превращать проклятия в мощные баффы"},
+    {"en": "Strong synergy with multiclass epic talents", "ru": "Сильная синергия с мультикласс эпическими талантами"},
+    {"en": "Unique ability to sacrifice talents for permanent bonuses", "ru": "Уникальная способность жертвовать талантами ради перманентных бонусов"}
+  ],
+  "weaknesses": [
+    {"en": "Weak early game before sacrifice engine starts", "ru": "Слабая ранняя игра до запуска механики жертвоприношений"},
+    {"en": "Requires careful planning — bad sacrifices can cripple a run", "ru": "Требует тщательного планирования — плохие жертвы могут погубить забег"},
+    {"en": "High skill floor — not beginner friendly", "ru": "Высокий порог вхождения — не для новичков"},
+    {"en": "Dependent on finding key ritual talents early", "ru": "Зависим от нахождения ключевых ритуальных талантов в начале"}
+  ],
+  "talents": [
+    {
+      "name": "Dark Ritual",
+      "rarity": "core",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Sacrifice 5 units to gain a permanent +10% damage and +10% HP buff for all allied units. Can be triggered once per mission.",
+        "ru": "Пожертвуйте 5 юнитами, чтобы получить перманентный бафф +10% урона и +10% HP для всех союзных юнитов. Можно активировать раз за миссию."
+      },
+      "analysis": {
+        "en": "The defining talent of Acolyte. Sacrifice cheap units (Marines, SCVs) early for permanent scaling. Each mission adds another stack — by late game your army is unstoppable.",
+        "ru": "Определяющий талант Аколита. Жертвуйте дешёвыми юнитами (Морпехи, SCV) в начале ради перманентного масштабирования. Каждая миссия добавляет стак — к лейту ваша армия неудержима."
+      }
+    },
+    {
+      "name": "Profane Offering",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "When a friendly unit dies, gain +2 minerals and +1 vespene. Stacks with other death-triggered effects.",
+        "ru": "Когда союзный юнит погибает, получите +2 минерала и +1 газ. Стакается с другими эффектами при смерти."
+      },
+      "analysis": {
+        "en": "Excellent economy talent that synergizes with sacrifice playstyle. Works well with cheap expendable units.",
+        "ru": "Отличный экономический талант, синергирующий с стилем игры на жертвоприношениях. Хорошо работает с дешёвыми расходными юнитами."
+      }
+    },
+    {
+      "name": "Forbidden Knowledge",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Each curse you have increases all damage dealt by +5%. Converting a curse via other talents retains this bonus.",
+        "ru": "Каждое ваше проклятие увеличивает весь наносимый урон на +5%. Конвертация проклятия через другие таланты сохраняет этот бонус."
+      },
+      "analysis": {
+        "en": "Core curse synergy talent. Don't be afraid of curses — each one is now +5% damage. Pairs perfectly with Dark Sacrament.",
+        "ru": "Ключевой талант синергии проклятий. Не бойтесь проклятий — каждое теперь +5% урона. Идеально сочетается с Dark Sacrament."
+      }
+    },
+    {
+      "name": "Dark Sacrament",
+      "rarity": "uncommon",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Convert one curse into a random epic talent. Can be used once per campaign.",
+        "ru": "Превращает одно проклятие в случайный эпический талант. Можно использовать раз за кампанию."
+      },
+      "analysis": {
+        "en": "Incredibly powerful — trades a debuff for a top-tier talent. Save it for a particularly nasty curse or use it early for tempo.",
+        "ru": "Невероятно мощный — обменивает дебафф на талант высшего уровня. Сохраните для особенно противного проклятия или используйте рано для темпа."
+      }
+    },
+    {
+      "name": "Soul Harvest",
+      "rarity": "common-infinite",
+      "tier": "A",
+      "stackable": true,
+      "maxStacks": 50,
+      "desc": {
+        "en": "Dark Ritual grants +3% additional damage per stack. Max 50 stacks.",
+        "ru": "Dark Ritual даёт +3% дополнительного урона за стак. Макс. 50 стаков."
+      },
+      "analysis": {
+        "en": "Multiplies your core talent's effectiveness. Even 3-5 stacks make Dark Ritual significantly stronger.",
+        "ru": "Умножает эффективность вашего основного таланта. Даже 3-5 стаков делают Dark Ritual значительно сильнее."
+      }
+    },
+    {
+      "name": "Blood Tithe",
+      "rarity": "common",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "At the start of each mission, lose 100 minerals. Allied units gain +8% attack speed for the entire mission.",
+        "ru": "В начале каждой миссии теряете 100 минералов. Союзные юниты получают +8% скорости атаки на всю миссию."
+      },
+      "analysis": {
+        "en": "Decent trade-off. The mineral loss hurts early but attack speed is powerful for bio builds.",
+        "ru": "Неплохой компромисс. Потеря минералов болезненна в начале, но скорость атаки мощна для био-билдов."
+      }
+    },
+    {
+      "name": "Cursed Resilience",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "For each curse you have, allied units gain +6% max HP. This is recalculated dynamically.",
+        "ru": "За каждое ваше проклятие союзные юниты получают +6% макс. HP. Пересчитывается динамически."
+      },
+      "analysis": {
+        "en": "Turns curses into a defensive buff. Combined with Forbidden Knowledge, curses give both offense and defense.",
+        "ru": "Превращает проклятия в защитный бафф. В сочетании с Forbidden Knowledge проклятия дают и атаку, и защиту."
+      }
+    },
+    {
+      "name": "Altar of Sacrifice",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Sacrifice a non-core talent to permanently gain +20% damage and +20% HP for all units. Cannot sacrifice epic talents.",
+        "ru": "Пожертвуйте не-core талантом, чтобы перманентно получить +20% урона и +20% HP для всех юнитов. Нельзя жертвовать эпическими талантами."
+      },
+      "analysis": {
+        "en": "Extremely powerful. Sacrifice weak or redundant talents for massive permanent buffs. Plan your talent path around this.",
+        "ru": "Крайне мощный. Жертвуйте слабыми или избыточными талантами ради массивных перманентных баффов. Планируйте путь талантов вокруг этого."
+      }
+    },
+    {
+      "name": "Void Pact",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Curses no longer have negative effects. You still count as having them for talent synergies.",
+        "ru": "Проклятия больше не имеют негативных эффектов. Вы всё ещё считаетесь обладателем проклятий для синергий талантов."
+      },
+      "analysis": {
+        "en": "The dream talent for curse-stacking builds. All downside removed, all upside retained. Take every curse you see.",
+        "ru": "Талант мечты для билдов на стаке проклятий. Все минусы убраны, все плюсы сохранены. Берите каждое проклятие."
+      }
+    },
+    {
+      "name": "Sacrificial Lambs",
+      "rarity": "common",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Marines, Firebats, and Medics cost 25% less minerals and vespene.",
+        "ru": "Морпехи, Огнемётчики и Медики стоят на 25% меньше минералов и газа."
+      },
+      "analysis": {
+        "en": "Makes cheap units even cheaper for sacrifice fodder. Good early talent for Dark Ritual builds.",
+        "ru": "Делает дешёвых юнитов ещё дешевле для жертвенного материала. Хороший ранний талант для билдов на Dark Ritual."
+      }
+    },
+    {
+      "name": "Reaping",
+      "rarity": "uncommon",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "When you sacrifice units via Dark Ritual, they explode dealing 50 damage to nearby enemies.",
+        "ru": "Когда вы жертвуете юнитами через Dark Ritual, они взрываются, нанося 50 урона ближайшим врагам."
+      },
+      "analysis": {
+        "en": "Fun but niche. Can clear early attack waves while you sacrifice. Not essential.",
+        "ru": "Забавный, но нишевый. Может зачистить ранние волны во время жертвоприношения. Не обязателен."
+      }
+    },
+    {
+      "name": "Unholy Fervor",
+      "rarity": "epic",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Dark Ritual now triggers automatically at the start of each mission (still requires 5 units). All sacrifice bonuses are doubled.",
+        "ru": "Dark Ritual теперь срабатывает автоматически в начале каждой миссии (всё ещё требует 5 юнитов). Все бонусы жертвоприношения удвоены."
+      },
+      "analysis": {
+        "en": "The ultimate Acolyte talent. Auto-triggering with doubled bonuses means your scaling is guaranteed and massive. Build around this.",
+        "ru": "Ультимативный талант Аколита. Авто-срабатывание с удвоенными бонусами означает гарантированное и массивное масштабирование. Стройте билд вокруг этого."
+      }
+    },
+    {
+      "name": "Echoes of the Fallen",
+      "rarity": "epic",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Units sacrificed via Dark Ritual leave behind spectral copies that fight for 30 seconds with 50% of original stats.",
+        "ru": "Юниты, принесённые в жертву через Dark Ritual, оставляют призрачные копии, которые сражаются 30 секунд с 50% исходных характеристик."
+      },
+      "analysis": {
+        "en": "Gives you free temporary units from sacrifices. Great for early-mission defense while your real army builds up.",
+        "ru": "Даёт бесплатных временных юнитов от жертвоприношений. Отлично для обороны в начале миссии, пока строится настоящая армия."
+      }
+    },
+    {
+      "name": "Desecration",
+      "rarity": "curse",
+      "tier": "C",
+      "stackable": true,
+      "maxStacks": 5,
+      "desc": {
+        "en": "All units cost +10% more minerals per stack. Max 5 stacks.",
+        "ru": "Все юниты стоят на +10% больше минералов за стак. Макс. 5 стаков."
+      },
+      "analysis": {
+        "en": "Nasty on its own, but Acolyte's curse synergies can turn this into a net positive. With Forbidden Knowledge, each stack is +5% damage.",
+        "ru": "Неприятно само по себе, но синергии проклятий Аколита могут превратить это в чистый плюс. С Forbidden Knowledge каждый стак — это +5% урона."
+      }
+    }
+  ],
+  "builds": [
+    {
+      "name": {"en": "Ritual Engine", "ru": "Ритуальный Движок"},
+      "subtitle": {"en": "Sacrifice-focused scaling machine", "ru": "Машина масштабирования через жертвы"},
+      "desc": {
+        "en": "The quintessential Acolyte build — maximize Dark Ritual triggers with cheap units and stack Soul Harvest for exponential damage growth. By mid-campaign you'll have permanent 50%+ damage and HP bonuses.",
+        "ru": "Квинтэссенция Аколита — максимизируйте срабатывания Dark Ritual дешёвыми юнитами и стакайте Soul Harvest для экспоненциального роста урона. К середине кампании у вас будут перманентные бонусы 50%+ к урону и HP."
+      },
+      "tags": [
+        {"name": "Dark Ritual", "type": "core"},
+        {"name": "Soul Harvest", "type": "required"},
+        {"name": "Unholy Fervor", "type": "required"},
+        {"name": "Sacrificial Lambs", "type": "optional"},
+        {"name": "Profane Offering", "type": "optional"},
+        {"name": "Salvage Operation", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"},
+          "text": {
+            "en": "Prioritize finding Dark Ritual and Soul Harvest. Build cheap bio units (Marines) as sacrifice material. Take Sacrificial Lambs if offered. Economy talents are important to sustain the mineral cost.",
+            "ru": "Приоритет — найти Dark Ritual и Soul Harvest. Стройте дешёвых био-юнитов (Морпехов) как материал для жертв. Берите Sacrificial Lambs если предложат. Экономические таланты важны для поддержания расходов минералов."
+          }
+        },
+        {
+          "title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"},
+          "text": {
+            "en": "You should have 5-10 Dark Ritual triggers by now. Stack Soul Harvest aggressively — each stack makes every future ritual more powerful. Look for Altar of Sacrifice to dump weaker talents.",
+            "ru": "К этому моменту у вас должно быть 5-10 срабатываний Dark Ritual. Агрессивно стакайте Soul Harvest — каждый стак делает каждый будущий ритуал мощнее. Ищите Altar of Sacrifice для сброса слабых талантов."
+          }
+        },
+        {
+          "title": {"en": "Late (16+)", "ru": "Поздняя (16+)"},
+          "text": {
+            "en": "With Unholy Fervor your rituals are automatic and doubled. Your army should have massive permanent buffs. Focus on elite units now — they benefit most from percentage-based bonuses.",
+            "ru": "С Unholy Fervor ваши ритуалы автоматические и удвоенные. Ваша армия должна иметь массивные перманентные баффы. Сосредоточьтесь на элитных юнитах — они получают наибольшую выгоду от процентных бонусов."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Always build 5+ extra Marines at mission start for guaranteed ritual", "ru": "Всегда стройте 5+ дополнительных Морпехов в начале миссии для гарантированного ритуала"},
+        {"en": "Soul Harvest stacks are multiplicative with Use More Gun — prioritize both", "ru": "Стаки Soul Harvest мультипликативны с Use More Gun — приоритизируйте оба"},
+        {"en": "Don't sacrifice expensive units — the bonus is the same regardless of unit value", "ru": "Не жертвуйте дорогими юнитами — бонус одинаков независимо от ценности юнита"}
+      ]
+    },
+    {
+      "name": {"en": "Curse Embrace", "ru": "Объятие Проклятий"},
+      "subtitle": {"en": "Turn every curse into pure power", "ru": "Превратите каждое проклятие в чистую силу"},
+      "desc": {
+        "en": "Instead of avoiding curses, actively seek them out. With Forbidden Knowledge, Cursed Resilience, and Void Pact, every curse becomes a massive buff with zero downside. This build is the ultimate counter to curse-heavy campaigns.",
+        "ru": "Вместо избегания проклятий, активно ищите их. С Forbidden Knowledge, Cursed Resilience и Void Pact каждое проклятие становится массивным баффом без негативных эффектов. Этот билд — ультимативный контр на кампании с большим количеством проклятий."
+      },
+      "tags": [
+        {"name": "Forbidden Knowledge", "type": "core"},
+        {"name": "Cursed Resilience", "type": "required"},
+        {"name": "Void Pact", "type": "required"},
+        {"name": "Dark Sacrament", "type": "optional"},
+        {"name": "Dark Ritual", "type": "optional"},
+        {"name": "Medical Breakthrough", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"},
+          "text": {
+            "en": "Grab Forbidden Knowledge ASAP. Don't reroll curses — accept them. Each curse is +5% damage. Look for Cursed Resilience to add survivability.",
+            "ru": "Хватайте Forbidden Knowledge как можно скорее. Не реролльте проклятия — принимайте их. Каждое проклятие — +5% урона. Ищите Cursed Resilience для живучести."
+          }
+        },
+        {
+          "title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"},
+          "text": {
+            "en": "Finding Void Pact here is the turning point — all curse downsides vanish. With 3-5 curses you'll have +15-25% damage and +18-30% HP with zero penalties.",
+            "ru": "Нахождение Void Pact здесь — переломный момент. Все минусы проклятий исчезают. С 3-5 проклятиями у вас будет +15-25% урона и +18-30% HP без штрафов."
+          }
+        },
+        {
+          "title": {"en": "Late (16+)", "ru": "Поздняя (16+)"},
+          "text": {
+            "en": "With 5+ curses and Void Pact, your army is absurdly strong. Use Dark Sacrament to convert the worst curse into an epic talent for even more power.",
+            "ru": "С 5+ проклятиями и Void Pact ваша армия абсурдно сильна. Используйте Dark Sacrament для конвертации худшего проклятия в эпический талант для ещё большей силы."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Void Pact is the #1 priority after Forbidden Knowledge — without it, stacking curses is risky", "ru": "Void Pact — приоритет #1 после Forbidden Knowledge — без него стакать проклятия рискованно"},
+        {"en": "Dark Sacrament can convert a curse into an epic talent — save it for a 5-stack curse if possible", "ru": "Dark Sacrament может превратить проклятие в эпический талант — сохраните для проклятия с 5 стаками если возможно"},
+        {"en": "This build is anti-fragile — the harder the campaign, the stronger you get", "ru": "Этот билд антихрупок — чем сложнее кампания, тем сильнее вы становитесь"}
+      ]
+    },
+    {
+      "name": {"en": "Talent Furnace", "ru": "Печь Талантов"},
+      "subtitle": {"en": "Burn talents for overwhelming power", "ru": "Сжигайте таланты ради подавляющей мощи"},
+      "desc": {
+        "en": "Centers around Altar of Sacrifice — deliberately take suboptimal talents only to sacrifice them for +20% damage/HP each. Combined with Dark Ritual stacking, this creates the highest raw stat bonuses of any Acolyte build.",
+        "ru": "Центрируется вокруг Altar of Sacrifice — намеренно берите субоптимальные таланты только для того, чтобы жертвовать ими ради +20% урона/HP каждый. В сочетании со стакингом Dark Ritual это создаёт наивысшие сырые бонусы характеристик среди всех билдов Аколита."
+      },
+      "tags": [
+        {"name": "Altar of Sacrifice", "type": "core"},
+        {"name": "Dark Ritual", "type": "required"},
+        {"name": "Soul Harvest", "type": "optional"},
+        {"name": "Profane Offering", "type": "optional"},
+        {"name": "Use More Gun", "type": "generic"},
+        {"name": "Salvage Operation", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"},
+          "text": {
+            "en": "Take any talents offered — even weak ones. You'll sacrifice them later. Prioritize finding Altar of Sacrifice and Dark Ritual. Economy talents are safe to keep.",
+            "ru": "Берите любые предложенные таланты — даже слабые. Вы пожертвуете их позже. Приоритет — найти Altar of Sacrifice и Dark Ritual. Экономические таланты безопасно оставить."
+          }
+        },
+        {
+          "title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"},
+          "text": {
+            "en": "Start burning talents via Altar. Each sacrifice is +20% damage and HP permanently. Keep only essential talents (Dark Ritual, economy, key epics). Everything else is fuel.",
+            "ru": "Начинайте сжигать таланты через Altar. Каждая жертва — +20% урона и HP перманентно. Оставляйте только необходимые таланты (Dark Ritual, экономика, ключевые эпики). Всё остальное — топливо."
+          }
+        },
+        {
+          "title": {"en": "Late (16+)", "ru": "Поздняя (16+)"},
+          "text": {
+            "en": "With 3-4 talent sacrifices and ongoing Dark Rituals, your permanent bonuses should be +80-100% damage and HP or more. Even basic Marines become deadly.",
+            "ru": "С 3-4 жертвами талантов и продолжающимися Dark Ritual ваши перманентные бонусы должны быть +80-100% урона и HP или больше. Даже обычные Морпехи становятся смертоносными."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Never sacrifice epic talents or Dark Ritual — everything else is fair game", "ru": "Никогда не жертвуйте эпическими талантами или Dark Ritual — всё остальное допустимо"},
+        {"en": "Common-infinite talents that have served their purpose are ideal sacrifice targets", "ru": "Common-infinite таланты, выполнившие свою задачу — идеальные цели для жертвоприношения"},
+        {"en": "Take seemingly useless talents just to feed them to the Altar", "ru": "Берите казалось бы бесполезные таланты только чтобы скормить их Алтарю"}
+      ]
+    }
+  ],
+  "multiclass_epics": [
+    {
+      "name": "Auxiliary Resources",
+      "classes": ["Acolyte", "Bard"],
+      "tier": "A",
+      "desc": {
+        "en": "Capital ships killed via Dark Ritual grant double sacrifice bonuses and refund 50% of their cost.",
+        "ru": "Капитальные корабли, убитые через Dark Ritual, дают двойные бонусы жертвоприношения и возвращают 50% стоимости."
+      },
+      "analysis": {
+        "en": "Turns expensive capital ships into premium sacrifice fodder. The cost refund offsets the loss, and double bonuses accelerate scaling.",
+        "ru": "Превращает дорогие капитальные корабли в премиум-материал для жертвоприношений. Возврат стоимости компенсирует потерю, а двойные бонусы ускоряют масштабирование."
+      }
+    },
+    {
+      "name": "Cerberus Salvage",
+      "classes": ["Acolyte", "Druid"],
+      "tier": "A",
+      "desc": {
+        "en": "Infested units count as double for Dark Ritual sacrifices. Sacrificed infested units spawn 2 Broodlings.",
+        "ru": "Заражённые юниты считаются за двух при жертвоприношениях Dark Ritual. Принесённые в жертву заражённые юниты порождают 2 Бродлингов."
+      },
+      "analysis": {
+        "en": "Druid provides cheap infested units that count double — halves the sacrifice requirement. Broodlings add free combat power.",
+        "ru": "Друид предоставляет дешёвых заражённых юнитов, считающихся за двух — уменьшает вдвое требование жертвоприношения. Бродлинги добавляют бесплатную боевую мощь."
+      }
+    },
+    {
+      "name": "Overdrived Logistics",
+      "classes": ["Acolyte", "Monk"],
+      "tier": "B",
+      "desc": {
+        "en": "Dark Ritual additionally grants +5% production speed permanently per trigger. Monk speed bonuses apply to sacrificed unit respawn timers.",
+        "ru": "Dark Ritual дополнительно даёт +5% скорости производства перманентно за срабатывание. Бонусы скорости Монаха применяются к таймерам возрождения принесённых в жертву юнитов."
+      },
+      "analysis": {
+        "en": "Adds production scaling to Dark Ritual — helps you rebuild faster after sacrifices. Solid but not game-changing.",
+        "ru": "Добавляет масштабирование производства к Dark Ritual — помогает быстрее восстанавливаться после жертв. Солидно, но не революционно."
+      }
+    },
+    {
+      "name": "Swarming Infestation",
+      "classes": ["Acolyte", "Necromancer"],
+      "tier": "S",
+      "desc": {
+        "en": "Cursed units sacrificed via Dark Ritual grant triple bonuses. Each curse you have spawns a free cursed Marine at mission start.",
+        "ru": "Проклятые юниты, принесённые в жертву через Dark Ritual, дают тройные бонусы. Каждое ваше проклятие порождает бесплатного проклятого Морпеха в начале миссии."
+      },
+      "analysis": {
+        "en": "The ultimate curse-sacrifice synergy. Necromancer provides curse stacking, Acolyte converts them into extreme power. S-tier when both classes are online.",
+        "ru": "Ультимативная синергия проклятий и жертвоприношений. Некромант обеспечивает стакинг проклятий, Аколит конвертирует их в экстремальную мощь. S-тир когда оба класса работают."
+      }
+    }
+  ],
+  "multiclass_intro": {
+    "en": "Acolyte's multiclass options focus on enhancing the sacrifice engine or amplifying curse synergies. The best pairings provide cheap sacrifice material (Druid, Necromancer) or multiply the bonuses gained from rituals (Bard, Monk).",
+    "ru": "Мультикласс-опции Аколита сосредоточены на усилении механики жертвоприношений или усилении синергий проклятий. Лучшие сочетания предоставляют дешёвый материал для жертв (Друид, Некромант) или умножают бонусы от ритуалов (Бард, Монах)."
+  }
+}

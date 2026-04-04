@@ -1,0 +1,362 @@
+{
+  "id": "champion",
+  "name": "Champion",
+  "icon": "&#128081;",
+  "color": "#eab308",
+  "subtitle": {
+    "en": "Heroic Unit Specialist",
+    "ru": "Специалист по героическим юнитам"
+  },
+  "summary": {
+    "en": "The Champion class transforms your army into a force of legendary heroes. Its core talent upgrades key units to Heroic status, granting them significantly enhanced stats. Champion talents further boost heroic units' damage, health, and abilities. The class pairs exceptionally well with the Super Heroic generic infinite talent, which gives +15% damage and +35% HP per stack to all heroic units. Combined with the Royal Mercenaries multiclass epic (Hunter), Champion can create the most individually powerful units in the entire mod.",
+    "ru": "Класс Чемпион превращает вашу армию в отряд легендарных героев. Его ключевой талант повышает ключевых юнитов до героического статуса, значительно усиливая их характеристики. Таланты Чемпиона дополнительно усиливают урон, здоровье и способности героических юнитов. Класс исключительно хорошо сочетается с общим бесконечным талантом Super Heroic, дающим +15% урона и +35% HP за стак всем героическим юнитам. В сочетании с мультикласс эпиком Royal Mercenaries (Охотник) Чемпион может создавать самых мощных отдельных юнитов во всём моде."
+  },
+  "unlock": {
+    "en": "None",
+    "ru": "Нет"
+  },
+  "stats": [
+    {"value": "S", "label": {"en": "Late-Game Power", "ru": "Сила в лейте"}},
+    {"value": "B", "label": {"en": "Early-Game Power", "ru": "Сила в начале"}},
+    {"value": "S", "label": {"en": "Scaling", "ru": "Масштабирование"}},
+    {"value": "B", "label": {"en": "Versatility", "ru": "Универсальность"}},
+    {"value": "C", "label": {"en": "Difficulty", "ru": "Сложность"}}
+  ],
+  "strengths": [
+    {"en": "Heroic units become incredibly powerful with Super Heroic stacking", "ru": "Героические юниты становятся невероятно мощными при стакании Super Heroic"},
+    {"en": "Individual unit quality is the highest of any class", "ru": "Качество отдельных юнитов самое высокое среди всех классов"},
+    {"en": "Excellent multiclass synergy with Hunter (Royal Mercenaries)", "ru": "Отличная мультикласс синергия с Охотником (Royal Mercenaries)"},
+    {"en": "Low micro requirement — fewer, stronger units are easier to manage", "ru": "Низкие требования к микро — меньше, но сильнее юнитов, проще управлять"}
+  ],
+  "weaknesses": [
+    {"en": "Relies on finding Super Heroic stacks for late-game scaling", "ru": "Зависит от нахождения стаков Super Heroic для масштабирования в лейте"},
+    {"en": "Fewer units means vulnerability to AoE damage and crowd control", "ru": "Меньше юнитов означает уязвимость к AoE урону и контролю толпы"},
+    {"en": "Losing a heroic unit is much more costly than losing regular units", "ru": "Потеря героического юнита намного болезненнее потери обычных юнитов"}
+  ],
+  "talents": [
+    {
+      "name": "Hero's Call",
+      "rarity": "core",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Your first unit of each type trained becomes a Heroic unit with +50% HP and +25% damage. Heroic units have a golden glow effect.",
+        "ru": "Первый обученный юнит каждого типа становится героическим с +50% HP и +25% урона. Героические юниты имеют золотое свечение."
+      },
+      "analysis": {
+        "en": "The foundation talent. The stat bonuses are solid baseline, but the real value is enabling Super Heroic infinite scaling and all Champion-specific buffs. Every talent in the class builds on this.",
+        "ru": "Основополагающий талант. Бонусы характеристик — неплохая база, но настоящая ценность в активации бесконечного масштабирования Super Heroic и всех баффов Чемпиона. Каждый талант класса строится на этом."
+      }
+    },
+    {
+      "name": "Heroic Fortitude",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Heroic units gain +100% HP regeneration and +2 armor.",
+        "ru": "Героические юниты получают +100% регенерации HP и +2 брони."
+      },
+      "analysis": {
+        "en": "Excellent survivability boost. The armor stacks additively with other sources, and doubled regen means your heroes heal back quickly between engagements. Core pickup for any Champion build.",
+        "ru": "Отличный буст выживаемости. Броня складывается с другими источниками, а удвоенная регенерация позволяет героям быстро восстанавливаться между боями. Основной выбор для любого билда Чемпиона."
+      }
+    },
+    {
+      "name": "Battle Hardened",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Heroic units gain +1% damage for every 5 seconds they survive in combat, up to +50%.",
+        "ru": "Героические юниты получают +1% урона за каждые 5 секунд выживания в бою, до +50%."
+      },
+      "analysis": {
+        "en": "Rewards keeping your heroes alive through long fights. At max stacks (+50% damage), it's a significant DPS boost. Synergizes well with Heroic Fortitude's survivability.",
+        "ru": "Награждает за сохранение героев в затяжных боях. При максимальных стаках (+50% урона) это значительный буст DPS. Хорошо синергирует с выживаемостью от Heroic Fortitude."
+      }
+    },
+    {
+      "name": "Hero's Arsenal",
+      "rarity": "common",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Heroic units gain +1 weapon range and +20% attack speed.",
+        "ru": "Героические юниты получают +1 к дальности оружия и +20% скорости атаки."
+      },
+      "analysis": {
+        "en": "Quality of life and DPS improvement. The range bonus helps ranged heroes stay safer while the attack speed boost is universal. Less impactful than raw damage/HP talents but still solid.",
+        "ru": "Улучшение качества жизни и DPS. Бонус дальности помогает дальнобойным героям оставаться в безопасности, а бонус скорости атаки универсален. Менее впечатляющ, чем чистые таланты урона/HP, но всё ещё надёжен."
+      }
+    },
+    {
+      "name": "Legendary Valor",
+      "rarity": "common-infinite",
+      "tier": "A",
+      "stackable": true,
+      "maxStacks": 100,
+      "desc": {
+        "en": "Heroic units deal +10% damage and gain +20% health. Max 100 stacks.",
+        "ru": "Героические юниты наносят +10% урона и получают +20% здоровья. Макс. 100 стаков."
+      },
+      "analysis": {
+        "en": "The class-specific infinite. Stacks with Super Heroic for double scaling. Always take offered stacks. At 10+ stacks, your heroes become nearly unkillable damage machines.",
+        "ru": "Классовый бесконечный талант. Стакается с Super Heroic для двойного масштабирования. Всегда берите предложенные стаки. При 10+ стаках ваши герои становятся практически неубиваемыми машинами урона."
+      }
+    },
+    {
+      "name": "Promotion",
+      "rarity": "uncommon",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "All trained units become Heroic, not just the first of each type.",
+        "ru": "Все обученные юниты становятся героическими, не только первый каждого типа."
+      },
+      "analysis": {
+        "en": "Transforms the entire class. Every unit you produce is now Heroic, benefiting from all Champion buffs and Super Heroic stacking. This is the single most important uncommon talent — it turns Champion from 'a few strong heroes' into 'an army of heroes'. Must-take.",
+        "ru": "Трансформирует весь класс. Каждый производимый юнит теперь героический, получающий все баффы Чемпиона и стаки Super Heroic. Это самый важный необычный талант — превращает Чемпиона из 'нескольких сильных героев' в 'армию героев'. Обязательный выбор."
+      }
+    },
+    {
+      "name": "Champion's Aura",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Heroic units grant +10% damage and +10% attack speed to nearby non-heroic allies.",
+        "ru": "Героические юниты дают +10% урона и +10% скорости атаки ближайшим не-героическим союзникам."
+      },
+      "analysis": {
+        "en": "Turns heroes into force multipliers. Even non-heroic units benefit from being near heroes. Less useful with Promotion (since all units are heroic) but excellent in mixed armies.",
+        "ru": "Превращает героев в усилители армии. Даже не-героические юниты получают пользу от близости к героям. Менее полезен с Promotion (все юниты героические), но отличен в смешанных армиях."
+      }
+    },
+    {
+      "name": "Undying Legend",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Heroic units revive once per mission at 50% HP after a 10-second delay.",
+        "ru": "Героические юниты воскресают раз за миссию на 50% HP после 10-секундной задержки."
+      },
+      "analysis": {
+        "en": "Insurance policy for your expensive heroes. The revive prevents catastrophic losses. With Promotion, every unit gets a free revive. Very strong on attrition-heavy missions.",
+        "ru": "Страховка для ваших дорогих героев. Воскрешение предотвращает катастрофические потери. С Promotion каждый юнит получает бесплатное воскрешение. Очень силён на миссиях с высокими потерями."
+      }
+    },
+    {
+      "name": "Legendary Ascension",
+      "rarity": "epic",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Heroic units gain +100% to all stats. Their abilities have -50% cooldown.",
+        "ru": "Героические юниты получают +100% ко всем характеристикам. Их способности имеют -50% перезарядки."
+      },
+      "analysis": {
+        "en": "Doubles all hero stats and halves ability cooldowns. With Promotion making everything heroic and Super Heroic stacking on top, this creates absurdly powerful units. The ability cooldown reduction adds significant utility value.",
+        "ru": "Удваивает все характеристики героев и вдвое сокращает перезарядку способностей. С Promotion, делающим всё героическим, и стаками Super Heroic поверх этого, создаёт абсурдно мощных юнитов. Сокращение перезарядки способностей добавляет значительную утилитарную ценность."
+      }
+    },
+    {
+      "name": "Hubris",
+      "rarity": "curse",
+      "tier": "D",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Heroic units cost +50% more resources to train.",
+        "ru": "Героические юниты стоят на +50% больше ресурсов при обучении."
+      },
+      "analysis": {
+        "en": "Directly punishes the Champion playstyle. With Promotion, every unit costs 50% more. Requires strong economy talent stacks to offset. Painful but manageable.",
+        "ru": "Напрямую наказывает стиль игры Чемпиона. С Promotion каждый юнит стоит на 50% больше. Требует сильных экономических стаков для компенсации. Болезненно, но управляемо."
+      }
+    },
+    {
+      "name": "Fallen Heroes",
+      "rarity": "plague",
+      "tier": "D",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "When a Heroic unit dies, all other Heroic units lose 5% damage for 30 seconds. Stacks.",
+        "ru": "Когда героический юнит гибнет, все остальные героические юниты теряют 5% урона на 30 секунд. Стакается."
+      },
+      "analysis": {
+        "en": "Cascading debuff that punishes losing heroes. In big fights with losses, the damage reduction snowballs. Forces careful play to minimize casualties.",
+        "ru": "Каскадный дебафф, наказывающий за потерю героев. В больших боях с потерями снижение урона нарастает. Вынуждает играть осторожно для минимизации потерь."
+      }
+    }
+  ],
+  "builds": [
+    {
+      "name": {"en": "Army of Legends", "ru": "Армия легенд"},
+      "subtitle": {"en": "Promotion + Super Heroic = entire army of super-heroes", "ru": "Promotion + Super Heroic = целая армия суперхероев"},
+      "desc": {
+        "en": "The definitive Champion build. Promotion makes all trained units Heroic, then Super Heroic and Legendary Valor infinite stacks turn your entire army into an unstoppable force. Every unit benefits from all Champion talents. Straightforward and devastatingly effective.",
+        "ru": "Определяющий билд Чемпиона. Promotion делает всех обученных юнитов героическими, затем бесконечные стаки Super Heroic и Legendary Valor превращают всю армию в неудержимую силу. Каждый юнит получает пользу от всех талантов Чемпиона. Прямолинейный и разрушительно эффективный."
+      },
+      "tags": [
+        {"name": "Hero's Call", "type": "core"},
+        {"name": "Promotion", "type": "required"},
+        {"name": "Legendary Valor", "type": "required"},
+        {"name": "Super Heroic", "type": "generic"},
+        {"name": "Heroic Fortitude", "type": "optional"},
+        {"name": "Legendary Ascension", "type": "optional"},
+        {"name": "Use More Gun", "type": "generic"},
+        {"name": "Medical Breakthrough", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "text": {
+            "en": "Your first units of each type are already Heroic from Hero's Call. Use them as the backbone of your army. Look for Promotion to unlock full army heroic status. Stack Super Heroic and Legendary Valor whenever offered.",
+            "ru": "Ваши первые юниты каждого типа уже героические от Hero's Call. Используйте их как основу армии. Ищите Promotion для разблокировки полного героического статуса армии. Копите Super Heroic и Legendary Valor при каждом предложении."
+          }
+        },
+        {
+          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "text": {
+            "en": "With Promotion, every unit you train is now a hero. Start mass producing your strongest unit types. Legendary Ascension is transformative if found. Continue stacking infinites — your army grows stronger with each talent pick.",
+            "ru": "С Promotion каждый обученный юнит теперь герой. Начинайте массовое производство сильнейших типов юнитов. Legendary Ascension трансформирует игру, если найден. Продолжайте копить бесконечные таланты — армия становится сильнее с каждым выбором."
+          }
+        },
+        {
+          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "text": {
+            "en": "Your entire army has massive stat bonuses from layered scaling. Even basic Marines with 15+ Super Heroic stacks and Legendary Valor become formidable. Add generic infinites like Use More Gun for additional multipliers.",
+            "ru": "Вся армия имеет массивные бонусы характеристик от многослойного масштабирования. Даже обычные Маринеры с 15+ стаками Super Heroic и Legendary Valor становятся грозными. Добавьте общие бесконечные таланты вроде Use More Gun для дополнительных множителей."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Promotion is the single highest priority talent after the core. Everything else is secondary.", "ru": "Promotion — самый приоритетный талант после ядра. Всё остальное вторично."},
+        {"en": "Stack expensive unit types for maximum value — heroic Battlecruisers or Thors are terrifying.", "ru": "Копите дорогие типы юнитов для максимальной ценности — героические Battlecruisers или Thors ужасающи."},
+        {"en": "Undying Legend becomes incredible with Promotion — every unit gets a free revive.", "ru": "Undying Legend становится невероятным с Promotion — каждый юнит получает бесплатное воскрешение."}
+      ]
+    },
+    {
+      "name": {"en": "Elite Few", "ru": "Избранная элита"},
+      "subtitle": {"en": "Small squad of ultra-powerful heroes", "ru": "Маленький отряд сверхмощных героев"},
+      "desc": {
+        "en": "Instead of making everything heroic with Promotion, this build focuses on maximizing the power of a small number of elite heroic units. Without Promotion, only the first of each type is Heroic — so you diversify production to get one hero of each unit type, creating a varied elite squad.",
+        "ru": "Вместо превращения всего в героическое через Promotion, этот билд фокусируется на максимизации мощи небольшого числа элитных героических юнитов. Без Promotion только первый юнит каждого типа героический — поэтому вы диверсифицируете производство для получения одного героя каждого типа, создавая разнообразный элитный отряд."
+      },
+      "tags": [
+        {"name": "Hero's Call", "type": "core"},
+        {"name": "Legendary Ascension", "type": "required"},
+        {"name": "Undying Legend", "type": "required"},
+        {"name": "Battle Hardened", "type": "required"},
+        {"name": "Heroic Fortitude", "type": "optional"},
+        {"name": "Champion's Aura", "type": "optional"},
+        {"name": "Super Heroic", "type": "generic"},
+        {"name": "Use More Gun", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "text": {
+            "en": "Train one of each unit type to create your hero roster. Support them with regular units. Heroic Fortitude keeps heroes alive. Champion's Aura buffs your regular support units nearby.",
+            "ru": "Обучите по одному юниту каждого типа для создания реестра героев. Поддерживайте их обычными юнитами. Heroic Fortitude сохраняет героев живыми. Champion's Aura баффает обычные юниты поддержки рядом."
+          }
+        },
+        {
+          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "text": {
+            "en": "Your heroes should be substantially stronger than regular units now. Battle Hardened makes them increasingly dangerous the longer they fight. Undying Legend gives each hero a second life. Use regular units as a screen for your heroes.",
+            "ru": "Ваши герои должны быть существенно сильнее обычных юнитов. Battle Hardened делает их всё опаснее, чем дольше они сражаются. Undying Legend даёт каждому герою вторую жизнь. Используйте обычных юнитов как щит для героев."
+          }
+        },
+        {
+          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "text": {
+            "en": "Each hero is effectively worth 10+ regular units. Legendary Ascension doubles their stats. The elite squad approach means you have incredible unit diversity — each hero type brings unique abilities to the fight.",
+            "ru": "Каждый герой фактически стоит 10+ обычных юнитов. Legendary Ascension удваивает их характеристики. Подход элитного отряда означает невероятное разнообразие — каждый тип героя привносит уникальные способности в бой."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Protect your heroes with regular units — losing a hero before Undying Legend triggers is expensive.", "ru": "Защищайте героев обычными юнитами — потеря героя до срабатывания Undying Legend очень затратна."},
+        {"en": "Champion's Aura is excellent here since you'll always have non-heroic units alongside heroes.", "ru": "Champion's Aura здесь отличен, поскольку рядом с героями всегда будут не-героические юниты."},
+        {"en": "Diversify unit types — each new type gives you another hero with unique abilities.", "ru": "Диверсифицируйте типы юнитов — каждый новый тип даёт ещё одного героя с уникальными способностями."}
+      ]
+    },
+    {
+      "name": {"en": "Royal Guard", "ru": "Королевская гвардия"},
+      "subtitle": {"en": "Hunter multiclass — heroic mercenaries", "ru": "Мультикласс Охотник — героические наёмники"},
+      "desc": {
+        "en": "The premier multiclass build for Champion. Royal Mercenaries makes all mercs Heroic, benefiting from both Deadman's Hardware AND Super Heroic/Legendary Valor. This creates triple-scaling mercenaries that are arguably the strongest units possible in the mod.",
+        "ru": "Лучший мультикласс билд Чемпиона. Royal Mercenaries делает всех наёмников героическими, получающими пользу от Deadman's Hardware И Super Heroic/Legendary Valor. Это создаёт наёмников с тройным масштабированием — вероятно, сильнейших юнитов в моде."
+      },
+      "tags": [
+        {"name": "Hero's Call", "type": "core"},
+        {"name": "Multiclass", "type": "required"},
+        {"name": "Royal Mercenaries", "type": "required"},
+        {"name": "Deadman's Hardware", "type": "required"},
+        {"name": "Super Heroic", "type": "generic"},
+        {"name": "Legendary Valor", "type": "optional"},
+        {"name": "Team Effort", "type": "optional"},
+        {"name": "Use More Gun", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "text": {
+            "en": "Play standard Champion while looking for Multiclass talent. Once you have it, pick Hunter as secondary. Start stacking both Deadman's Hardware and Super Heroic. Every stack of each makes your mercs stronger.",
+            "ru": "Играйте стандартным Чемпионом, ища талант Multiclass. Получив его, выберите Охотника как вторичный класс. Начинайте копить Deadman's Hardware и Super Heroic. Каждый стак каждого усиливает наёмников."
+          }
+        },
+        {
+          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "text": {
+            "en": "Royal Mercenaries transforms the build. Your mercs are now Heroic, gaining Champion buffs + Deadman's Hardware + Super Heroic. Team Effort doubles merc output. The triple scaling starts to compound massively.",
+            "ru": "Royal Mercenaries трансформирует билд. Ваши наёмники теперь героические, получая баффы Чемпиона + Deadman's Hardware + Super Heroic. Team Effort удваивает выход наёмников. Тройное масштабирование начинает мощно нарастать."
+          }
+        },
+        {
+          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "text": {
+            "en": "Your heroic mercs are unstoppable. Triple scaling makes even a handful of mercs capable of destroying entire enemy bases. This is one of the top 3 strongest builds in the entire mod at high stack counts.",
+            "ru": "Ваши героические наёмники неостановимы. Тройное масштабирование делает даже горстку наёмников способной уничтожить целые вражеские базы. Это один из топ-3 сильнейших билдов во всём моде при высоких стаках."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "This build requires finding Multiclass early — without it, you can't access Hunter talents or Royal Mercenaries.", "ru": "Этот билд требует раннего нахождения Multiclass — без него нет доступа к талантам Охотника и Royal Mercenaries."},
+        {"en": "Balance stacking Deadman's Hardware and Super Heroic — both multiply each other.", "ru": "Балансируйте стаки Deadman's Hardware и Super Heroic — они умножают друг друга."},
+        {"en": "If you find Promotion too, even your trained units become heroic alongside your heroic mercs.", "ru": "Если найдёте ещё и Promotion, даже обычные юниты станут героическими наряду с героическими наёмниками."}
+      ]
+    }
+  ],
+  "multiclass_epics": [
+    {
+      "name": "Royal Mercenaries",
+      "classes": ["Champion", "Hunter"],
+      "tier": "S",
+      "desc": {
+        "en": "All mercenary units become Heroic units.",
+        "ru": "Все наёмники становятся героическими юнитами."
+      },
+      "analysis": {
+        "en": "The best Champion multiclass option and one of the best in the entire mod. Heroic mercs benefit from both Deadman's Hardware and Super Heroic for triple scaling. Always prioritize this combination.",
+        "ru": "Лучшая мультикласс опция Чемпиона и одна из лучших во всём моде. Героические наёмники получают пользу от Deadman's Hardware и Super Heroic для тройного масштабирования. Всегда приоритизируйте эту комбинацию."
+      }
+    }
+  ],
+  "multiclass_intro": {
+    "en": "Champion's primary multiclass synergy is with Hunter through Royal Mercenaries, which makes all mercenaries Heroic. This is an S-tier combination that creates triple-scaling super-units. Other multiclass options exist but none approach the raw power of Royal Mercenaries. When planning a Champion multiclass build, Hunter should be your default choice unless you have a specific reason to pick something else. The Multiclass generic rare talent is required to unlock any secondary class.",
+    "ru": "Основная мультикласс синергия Чемпиона — с Охотником через Royal Mercenaries, делающий всех наёмников героическими. Это S-тир комбинация, создающая суперюнитов с тройным масштабированием. Другие мультикласс опции существуют, но ни одна не приближается к чистой мощи Royal Mercenaries. При планировании мультикласс билда Чемпиона, Охотник должен быть выбором по умолчанию, если нет конкретной причины выбрать иное. Общий редкий талант Multiclass необходим для разблокировки любого второго класса."
+  }
+}

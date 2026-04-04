@@ -1,0 +1,451 @@
+{
+  "id": "monk",
+  "name": "Monk",
+  "icon": "🧘",
+  "color": "#14b8a6",
+  "subtitle": {
+    "en": "Speed is the ultimate weapon.",
+    "ru": "Скорость — абсолютное оружие."
+  },
+  "summary": {
+    "en": "The Monk is a speed and logistics specialist that accelerates every aspect of gameplay — production, movement, training, and economy. Where other classes make units stronger, the Monk makes them faster and more numerous. This class excels at overwhelming enemies through rapid production and lightning-fast army movements. Monk is an excellent support class that pairs well with almost any playstyle, making it one of the most versatile choices in the game.",
+    "ru": "Монах — специалист по скорости и логистике, ускоряющий каждый аспект геймплея — производство, передвижение, тренировку и экономику. Там где другие классы делают юнитов сильнее, Монах делает их быстрее и многочисленнее. Этот класс превосходит во подавлении врагов через быстрое производство и молниеносные передвижения армии. Монах — отличный класс поддержки, хорошо сочетающийся практически с любым стилем игры, что делает его одним из самых универсальных выборов в игре."
+  },
+  "unlock": {
+    "en": "Complete all missions in one campaign",
+    "ru": "Пройдите все миссии в одной кампании"
+  },
+  "stats": [
+    {"value": "S", "label": {"en": "Production speed", "ru": "Скорость производства"}},
+    {"value": "A", "label": {"en": "Army mobility", "ru": "Мобильность армии"}},
+    {"value": "A", "label": {"en": "Versatility", "ru": "Универсальность"}},
+    {"value": "B", "label": {"en": "Raw combat power", "ru": "Чистая боевая мощь"}}
+  ],
+  "strengths": [
+    {"en": "Fastest production in the game — rebuild armies rapidly", "ru": "Самое быстрое производство в игре — молниеносное восстановление армий"},
+    {"en": "Movement speed buffs let you react to any threat", "ru": "Баффы скорости передвижения позволяют реагировать на любую угрозу"},
+    {"en": "Excellent economy through efficient logistics", "ru": "Отличная экономика через эффективную логистику"},
+    {"en": "Strong multiclass synergies with many classes", "ru": "Сильные мультикласс-синергии со многими классами"}
+  ],
+  "weaknesses": [
+    {"en": "Units are not individually stronger — relies on numbers and speed", "ru": "Юниты индивидуально не сильнее — полагается на численность и скорость"},
+    {"en": "Speed bonuses less impactful on defense-only missions", "ru": "Бонусы скорости менее значимы на чисто оборонительных миссиях"},
+    {"en": "Requires active micro to leverage mobility advantages", "ru": "Требует активного микро для использования преимуществ мобильности"},
+    {"en": "Weaker in pure DPS checks without damage talents", "ru": "Слабее в чистых DPS-чеках без талантов урона"}
+  ],
+  "talents": [
+    {
+      "name": "Inner Focus",
+      "rarity": "core",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "All production buildings train units 25% faster. Workers gather resources 15% faster. Units gain +10% movement speed.",
+        "ru": "Все производственные здания тренируют юнитов на 25% быстрее. Рабочие собирают ресурсы на 15% быстрее. Юниты получают +10% скорости передвижения."
+      },
+      "analysis": {
+        "en": "Three incredibly powerful bonuses in one talent. 25% faster training means you consistently outnumber opponents. 15% faster gathering compounds over the campaign. +10% speed improves everything.",
+        "ru": "Три невероятно мощных бонуса в одном таланте. На 25% быстрее тренировка означает постоянное численное превосходство. На 15% быстрее сбор ресурсов компаундится за кампанию. +10% скорости улучшает всё."
+      }
+    },
+    {
+      "name": "Swift Strikes",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Units gain +10% attack speed for 10 seconds after completing movement (moving more than 5 distance).",
+        "ru": "Юниты получают +10% скорости атаки на 10 секунд после завершения перемещения (более 5 дистанции)."
+      },
+      "analysis": {
+        "en": "Rewards mobile play. Move your army around the map and engage with a burst of attack speed. Works great with hit-and-run tactics.",
+        "ru": "Вознаграждает мобильный стиль игры. Перемещайте армию по карте и вступайте в бой со всплеском скорости атаки. Отлично работает с тактикой ударил-убежал."
+      }
+    },
+    {
+      "name": "Rapid Deployment",
+      "rarity": "common-infinite",
+      "tier": "S",
+      "stackable": true,
+      "maxStacks": 50,
+      "desc": {
+        "en": "All units train +3% faster per stack. Max 50 stacks.",
+        "ru": "Все юниты тренируются на +3% быстрее за стак. Макс. 50 стаков."
+      },
+      "analysis": {
+        "en": "Your primary scaling talent. Stacks with Inner Focus multiplicatively. At 10+ stacks, units train almost instantly. Essential for any Monk build.",
+        "ru": "Ваш основной талант масштабирования. Стакается с Inner Focus мультипликативно. На 10+ стаках юниты тренируются почти мгновенно. Необходим для любого билда Монаха."
+      }
+    },
+    {
+      "name": "Meditation",
+      "rarity": "common",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Units that remain stationary for 5 seconds gain +3 HP/s regeneration and +5% damage.",
+        "ru": "Юниты, стоящие неподвижно 5 секунд, получают +3 HP/с регенерации и +5% урона."
+      },
+      "analysis": {
+        "en": "Anti-synergy with movement builds but good for defense missions. Siege tanks and turrets benefit most from this.",
+        "ru": "Анти-синергия с билдами на движение, но хорош для оборонительных миссий. Осадные танки и турели получают наибольшую выгоду."
+      }
+    },
+    {
+      "name": "Free Sample",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "At the start of each mission, receive 4 free War Pigs (elite Marines). They spawn instantly at your Command Center.",
+        "ru": "В начале каждой миссии получите 4 бесплатных War Pigs (элитные Морпехи). Они появляются мгновенно у Командного Центра."
+      },
+      "analysis": {
+        "en": "Free elite units every mission is incredible tempo. War Pigs are strong early-game units that can handle initial objectives while you build up.",
+        "ru": "Бесплатные элитные юниты каждую миссию — невероятный темп. War Pigs — сильные юниты ранней игры, справляющиеся с начальными задачами пока вы отстраиваетесь."
+      }
+    },
+    {
+      "name": "Fleetfoot",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "All units gain +20% movement speed. Units move 30% faster on roads and ramps.",
+        "ru": "Все юниты получают +20% скорости передвижения. Юниты двигаются на 30% быстрее на дорогах и рампах."
+      },
+      "analysis": {
+        "en": "Combined with Inner Focus, your army moves 30%+ faster than normal. This lets you split armies, reinforce faster, and dodge enemy attacks.",
+        "ru": "В сочетании с Inner Focus ваша армия двигается на 30%+ быстрее нормы. Это позволяет разделять армии, быстрее подкреплять и уклоняться от атак врагов."
+      }
+    },
+    {
+      "name": "Assembly Line",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Buildings construct 30% faster. Supply Depots and add-ons are built instantly.",
+        "ru": "Здания строятся на 30% быстрее. Депо снабжения и пристройки строятся мгновенно."
+      },
+      "analysis": {
+        "en": "Instant Supply Depots alone is game-changing — no more supply blocks. Faster buildings mean faster tech and production online.",
+        "ru": "Мгновенные Депо снабжения сами по себе меняют игру — больше никаких блоков снабжения. Быстрее здания — быстрее техи и производство."
+      }
+    },
+    {
+      "name": "Wind Walk",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Activate to make all units immune to slowing effects and gain +50% movement speed for 15 seconds. 60 second cooldown.",
+        "ru": "Активация делает все юниты невосприимчивыми к замедлениям и даёт +50% скорости передвижения на 15 секунд. 60 секунд перезарядка."
+      },
+      "analysis": {
+        "en": "Incredible for retreats, engagements, and objective rushes. The slow immunity is extremely valuable against certain mission enemies. Use it to rush objectives.",
+        "ru": "Невероятно для отступлений, вступлений в бой и рывков к объектам. Иммунитет к замедлению крайне ценен против определённых врагов на миссиях. Используйте для рывков к целям."
+      }
+    },
+    {
+      "name": "Momentum",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Each allied unit kill grants your army +1% movement speed and +1% attack speed for 20 seconds, stacking up to 15 times.",
+        "ru": "Каждое убийство союзным юнитом даёт вашей армии +1% скорости движения и +1% скорости атаки на 20 секунд, стакается до 15 раз."
+      },
+      "analysis": {
+        "en": "Snowball talent — the more you kill, the faster you become. In large battles this easily reaches max stacks for +15% to both speeds.",
+        "ru": "Талант снежного кома — чем больше убиваете, тем быстрее становитесь. В крупных боях легко достигает максимума для +15% к обеим скоростям."
+      }
+    },
+    {
+      "name": "Efficient Logistics",
+      "rarity": "common",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "All units cost 10% less supply. Medivacs and Dropships move 25% faster.",
+        "ru": "Все юниты стоят на 10% меньше снабжения. Медиваки и Десантные корабли двигаются на 25% быстрее."
+      },
+      "analysis": {
+        "en": "Less supply per unit means more units overall. Faster Medivacs enable better drops and evacuations.",
+        "ru": "Меньше снабжения на юнита — больше юнитов в общем. Быстрее Медиваки — лучше десантирования и эвакуации."
+      }
+    },
+    {
+      "name": "Transcendence",
+      "rarity": "epic",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "All speed bonuses also grant half their value as damage bonuses. Units with +50% speed gain +25% damage.",
+        "ru": "Все бонусы скорости также дают половину своего значения как бонусы к урону. Юниты с +50% скорости получают +25% урона."
+      },
+      "analysis": {
+        "en": "The ultimate Monk talent — converts all your speed investment into damage. With high speed stacks, this gives more damage than most dedicated damage talents.",
+        "ru": "Ультимативный талант Монаха — конвертирует все инвестиции в скорость в урон. С высокими стаками скорости даёт больше урона, чем большинство специализированных талантов на урон."
+      }
+    },
+    {
+      "name": "Zen Mastery",
+      "rarity": "epic",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Production buildings can queue unlimited units. Every 5th unit produced from any building is free. Workers never idle — they automatically find new resource patches.",
+        "ru": "Производственные здания могут ставить неограниченную очередь юнитов. Каждый 5-й юнит, произведённый любым зданием, бесплатен. Рабочие никогда не простаивают — автоматически находят новые ресурсные точки."
+      },
+      "analysis": {
+        "en": "Quality of life and economy rolled into one. Free units every 5th production adds up massively over a campaign. Auto-workers prevent resource waste.",
+        "ru": "Удобство и экономика в одном. Бесплатный юнит каждый 5-й в производстве массивно накапливается за кампанию. Авто-рабочие предотвращают потерю ресурсов."
+      }
+    },
+    {
+      "name": "One-Inch Punch",
+      "rarity": "rare",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Melee units deal +40% damage and have +20% attack speed. Their attacks knock back small enemies.",
+        "ru": "Юниты ближнего боя наносят +40% урона и имеют +20% скорости атаки. Их атаки отбрасывают мелких врагов."
+      },
+      "analysis": {
+        "en": "Niche but strong for melee-heavy compositions. Firebats and Zealots benefit enormously. Knockback disrupts enemy formations.",
+        "ru": "Нишевый, но сильный для составов с ближним боем. Огнемётчики и Зилоты получают огромную выгоду. Отброс разрушает формации врагов."
+      }
+    }
+  ],
+  "builds": [
+    {
+      "name": {"en": "Speed Demon", "ru": "Демон Скорости"},
+      "subtitle": {"en": "Maximum velocity, maximum violence", "ru": "Максимальная скорость, максимальное насилие"},
+      "desc": {
+        "en": "Stack every speed bonus possible, then use Transcendence to convert it all into damage. Your army moves at absurd speeds while hitting nearly as hard as dedicated damage classes. Wind Walk provides burst mobility for critical moments.",
+        "ru": "Стакайте каждый возможный бонус скорости, затем используйте Transcendence для конвертации в урон. Ваша армия движется с абсурдной скоростью, нанося почти столько же урона, как специализированные классы на урон. Wind Walk обеспечивает взрывную мобильность для критических моментов."
+      },
+      "tags": [
+        {"name": "Inner Focus", "type": "core"},
+        {"name": "Transcendence", "type": "required"},
+        {"name": "Fleetfoot", "type": "required"},
+        {"name": "Wind Walk", "type": "optional"},
+        {"name": "Momentum", "type": "optional"},
+        {"name": "Accelerated Logistics", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"},
+          "text": {
+            "en": "Inner Focus gives +10% speed immediately. Take Fleetfoot for another +20%. Stack Accelerated Logistics from generic talents. You'll already be noticeably faster than normal.",
+            "ru": "Inner Focus даёт +10% скорости сразу. Берите Fleetfoot для ещё +20%. Стакайте Accelerated Logistics из общих талантов. Вы уже будете заметно быстрее нормы."
+          }
+        },
+        {
+          "title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"},
+          "text": {
+            "en": "Finding Transcendence is the turning point — all your speed becomes damage. With +40% speed you now also have +20% damage. Keep stacking speed talents.",
+            "ru": "Нахождение Transcendence — переломный момент. Вся ваша скорость становится уроном. С +40% скорости у вас теперь также +20% урона. Продолжайте стакать таланты скорости."
+          }
+        },
+        {
+          "title": {"en": "Late (16+)", "ru": "Поздняя (16+)"},
+          "text": {
+            "en": "With +60-80% speed and Transcendence, your army has +30-40% damage bonus purely from speed. Wind Walk pushes this even higher in bursts. Use overwhelming mobility to dominate objectives.",
+            "ru": "С +60-80% скорости и Transcendence ваша армия имеет +30-40% бонуса урона чисто от скорости. Wind Walk толкает это ещё выше в рывках. Используйте подавляющую мобильность для доминирования над целями."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Transcendence makes Accelerated Logistics a pseudo-damage talent — prioritize it higher", "ru": "Transcendence делает Accelerated Logistics псевдо-талантом урона — приоритизируйте его выше"},
+        {"en": "Wind Walk + Swift Strikes = huge damage burst when engaging", "ru": "Wind Walk + Swift Strikes = огромный всплеск урона при вступлении в бой"},
+        {"en": "Fast army means you can split-push multiple objectives simultaneously", "ru": "Быстрая армия позволяет разделять атаки на несколько целей одновременно"}
+      ]
+    },
+    {
+      "name": {"en": "Production Overlord", "ru": "Повелитель Производства"},
+      "subtitle": {"en": "Infinite reinforcements, zero downtime", "ru": "Бесконечные подкрепления, нулевой простой"},
+      "desc": {
+        "en": "Maximize production speed to create an endless stream of units. Rapid Deployment + Inner Focus + Assembly Line means your army rebuilds almost instantly after losses. Quantity has a quality all its own.",
+        "ru": "Максимизируйте скорость производства для создания бесконечного потока юнитов. Rapid Deployment + Inner Focus + Assembly Line означают, что армия восстанавливается почти мгновенно после потерь. У количества есть своё собственное качество."
+      },
+      "tags": [
+        {"name": "Inner Focus", "type": "core"},
+        {"name": "Rapid Deployment", "type": "required"},
+        {"name": "Assembly Line", "type": "required"},
+        {"name": "Zen Mastery", "type": "required"},
+        {"name": "Free Sample", "type": "optional"},
+        {"name": "Salvage Operation", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"},
+          "text": {
+            "en": "Inner Focus already gives 25% faster training. Stack Rapid Deployment aggressively — each stack is +3% on top. Assembly Line for instant Supply Depots. Build multiple production buildings early.",
+            "ru": "Inner Focus уже даёт 25% быстрее тренировку. Стакайте Rapid Deployment агрессивно — каждый стак +3% сверху. Assembly Line для мгновенных Депо. Стройте несколько производственных зданий рано."
+          }
+        },
+        {
+          "title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"},
+          "text": {
+            "en": "With 5-10 Rapid Deployment stacks and Assembly Line, you produce units faster than you can spend them. Zen Mastery adds free units every 5th production. Keep constant queues running.",
+            "ru": "С 5-10 стаками Rapid Deployment и Assembly Line вы производите юнитов быстрее, чем тратите. Zen Mastery добавляет бесплатных юнитов каждый 5-й в производстве. Держите постоянные очереди."
+          }
+        },
+        {
+          "title": {"en": "Late (16+)", "ru": "Поздняя (16+)"},
+          "text": {
+            "en": "Units train in 1-2 seconds. You can lose your entire army and rebuild in under a minute. For All In, rally everything constantly — your production advantage is insurmountable.",
+            "ru": "Юниты тренируются за 1-2 секунды. Вы можете потерять всю армию и восстановить за минуту. Для All In ралли всё постоянно — ваше производственное преимущество непреодолимо."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Build 4+ Barracks/Factories/Starports — more production buildings = more benefit from speed bonuses", "ru": "Стройте 4+ Казарм/Заводов/Старпортов — больше зданий = больше выгоды от бонусов скорости"},
+        {"en": "Zen Mastery's free unit every 5th adds up fast — don't forget to queue constantly", "ru": "Бесплатный юнит каждые 5 от Zen Mastery накапливается быстро — не забывайте ставить очередь постоянно"},
+        {"en": "Salvage Operation matters more here — you need minerals to feed your production machine", "ru": "Salvage Operation важнее здесь — нужны минералы для питания производственной машины"}
+      ]
+    },
+    {
+      "name": {"en": "War Pig Express", "ru": "Экспресс War Pig"},
+      "subtitle": {"en": "Free Sample + Hunter = infinite elite Marines", "ru": "Free Sample + Hunter = бесконечные элитные Морпехи"},
+      "desc": {
+        "en": "Combine Free Sample with Hunter's Bountiful Samples multiclass epic for 16 free War Pigs per mission. Pair with production speed to create an unstoppable Marine army backed by free elite reinforcements every mission.",
+        "ru": "Комбинируйте Free Sample с мультикласс-эпиком Bountiful Samples от Охотника для 16 бесплатных War Pigs за миссию. Сочетайте со скоростью производства для создания неудержимой армии Морпехов с бесплатными элитными подкреплениями каждую миссию."
+      },
+      "tags": [
+        {"name": "Inner Focus", "type": "core"},
+        {"name": "Free Sample", "type": "required"},
+        {"name": "Rapid Deployment", "type": "required"},
+        {"name": "Swift Strikes", "type": "optional"},
+        {"name": "Multiclass", "type": "required"},
+        {"name": "Use More Gun", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"},
+          "text": {
+            "en": "Get Free Sample ASAP — 4 War Pigs per mission is already strong. Build Marines to supplement. Take Multiclass talent early to access Hunter class.",
+            "ru": "Берите Free Sample как можно скорее — 4 War Pigs за миссию уже сильно. Стройте Морпехов в дополнение. Берите талант Мультикласс рано для доступа к классу Охотника."
+          }
+        },
+        {
+          "title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"},
+          "text": {
+            "en": "With Bountiful Samples from Hunter multiclass, Free Sample triggers 3 extra times = 16 War Pigs per mission. These elite Marines carry early objectives single-handedly.",
+            "ru": "С Bountiful Samples от мультикласса Охотника, Free Sample срабатывает 3 дополнительных раза = 16 War Pigs за миссию. Эти элитные Морпехи в одиночку выполняют ранние задачи."
+          }
+        },
+        {
+          "title": {"en": "Late (16+)", "ru": "Поздняя (16+)"},
+          "text": {
+            "en": "16 free War Pigs + your produced army = overwhelming force from mission start. Use More Gun and speed buffs make even regular Marines deadly. All In becomes trivial with instant army.",
+            "ru": "16 бесплатных War Pigs + произведённая армия = подавляющая сила с начала миссии. Use More Gun и баффы скорости делают даже обычных Морпехов смертоносными. All In становится тривиальным с мгновенной армией."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Bountiful Samples (Hunter multiclass) is the #1 priority — it quadruples Free Sample value", "ru": "Bountiful Samples (мультикласс Охотника) — приоритет #1 — учетверяет ценность Free Sample"},
+        {"en": "War Pigs are elite Marines — they benefit from all Marine upgrades and buffs", "ru": "War Pigs — элитные Морпехи — они получают все улучшения и баффы Морпехов"},
+        {"en": "12 free War Pigs = roughly 600 minerals saved per mission", "ru": "12 бесплатных War Pigs = примерно 600 сэкономленных минералов за миссию"}
+      ]
+    }
+  ],
+  "multiclass_epics": [
+    {
+      "name": "A Hero Is Never Late",
+      "classes": ["Monk", "Champion"],
+      "tier": "A",
+      "desc": {
+        "en": "Heroic units gain +25% movement speed and arrive at missions with full energy. Champion hero abilities cooldown 30% faster.",
+        "ru": "Героические юниты получают +25% скорости передвижения и прибывают на миссии с полной энергией. Способности героев Чемпиона перезаряжаются на 30% быстрее."
+      },
+      "analysis": {
+        "en": "Fast heroes with reduced cooldowns is very strong. Full starting energy means immediate ability usage. Great for hero-centric builds.",
+        "ru": "Быстрые герои с уменьшенными перезарядками очень сильны. Полная стартовая энергия — немедленное использование способностей. Отлично для билдов на героев."
+      }
+    },
+    {
+      "name": "Dark Enlightenment",
+      "classes": ["Monk", "Warlock"],
+      "tier": "B",
+      "desc": {
+        "en": "Forbidden abilities cast 30% faster. Speed bonuses reduce Warlock pact cooldowns proportionally.",
+        "ru": "Запретные способности применяются на 30% быстрее. Бонусы скорости уменьшают перезарядки пактов Варлока пропорционально."
+      },
+      "analysis": {
+        "en": "Speed bonuses reducing Warlock cooldowns is a unique synergy. More frequent pact usage = more power, though the combo is hard to optimize.",
+        "ru": "Бонусы скорости, уменьшающие перезарядки Варлока — уникальная синергия. Более частое использование пактов = больше силы, хотя комбо сложно оптимизировать."
+      }
+    },
+    {
+      "name": "Overdrived Logistics",
+      "classes": ["Monk", "Acolyte"],
+      "tier": "B",
+      "desc": {
+        "en": "Dark Ritual additionally grants +5% production speed permanently per trigger. Monk speed bonuses apply to sacrificed unit respawn timers.",
+        "ru": "Dark Ritual дополнительно даёт +5% скорости производства перманентно за срабатывание. Бонусы скорости Монаха применяются к таймерам возрождения принесённых в жертву юнитов."
+      },
+      "analysis": {
+        "en": "Adds production scaling to Acolyte sacrifices. Monk's speed helps rebuild after ritual sacrifices. Decent utility.",
+        "ru": "Добавляет масштабирование производства к жертвам Аколита. Скорость Монаха помогает восстановиться после ритуальных жертв. Неплохая утилита."
+      }
+    },
+    {
+      "name": "Superspread",
+      "classes": ["Monk", "Necromancer"],
+      "tier": "A",
+      "desc": {
+        "en": "Curses spread 50% faster between missions. Speed bonuses reduce curse negative effects by 1% per 5% speed bonus. At +50% speed, curses are 10% weaker.",
+        "ru": "Проклятия распространяются на 50% быстрее между миссиями. Бонусы скорости уменьшают негативные эффекты проклятий на 1% за 5% бонуса скорости. При +50% скорости проклятия на 10% слабее."
+      },
+      "analysis": {
+        "en": "Speed reduces curse penalties — elegant synergy. With very high speed stacks, curses become negligible. Necromancer benefits from more curses spreading.",
+        "ru": "Скорость уменьшает штрафы проклятий — элегантная синергия. С очень высокими стаками скорости проклятия становятся пренебрежимыми. Некромант выигрывает от большего распространения проклятий."
+      }
+    },
+    {
+      "name": "Shadowstep",
+      "classes": ["Monk", "Rogue"],
+      "tier": "A",
+      "desc": {
+        "en": "Units can teleport a short distance (range 8) every 30 seconds. After teleporting, they are cloaked for 3 seconds and deal +30% damage on first attack.",
+        "ru": "Юниты могут телепортироваться на короткую дистанцию (дальность 8) каждые 30 секунд. После телепортации они замаскированы на 3 секунды и наносят +30% урона первой атакой."
+      },
+      "analysis": {
+        "en": "Blink + cloak + damage burst is an incredible micro tool. Enables devastating ambushes and instant repositioning in fights.",
+        "ru": "Блинк + маскировка + всплеск урона — невероятный инструмент микро. Позволяет разрушительные засады и мгновенное перепозиционирование в боях."
+      }
+    },
+    {
+      "name": "Speed Learning",
+      "classes": ["Monk", "Paladin"],
+      "tier": "A",
+      "desc": {
+        "en": "Oaths are learned 50% faster. Paladin aura radius scales with movement speed bonuses. At +30% speed, aura radius is doubled.",
+        "ru": "Клятвы изучаются на 50% быстрее. Радиус аур Паладина масштабируется с бонусами скорости передвижения. При +30% скорости радиус ауры удвоен."
+      },
+      "analysis": {
+        "en": "Doubled aura radius means Paladin auras cover your entire army easily. Speed bonuses becoming aura range is a perfect synergy.",
+        "ru": "Удвоенный радиус ауры означает, что ауры Паладина покрывают всю армию легко. Бонусы скорости, становящиеся дальностью ауры — идеальная синергия."
+      }
+    }
+  ],
+  "multiclass_intro": {
+    "en": "Monk's speed and production bonuses complement almost any class. The best multiclass options convert speed into other advantages (Paladin's aura scaling, Necromancer's curse reduction) or provide free units that benefit from production speed (Hunter's Bountiful Samples). Monk + Hunter is a standout pairing for the War Pig Express build, while Monk + Paladin creates extremely wide-reaching defensive auras.",
+    "ru": "Бонусы скорости и производства Монаха дополняют практически любой класс. Лучшие мультикласс-опции конвертируют скорость в другие преимущества (масштабирование аур Паладина, снижение проклятий Некроманта) или предоставляют бесплатных юнитов, выигрывающих от скорости производства (Bountiful Samples Охотника). Монах + Охотник — выдающееся сочетание для билда War Pig Express, а Монах + Паладин создаёт крайне широкие защитные ауры."
+  }
+}

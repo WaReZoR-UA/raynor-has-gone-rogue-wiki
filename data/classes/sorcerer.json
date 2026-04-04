@@ -1,0 +1,361 @@
+{
+  "id": "sorcerer",
+  "name": "Sorcerer",
+  "icon": "&#10024;",
+  "color": "#7c3aed",
+  "subtitle": {
+    "en": "Drop Pod Commander",
+    "ru": "Командир десантных капсул"
+  },
+  "summary": {
+    "en": "The Sorcerer class harnesses the power of orbital drop pod reinforcements and spell-like abilities. Its core talent enables drop pod deployments that deliver units, supplies, or destructive payloads anywhere on the map. Sorcerer excels at rapid reinforcement, global map presence, and burst damage from orbital strikes. The class bypasses traditional production and positioning constraints — reinforcements arrive exactly where needed. Combined with spell-enhancing talents, the Sorcerer transforms drop pods from simple logistics into devastating weapons of war.",
+    "ru": "Класс Колдун использует силу орбитальных десантных капсул и способностей, подобных заклинаниям. Его ключевой талант активирует развёртывание капсул, доставляющих юнитов, припасы или разрушительные грузы в любую точку карты. Колдун превосходен в быстром подкреплении, глобальном присутствии на карте и взрывном уроне от орбитальных ударов. Класс обходит традиционные ограничения производства и позиционирования — подкрепления прибывают именно туда, где нужно. В сочетании с талантами усиления заклинаний Колдун превращает капсулы из простой логистики в разрушительное оружие войны."
+  },
+  "unlock": {
+    "en": "None",
+    "ru": "Нет"
+  },
+  "stats": [
+    {"value": "A", "label": {"en": "Late-Game Power", "ru": "Сила в лейте"}},
+    {"value": "A", "label": {"en": "Early-Game Power", "ru": "Сила в начале"}},
+    {"value": "B", "label": {"en": "Scaling", "ru": "Масштабирование"}},
+    {"value": "A", "label": {"en": "Versatility", "ru": "Универсальность"}},
+    {"value": "C", "label": {"en": "Difficulty", "ru": "Сложность"}}
+  ],
+  "strengths": [
+    {"en": "Global map presence — reinforce anywhere instantly via drop pods", "ru": "Глобальное присутствие на карте — мгновенное подкрепление в любой точке через капсулы"},
+    {"en": "Drop pods deal impact damage on landing, doubling as offensive weapons", "ru": "Капсулы наносят урон при приземлении, выступая ещё и наступательным оружием"},
+    {"en": "Bypasses production building requirements for deployed units", "ru": "Обходит требования к производственным зданиям для десантируемых юнитов"},
+    {"en": "Excellent at securing distant objectives without committing your main army", "ru": "Превосходен для захвата отдалённых целей без задействования основной армии"}
+  ],
+  "weaknesses": [
+    {"en": "Drop pod cooldowns can leave you without reinforcements at critical moments", "ru": "Перезарядки капсул могут оставить без подкреплений в критические моменты"},
+    {"en": "Deployed units arrive without formation — vulnerable immediately after landing", "ru": "Десантируемые юниты прибывают без строя — уязвимы сразу после высадки"},
+    {"en": "Resource-intensive to maintain constant drop pod deployments", "ru": "Ресурсоёмкий для поддержания постоянных десантных развёртываний"}
+  ],
+  "talents": [
+    {
+      "name": "Arcane Delivery",
+      "rarity": "core",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Unlocks Drop Pod ability: deploy a pod containing units to any visible location. Pods deal 100 impact damage in AoE on landing. 45-second cooldown.",
+        "ru": "Открывает способность Drop Pod: развёртывание капсулы с юнитами в любую видимую точку. Капсулы наносят 100 AoE урона при приземлении. 45 секунд перезарядки."
+      },
+      "analysis": {
+        "en": "The core mechanic. Drop pods solve positioning problems and double as AoE damage. The 45-second cooldown is manageable with cooldown reduction talents. Landing damage means pods are useful even when you don't need the units.",
+        "ru": "Ключевая механика. Капсулы решают проблемы позиционирования и удваиваются как AoE урон. 45 секунд перезарядки управляемы с талантами сокращения перезарядки. Урон при приземлении означает, что капсулы полезны, даже когда юниты не нужны."
+      }
+    },
+    {
+      "name": "Reinforced Pods",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Drop pods contain +2 additional units. Units deployed via pods gain +20% HP for 30 seconds.",
+        "ru": "Капсулы содержат +2 дополнительных юнита. Юниты, развёрнутые через капсулы, получают +20% HP на 30 секунд."
+      },
+      "analysis": {
+        "en": "More units per pod and a survivability window on landing. The +20% HP buffer gives deployed units time to form up before the enemy can focus them. Direct upgrade to the core mechanic.",
+        "ru": "Больше юнитов на капсулу и окно выживаемости при высадке. Буфер +20% HP даёт развёрнутым юнитам время построиться до того, как враг сосредоточится на них. Прямое улучшение ключевой механики."
+      }
+    },
+    {
+      "name": "Meteor Strike",
+      "rarity": "common",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Drop pod impact damage increased to 250 and AoE radius doubled. Pods stun enemies for 2 seconds on impact.",
+        "ru": "Урон при ударе капсулы увеличен до 250, радиус AoE удвоен. Капсулы оглушают врагов на 2 секунды при ударе."
+      },
+      "analysis": {
+        "en": "Transforms pods from delivery vehicles into weapons. 250 AoE damage with stun is enough to wipe out light units and cripple heavy ones. The stun window lets your deployed units establish position safely.",
+        "ru": "Превращает капсулы из транспорта в оружие. 250 AoE урона с оглушением достаточно для уничтожения лёгких юнитов и ослабления тяжёлых. Окно оглушения позволяет развёрнутым юнитам безопасно занять позицию."
+      }
+    },
+    {
+      "name": "Supply Drop",
+      "rarity": "common",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Every 3rd drop pod also delivers +100 minerals and +50 gas at the landing site.",
+        "ru": "Каждая 3-я капсула также доставляет +100 минералов и +50 газа в точку приземления."
+      },
+      "analysis": {
+        "en": "Economy boost tied to pod usage. The more you use pods, the more resources you recover. Helps offset the high cost of constant deployments. Decent but not transformative.",
+        "ru": "Экономический буст, привязанный к использованию капсул. Чем больше капсул, тем больше ресурсов восстанавливается. Помогает компенсировать высокую стоимость постоянных развёртываний. Неплохо, но не трансформирующе."
+      }
+    },
+    {
+      "name": "Orbital Bombardment",
+      "rarity": "common-infinite",
+      "tier": "A",
+      "stackable": true,
+      "maxStacks": 100,
+      "desc": {
+        "en": "Drop pod impact damage +20%. Pods deployed per ability use +1 at every 5 stacks. Max 100 stacks.",
+        "ru": "Урон при ударе капсулы +20%. Капсул за использование способности +1 каждые 5 стаков. Макс. 100 стаков."
+      },
+      "analysis": {
+        "en": "The class infinite. Impact damage scaling is solid, but the extra pods every 5 stacks is incredible — at 10 stacks you deploy 3 pods per use, at 20 stacks 5 pods. This creates massive orbital barrages. Always take offered stacks.",
+        "ru": "Классовый бесконечный талант. Масштабирование урона при ударе хорошее, но дополнительные капсулы каждые 5 стаков невероятны — при 10 стаках вы развёртываете 3 капсулы за использование, при 20 стаках 5 капсул. Это создаёт массивные орбитальные обстрелы. Всегда берите предложенные стаки."
+      }
+    },
+    {
+      "name": "Rapid Deployment",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Drop pod cooldown reduced by 40%. Units from pods have no rally delay — they immediately respond to commands.",
+        "ru": "Перезарядка капсул сокращена на 40%. Юниты из капсул не имеют задержки сбора — они немедленно реагируют на команды."
+      },
+      "analysis": {
+        "en": "More frequent drops and instant unit control. The cooldown reduction means near-constant drop availability. Removing rally delay eliminates the main vulnerability of pod-deployed units.",
+        "ru": "Более частые десанты и мгновенный контроль юнитов. Сокращение перезарядки означает почти постоянную доступность десанта. Устранение задержки сбора ликвидирует главную уязвимость десантированных юнитов."
+      }
+    },
+    {
+      "name": "Spell Amplification",
+      "rarity": "uncommon",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "All ability-based damage increased by 30%. Ability cooldowns reduced by 15%.",
+        "ru": "Весь урон от способностей увеличен на 30%. Перезарядки способностей сокращены на 15%."
+      },
+      "analysis": {
+        "en": "General ability enhancement. Boosts drop pod impact damage and any unit abilities. The cooldown reduction stacks with Rapid Deployment for very frequent pod usage.",
+        "ru": "Общее усиление способностей. Баффает урон при ударе капсул и любые способности юнитов. Сокращение перезарядки стакается с Rapid Deployment для очень частого использования капсул."
+      }
+    },
+    {
+      "name": "Warp Pods",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Drop pods can be deployed to any location on the map (fog of war no longer blocks targeting). Pods have a 25% chance to deploy an additional bonus elite unit.",
+        "ru": "Капсулы могут быть развёрнуты в любую точку карты (туман войны больше не блокирует наведение). Капсулы имеют 25% шанс развернуть дополнительного бонусного элитного юнита."
+      },
+      "analysis": {
+        "en": "Removes the vision requirement, enabling blind drops on enemy bases or distant objectives. The bonus elite unit chance adds significant value to every pod. Game-changing for map control.",
+        "ru": "Снимает требование обзора, позволяя слепые десанты на вражеские базы или отдалённые цели. Шанс бонусного элитного юнита добавляет значительную ценность каждой капсуле. Меняет игру в плане контроля карты."
+      }
+    },
+    {
+      "name": "Arcane Storm",
+      "rarity": "epic",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Activate Arcane Storm: rain down 10 empty drop pods on a target area over 5 seconds, each dealing full impact damage. 120-second cooldown.",
+        "ru": "Активация Arcane Storm: обрушить 10 пустых капсул на целевую область за 5 секунд, каждая наносит полный урон при ударе. 120 секунд перезарядки."
+      },
+      "analysis": {
+        "en": "Pure devastation ability. 10 pods worth of impact damage in one area is enough to destroy anything. With Meteor Strike and Orbital Bombardment stacks, each pod hits for massive damage. The ultimate 'delete this area' button.",
+        "ru": "Способность чистого разрушения. Урон от ударов 10 капсул в одну область достаточен для уничтожения чего угодно. С Meteor Strike и стаками Orbital Bombardment каждая капсула бьёт за массивный урон. Высшая кнопка 'удалить эту область'."
+      }
+    },
+    {
+      "name": "Dimensional Rift",
+      "rarity": "curse",
+      "tier": "D",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Drop pods have a 15% chance to land 3-5 tiles off target. Pod cooldown increased by 10 seconds.",
+        "ru": "Капсулы имеют 15% шанс приземлиться на 3-5 клеток от цели. Перезарядка капсул увеличена на 10 секунд."
+      },
+      "analysis": {
+        "en": "Inaccurate pods and longer cooldowns hurt but aren't catastrophic. The 15% miss rate is annoying rather than build-breaking. Cooldown increase is partially offset by Rapid Deployment.",
+        "ru": "Неточные капсулы и длинные перезарядки болезненны, но не катастрофичны. 15% промахов раздражают, но не ломают билд. Увеличение перезарядки частично компенсируется Rapid Deployment."
+      }
+    },
+    {
+      "name": "Unstable Warp Field",
+      "rarity": "plague",
+      "tier": "D",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Units deployed via drop pods take 20% of their max HP as damage on landing. Drop pod impact damage also damages your own units in the area.",
+        "ru": "Юниты, развёрнутые через капсулы, получают 20% от макс. HP урона при высадке. Урон капсул при ударе также наносит урон вашим юнитам в области."
+      },
+      "analysis": {
+        "en": "Your own pods become hazards for your army. Units arrive damaged, and you can't safely drop pods near friendlies. Forces careful pod placement to avoid friendly fire. Very punishing with Arcane Storm.",
+        "ru": "Ваши собственные капсулы становятся опасными для армии. Юниты прибывают повреждёнными, и нельзя безопасно десантировать рядом с союзниками. Вынуждает осторожно размещать капсулы во избежание дружественного огня. Очень болезненно с Arcane Storm."
+      }
+    }
+  ],
+  "builds": [
+    {
+      "name": {"en": "Orbital Strike", "ru": "Орбитальный удар"},
+      "subtitle": {"en": "Maximize drop pod impact damage as a weapon", "ru": "Максимизируйте урон капсул при ударе как оружие"},
+      "desc": {
+        "en": "Focus entirely on drop pod impact damage. Meteor Strike, Orbital Bombardment stacks, and Arcane Storm turn your pods into weapons of mass destruction. The units inside are secondary — the real damage comes from the pods themselves raining down on enemy formations.",
+        "ru": "Полностью сосредоточьтесь на уроне капсул при ударе. Meteor Strike, стаки Orbital Bombardment и Arcane Storm превращают капсулы в оружие массового уничтожения. Юниты внутри вторичны — настоящий урон наносят сами капсулы, обрушивающиеся на вражеские формации."
+      },
+      "tags": [
+        {"name": "Arcane Delivery", "type": "core"},
+        {"name": "Meteor Strike", "type": "required"},
+        {"name": "Orbital Bombardment", "type": "required"},
+        {"name": "Arcane Storm", "type": "required"},
+        {"name": "Rapid Deployment", "type": "optional"},
+        {"name": "Warp Pods", "type": "optional"},
+        {"name": "Use More Gun", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "text": {
+            "en": "Use pods for both reinforcement and damage. Meteor Strike is a priority — it more than doubles impact damage and adds stun. Stack Orbital Bombardment whenever available. Even at low stacks, pod impacts deal respectable AoE damage.",
+            "ru": "Используйте капсулы для подкрепления и урона. Meteor Strike — приоритет — он более чем удваивает урон при ударе и добавляет оглушение. Копите Orbital Bombardment при каждой возможности. Даже при малых стаках удары капсул наносят достойный AoE урон."
+          }
+        },
+        {
+          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "text": {
+            "en": "With 10+ Orbital Bombardment stacks, each pod use fires multiple pods. The cumulative impact damage starts clearing entire enemy groups. Arcane Storm is devastating if found — 10 pods focused on one area.",
+            "ru": "При 10+ стаках Orbital Bombardment каждое использование капсулы выпускает несколько капсул. Суммарный урон при ударе начинает зачищать целые группы врагов. Arcane Storm разрушителен, если найден — 10 капсул, сфокусированных на одну область."
+          }
+        },
+        {
+          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "text": {
+            "en": "High Orbital Bombardment stacks mean each pod ability fires 5+ pods. Combined with Arcane Storm, you can annihilate any enemy concentration from orbit. Warp Pods removes targeting restrictions for global orbital strikes.",
+            "ru": "Высокие стаки Orbital Bombardment означают 5+ капсул за способность. В сочетании с Arcane Storm вы можете уничтожить любое скопление врагов с орбиты. Warp Pods снимает ограничения наведения для глобальных орбитальных ударов."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Target pods on dense enemy clusters for maximum AoE value.", "ru": "Направляйте капсулы на плотные скопления врагов для максимальной AoE ценности."},
+        {"en": "Arcane Storm's 10 pods all benefit from Meteor Strike and Orbital Bombardment buffs.", "ru": "Все 10 капсул Arcane Storm получают баффы от Meteor Strike и Orbital Bombardment."},
+        {"en": "Use pods offensively even when you don't need reinforcements — the damage alone is worth it.", "ru": "Используйте капсулы наступательно, даже когда подкрепления не нужны — одного урона достаточно."}
+      ]
+    },
+    {
+      "name": {"en": "Rapid Reinforcement", "ru": "Быстрое подкрепление"},
+      "subtitle": {"en": "Constant drop pod reinforcements everywhere", "ru": "Постоянные капсульные подкрепления повсюду"},
+      "desc": {
+        "en": "Focus on maximizing the reinforcement capability of drop pods. Reinforced Pods for more units, Rapid Deployment for shorter cooldowns, and Warp Pods for global reach. Your army is everywhere at once — any threatened position receives immediate reinforcements.",
+        "ru": "Фокус на максимизации возможностей подкрепления капсул. Reinforced Pods для большего числа юнитов, Rapid Deployment для сокращённых перезарядок и Warp Pods для глобального охвата. Ваша армия повсюду одновременно — любая угрожаемая позиция получает немедленные подкрепления."
+      },
+      "tags": [
+        {"name": "Arcane Delivery", "type": "core"},
+        {"name": "Reinforced Pods", "type": "required"},
+        {"name": "Rapid Deployment", "type": "required"},
+        {"name": "Warp Pods", "type": "optional"},
+        {"name": "Orbital Bombardment", "type": "optional"},
+        {"name": "Medical Breakthrough", "type": "generic"},
+        {"name": "Use More Gun", "type": "generic"},
+        {"name": "Salvage Operation", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "text": {
+            "en": "Use pods to reinforce your main army and secure secondary objectives simultaneously. Reinforced Pods adds units per drop. Build a production base but use pods to deploy units faster than traditional rallying.",
+            "ru": "Используйте капсулы для подкрепления основной армии и одновременного захвата второстепенных целей. Reinforced Pods добавляет юнитов за десант. Стройте производственную базу, но используйте капсулы для более быстрого развёртывания юнитов."
+          }
+        },
+        {
+          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "text": {
+            "en": "Rapid Deployment makes pods available very frequently. You can reinforce every engagement and respond to attacks instantly. Warp Pods lets you drop anywhere — use it for surprise attacks on enemy flanks.",
+            "ru": "Rapid Deployment делает капсулы доступными очень часто. Вы можете подкреплять каждый бой и мгновенно реагировать на атаки. Warp Pods позволяет десантировать куда угодно — используйте для внезапных атак на фланги врага."
+          }
+        },
+        {
+          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "text": {
+            "en": "Near-constant pod availability means your army never runs low on reinforcements. Multiple pods per use from Orbital Bombardment stacks means each drop delivers a significant force. You have unmatched strategic mobility.",
+            "ru": "Почти постоянная доступность капсул означает, что армия никогда не испытывает нехватки подкреплений. Несколько капсул за использование от стаков Orbital Bombardment означает значительные силы при каждом десанте. Вы имеете непревзойдённую стратегическую мобильность."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Drop pods at the fight, not at your base — bypass travel time entirely.", "ru": "Десантируйте капсулы в бою, не на базе — полностью обходите время передвижения."},
+        {"en": "Keep your main army on the key objective and use pods to handle secondary threats.", "ru": "Держите основную армию на ключевой цели и используйте капсулы для второстепенных угроз."},
+        {"en": "Rapid Deployment's instant command response means pod units fight immediately — no wasted time.", "ru": "Мгновенное реагирование на команды от Rapid Deployment означает, что капсульные юниты сражаются сразу — без потери времени."}
+      ]
+    },
+    {
+      "name": {"en": "Supreme Pods", "ru": "Высшие капсулы"},
+      "subtitle": {"en": "Hunter multiclass — merc delivery via drop pods", "ru": "Мультикласс Охотник — доставка наёмников через капсулы"},
+      "desc": {
+        "en": "Combines Sorcerer with Hunter via the Supreme Pods multiclass epic. Mercenary calls can be delivered via drop pods, allowing instant deployment of buffed mercs anywhere on the map. Deadman's Hardware-enhanced mercs dropping directly on enemy positions combines the best of both classes.",
+        "ru": "Сочетает Колдуна с Охотником через мультикласс эпик Supreme Pods. Вызовы наёмников могут доставляться через капсулы, позволяя мгновенное развёртывание усиленных наёмников в любой точке карты. Наёмники с Deadman's Hardware, десантируемые прямо на позиции врага, сочетают лучшее обоих классов."
+      },
+      "tags": [
+        {"name": "Arcane Delivery", "type": "core"},
+        {"name": "Multiclass", "type": "required"},
+        {"name": "Supreme Pods", "type": "required"},
+        {"name": "Deadman's Hardware", "type": "required"},
+        {"name": "Meteor Strike", "type": "optional"},
+        {"name": "Team Effort", "type": "optional"},
+        {"name": "Use More Gun", "type": "generic"},
+        {"name": "Medical Breakthrough", "type": "generic"}
+      ],
+      "phases": [
+        {
+          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "text": {
+            "en": "Play standard Sorcerer while looking for Multiclass. Once found, pick Hunter as secondary. Start stacking Deadman's Hardware for merc power. Use pods for reinforcement and damage.",
+            "ru": "Играйте стандартным Колдуном, ища Multiclass. Найдя, выберите Охотника. Начинайте копить Deadman's Hardware для мощи наёмников. Используйте капсулы для подкрепления и урона."
+          }
+        },
+        {
+          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "text": {
+            "en": "Supreme Pods enables dropping mercs via pods. Buffed mercs arriving with impact damage is devastating. The combination of pod damage + immediately active powerful mercs gives incredible burst.",
+            "ru": "Supreme Pods позволяет десантировать наёмников через капсулы. Усиленные наёмники, прибывающие с ударным уроном, разрушительны. Сочетание урона капсулы + немедленно активные мощные наёмники даёт невероятный взрывной потенциал."
+          }
+        },
+        {
+          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "text": {
+            "en": "High Deadman's stacks make each dropped merc a powerhouse. Orbital Bombardment stacks mean multiple merc pods per use. You can drop an entire merc army anywhere on the map with devastating effect.",
+            "ru": "Высокие стаки Deadman's делают каждого десантированного наёмника мощной боевой единицей. Стаки Orbital Bombardment означают несколько наёмных капсул за использование. Вы можете десантировать целую армию наёмников в любую точку карты с разрушительным эффектом."
+          }
+        }
+      ],
+      "tips": [
+        {"en": "Drop mercs directly on enemy concentrations — the impact damage + merc combat power is devastating.", "ru": "Десантируйте наёмников прямо на скопления врагов — урон при ударе + боевая мощь наёмников разрушительны."},
+        {"en": "Supreme Pods is B-tier but very fun — it doesn't amplify merc stats but adds incredible tactical flexibility.", "ru": "Supreme Pods — B-тир, но очень весёлый — он не усиливает характеристики наёмников, но добавляет невероятную тактическую гибкость."},
+        {"en": "Meteor Strike's stun keeps enemies locked down while your mercs land and start fighting.", "ru": "Оглушение от Meteor Strike удерживает врагов на месте, пока наёмники высаживаются и начинают сражаться."}
+      ]
+    }
+  ],
+  "multiclass_epics": [
+    {
+      "name": "Supreme Pods",
+      "classes": ["Sorcerer", "Hunter"],
+      "tier": "B",
+      "desc": {
+        "en": "Mercenary calls can be delivered via drop pods, allowing instant deployment anywhere on the map.",
+        "ru": "Вызовы наёмников могут доставляться через капсулы, позволяя мгновенное развёртывание в любой точке карты."
+      },
+      "analysis": {
+        "en": "Tactical flexibility for merc deployment. Drop-podding Deadman's-buffed mercs directly onto objectives is strong on certain maps. B-tier — useful but doesn't amplify merc power directly, just delivery method.",
+        "ru": "Тактическая гибкость для развёртывания наёмников. Десантирование наёмников с баффами от Deadman's прямо на цели сильно на определённых картах. B-тир — полезно, но не усиливает мощь наёмников напрямую, только метод доставки."
+      }
+    }
+  ],
+  "multiclass_intro": {
+    "en": "Sorcerer's primary multiclass synergy is with Hunter through Supreme Pods, which allows mercenary delivery via drop pods. While rated B-tier (it doesn't directly buff mercs), the tactical flexibility of dropping powerful mercs anywhere is highly valuable on many maps. Other multiclass options can enhance the Sorcerer's spell-like abilities or add additional orbital capabilities. The Multiclass generic rare talent is required to unlock any secondary class.",
+    "ru": "Основная мультикласс синергия Колдуна — с Охотником через Supreme Pods, позволяющий доставку наёмников через капсулы. Хотя оценивается как B-тир (не баффает наёмников напрямую), тактическая гибкость десантирования мощных наёмников куда угодно крайне ценна на многих картах. Другие мультикласс опции могут усилить способности, подобные заклинаниям, или добавить дополнительные орбитальные возможности. Общий редкий талант Multiclass необходим для разблокировки любого второго класса."
+  }
+}

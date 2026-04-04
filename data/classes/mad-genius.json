@@ -1,0 +1,411 @@
+{
+  "id": "mad-genius",
+  "name": "Mad Genius",
+  "icon": "&#129504;",
+  "color": "#dc2626",
+  "subtitle": {
+    "en": "Chaos Incarnate",
+    "ru": "Воплощение Хаоса"
+  },
+  "summary": {
+    "en": "The Mad Genius is the most extreme class in the game. It possesses ALL unit types, which means it normally cannot multiclass with any other class. In return, it has access to unique abilities like Deja Vu and the devastating Quantum Extinction Beam. Mad Genius abilities function as unit talents applied to specific unit types, fundamentally altering how those units function. Extreme power comes with extreme restrictions and unpredictability.",
+    "ru": "Безумный Гений — самый экстремальный класс в игре. Он обладает ВСЕМИ типами юнитов, что означает невозможность нормального мультикласса с любым другим классом. Взамен он имеет доступ к уникальным способностям вроде Deja Vu и разрушительного Квантового Луча Уничтожения. Способности Безумного Гения функционируют как таланты юнитов, применяемые к определённым типам, фундаментально меняя их функционирование. Экстремальная мощь приходит с экстремальными ограничениями и непредсказуемостью."
+  },
+  "unlock": {
+    "en": "Complete a run without bans",
+    "ru": "Пройдите кампанию без банов"
+  },
+  "stats": [
+    {"value": "S+", "label": {"en": "Peak Power", "ru": "Пиковая мощь"}},
+    {"value": "S", "label": {"en": "Unique Abilities", "ru": "Уникальные способности"}},
+    {"value": "D", "label": {"en": "Consistency", "ru": "Стабильность"}},
+    {"value": "C", "label": {"en": "Multiclass Options", "ru": "Мультикласс-опции"}}
+  ],
+  "strengths": [
+    {"en": "Highest peak power of any class in the game", "ru": "Наивысшая пиковая мощь среди всех классов в игре"},
+    {"en": "Deja Vu enables game-breaking ability reuse", "ru": "Deja Vu позволяет переиспользование способностей, ломающее игру"},
+    {"en": "Quantum Extinction Beam is the most powerful single ability available", "ru": "Квантовый Луч Уничтожения — самая мощная одиночная способность в игре"},
+    {"en": "Mad Genius unit talents fundamentally transform unit functionality", "ru": "Таланты юнитов Безумного Гения фундаментально трансформируют функциональность юнитов"},
+    {"en": "Unique multiclass epics are available through special conditions", "ru": "Уникальные мультикласс-эпики доступны через особые условия"}
+  ],
+  "weaknesses": [
+    {"en": "Cannot normally multiclass with any other class due to having all types", "ru": "Не может нормально мультиклассить с любым другим классом из-за наличия всех типов"},
+    {"en": "Harsh restrictions and penalties balance the extreme power", "ru": "Суровые ограничения и штрафы уравновешивают экстремальную мощь"},
+    {"en": "Unpredictable effects can backfire catastrophically", "ru": "Непредсказуемые эффекты могут катастрофически обернуться против вас"},
+    {"en": "Requires deep game knowledge to play effectively", "ru": "Требует глубоких знаний игры для эффективной игры"}
+  ],
+  "talents": [
+    {
+      "name": "Deja Vu",
+      "rarity": "core",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Once per mission, rewind the last 15 seconds of gameplay. All unit positions, health, cooldowns, and abilities reset to their state 15 seconds ago. Enemy actions are also rewound.",
+        "ru": "Один раз за миссию перемотайте последние 15 секунд геймплея. Все позиции юнитов, здоровье, перезарядки и способности возвращаются к состоянию 15 секунд назад. Действия врагов также перематываются."
+      },
+      "analysis": {
+        "en": "The ultimate safety net and combo enabler. Use it to undo catastrophic losses or replay a devastating ability sequence twice.",
+        "ru": "Абсолютная страховка и способ усиления комбо. Используйте для отмены катастрофических потерь или повторного применения разрушительной последовательности способностей дважды."
+      }
+    },
+    {
+      "name": "Quantum Extinction Beam",
+      "rarity": "core",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Topbar ability: Fire a massive beam that deals 2000 damage in a line, destroying all units in its path. 300 second cooldown. Beam width and damage scale with your total talent count.",
+        "ru": "Способность топбара: Выстрелите массивным лучом, наносящим 2000 урона по линии, уничтожая всех юнитов на пути. Перезарядка 300 секунд. Ширина и урон луча масштабируются с общим количеством талантов."
+      },
+      "analysis": {
+        "en": "The most powerful single ability in the game. Deletes entire enemy armies. Scales with talent count so it gets stronger as you progress.",
+        "ru": "Самая мощная одиночная способность в игре. Уничтожает целые вражеские армии. Масштабируется с количеством талантов, становясь сильнее по мере прогресса."
+      }
+    },
+    {
+      "name": "Chaotic Brilliance",
+      "rarity": "core",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Each talent you acquire has a 15% chance to grant a random bonus talent of equal or higher rarity for free. However, there is also a 10% chance to gain a random curse.",
+        "ru": "Каждый приобретённый талант имеет 15% шанс дать бонусный случайный талант равной или более высокой редкости бесплатно. Однако также есть 10% шанс получить случайное проклятие."
+      },
+      "analysis": {
+        "en": "The quintessential Mad Genius talent — high reward, significant risk. Over a long campaign, you will get both many bonuses and many curses.",
+        "ru": "Квинтэссенция таланта Безумного Гения — высокая награда, значительный риск. За длинную кампанию вы получите много бонусов и много проклятий."
+      }
+    },
+    {
+      "name": "Reality Distortion",
+      "rarity": "rare",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Once per mission, swap the stats (health, damage, armor) of all your units with all enemy units on the map for 20 seconds.",
+        "ru": "Один раз за миссию поменяйте характеристики (здоровье, урон, броня) всех ваших юнитов с характеристиками всех вражеских юнитов на карте на 20 секунд."
+      },
+      "analysis": {
+        "en": "Absolutely insane ability. Use when enemies are stronger than you for a 20-second window of total dominance. Combine with Deja Vu for 40 seconds of swapped stats.",
+        "ru": "Абсолютно безумная способность. Используйте, когда враги сильнее вас, для 20-секундного окна полного доминирования. Комбинируйте с Deja Vu для 40 секунд обменённых характеристик."
+      }
+    },
+    {
+      "name": "Mad Science",
+      "rarity": "rare",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Your unit production buildings randomly produce upgraded variants of units at no extra cost. Upgraded variants have +30% stats and a random bonus ability. 25% chance per unit produced.",
+        "ru": "Ваши производственные здания случайно производят улучшенные варианты юнитов без дополнительной стоимости. Улучшенные варианты имеют +30% характеристик и случайную бонусную способность. 25% шанс за произведённого юнита."
+      },
+      "analysis": {
+        "en": "Free upgrades on 1 in 4 units adds up significantly. The random abilities keep things interesting and occasionally game-winning.",
+        "ru": "Бесплатные улучшения на 1 из 4 юнитов значительно накапливаются. Случайные способности делают игру интересной и иногда решающей."
+      }
+    },
+    {
+      "name": "Quantum Instability",
+      "rarity": "common-infinite",
+      "tier": "A",
+      "stackable": true,
+      "maxStacks": 100,
+      "desc": {
+        "en": "All abilities (yours and enemies') have +3% damage per stack. Quantum Extinction Beam gains +100 damage per stack. Max 100 stacks.",
+        "ru": "Все способности (ваши и вражеские!) имеют +3% урона за стак. Квантовый Луч Уничтожения получает +100 урона за стак. Макс. 100 стаков."
+      },
+      "analysis": {
+        "en": "Double-edged scaling: enemies also get stronger. But your QEB scaling is one-sided. High risk, extreme reward.",
+        "ru": "Обоюдоострое масштабирование: враги тоже становятся сильнее. Но масштабирование КЛУ — одностороннее. Высокий риск, экстремальная награда."
+      }
+    },
+    {
+      "name": "Eureka Moment",
+      "rarity": "uncommon",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "At the start of each mission, one random talent you own becomes empowered: +100% effectiveness for that mission. Different talent each mission.",
+        "ru": "В начале каждой миссии один случайный талант, которым вы владеете, усиливается: +100% эффективности на эту миссию. Разный талант каждую миссию."
+      },
+      "analysis": {
+        "en": "The more talents you have, the more valuable this becomes. Sometimes it hits a game-changing talent for incredible results.",
+        "ru": "Чем больше у вас талантов, тем ценнее это становится. Иногда попадает на решающий талант с невероятными результатами."
+      }
+    },
+    {
+      "name": "Butterfly Effect",
+      "rarity": "epic",
+      "tier": "S",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "When any unit on the map dies, there is a 5% chance that a random global event occurs: enemy supply reduction, free units spawning, resource windfall, temporary invulnerability, or random curse.",
+        "ru": "Когда любой юнит на карте погибает, есть 5% шанс случайного глобального события: снижение саплая врага, появление бесплатных юнитов, бонус ресурсов, временная неуязвимость или случайное проклятие."
+      },
+      "analysis": {
+        "en": "Pure chaos. On kill-heavy maps, events trigger constantly. Mostly beneficial but the curse chance keeps you on your toes.",
+        "ru": "Чистый хаос. На картах с большим количеством убийств события срабатывают постоянно. В основном полезные, но шанс проклятия держит в напряжении."
+      }
+    },
+    {
+      "name": "Temporal Paradox",
+      "rarity": "epic",
+      "tier": "A",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Deja Vu can now be used twice per mission. Additionally, rewound units gain +25% all stats for 10 seconds after the rewind.",
+        "ru": "Deja Vu теперь может быть использовано дважды за миссию. Дополнительно перемотанные юниты получают +25% всех характеристик на 10 секунд после перемотки."
+      },
+      "analysis": {
+        "en": "Double Deja Vu is incredibly powerful for recovery and combo plays. The stat boost makes rewound units immediately threatening.",
+        "ru": "Двойное Deja Vu невероятно мощно для восстановления и комбо-игр. Бонус характеристик делает перемотанных юнитов немедленно опасными."
+      }
+    },
+    {
+      "name": "Mad Genius Unit Enhancement",
+      "rarity": "common",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Choose a unit type: it gains a unique Mad Genius modification. Infantry: split into 2 copies on death. Vehicles: random weapon swap each attack. Aircraft: phasing (ignores terrain). Buildings: mobile.",
+        "ru": "Выберите тип юнита: он получает уникальную модификацию Безумного Гения. Пехота: раздваивается при смерти. Техника: случайная смена оружия каждой атакой. Авиация: фазирование (игнорирует местность). Здания: мобильные."
+      },
+      "analysis": {
+        "en": "Each modification is powerful in its own way. Mobile buildings with Engineer talents is a hilarious and effective combo.",
+        "ru": "Каждая модификация мощна по-своему. Мобильные здания с талантами Инженера — это и смешно, и эффективно."
+      }
+    },
+    {
+      "name": "Overloaded Circuits",
+      "rarity": "uncommon",
+      "tier": "B",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Units at full health deal +25% damage. Units below 25% health deal +50% damage but take +25% more damage.",
+        "ru": "Юниты с полным здоровьем наносят +25% урона. Юниты ниже 25% здоровья наносят +50% урона, но получают +25% больше урона."
+      },
+      "analysis": {
+        "en": "Rewards both healthy and nearly-dead units. Pair with healing for the full-health bonus or play aggressively for the low-health bonus.",
+        "ru": "Вознаграждает и здоровых, и почти мёртвых юнитов. Сочетайте с лечением для бонуса полного здоровья или играйте агрессивно для бонуса низкого здоровья."
+      }
+    },
+    {
+      "name": "Hubris",
+      "rarity": "curse",
+      "tier": "D",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Every 5 minutes, a random one of your talents is disabled for 60 seconds. Cannot disable core talents.",
+        "ru": "Каждые 5 минут случайный один из ваших талантов отключается на 60 секунд. Не может отключить ядровые таланты."
+      },
+      "analysis": {
+        "en": "Extremely annoying. The more talents you have, the less likely it is to hit a critical one. Somewhat mitigated by large talent pools.",
+        "ru": "Крайне раздражающе. Чем больше у вас талантов, тем меньше вероятность попадания в критичный. Частично смягчается большим пулом талантов."
+      }
+    },
+    {
+      "name": "Unraveling",
+      "rarity": "plague",
+      "tier": "D",
+      "stackable": false,
+      "maxStacks": null,
+      "desc": {
+        "en": "Each mission, you permanently lose one random non-core talent. Gained talents have +20% effectiveness to compensate.",
+        "ru": "Каждую миссию вы навсегда теряете один случайный неядровой талант. Полученные таланты имеют +20% эффективности для компенсации."
+      },
+      "analysis": {
+        "en": "Devastating plague that erodes your power over time. The +20% compensation rarely makes up for losing entire talents.",
+        "ru": "Разрушительная чума, разъедающая вашу мощь со временем. +20% компенсации редко восполняет потерю целых талантов."
+      }
+    }
+  ],
+  "builds": [
+    {
+      "name": {"en": "Quantum Annihilation", "ru": "Квантовое Уничтожение"},
+      "subtitle": {"en": "Beam them all to oblivion", "ru": "Луч в небытие для всех"},
+      "desc": {
+        "en": "Maximize Quantum Extinction Beam damage through Quantum Instability stacking and talent accumulation. Use Deja Vu to fire the beam, rewind, and fire again for double devastation.",
+        "ru": "Максимизируйте урон Квантового Луча Уничтожения через стакание Quantum Instability и накопление талантов. Используйте Deja Vu, чтобы выстрелить лучом, перемотать и выстрелить снова для двойного опустошения."
+      },
+      "tags": [
+        {"name": "Quantum Extinction Beam", "type": "core"},
+        {"name": "Quantum Instability", "type": "required"},
+        {"name": "Deja Vu", "type": "core"},
+        {"name": "Temporal Paradox", "type": "optional"},
+        {"name": "Chaotic Brilliance", "type": "optional"},
+        {"name": "Salvage Operation", "type": "generic"}
+      ],
+      "phases": [
+        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "QEB is already strong at base 2000 damage. Use it to clear the hardest encounter each mission. Start stacking Quantum Instability for scaling. Play conservatively outside beam windows.", "ru": "КЛУ уже силён с базовыми 2000 урона. Используйте его для зачистки самого сложного столкновения каждой миссии. Начинайте стакать Quantum Instability для масштабирования. Играйте консервативно вне окон луча."}},
+        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "QEB damage should be 4000+ with stacks. Deja Vu lets you fire twice per mission for double value. Collect as many talents as possible — each one increases beam damage through its inherent scaling.", "ru": "Урон КЛУ должен быть 4000+ со стаками. Deja Vu позволяет стрелять дважды за миссию для двойной ценности. Собирайте как можно больше талантов — каждый увеличивает урон луча через встроенное масштабирование."}},
+        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "With Temporal Paradox, you can fire QEB up to 3 times per mission. At 10000+ damage per shot, nothing survives. Your beam literally deletes everything in a line.", "ru": "С Temporal Paradox вы можете стрелять КЛУ до 3 раз за миссию. При 10000+ урона за выстрел ничто не выживет. Ваш луч буквально удаляет всё по линии."}}
+      ],
+      "tips": [
+        {"en": "Deja Vu + QEB = fire beam, rewind, fire beam again. Two beams per mission minimum", "ru": "Deja Vu + КЛУ = луч, перемотка, луч снова. Два луча за миссию минимум"},
+        {"en": "Aim the beam along the longest enemy formation line for maximum targets", "ru": "Направляйте луч вдоль самой длинной линии вражеской формации для максимума целей"},
+        {"en": "Quantum Instability buffs enemies too — keep your army strong enough to survive between beams", "ru": "Quantum Instability бафает и врагов — держите армию достаточно сильной, чтобы выживать между лучами"}
+      ]
+    },
+    {
+      "name": {"en": "Chaos Engine", "ru": "Двигатель Хаоса"},
+      "subtitle": {"en": "Embrace the randomness", "ru": "Примите случайность"},
+      "desc": {
+        "en": "Lean into Mad Genius's chaotic nature with Chaotic Brilliance, Butterfly Effect, and Eureka Moment. Every mission plays differently as random events shape the battlefield.",
+        "ru": "Примите хаотическую природу Безумного Гения с Chaotic Brilliance, Butterfly Effect и Eureka Moment. Каждая миссия играется по-разному, так как случайные события формируют поле боя."
+      },
+      "tags": [
+        {"name": "Chaotic Brilliance", "type": "core"},
+        {"name": "Butterfly Effect", "type": "required"},
+        {"name": "Eureka Moment", "type": "required"},
+        {"name": "Mad Science", "type": "optional"},
+        {"name": "Deja Vu", "type": "core"},
+        {"name": "Medical Breakthrough", "type": "generic"}
+      ],
+      "phases": [
+        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Take every talent offered — Chaotic Brilliance's bonus chance scales with your total talent count. Accept the curses as the cost of power. Use Deja Vu as insurance.", "ru": "Берите каждый предложенный талант — бонусный шанс Chaotic Brilliance масштабируется с общим количеством талантов. Принимайте проклятия как цену мощи. Используйте Deja Vu как страховку."}},
+        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "Butterfly Effect starts triggering frequently. Eureka Moment enhances a random talent each mission. Your power level varies wildly mission to mission — adapt and overcome.", "ru": "Butterfly Effect начинает срабатывать часто. Eureka Moment усиливает случайный талант каждую миссию. Ваш уровень мощи сильно варьируется от миссии к миссии — адаптируйтесь и побеждайте."}},
+        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "With 20+ talents, Chaotic Brilliance has generated many bonus talents. Butterfly Effect triggers on nearly every kill. The chaos is overwhelming — for the enemy.", "ru": "С 20+ талантами Chaotic Brilliance сгенерировал много бонусных талантов. Butterfly Effect срабатывает почти на каждом убийстве. Хаос подавляющ — для врага."}}
+      ],
+      "tips": [
+        {"en": "Deja Vu is your save state against bad RNG — always hold it in reserve", "ru": "Deja Vu — ваш сохранённый стейт против плохого RNG — всегда держите в резерве"},
+        {"en": "Mad Science upgraded units are permanent — they accumulate over the campaign", "ru": "Улучшенные Mad Science юниты постоянны — они накапливаются за кампанию"},
+        {"en": "Embrace the chaos — fighting against the randomness is fighting against the class itself", "ru": "Примите хаос — бороться со случайностью значит бороться с самим классом"}
+      ]
+    },
+    {
+      "name": {"en": "Reality Breaker", "ru": "Разрушитель Реальности"},
+      "subtitle": {"en": "Bend the rules of the game", "ru": "Изогните правила игры"},
+      "desc": {
+        "en": "Focus on Reality Distortion and Deja Vu to create impossible combat scenarios. Swap stats with enemies, rewind time, and exploit every edge case the Mad Genius toolkit provides.",
+        "ru": "Фокус на Reality Distortion и Deja Vu для создания невозможных боевых сценариев. Меняйте характеристики с врагами, перематывайте время и используйте каждую возможность, которую предоставляет инструментарий Безумного Гения."
+      },
+      "tags": [
+        {"name": "Deja Vu", "type": "core"},
+        {"name": "Reality Distortion", "type": "required"},
+        {"name": "Temporal Paradox", "type": "required"},
+        {"name": "Quantum Extinction Beam", "type": "core"},
+        {"name": "Overloaded Circuits", "type": "optional"},
+        {"name": "Use More Gun", "type": "generic"}
+      ],
+      "phases": [
+        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Deja Vu alone carries early missions. Play aggressively, and if things go wrong, rewind. Seek Reality Distortion for the ultimate power play.", "ru": "Одного Deja Vu достаточно для ранних миссий. Играйте агрессивно, и если что-то пойдёт не так — перемотайте. Ищите Reality Distortion для абсолютного игрового хода."}},
+        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "Reality Distortion + Deja Vu combo: swap stats, destroy the weakened enemy with their own power, rewind, swap again. 40 seconds of stat-swapping dominance.", "ru": "Reality Distortion + Deja Vu комбо: поменяйте характеристики, уничтожьте ослабленного врага его же мощью, перемотайте, поменяйте снова. 40 секунд доминирования с обменом характеристик."}},
+        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "With Temporal Paradox, you have multiple rewinds and stat swaps per mission. The enemy never fights at full power. Add QEB for anything that survives your reality manipulation.", "ru": "С Temporal Paradox у вас множество перемоток и обменов характеристик за миссию. Враг никогда не сражается на полную мощь. Добавьте КЛУ для всего, что переживёт вашу манипуляцию реальностью."}}
+      ],
+      "tips": [
+        {"en": "Reality Distortion is strongest when enemies are buffed — use it against attack waves", "ru": "Reality Distortion сильнее всего, когда враги усилены — используйте против волн атаки"},
+        {"en": "You can Deja Vu to get Reality Distortion back after it expires", "ru": "Вы можете использовать Deja Vu, чтобы вернуть Reality Distortion после его окончания"},
+        {"en": "Overloaded Circuits pairs perfectly with stat-swapping — enemies' stats on your units at full health = massive damage", "ru": "Overloaded Circuits идеально сочетается с обменом характеристик — характеристики врагов на ваших юнитах с полным здоровьем = огромный урон"}
+      ]
+    }
+  ],
+  "multiclass_epics": [
+    {
+      "name": "Space-Time Mercenary",
+      "classes": ["Mad Genius", "Hunter"],
+      "tier": "A",
+      "desc": {
+        "en": "All Mad Genius enhanced units count as mercenaries. Deadman's Hardware stacks increase Quantum Extinction Beam damage by +5% per stack.",
+        "ru": "Все юниты, усиленные Безумным Гением, считаются наёмниками. Стаки Deadman's Hardware увеличивают урон Квантового Луча Уничтожения на +5% за стак."
+      },
+      "analysis": {
+        "en": "DH stacking on QEB is absurdly powerful. This combo creates the highest single-hit damage possible.",
+        "ru": "Стакание DH на КЛУ абсурдно мощно. Эта комбинация создаёт наивысший возможный урон за один удар."
+      }
+    },
+    {
+      "name": "Quantum Immortality",
+      "classes": ["Mad Genius", "Champion"],
+      "tier": "S",
+      "desc": {
+        "en": "Your hero unit cannot permanently die — it always respawns after 30 seconds with full health. Hero gains +5% all stats each time it dies (permanent, stacking).",
+        "ru": "Ваш героический юнит не может навсегда погибнуть — он всегда возрождается через 30 секунд с полным здоровьем. Герой получает +5% всех характеристик каждый раз при гибели (постоянно, стакается)."
+      },
+      "analysis": {
+        "en": "Impossible to permanently lose your hero. The death-stacking bonus actually incentivizes risky play. Obscenely powerful in long campaigns.",
+        "ru": "Невозможно навсегда потерять героя. Бонус за смерти стимулирует рискованную игру. Абсолютно мощно в длинных кампаниях."
+      }
+    },
+    {
+      "name": "Matryoshka Overdrive",
+      "classes": ["Mad Genius", "Deathknight"],
+      "tier": "A",
+      "desc": {
+        "en": "When units die, they have a 20% chance to split into 2 weaker copies at 50% stats. Those copies can also split on death. Maximum 3 levels of splitting.",
+        "ru": "Когда юниты погибают, есть 20% шанс разделения на 2 слабые копии с 50% характеристик. Эти копии тоже могут делиться при смерти. Максимум 3 уровня деления."
+      },
+      "analysis": {
+        "en": "Exponential army growth on deaths. With enough units dying, your army multiplies. Hilariously chaotic.",
+        "ru": "Экспоненциальный рост армии при гибели. При достаточном количестве смертей ваша армия множится. Комически хаотично."
+      }
+    },
+    {
+      "name": "Dark Energy",
+      "classes": ["Mad Genius", "Warlock"],
+      "tier": "S",
+      "desc": {
+        "en": "Hybrid summons gain chaotic energy: their abilities have double effectiveness but random targeting. Pact levels increase Mad Genius ability power by +5% each.",
+        "ru": "Призванные Гибриды получают хаотическую энергию: их способности удвоены в эффективности, но с случайным наведением. Уровни пакта увеличивают мощь способностей Безумного Гения на +5% каждый."
+      },
+      "analysis": {
+        "en": "Double-effectiveness Hybrids with pact-boosted Mad Genius abilities. Peak chaos meets peak power.",
+        "ru": "Гибриды с удвоенной эффективностью и бафанными пактом способностями Безумного Гения. Пик хаоса встречает пик мощи."
+      }
+    },
+    {
+      "name": "Multiversal Convergence",
+      "classes": ["Mad Genius", "Acolyte"],
+      "tier": "B",
+      "desc": {
+        "en": "Ritual sacrifices have a 25% chance to summon a random powerful unit from another timeline. Sacrificed units may return as empowered versions.",
+        "ru": "Ритуальные жертвоприношения имеют 25% шанс призвать случайного мощного юнита из другой временной линии. Принесённые в жертву юниты могут вернуться как усиленные версии."
+      },
+      "analysis": {
+        "en": "Sacrificial gambling at its finest. The timeline summons can be incredibly powerful — or completely useless.",
+        "ru": "Жертвенный азарт в лучшем виде. Призывы из временной линии могут быть невероятно мощными — или совершенно бесполезными."
+      }
+    },
+    {
+      "name": "External Reconstruction",
+      "classes": ["Mad Genius", "Engineer"],
+      "tier": "A",
+      "desc": {
+        "en": "Buildings can be placed anywhere on the map (ignoring terrain). Buildings gain Mad Genius unit modifications: they are mobile and can cloak.",
+        "ru": "Здания могут быть размещены в любом месте карты (игнорируя местность). Здания получают модификации Безумного Гения: они мобильны и могут маскироваться."
+      },
+      "analysis": {
+        "en": "Mobile, cloaked buildings anywhere on the map breaks conventional defense strategies in the best way.",
+        "ru": "Мобильные замаскированные здания в любой точке карты ломают обычные стратегии обороны наилучшим образом."
+      }
+    },
+    {
+      "name": "Infinite Chaos",
+      "classes": ["Mad Genius", "Necromancer"],
+      "tier": "B",
+      "desc": {
+        "en": "Curse stacks increase Butterfly Effect trigger chance by +1% each. Each curse removed generates a random positive event. Curses can upgrade into empowered curses with hidden bonuses.",
+        "ru": "Стаки проклятий увеличивают шанс срабатывания Butterfly Effect на +1% каждый. Каждое снятое проклятие генерирует случайное позитивное событие. Проклятия могут улучшиться в усиленные проклятия со скрытыми бонусами."
+      },
+      "analysis": {
+        "en": "More curses = more chaos = more power. Empowered curses are hidden bonuses disguised as penalties.",
+        "ru": "Больше проклятий = больше хаоса = больше мощи. Усиленные проклятия — скрытые бонусы, замаскированные под штрафы."
+      }
+    }
+  ],
+  "multiclass_intro": {
+    "en": "Mad Genius possesses all unit types, which technically prevents normal multiclassing with any other class. However, through special conditions and specific epic talents, limited multiclass combinations become available. These combinations are among the most powerful in the game, leveraging Mad Genius's chaotic abilities with focused class synergies. Warlock and Champion provide the strongest pairings.",
+    "ru": "Безумный Гений обладает всеми типами юнитов, что технически не позволяет нормально мультиклассить с любым другим классом. Однако через особые условия и специфические эпические таланты становятся доступны ограниченные мультикласс-комбинации. Эти комбинации — одни из самых мощных в игре, используя хаотические способности Безумного Гения с фокусированными синергиями классов. Чернокнижник и Чемпион обеспечивают сильнейшие пары."
+  }
+}
