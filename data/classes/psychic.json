@@ -1,7 +1,7 @@
 {
   "id": "psychic",
   "name": "Psychic",
-  "icon": "&#128171;",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2'><path d='M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2z'/><path d='M12 8a2 2 0 100 4 2 2 0 000-4z'/><path d='M12 16v2'/><path d='M8 12H6'/><path d='M18 12h-2'/><path d='M12 6V4'/></svg>",
   "color": "#06b6d4",
   "subtitle": {
     "en": "Master of the Mind",
@@ -16,21 +16,66 @@
     "ru": "Получите 10 уникальных классовых талантов за кампанию"
   },
   "stats": [
-    {"value": "A", "label": {"en": "Late Game Power", "ru": "Сила в поздней игре"}},
-    {"value": "S", "label": {"en": "Army Control", "ru": "Контроль армии"}},
-    {"value": "B", "label": {"en": "Early Game", "ru": "Ранняя игра"}},
-    {"value": "A", "label": {"en": "Versatility", "ru": "Универсальность"}}
+    {
+      "value": "A",
+      "label": {
+        "en": "Late Game Power",
+        "ru": "Сила в поздней игре"
+      }
+    },
+    {
+      "value": "S",
+      "label": {
+        "en": "Army Control",
+        "ru": "Контроль армии"
+      }
+    },
+    {
+      "value": "B",
+      "label": {
+        "en": "Early Game",
+        "ru": "Ранняя игра"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "Versatility",
+        "ru": "Универсальность"
+      }
+    }
   ],
   "strengths": [
-    {"en": "Exceptional crowd control with psi-storms and mind control", "ru": "Исключительный контроль толпы с пси-штормами и контролем разума"},
-    {"en": "Terrazine-enhanced units gain bonus abilities and stats", "ru": "Усиленные террацином юниты получают бонусные способности и характеристики"},
-    {"en": "Psi-Corps Troopers scale well and provide unique utility", "ru": "Пси-Корпус Трупперы хорошо масштабируются и дают уникальную утилиту"},
-    {"en": "Strong multiclass options with many classes", "ru": "Сильные мультикласс-опции со многими классами"}
+    {
+      "en": "Exceptional crowd control with psi-storms and mind control",
+      "ru": "Исключительный контроль толпы с пси-штормами и контролем разума"
+    },
+    {
+      "en": "Terrazine-enhanced units gain bonus abilities and stats",
+      "ru": "Усиленные террацином юниты получают бонусные способности и характеристики"
+    },
+    {
+      "en": "Psi-Corps Troopers scale well and provide unique utility",
+      "ru": "Пси-Корпус Трупперы хорошо масштабируются и дают уникальную утилиту"
+    },
+    {
+      "en": "Strong multiclass options with many classes",
+      "ru": "Сильные мультикласс-опции со многими классами"
+    }
   ],
   "weaknesses": [
-    {"en": "Requires building up psionic power over time", "ru": "Требует накопления псионической мощи со временем"},
-    {"en": "Early game can feel underwhelming before key talents", "ru": "Ранняя игра может быть слабой до получения ключевых талантов"},
-    {"en": "Mind control effectiveness varies by mission type", "ru": "Эффективность контроля разума варьируется в зависимости от типа миссии"}
+    {
+      "en": "Requires building up psionic power over time",
+      "ru": "Требует накопления псионической мощи со временем"
+    },
+    {
+      "en": "Early game can feel underwhelming before key talents",
+      "ru": "Ранняя игра может быть слабой до получения ключевых талантов"
+    },
+    {
+      "en": "Mind control effectiveness varies by mission type",
+      "ru": "Эффективность контроля разума варьируется в зависимости от типа миссии"
+    }
   ],
   "talents": [
     {
@@ -246,88 +291,271 @@
   ],
   "builds": [
     {
-      "name": {"en": "Psi-Storm Blitz", "ru": "Пси-Шторм Блиц"},
-      "subtitle": {"en": "Mass trooper ability spam", "ru": "Массовый спам способностей трупперов"},
+      "name": {
+        "en": "Psi-Storm Blitz",
+        "ru": "Пси-Шторм Блиц"
+      },
+      "subtitle": {
+        "en": "Mass trooper ability spam",
+        "ru": "Массовый спам способностей трупперов"
+      },
       "desc": {
         "en": "Stack Psi-Corps Troopers with maximum ability damage for devastating AoE. Combine Psi-Storm with Psionic Amplifier stacks and Psionic Vortex for screen-clearing combos.",
         "ru": "Массируйте Пси-Корпус Трупперов с максимальным уроном способностей для разрушительного AoE. Комбинируйте Пси-Шторм с стаками Псионического Усилителя и Псионическим Вихрем для очистки экрана."
       },
       "tags": [
-        {"name": "Psi-Corps Trooper", "type": "core"},
-        {"name": "Psi-Storm", "type": "required"},
-        {"name": "Psionic Amplifier", "type": "required"},
-        {"name": "Psionic Vortex", "type": "optional"},
-        {"name": "Awakened Potential", "type": "optional"},
-        {"name": "Use More Gun", "type": "generic"}
+        {
+          "name": "Psi-Corps Trooper",
+          "type": "core"
+        },
+        {
+          "name": "Psi-Storm",
+          "type": "required"
+        },
+        {
+          "name": "Psionic Amplifier",
+          "type": "required"
+        },
+        {
+          "name": "Psionic Vortex",
+          "type": "optional"
+        },
+        {
+          "name": "Awakened Potential",
+          "type": "optional"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Get Psi-Corps Trooper core and Psi-Storm ASAP. Start building 4-6 troopers alongside your normal army. Use storms to clear dense packs.", "ru": "Получите ядро Пси-Корпус Труппера и Пси-Шторм как можно раньше. Начинайте производить 4-6 трупперов наряду с обычной армией. Используйте штормы для очистки плотных групп."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "Stack Psionic Amplifier 3-5 times. Add Terrazine Resonance stacks. Your storms should now chunk most enemy compositions. Prioritize Psi-Corps Elite Training if offered.", "ru": "Набирайте Псионический Усилитель 3-5 раз. Добавляйте стаки Террацинового Резонанса. Ваши штормы теперь должны уничтожать большинство вражеских композиций. Приоритизируйте Элитную Подготовку Пси-Корпуса при появлении."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "With 5 Amplifier stacks and Psionic Vortex, you can wipe entire attack waves. Stack generic damage talents. Mass 10+ troopers and chain storms.", "ru": "С 5 стаками Усилителя и Псионическим Вихрем вы можете уничтожить целые волны атаки. Набирайте общие таланты урона. Массируйте 10+ трупперов и чередуйте штормы."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Get Psi-Corps Trooper core and Psi-Storm ASAP. Start building 4-6 troopers alongside your normal army. Use storms to clear dense packs.",
+            "ru": "Получите ядро Пси-Корпус Труппера и Пси-Шторм как можно раньше. Начинайте производить 4-6 трупперов наряду с обычной армией. Используйте штормы для очистки плотных групп."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
+          "text": {
+            "en": "Stack Psionic Amplifier 3-5 times. Add Terrazine Resonance stacks. Your storms should now chunk most enemy compositions. Prioritize Psi-Corps Elite Training if offered.",
+            "ru": "Набирайте Псионический Усилитель 3-5 раз. Добавляйте стаки Террацинового Резонанса. Ваши штормы теперь должны уничтожать большинство вражеских композиций. Приоритизируйте Элитную Подготовку Пси-Корпуса при появлении."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "With 5 Amplifier stacks and Psionic Vortex, you can wipe entire attack waves. Stack generic damage talents. Mass 10+ troopers and chain storms.",
+            "ru": "С 5 стаками Усилителя и Псионическим Вихрем вы можете уничтожить целые волны атаки. Набирайте общие таланты урона. Массируйте 10+ трупперов и чередуйте штормы."
+          }
+        }
       ],
       "tips": [
-        {"en": "Spread your troopers slightly to avoid losing all to splash damage", "ru": "Слегка рассредотачивайте трупперов, чтобы не потерять всех от сплеш-урона"},
-        {"en": "Cast storms on chokepoints before enemies arrive for maximum value", "ru": "Кастуйте штормы на узких проходах до прибытия врагов для максимальной пользы"},
-        {"en": "Psionic Vortex + multiple Psi-Storms is the strongest AoE combo in the game", "ru": "Псионический Вихрь + несколько Пси-Штормов — самая сильная AoE комбо в игре"}
+        {
+          "en": "Spread your troopers slightly to avoid losing all to splash damage",
+          "ru": "Слегка рассредотачивайте трупперов, чтобы не потерять всех от сплеш-урона"
+        },
+        {
+          "en": "Cast storms on chokepoints before enemies arrive for maximum value",
+          "ru": "Кастуйте штормы на узких проходах до прибытия врагов для максимальной пользы"
+        },
+        {
+          "en": "Psionic Vortex + multiple Psi-Storms is the strongest AoE combo in the game",
+          "ru": "Псионический Вихрь + несколько Пси-Штормов — самая сильная AoE комбо в игре"
+        }
       ]
     },
     {
-      "name": {"en": "Mind Domination", "ru": "Ментальное Доминирование"},
-      "subtitle": {"en": "Convert the enemy army to your side", "ru": "Обратите вражескую армию на свою сторону"},
+      "name": {
+        "en": "Mind Domination",
+        "ru": "Ментальное Доминирование"
+      },
+      "subtitle": {
+        "en": "Convert the enemy army to your side",
+        "ru": "Обратите вражескую армию на свою сторону"
+      },
       "desc": {
         "en": "Focus on Mind Control and Neural Parasite to steal the most powerful enemy units. Your army grows stronger with every engagement as you permanently convert key targets.",
         "ru": "Фокус на Контроле Разума и Нейронном Паразите для кражи самых мощных вражеских юнитов. Ваша армия становится сильнее с каждым боем, поскольку вы навсегда обращаете ключевые цели."
       },
       "tags": [
-        {"name": "Psi-Corps Trooper", "type": "core"},
-        {"name": "Mind Control", "type": "required"},
-        {"name": "Neural Parasite", "type": "required"},
-        {"name": "Psi-Corps Elite Training", "type": "optional"},
-        {"name": "Terrazine Infusion", "type": "core"},
-        {"name": "Medical Breakthrough", "type": "generic"}
+        {
+          "name": "Psi-Corps Trooper",
+          "type": "core"
+        },
+        {
+          "name": "Mind Control",
+          "type": "required"
+        },
+        {
+          "name": "Neural Parasite",
+          "type": "required"
+        },
+        {
+          "name": "Psi-Corps Elite Training",
+          "type": "optional"
+        },
+        {
+          "name": "Terrazine Infusion",
+          "type": "core"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Rush Psi-Corps Trooper and Mind Control. Even one conversion per fight snowballs. Target the strongest unit in each encounter.", "ru": "Спешите к Пси-Корпус Трупперу и Контролю Разума. Даже одно обращение за бой создаёт эффект снежного кома. Целитесь в самого сильного юнита в каждом бою."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "Get Neural Parasite for supercharged conversions. Build up a collection of converted heroic units. Add Terrazine Resonance to buff your growing army.", "ru": "Получите Нейронный Паразит для усиленных обращений. Собирайте коллекцию обращённых героических юнитов. Добавляйте Террациновый Резонанс для бафа растущей армии."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "Your army should be a terrifying zoo of converted elite units. Focus on keeping your troopers alive to continue converting. Health stacking keeps your collection intact.", "ru": "Ваша армия должна быть устрашающим зоопарком обращённых элитных юнитов. Сосредоточьтесь на сохранении трупперов для продолжения обращений. Стакание здоровья сохраняет вашу коллекцию."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Rush Psi-Corps Trooper and Mind Control. Even one conversion per fight snowballs. Target the strongest unit in each encounter.",
+            "ru": "Спешите к Пси-Корпус Трупперу и Контролю Разума. Даже одно обращение за бой создаёт эффект снежного кома. Целитесь в самого сильного юнита в каждом бою."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
+          "text": {
+            "en": "Get Neural Parasite for supercharged conversions. Build up a collection of converted heroic units. Add Terrazine Resonance to buff your growing army.",
+            "ru": "Получите Нейронный Паразит для усиленных обращений. Собирайте коллекцию обращённых героических юнитов. Добавляйте Террациновый Резонанс для бафа растущей армии."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "Your army should be a terrifying zoo of converted elite units. Focus on keeping your troopers alive to continue converting. Health stacking keeps your collection intact.",
+            "ru": "Ваша армия должна быть устрашающим зоопарком обращённых элитных юнитов. Сосредоточьтесь на сохранении трупперов для продолжения обращений. Стакание здоровья сохраняет вашу коллекцию."
+          }
+        }
       ],
       "tips": [
-        {"en": "Always target heroic or high-tier enemy units with Mind Control for maximum value", "ru": "Всегда целитесь в героических или высокоуровневых вражеских юнитов Контролем Разума для максимальной пользы"},
-        {"en": "Neural Parasite makes converted Hybrid units absurdly strong", "ru": "Нейронный Паразит делает обращённых Гибридов абсурдно сильными"},
-        {"en": "Keep 2-3 Medics near your troopers — they need to survive to keep converting", "ru": "Держите 2-3 Медиков рядом с трупперами — они должны выживать, чтобы продолжать обращать"}
+        {
+          "en": "Always target heroic or high-tier enemy units with Mind Control for maximum value",
+          "ru": "Всегда целитесь в героических или высокоуровневых вражеских юнитов Контролем Разума для максимальной пользы"
+        },
+        {
+          "en": "Neural Parasite makes converted Hybrid units absurdly strong",
+          "ru": "Нейронный Паразит делает обращённых Гибридов абсурдно сильными"
+        },
+        {
+          "en": "Keep 2-3 Medics near your troopers — they need to survive to keep converting",
+          "ru": "Держите 2-3 Медиков рядом с трупперами — они должны выживать, чтобы продолжать обращать"
+        }
       ]
     },
     {
-      "name": {"en": "Terrazine Supremacy", "ru": "Террациновое Превосходство"},
-      "subtitle": {"en": "Bio army on steroids", "ru": "Био-армия на стероидах"},
+      "name": {
+        "en": "Terrazine Supremacy",
+        "ru": "Террациновое Превосходство"
+      },
+      "subtitle": {
+        "en": "Bio army on steroids",
+        "ru": "Био-армия на стероидах"
+      },
       "desc": {
         "en": "Use Terrazine Infusion and Resonance stacks to create an overwhelming bio army. Every biological unit benefits from massive stat boosts. Complement with Marines, Medics, and any bio unit you prefer.",
         "ru": "Используйте Террациновое Вливание и стаки Резонанса для создания подавляющей био-армии. Каждый биологический юнит получает огромные бонусы к характеристикам. Дополняйте Маринами, Медиками и любыми био-юнитами на ваш вкус."
       },
       "tags": [
-        {"name": "Terrazine Infusion", "type": "core"},
-        {"name": "Terrazine Resonance", "type": "required"},
-        {"name": "Psi-Corps Trooper", "type": "optional"},
-        {"name": "Use More Gun", "type": "generic"},
-        {"name": "Medical Breakthrough", "type": "generic"},
-        {"name": "Salvage Operation", "type": "generic"}
+        {
+          "name": "Terrazine Infusion",
+          "type": "core"
+        },
+        {
+          "name": "Terrazine Resonance",
+          "type": "required"
+        },
+        {
+          "name": "Psi-Corps Trooper",
+          "type": "optional"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        },
+        {
+          "name": "Salvage Operation",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Get Terrazine Infusion and start stacking Terrazine Resonance. Build a standard bio army — Marines, Medics, Marauders. They all benefit from terrazine.", "ru": "Получите Террациновое Вливание и начинайте стакать Террациновый Резонанс. Стройте стандартную био-армию — Марины, Медики, Мародёры. Все они получают бонус от террацина."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "Keep stacking Resonance alongside generic damage/health talents. Your bio army should significantly outperform standard compositions now. Add Firebats or Reapers for variety.", "ru": "Продолжайте стакать Резонанс наряду с общими талантами урона/здоровья. Ваша био-армия теперь должна значительно превосходить стандартные композиции. Добавьте Огнемётчиков или Жнецов для разнообразия."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "With high Resonance stacks, even basic Marines become incredibly powerful. Max out your supply with bio and overwhelm everything with raw stats.", "ru": "С высокими стаками Резонанса даже базовые Марины становятся невероятно мощными. Заполните весь саплай био и подавляйте всё чистыми характеристиками."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Get Terrazine Infusion and start stacking Terrazine Resonance. Build a standard bio army — Marines, Medics, Marauders. They all benefit from terrazine.",
+            "ru": "Получите Террациновое Вливание и начинайте стакать Террациновый Резонанс. Стройте стандартную био-армию — Марины, Медики, Мародёры. Все они получают бонус от террацина."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
+          "text": {
+            "en": "Keep stacking Resonance alongside generic damage/health talents. Your bio army should significantly outperform standard compositions now. Add Firebats or Reapers for variety.",
+            "ru": "Продолжайте стакать Резонанс наряду с общими талантами урона/здоровья. Ваша био-армия теперь должна значительно превосходить стандартные композиции. Добавьте Огнемётчиков или Жнецов для разнообразия."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "With high Resonance stacks, even basic Marines become incredibly powerful. Max out your supply with bio and overwhelm everything with raw stats.",
+            "ru": "С высокими стаками Резонанса даже базовые Марины становятся невероятно мощными. Заполните весь саплай био и подавляйте всё чистыми характеристиками."
+          }
+        }
       ],
       "tips": [
-        {"en": "This build works with any bio composition — pick units based on mission needs", "ru": "Этот билд работает с любой био-композицией — выбирайте юнитов по потребностям миссии"},
-        {"en": "Terrazine Resonance + Use More Gun + Medical Breakthrough creates an absurd stat wall", "ru": "Террациновый Резонанс + Use More Gun + Medical Breakthrough создают абсурдную стену характеристик"},
-        {"en": "Do not neglect economy talents — you need to mass produce bio units constantly", "ru": "Не забывайте экономические таланты — вам нужно постоянно массово производить био-юнитов"}
+        {
+          "en": "This build works with any bio composition — pick units based on mission needs",
+          "ru": "Этот билд работает с любой био-композицией — выбирайте юнитов по потребностям миссии"
+        },
+        {
+          "en": "Terrazine Resonance + Use More Gun + Medical Breakthrough creates an absurd stat wall",
+          "ru": "Террациновый Резонанс + Use More Gun + Medical Breakthrough создают абсурдную стену характеристик"
+        },
+        {
+          "en": "Do not neglect economy talents — you need to mass produce bio units constantly",
+          "ru": "Не забывайте экономические таланты — вам нужно постоянно массово производить био-юнитов"
+        }
       ]
     }
   ],
   "multiclass_epics": [
     {
       "name": "Psionic Mercenary",
-      "classes": ["Psychic", "Hunter"],
+      "classes": [
+        "Psychic",
+        "Hunter"
+      ],
       "tier": "A",
       "desc": {
         "en": "Psi-Corps Troopers count as mercenary units for Deadman's Hardware and all Hunter mercenary talents.",
@@ -340,7 +568,10 @@
     },
     {
       "name": "Psychic Prime",
-      "classes": ["Psychic", "Champion"],
+      "classes": [
+        "Psychic",
+        "Champion"
+      ],
       "tier": "A",
       "desc": {
         "en": "Your hero unit gains psionic abilities: Psi-Storm and Mind Control with reduced cooldowns. Hero deals +30% bonus psionic damage.",
@@ -353,7 +584,10 @@
     },
     {
       "name": "Mind Bomb",
-      "classes": ["Psychic", "Deathknight"],
+      "classes": [
+        "Psychic",
+        "Deathknight"
+      ],
       "tier": "B",
       "desc": {
         "en": "When a mind-controlled unit dies, it explodes dealing psionic damage equal to 50% of its max health to nearby enemies.",
@@ -366,7 +600,10 @@
     },
     {
       "name": "Brainfood",
-      "classes": ["Psychic", "Warlock"],
+      "classes": [
+        "Psychic",
+        "Warlock"
+      ],
       "tier": "A",
       "desc": {
         "en": "Mind-controlled units feed the Warlock pact system. Each converted unit grants 1 pact level. Hybrid summons gain terrazine enhancement.",
@@ -379,7 +616,10 @@
     },
     {
       "name": "Amplify Curse",
-      "classes": ["Psychic", "Acolyte"],
+      "classes": [
+        "Psychic",
+        "Acolyte"
+      ],
       "tier": "B",
       "desc": {
         "en": "Your psionic abilities apply a debuff that increases ritual sacrifice effectiveness by 25% on affected enemies.",
@@ -392,7 +632,10 @@
     },
     {
       "name": "Hi-Sec Amplification",
-      "classes": ["Psychic", "Engineer"],
+      "classes": [
+        "Psychic",
+        "Engineer"
+      ],
       "tier": "B",
       "desc": {
         "en": "Turrets and defensive buildings gain psionic sensors: +4 range and can detect cloaked units. Psi-Corps Troopers repair nearby buildings.",
@@ -405,7 +648,10 @@
     },
     {
       "name": "Dark Apotheosis",
-      "classes": ["Psychic", "Necromancer"],
+      "classes": [
+        "Psychic",
+        "Necromancer"
+      ],
       "tier": "A",
       "desc": {
         "en": "Curse stacks on your units amplify psionic damage by +8% each. Psi-Corps Troopers gain a curse aura that weakens nearby enemies.",
@@ -418,7 +664,10 @@
     },
     {
       "name": "Brain Fog",
-      "classes": ["Psychic", "Rogue"],
+      "classes": [
+        "Psychic",
+        "Rogue"
+      ],
       "tier": "B",
       "desc": {
         "en": "Psi-Corps Troopers can cloak. Psi-Storm cast from cloak deals +50% damage and does not break stealth.",
@@ -431,7 +680,10 @@
     },
     {
       "name": "Let The Terrazine Flow",
-      "classes": ["Psychic", "Wizard"],
+      "classes": [
+        "Psychic",
+        "Wizard"
+      ],
       "tier": "S",
       "desc": {
         "en": "Terrazine enhancement now also grants spell abilities from Wizard class. Each terrazine-enhanced unit gains one random Wizard spell. Spell damage is boosted by psionic bonuses.",
@@ -444,7 +696,10 @@
     },
     {
       "name": "Psi-Tech Research",
-      "classes": ["Psychic", "Scientist"],
+      "classes": [
+        "Psychic",
+        "Scientist"
+      ],
       "tier": "A",
       "desc": {
         "en": "Prototype units gain terrazine enhancement. Psi-Corps Troopers can pilot Fenrir-class vehicles with psionic targeting (+25% accuracy, +15% damage).",
@@ -457,7 +712,10 @@
     },
     {
       "name": "Mind Vision",
-      "classes": ["Psychic", "Paladin"],
+      "classes": [
+        "Psychic",
+        "Paladin"
+      ],
       "tier": "B",
       "desc": {
         "en": "Paladin auras extend to mind-controlled units. Psi-Corps Troopers gain a holy shield that absorbs 100 damage every 30 seconds.",

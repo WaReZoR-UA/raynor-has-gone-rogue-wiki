@@ -1,29 +1,89 @@
 {
   "id": "paladin",
   "name": "Paladin",
-  "icon": "&#128737;",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2'><path d='M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z'/><path d='M12 8v5'/><path d='M9.5 11.5L12 13l2.5-1.5'/></svg>",
   "color": "#f5f5dc",
-  "subtitle": {"en": "Holy oaths empower your units through combat experience.", "ru": "Святые клятвы усиливают юнитов через боевой опыт."},
-  "summary": {"en": "Paladin gives your units a leveling system through 12 different Oaths. Units gain XP from kills and level up to 5, unlocking powerful bonuses at each tier. Each oath type affects specific unit categories. Combine with talents that boost experience gain and oath effectiveness for an army that grows stronger with every fight.", "ru": "Паладин даёт юнитам систему уровней через 12 различных Клятв. Юниты получают опыт за убийства и повышаются до 5 уровня, открывая мощные бонусы на каждом тире. Каждый тип клятвы влияет на определённые категории юнитов. Комбинируйте с талантами, усиливающими получение опыта и эффективность клятв."},
-  "unlock": {"en": "Complete All In", "ru": "Пройдите All In"},
+  "subtitle": {
+    "en": "Holy oaths empower your units through combat experience.",
+    "ru": "Святые клятвы усиливают юнитов через боевой опыт."
+  },
+  "summary": {
+    "en": "Paladin gives your units a leveling system through 12 different Oaths. Units gain XP from kills and level up to 5, unlocking powerful bonuses at each tier. Each oath type affects specific unit categories. Combine with talents that boost experience gain and oath effectiveness for an army that grows stronger with every fight.",
+    "ru": "Паладин даёт юнитам систему уровней через 12 различных Клятв. Юниты получают опыт за убийства и повышаются до 5 уровня, открывая мощные бонусы на каждом тире. Каждый тип клятвы влияет на определённые категории юнитов. Комбинируйте с талантами, усиливающими получение опыта и эффективность клятв."
+  },
+  "unlock": {
+    "en": "Complete All In",
+    "ru": "Пройдите All In"
+  },
   "stats": [
-    {"value": "12", "label": {"en": "Different Oaths", "ru": "Различных Клятв"}},
-    {"value": "5", "label": {"en": "Max unit level", "ru": "Макс. уровень юнита"}},
-    {"value": "+15%", "label": {"en": "HP/DMG per Veneration stack", "ru": "HP/урон за стак Veneration"}},
-    {"value": "10", "label": {"en": "Max level with Avatar Of Perfection", "ru": "Макс. уровень с Avatar Of Perfection"}}
+    {
+      "value": "12",
+      "label": {
+        "en": "Different Oaths",
+        "ru": "Различных Клятв"
+      }
+    },
+    {
+      "value": "5",
+      "label": {
+        "en": "Max unit level",
+        "ru": "Макс. уровень юнита"
+      }
+    },
+    {
+      "value": "+15%",
+      "label": {
+        "en": "HP/DMG per Veneration stack",
+        "ru": "HP/урон за стак Veneration"
+      }
+    },
+    {
+      "value": "10",
+      "label": {
+        "en": "Max level with Avatar Of Perfection",
+        "ru": "Макс. уровень с Avatar Of Perfection"
+      }
+    }
   ],
   "strengths": [
-    {"en": "Units become extremely powerful at max level with unique bonuses per oath", "ru": "Юниты становятся крайне мощными на макс. уровне с уникальными бонусами по клятве"},
-    {"en": "12 oath types cover every unit category — always relevant", "ru": "12 типов клятв покрывают все категории юнитов — всегда актуально"},
-    {"en": "Veneration infinite stacking (+15% HP/DMG) for long-term scaling", "ru": "Бесконечное стакание Veneration (+15% HP/урон) для долгосрочного масштабирования"},
-    {"en": "Fanaticism gives heroic tag to level 5+ units — synergy with Super Heroic", "ru": "Fanaticism даёт героический тег юнитам 5+ уровня — синергия с Super Heroic"},
-    {"en": "Crusader's Might (units start as level 1) dramatically accelerates leveling", "ru": "Crusader's Might (юниты начинают с 1 уровня) драматически ускоряет прокачку"}
+    {
+      "en": "Units become extremely powerful at max level with unique bonuses per oath",
+      "ru": "Юниты становятся крайне мощными на макс. уровне с уникальными бонусами по клятве"
+    },
+    {
+      "en": "12 oath types cover every unit category — always relevant",
+      "ru": "12 типов клятв покрывают все категории юнитов — всегда актуально"
+    },
+    {
+      "en": "Veneration infinite stacking (+15% HP/DMG) for long-term scaling",
+      "ru": "Бесконечное стакание Veneration (+15% HP/урон) для долгосрочного масштабирования"
+    },
+    {
+      "en": "Fanaticism gives heroic tag to level 5+ units — synergy with Super Heroic",
+      "ru": "Fanaticism даёт героический тег юнитам 5+ уровня — синергия с Super Heroic"
+    },
+    {
+      "en": "Crusader's Might (units start as level 1) dramatically accelerates leveling",
+      "ru": "Crusader's Might (юниты начинают с 1 уровня) драматически ускоряет прокачку"
+    }
   ],
   "weaknesses": [
-    {"en": "Units need time to level up — slow start on each mission", "ru": "Юнитам нужно время для прокачки — медленный старт каждой миссии"},
-    {"en": "Losing leveled units is very costly — experience is lost", "ru": "Потеря прокачанных юнитов очень болезненна — опыт теряется"},
-    {"en": "Cannot multiclass with Scientist, Wizard, Rogue, or Mad Genius", "ru": "Не может мультиклассироваться с Scientist, Wizard, Rogue или Mad Genius"},
-    {"en": "Veneration increases unit cost by +10% per stack — expensive late game", "ru": "Veneration увеличивает стоимость юнитов на +10% за стак — дорого в поздней игре"}
+    {
+      "en": "Units need time to level up — slow start on each mission",
+      "ru": "Юнитам нужно время для прокачки — медленный старт каждой миссии"
+    },
+    {
+      "en": "Losing leveled units is very costly — experience is lost",
+      "ru": "Потеря прокачанных юнитов очень болезненна — опыт теряется"
+    },
+    {
+      "en": "Cannot multiclass with Scientist, Wizard, Rogue, or Mad Genius",
+      "ru": "Не может мультиклассироваться с Scientist, Wizard, Rogue или Mad Genius"
+    },
+    {
+      "en": "Veneration increases unit cost by +10% per stack — expensive late game",
+      "ru": "Veneration увеличивает стоимость юнитов на +10% за стак — дорого в поздней игре"
+    }
   ],
   "talents": [
     {
@@ -31,32 +91,56 @@
       "rarity": "core",
       "tier": "S",
       "stackable": false,
-      "desc": {"en": "Your units can gain levels from slain enemies, up to 5 levels. Units gain unique bonuses from levels. Slain enemies distribute experience based on their supply cost.", "ru": "Ваши юниты могут получать уровни от убитых врагов, до 5 уровней. Юниты получают уникальные бонусы от уровней. Убитые враги распределяют опыт по стоимости саппорта."},
-      "analysis": {"en": "Your foundation. Every unit becomes a veteran through combat. The 12 oaths determine what bonuses they get.", "ru": "Ваш фундамент. Каждый юнит становится ветераном через бой. 12 клятв определяют, какие бонусы они получают."}
+      "desc": {
+        "en": "Your units can gain levels from slain enemies, up to 5 levels. Units gain unique bonuses from levels. Slain enemies distribute experience based on their supply cost.",
+        "ru": "Ваши юниты могут получать уровни от убитых врагов, до 5 уровней. Юниты получают уникальные бонусы от уровней. Убитые враги распределяют опыт по стоимости саппорта."
+      },
+      "analysis": {
+        "en": "Your foundation. Every unit becomes a veteran through combat. The 12 oaths determine what bonuses they get.",
+        "ru": "Ваш фундамент. Каждый юнит становится ветераном через бой. 12 клятв определяют, какие бонусы они получают."
+      }
     },
     {
       "name": "Blessed Workers",
       "rarity": "common",
       "tier": "B",
       "stackable": false,
-      "desc": {"en": "Allows SCVs to gain levels as well, gaining 25% health, damage and repair speed each level with unique bonuses.", "ru": "Позволяет SCV получать уровни, получая 25% здоровья, урона и скорости ремонта за уровень с уникальными бонусами."},
-      "analysis": {"en": "Leveled SCVs are surprisingly tanky and repair fast. Good for defense.", "ru": "Прокачанные SCV удивительно живучие и быстро чинят. Хорош для обороны."}
+      "desc": {
+        "en": "Allows SCVs to gain levels as well, gaining 25% health, damage and repair speed each level with unique bonuses.",
+        "ru": "Позволяет SCV получать уровни, получая 25% здоровья, урона и скорости ремонта за уровень с уникальными бонусами."
+      },
+      "analysis": {
+        "en": "Leveled SCVs are surprisingly tanky and repair fast. Good for defense.",
+        "ru": "Прокачанные SCV удивительно живучие и быстро чинят. Хорош для обороны."
+      }
     },
     {
       "name": "Divine Armor",
       "rarity": "common",
       "tier": "B",
       "stackable": false,
-      "desc": {"en": "Your units with oaths have +2 armor, but are trained in +25% more time.", "ru": "Ваши юниты с клятвами имеют +2 брони, но тренируются на +25% дольше."},
-      "analysis": {"en": "+2 armor is significant, especially for light units. Training time increase is manageable with reactors.", "ru": "+2 брони значительно, особенно для лёгких юнитов. Увеличение времени тренировки управляемо с реакторами."}
+      "desc": {
+        "en": "Your units with oaths have +2 armor, but are trained in +25% more time.",
+        "ru": "Ваши юниты с клятвами имеют +2 брони, но тренируются на +25% дольше."
+      },
+      "analysis": {
+        "en": "+2 armor is significant, especially for light units. Training time increase is manageable with reactors.",
+        "ru": "+2 брони значительно, особенно для лёгких юнитов. Увеличение времени тренировки управляемо с реакторами."
+      }
     },
     {
       "name": "Lay On Hands",
       "rarity": "common",
       "tier": "B",
       "stackable": false,
-      "desc": {"en": "Oath health regeneration is increased. The increase is equal to the oath's current health increase.", "ru": "Регенерация здоровья от клятв увеличена. Увеличение равно текущему бонусу к здоровью от клятвы."},
-      "analysis": {"en": "More regen = more survivability for your expensive leveled units.", "ru": "Больше регенерации = больше выживаемости для ваших дорогих прокачанных юнитов."}
+      "desc": {
+        "en": "Oath health regeneration is increased. The increase is equal to the oath's current health increase.",
+        "ru": "Регенерация здоровья от клятв увеличена. Увеличение равно текущему бонусу к здоровью от клятвы."
+      },
+      "analysis": {
+        "en": "More regen = more survivability for your expensive leveled units.",
+        "ru": "Больше регенерации = больше выживаемости для ваших дорогих прокачанных юнитов."
+      }
     },
     {
       "name": "Veneration",
@@ -64,56 +148,98 @@
       "tier": "S",
       "stackable": true,
       "maxStacks": 100,
-      "desc": {"en": "Your units with oaths have +15% health and attack damage, but cost +10% resources. Max 100 stacks.", "ru": "Ваши юниты с клятвами имеют +15% здоровья и урона атаки, но стоят +10% ресурсов. Макс. 100 стаков."},
-      "analysis": {"en": "KEY SCALING TALENT. At 100 stacks = +1500% HP/DMG. The +10% cost per stack means you need economy, but the power is worth it. Take every stack.", "ru": "КЛЮЧЕВОЙ ТАЛАНТ МАСШТАБИРОВАНИЯ. При 100 стаках = +1500% HP/урона. +10% стоимости за стак означает нужду в экономике, но сила того стоит. Берите каждый стак."}
+      "desc": {
+        "en": "Your units with oaths have +15% health and attack damage, but cost +10% resources. Max 100 stacks.",
+        "ru": "Ваши юниты с клятвами имеют +15% здоровья и урона атаки, но стоят +10% ресурсов. Макс. 100 стаков."
+      },
+      "analysis": {
+        "en": "KEY SCALING TALENT. At 100 stacks = +1500% HP/DMG. The +10% cost per stack means you need economy, but the power is worth it. Take every stack.",
+        "ru": "КЛЮЧЕВОЙ ТАЛАНТ МАСШТАБИРОВАНИЯ. При 100 стаках = +1500% HP/урона. +10% стоимости за стак означает нужду в экономике, но сила того стоит. Берите каждый стак."
+      }
     },
     {
       "name": "Legend Lore",
       "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
-      "desc": {"en": "Abilities given by oaths have their cooldown and energy cost reduced by -30%.", "ru": "Способности, даваемые клятвами, имеют кулдаун и стоимость энергии уменьшенные на -30%."},
-      "analysis": {"en": "Oath abilities become much more spammable. Great for ability-heavy oaths.", "ru": "Способности клятв становятся намного более частыми. Отлично для клятв с обильными способностями."}
+      "desc": {
+        "en": "Abilities given by oaths have their cooldown and energy cost reduced by -30%.",
+        "ru": "Способности, даваемые клятвами, имеют кулдаун и стоимость энергии уменьшенные на -30%."
+      },
+      "analysis": {
+        "en": "Oath abilities become much more spammable. Great for ability-heavy oaths.",
+        "ru": "Способности клятв становятся намного более частыми. Отлично для клятв с обильными способностями."
+      }
     },
     {
       "name": "Inquisition",
       "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
-      "desc": {"en": "Your units with oaths gain +25% more experience from killing enemies.", "ru": "Ваши юниты с клятвами получают +25% больше опыта от убийств врагов."},
-      "analysis": {"en": "Faster leveling = faster power spike. Very important for early missions.", "ru": "Быстрая прокачка = быстрый скачок силы. Очень важно для ранних миссий."}
+      "desc": {
+        "en": "Your units with oaths gain +25% more experience from killing enemies.",
+        "ru": "Ваши юниты с клятвами получают +25% больше опыта от убийств врагов."
+      },
+      "analysis": {
+        "en": "Faster leveling = faster power spike. Very important for early missions.",
+        "ru": "Быстрая прокачка = быстрый скачок силы. Очень важно для ранних миссий."
+      }
     },
     {
       "name": "Everlasting Light",
       "rarity": "uncommon",
       "tier": "B",
       "stackable": false,
-      "desc": {"en": "Every 10 seconds, your units with oaths gain +10 experience.", "ru": "Каждые 10 секунд ваши юниты с клятвами получают +10 опыта."},
-      "analysis": {"en": "Passive XP gain. Good but slow compared to active killing.", "ru": "Пассивное получение опыта. Хорошо, но медленно по сравнению с активными убийствами."}
+      "desc": {
+        "en": "Every 10 seconds, your units with oaths gain +10 experience.",
+        "ru": "Каждые 10 секунд ваши юниты с клятвами получают +10 опыта."
+      },
+      "analysis": {
+        "en": "Passive XP gain. Good but slow compared to active killing.",
+        "ru": "Пассивное получение опыта. Хорошо, но медленно по сравнению с активными убийствами."
+      }
     },
     {
       "name": "Crusader's Might",
       "rarity": "rare",
       "tier": "S",
       "stackable": false,
-      "desc": {"en": "Your units start as level 1.", "ru": "Ваши юниты начинают с 1 уровня."},
-      "analysis": {"en": "GAME CHANGER. Skipping level 0 means instant oath bonuses on all trained units. Dramatically speeds up leveling.", "ru": "МЕНЯЕТ ИГРУ. Пропуск 0 уровня означает мгновенные бонусы клятв на всех тренированных юнитах. Драматически ускоряет прокачку."}
+      "desc": {
+        "en": "Your units start as level 1.",
+        "ru": "Ваши юниты начинают с 1 уровня."
+      },
+      "analysis": {
+        "en": "GAME CHANGER. Skipping level 0 means instant oath bonuses on all trained units. Dramatically speeds up leveling.",
+        "ru": "МЕНЯЕТ ИГРУ. Пропуск 0 уровня означает мгновенные бонусы клятв на всех тренированных юнитах. Драматически ускоряет прокачку."
+      }
     },
     {
       "name": "Avatar Of Perfection",
       "rarity": "rare",
       "tier": "A",
       "stackable": false,
-      "desc": {"en": "Oath maximum levels are increased to 10. Levels above 5 do not give level specific bonuses.", "ru": "Максимальные уровни клятв увеличены до 10. Уровни выше 5 не дают специфичных бонусов уровня."},
-      "analysis": {"en": "More levels = more stat scaling. Levels 6-10 give generic stat boosts without unique abilities.", "ru": "Больше уровней = больше масштабирования статов. Уровни 6-10 дают общие бонусы без уникальных способностей."}
+      "desc": {
+        "en": "Oath maximum levels are increased to 10. Levels above 5 do not give level specific bonuses.",
+        "ru": "Максимальные уровни клятв увеличены до 10. Уровни выше 5 не дают специфичных бонусов уровня."
+      },
+      "analysis": {
+        "en": "More levels = more stat scaling. Levels 6-10 give generic stat boosts without unique abilities.",
+        "ru": "Больше уровней = больше масштабирования статов. Уровни 6-10 дают общие бонусы без уникальных способностей."
+      }
     },
     {
       "name": "Fanaticism",
       "rarity": "rare",
       "tier": "S",
       "stackable": false,
-      "desc": {"en": "Units with oaths that are level 5 or higher gain +30% health and attack damage, and gain the heroic tag.", "ru": "Юниты с клятвами уровня 5+ получают +30% здоровья и урона, а также героический тег."},
-      "analysis": {"en": "HEROIC TAG on max-level units! Synergizes with Super Heroic stacks. +30% stats is huge on top.", "ru": "ГЕРОИЧЕСКИЙ ТЕГ на юнитах макс. уровня! Синергия с Super Heroic стаками. +30% статов огромно сверху."}
+      "desc": {
+        "en": "Units with oaths that are level 5 or higher gain +30% health and attack damage, and gain the heroic tag.",
+        "ru": "Юниты с клятвами уровня 5+ получают +30% здоровья и урона, а также героический тег."
+      },
+      "analysis": {
+        "en": "HEROIC TAG on max-level units! Synergizes with Super Heroic stacks. +30% stats is huge on top.",
+        "ru": "ГЕРОИЧЕСКИЙ ТЕГ на юнитах макс. уровня! Синергия с Super Heroic стаками. +30% статов огромно сверху."
+      }
     },
     {
       "name": "Extra Shining Armor",
@@ -121,99 +247,450 @@
       "tier": "C",
       "stackable": true,
       "maxStacks": 3,
-      "desc": {"en": "Your units with oaths cost +10% more, and are trained in +20% more time. Max 3 stacks.", "ru": "Ваши юниты с клятвами стоят +10% дороже и тренируются на +20% дольше. Макс. 3 стака."},
-      "analysis": {"en": "Curse-like epic that increases costs. Avoid unless you have massive economy.", "ru": "Проклятие-подобный эпик, увеличивающий стоимость. Избегайте если нет массивной экономики."}
+      "desc": {
+        "en": "Your units with oaths cost +10% more, and are trained in +20% more time. Max 3 stacks.",
+        "ru": "Ваши юниты с клятвами стоят +10% дороже и тренируются на +20% дольше. Макс. 3 стака."
+      },
+      "analysis": {
+        "en": "Curse-like epic that increases costs. Avoid unless you have massive economy.",
+        "ru": "Проклятие-подобный эпик, увеличивающий стоимость. Избегайте если нет массивной экономики."
+      }
     },
     {
       "name": "Moment Of Silence",
       "rarity": "curse",
       "tier": "D",
       "stackable": false,
-      "desc": {"en": "When one of your units dies, nearby units gain -35% reduced attack and movement speed for 15 seconds.", "ru": "Когда один из ваших юнитов гибнет, ближайшие юниты получают -35% скорости атаки и движения на 15 секунд."},
-      "analysis": {"en": "VERY DANGEROUS for Paladin — you want to preserve units, and cascade deaths trigger this repeatedly. BAN.", "ru": "ОЧЕНЬ ОПАСНО для Паладина — вы хотите сохранять юнитов, а каскадные смерти активируют это повторно. БАНИТЬ."}
+      "desc": {
+        "en": "When one of your units dies, nearby units gain -35% reduced attack and movement speed for 15 seconds.",
+        "ru": "Когда один из ваших юнитов гибнет, ближайшие юниты получают -35% скорости атаки и движения на 15 секунд."
+      },
+      "analysis": {
+        "en": "VERY DANGEROUS for Paladin — you want to preserve units, and cascade deaths trigger this repeatedly. BAN.",
+        "ru": "ОЧЕНЬ ОПАСНО для Паладина — вы хотите сохранять юнитов, а каскадные смерти активируют это повторно. БАНИТЬ."
+      }
     }
   ],
   "builds": [
     {
-      "name": {"en": "Veteran Army", "ru": "Армия ветеранов"},
-      "subtitle": {"en": "Maximum leveling speed and power", "ru": "Максимальная скорость прокачки и мощь"},
-      "desc": {"en": "Rush Crusader's Might for instant level 1 on all units. Stack Veneration. Get Fanaticism for heroic tag. Combined with Super Heroic stacks = every max-level unit is a hero.", "ru": "Срочно получите Crusader's Might для мгновенного 1 уровня. Стакайте Veneration. Возьмите Fanaticism для героического тега. В комбинации с Super Heroic стаками = каждый юнит макс. уровня — герой."},
+      "name": {
+        "en": "Veteran Army",
+        "ru": "Армия ветеранов"
+      },
+      "subtitle": {
+        "en": "Maximum leveling speed and power",
+        "ru": "Максимальная скорость прокачки и мощь"
+      },
+      "desc": {
+        "en": "Rush Crusader's Might for instant level 1 on all units. Stack Veneration. Get Fanaticism for heroic tag. Combined with Super Heroic stacks = every max-level unit is a hero.",
+        "ru": "Срочно получите Crusader's Might для мгновенного 1 уровня. Стакайте Veneration. Возьмите Fanaticism для героического тега. В комбинации с Super Heroic стаками = каждый юнит макс. уровня — герой."
+      },
       "tags": [
-        {"name": "Path Of The Paladin", "type": "core"},
-        {"name": "Crusader's Might", "type": "required"},
-        {"name": "Veneration x MAX", "type": "required"},
-        {"name": "Fanaticism", "type": "required"},
-        {"name": "Inquisition", "type": "required"},
-        {"name": "Super Heroic x N", "type": "generic"},
-        {"name": "Salvage Operation x N", "type": "generic"}
+        {
+          "name": "Path Of The Paladin",
+          "type": "core"
+        },
+        {
+          "name": "Crusader's Might",
+          "type": "required"
+        },
+        {
+          "name": "Veneration x MAX",
+          "type": "required"
+        },
+        {
+          "name": "Fanaticism",
+          "type": "required"
+        },
+        {
+          "name": "Inquisition",
+          "type": "required"
+        },
+        {
+          "name": "Super Heroic x N",
+          "type": "generic"
+        },
+        {
+          "name": "Salvage Operation x N",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Get Veneration stacks and Inquisition for faster XP. Units level slowly at first — be patient.", "ru": "Берите стаки Veneration и Inquisition для быстрого опыта. Юниты прокачиваются медленно поначалу — будьте терпеливы."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Середина (6-15)"}, "text": {"en": "Crusader's Might is the priority — instant level 1 is transformative. Continue Veneration. Add Fanaticism when available.", "ru": "Crusader's Might — приоритет, мгновенный 1 уровень трансформативен. Продолжайте Veneration. Добавьте Fanaticism когда доступно."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "With Fanaticism + Super Heroic, every level 5 unit is a hero with massive stats. Unstoppable army.", "ru": "С Fanaticism + Super Heroic каждый юнит 5 уровня — герой с массивными статами. Неостановимая армия."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Get Veneration stacks and Inquisition for faster XP. Units level slowly at first — be patient.",
+            "ru": "Берите стаки Veneration и Inquisition для быстрого опыта. Юниты прокачиваются медленно поначалу — будьте терпеливы."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Середина (6-15)"
+          },
+          "text": {
+            "en": "Crusader's Might is the priority — instant level 1 is transformative. Continue Veneration. Add Fanaticism when available.",
+            "ru": "Crusader's Might — приоритет, мгновенный 1 уровень трансформативен. Продолжайте Veneration. Добавьте Fanaticism когда доступно."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "With Fanaticism + Super Heroic, every level 5 unit is a hero with massive stats. Unstoppable army.",
+            "ru": "С Fanaticism + Super Heroic каждый юнит 5 уровня — герой с массивными статами. Неостановимая армия."
+          }
+        }
       ],
       "tips": [
-        {"en": "Best overall Paladin build. Consistent and powerful.", "ru": "Лучший общий билд Паладина. Стабильный и мощный."},
-        {"en": "Economy is important — Veneration increases costs. Take Salvage Operation.", "ru": "Экономика важна — Veneration увеличивает стоимость. Берите Salvage Operation."}
+        {
+          "en": "Best overall Paladin build. Consistent and powerful.",
+          "ru": "Лучший общий билд Паладина. Стабильный и мощный."
+        },
+        {
+          "en": "Economy is important — Veneration increases costs. Take Salvage Operation.",
+          "ru": "Экономика важна — Veneration увеличивает стоимость. Берите Salvage Operation."
+        }
       ]
     },
     {
-      "name": {"en": "Rapid Ascension", "ru": "Быстрое вознесение"},
-      "subtitle": {"en": "Maximum XP gain for fast leveling", "ru": "Максимум получения опыта для быстрой прокачки"},
-      "desc": {"en": "Focus on XP acceleration: Crusader's Might + Inquisition + Everlasting Light. Get units to level 5 as fast as possible.", "ru": "Фокус на ускорении опыта: Crusader's Might + Inquisition + Everlasting Light. Довести юнитов до 5 уровня как можно быстрее."},
+      "name": {
+        "en": "Rapid Ascension",
+        "ru": "Быстрое вознесение"
+      },
+      "subtitle": {
+        "en": "Maximum XP gain for fast leveling",
+        "ru": "Максимум получения опыта для быстрой прокачки"
+      },
+      "desc": {
+        "en": "Focus on XP acceleration: Crusader's Might + Inquisition + Everlasting Light. Get units to level 5 as fast as possible.",
+        "ru": "Фокус на ускорении опыта: Crusader's Might + Inquisition + Everlasting Light. Довести юнитов до 5 уровня как можно быстрее."
+      },
       "tags": [
-        {"name": "Path Of The Paladin", "type": "core"},
-        {"name": "Crusader's Might", "type": "required"},
-        {"name": "Inquisition", "type": "required"},
-        {"name": "Everlasting Light", "type": "required"},
-        {"name": "Avatar Of Perfection", "type": "optional"},
-        {"name": "Veneration x N", "type": "generic"}
+        {
+          "name": "Path Of The Paladin",
+          "type": "core"
+        },
+        {
+          "name": "Crusader's Might",
+          "type": "required"
+        },
+        {
+          "name": "Inquisition",
+          "type": "required"
+        },
+        {
+          "name": "Everlasting Light",
+          "type": "required"
+        },
+        {
+          "name": "Avatar Of Perfection",
+          "type": "optional"
+        },
+        {
+          "name": "Veneration x N",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Inquisition first for +25% XP. Everlasting Light for passive XP gain.", "ru": "Inquisition первым для +25% опыта. Everlasting Light для пассивного получения опыта."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Середина (6-15)"}, "text": {"en": "Crusader's Might + Avatar Of Perfection for level 10 cap. Units reach max level mid-mission.", "ru": "Crusader's Might + Avatar Of Perfection для потолка 10 уровня. Юниты достигают макс. уровня посреди миссии."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "All units should hit max level quickly. Add Veneration for raw stats.", "ru": "Все юниты должны быстро достигать макс. уровня. Добавьте Veneration для сырых статов."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Inquisition first for +25% XP. Everlasting Light for passive XP gain.",
+            "ru": "Inquisition первым для +25% опыта. Everlasting Light для пассивного получения опыта."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Середина (6-15)"
+          },
+          "text": {
+            "en": "Crusader's Might + Avatar Of Perfection for level 10 cap. Units reach max level mid-mission.",
+            "ru": "Crusader's Might + Avatar Of Perfection для потолка 10 уровня. Юниты достигают макс. уровня посреди миссии."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "All units should hit max level quickly. Add Veneration for raw stats.",
+            "ru": "Все юниты должны быстро достигать макс. уровня. Добавьте Veneration для сырых статов."
+          }
+        }
       ],
       "tips": [
-        {"en": "Good when you need fast power spikes each mission.", "ru": "Хорош когда нужны быстрые скачки силы каждую миссию."},
-        {"en": "Less raw power than Veteran Army but faster ramp-up.", "ru": "Меньше сырой силы чем у Veteran Army, но быстрее разгон."}
+        {
+          "en": "Good when you need fast power spikes each mission.",
+          "ru": "Хорош когда нужны быстрые скачки силы каждую миссию."
+        },
+        {
+          "en": "Less raw power than Veteran Army but faster ramp-up.",
+          "ru": "Меньше сырой силы чем у Veteran Army, но быстрее разгон."
+        }
       ]
     },
     {
-      "name": {"en": "Holy Crusader", "ru": "Святой крестоносец"},
-      "subtitle": {"en": "Paladin + Champion multiclass", "ru": "Палладин + Champion мультикласс"},
-      "desc": {"en": "Multiclass with Champion for Hero's Journey (Oath of Heroism bonuses +40%). Combined with Fanaticism (heroic tag at lvl 5) and Super Heroic stacks = ultimate hero army.", "ru": "Мультикласс с Champion для Hero's Journey (бонусы Клятвы Героизма +40%). В комбинации с Fanaticism (героический тег на 5 уровне) и стаками Super Heroic = идеальная армия героев."},
+      "name": {
+        "en": "Holy Crusader",
+        "ru": "Святой крестоносец"
+      },
+      "subtitle": {
+        "en": "Paladin + Champion multiclass",
+        "ru": "Палладин + Champion мультикласс"
+      },
+      "desc": {
+        "en": "Multiclass with Champion for Hero's Journey (Oath of Heroism bonuses +40%). Combined with Fanaticism (heroic tag at lvl 5) and Super Heroic stacks = ultimate hero army.",
+        "ru": "Мультикласс с Champion для Hero's Journey (бонусы Клятвы Героизма +40%). В комбинации с Fanaticism (героический тег на 5 уровне) и стаками Super Heroic = идеальная армия героев."
+      },
       "tags": [
-        {"name": "Path Of The Paladin", "type": "core"},
-        {"name": "This Is Jimmy", "type": "core"},
-        {"name": "Multiclass", "type": "required"},
-        {"name": "Hero's Journey", "type": "required"},
-        {"name": "Fanaticism", "type": "required"},
-        {"name": "Super Heroic x MAX", "type": "required"},
-        {"name": "Crusader's Might", "type": "optional"}
+        {
+          "name": "Path Of The Paladin",
+          "type": "core"
+        },
+        {
+          "name": "This Is Jimmy",
+          "type": "core"
+        },
+        {
+          "name": "Multiclass",
+          "type": "required"
+        },
+        {
+          "name": "Hero's Journey",
+          "type": "required"
+        },
+        {
+          "name": "Fanaticism",
+          "type": "required"
+        },
+        {
+          "name": "Super Heroic x MAX",
+          "type": "required"
+        },
+        {
+          "name": "Crusader's Might",
+          "type": "optional"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Take Multiclass talent. Build up Champion hero (Raynor) alongside Paladin leveling.", "ru": "Возьмите талант Multiclass. Развивайте героя Champion (Рейнор) вместе с прокачкой Паладина."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Середина (6-15)"}, "text": {"en": "Hero's Journey boosts Heroism oath. Fanaticism makes level 5 units heroic. Stack Super Heroic.", "ru": "Hero's Journey усиливает клятву Героизма. Fanaticism делает юнитов 5 уровня героическими. Стакайте Super Heroic."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "Every max-level unit is a hero benefiting from Super Heroic stacks AND oath bonuses. Maximum power.", "ru": "Каждый юнит макс. уровня — герой, получающий бонусы от Super Heroic И клятв. Максимальная мощь."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Take Multiclass talent. Build up Champion hero (Raynor) alongside Paladin leveling.",
+            "ru": "Возьмите талант Multiclass. Развивайте героя Champion (Рейнор) вместе с прокачкой Паладина."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Середина (6-15)"
+          },
+          "text": {
+            "en": "Hero's Journey boosts Heroism oath. Fanaticism makes level 5 units heroic. Stack Super Heroic.",
+            "ru": "Hero's Journey усиливает клятву Героизма. Fanaticism делает юнитов 5 уровня героическими. Стакайте Super Heroic."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "Every max-level unit is a hero benefiting from Super Heroic stacks AND oath bonuses. Maximum power.",
+            "ru": "Каждый юнит макс. уровня — герой, получающий бонусы от Super Heroic И клятв. Максимальная мощь."
+          }
+        }
       ],
       "tips": [
-        {"en": "The ultimate endgame build for Paladin.", "ru": "Идеальный эндгейм билд для Паладина."},
-        {"en": "Requires Multiclass generic talent — prioritize finding it.", "ru": "Требует generic талант Multiclass — приоритетно найдите его."}
+        {
+          "en": "The ultimate endgame build for Paladin.",
+          "ru": "Идеальный эндгейм билд для Паладина."
+        },
+        {
+          "en": "Requires Multiclass generic talent — prioritize finding it.",
+          "ru": "Требует generic талант Multiclass — приоритетно найдите его."
+        }
       ]
     }
   ],
   "multiclass_epics": [
-    {"name": "Hero's Journey", "classes": ["Champion", "Paladin"], "tier": "S", "desc": {"en": "Oath of Heroism health and damage bonus increased +40%.", "ru": "Бонусы к здоровью и урону от Клятвы Героизма увеличены на +40%."}, "analysis": {"en": "Massive boost to Heroism oath. Heroes become incredibly powerful.", "ru": "Массивный буст Клятвы Героизма. Герои становятся невероятно мощными."}},
-    {"name": "Inquisitor's Wrath", "classes": ["Hunter", "Paladin"], "tier": "A", "desc": {"en": "Mercenaries gain +50% more damage bonus from oaths.", "ru": "Наёмники получают +50% больше бонуса урона от клятв."}, "analysis": {"en": "Mercs with oath bonuses amplified. Strong Hunter-Paladin combo.", "ru": "Наёмники с усиленными бонусами клятв. Сильное комбо Hunter-Paladin."}},
-    {"name": "Anathema", "classes": ["Deathknight", "Paladin"], "tier": "A", "desc": {"en": "Deathrattle gives units with Oaths +25 experience.", "ru": "Deathrattle даёт юнитам с Клятвами +25 опыта."}, "analysis": {"en": "Every death near your units accelerates leveling. Synergy with DK death effects.", "ru": "Каждая смерть рядом с вашими юнитами ускоряет прокачку. Синергия с эффектами смерти DK."}},
-    {"name": "Oathbreaker", "classes": ["Warlock", "Paladin"], "tier": "A", "desc": {"en": "Veneration applies to all Hybrids aside the Host. Pact Mastery applies to all Oaths.", "ru": "Veneration применяется ко всем гибридам кроме The Host. Pact Mastery применяется ко всем Клятвам."}, "analysis": {"en": "Cross-scaling between Paladin and Warlock. Both infinite talents benefit both systems.", "ru": "Перекрёстное масштабирование Паладина и Варлока. Оба бесконечных таланта усиливают обе системы."}},
-    {"name": "Hallowed Sanctuary", "classes": ["Engineer", "Paladin"], "tier": "B", "desc": {"en": "Buildings with attacks gain levels, gaining 25% health/damage each level plus unique bonuses.", "ru": "Здания с атаками получают уровни, получая 25% здоровья/урона за уровень плюс уникальные бонусы."}, "analysis": {"en": "Leveling turrets and defensive buildings. Strong for defense missions.", "ru": "Прокачка турелей и оборонительных зданий. Силён для оборонительных миссий."}},
-    {"name": "Chittering Crusade", "classes": ["Druid", "Paladin"], "tier": "B", "desc": {"en": "Cerberus Zerg benefit from Oaths without gaining oath abilities or certain benefits.", "ru": "Зерги Cerberus получают бонусы от Клятв без способностей клятв."}, "analysis": {"en": "Oath stat bonuses on Zerg swarm units. Quantity + quality.", "ru": "Статовые бонусы клятв на юнитов роя зергов. Количество + качество."}},
-    {"name": "Mind Vision", "classes": ["Psychic", "Paladin"], "tier": "B", "desc": {"en": "Oath of Watchers requires half experience to level up, gives +30% more bonus to health.", "ru": "Клятва Наблюдателей требует в два раза меньше опыта и даёт +30% больше бонуса к здоровью."}, "analysis": {"en": "Watchers oath gets faster and tankier. Good for caster-heavy builds.", "ru": "Клятва Наблюдателей становится быстрее и живучее. Хорошо для кастер-билдов."}},
-    {"name": "Immortal Armada", "classes": ["Bard", "Paladin"], "tier": "B", "desc": {"en": "Allied protoss benefits from Oaths without gaining oath abilities or certain benefits.", "ru": "Союзные протоссы получают бонусы от Клятв без способностей клятв."}, "analysis": {"en": "Bard's Protoss allies get oath stat buffs. Interesting cross-faction synergy.", "ru": "Союзники-протоссы Барда получают статовые баффы клятв. Интересная межфракционная синергия."}},
-    {"name": "Speed Learning", "classes": ["Monk", "Paladin"], "tier": "A", "desc": {"en": "Every 6 seconds, units with oaths gain +100 experience. This decays by -10 experience each trigger, down to 0.", "ru": "Каждые 6 секунд юниты с клятвами получают +100 опыта. Уменьшается на -10 за каждый тик, до 0."}, "analysis": {"en": "Massive early XP burst that decays. Gets units to level 3-4 very fast.", "ru": "Массивный ранний буст опыта с затуханием. Быстро доводит юнитов до 3-4 уровня."}},
-    {"name": "All Encompassing Crusade", "classes": ["Gambler", "Paladin"], "tier": "B", "desc": {"en": "Units randomizing into Zerg or Protoss benefit from Oaths without gaining oath abilities/certain benefits.", "ru": "Юниты, рандомизирующиеся в зергов или протоссов, получают бонусы от Клятв."}, "analysis": {"en": "Gambler's random units get oath buffs. Nice but random.", "ru": "Случайные юниты Gambler получают бонусы клятв. Приятно, но случайно."}}
+    {
+      "name": "Hero's Journey",
+      "classes": [
+        "Champion",
+        "Paladin"
+      ],
+      "tier": "S",
+      "desc": {
+        "en": "Oath of Heroism health and damage bonus increased +40%.",
+        "ru": "Бонусы к здоровью и урону от Клятвы Героизма увеличены на +40%."
+      },
+      "analysis": {
+        "en": "Massive boost to Heroism oath. Heroes become incredibly powerful.",
+        "ru": "Массивный буст Клятвы Героизма. Герои становятся невероятно мощными."
+      }
+    },
+    {
+      "name": "Inquisitor's Wrath",
+      "classes": [
+        "Hunter",
+        "Paladin"
+      ],
+      "tier": "A",
+      "desc": {
+        "en": "Mercenaries gain +50% more damage bonus from oaths.",
+        "ru": "Наёмники получают +50% больше бонуса урона от клятв."
+      },
+      "analysis": {
+        "en": "Mercs with oath bonuses amplified. Strong Hunter-Paladin combo.",
+        "ru": "Наёмники с усиленными бонусами клятв. Сильное комбо Hunter-Paladin."
+      }
+    },
+    {
+      "name": "Anathema",
+      "classes": [
+        "Deathknight",
+        "Paladin"
+      ],
+      "tier": "A",
+      "desc": {
+        "en": "Deathrattle gives units with Oaths +25 experience.",
+        "ru": "Deathrattle даёт юнитам с Клятвами +25 опыта."
+      },
+      "analysis": {
+        "en": "Every death near your units accelerates leveling. Synergy with DK death effects.",
+        "ru": "Каждая смерть рядом с вашими юнитами ускоряет прокачку. Синергия с эффектами смерти DK."
+      }
+    },
+    {
+      "name": "Oathbreaker",
+      "classes": [
+        "Warlock",
+        "Paladin"
+      ],
+      "tier": "A",
+      "desc": {
+        "en": "Veneration applies to all Hybrids aside the Host. Pact Mastery applies to all Oaths.",
+        "ru": "Veneration применяется ко всем гибридам кроме The Host. Pact Mastery применяется ко всем Клятвам."
+      },
+      "analysis": {
+        "en": "Cross-scaling between Paladin and Warlock. Both infinite talents benefit both systems.",
+        "ru": "Перекрёстное масштабирование Паладина и Варлока. Оба бесконечных таланта усиливают обе системы."
+      }
+    },
+    {
+      "name": "Hallowed Sanctuary",
+      "classes": [
+        "Engineer",
+        "Paladin"
+      ],
+      "tier": "B",
+      "desc": {
+        "en": "Buildings with attacks gain levels, gaining 25% health/damage each level plus unique bonuses.",
+        "ru": "Здания с атаками получают уровни, получая 25% здоровья/урона за уровень плюс уникальные бонусы."
+      },
+      "analysis": {
+        "en": "Leveling turrets and defensive buildings. Strong for defense missions.",
+        "ru": "Прокачка турелей и оборонительных зданий. Силён для оборонительных миссий."
+      }
+    },
+    {
+      "name": "Chittering Crusade",
+      "classes": [
+        "Druid",
+        "Paladin"
+      ],
+      "tier": "B",
+      "desc": {
+        "en": "Cerberus Zerg benefit from Oaths without gaining oath abilities or certain benefits.",
+        "ru": "Зерги Cerberus получают бонусы от Клятв без способностей клятв."
+      },
+      "analysis": {
+        "en": "Oath stat bonuses on Zerg swarm units. Quantity + quality.",
+        "ru": "Статовые бонусы клятв на юнитов роя зергов. Количество + качество."
+      }
+    },
+    {
+      "name": "Mind Vision",
+      "classes": [
+        "Psychic",
+        "Paladin"
+      ],
+      "tier": "B",
+      "desc": {
+        "en": "Oath of Watchers requires half experience to level up, gives +30% more bonus to health.",
+        "ru": "Клятва Наблюдателей требует в два раза меньше опыта и даёт +30% больше бонуса к здоровью."
+      },
+      "analysis": {
+        "en": "Watchers oath gets faster and tankier. Good for caster-heavy builds.",
+        "ru": "Клятва Наблюдателей становится быстрее и живучее. Хорошо для кастер-билдов."
+      }
+    },
+    {
+      "name": "Immortal Armada",
+      "classes": [
+        "Bard",
+        "Paladin"
+      ],
+      "tier": "B",
+      "desc": {
+        "en": "Allied protoss benefits from Oaths without gaining oath abilities or certain benefits.",
+        "ru": "Союзные протоссы получают бонусы от Клятв без способностей клятв."
+      },
+      "analysis": {
+        "en": "Bard's Protoss allies get oath stat buffs. Interesting cross-faction synergy.",
+        "ru": "Союзники-протоссы Барда получают статовые баффы клятв. Интересная межфракционная синергия."
+      }
+    },
+    {
+      "name": "Speed Learning",
+      "classes": [
+        "Monk",
+        "Paladin"
+      ],
+      "tier": "A",
+      "desc": {
+        "en": "Every 6 seconds, units with oaths gain +100 experience. This decays by -10 experience each trigger, down to 0.",
+        "ru": "Каждые 6 секунд юниты с клятвами получают +100 опыта. Уменьшается на -10 за каждый тик, до 0."
+      },
+      "analysis": {
+        "en": "Massive early XP burst that decays. Gets units to level 3-4 very fast.",
+        "ru": "Массивный ранний буст опыта с затуханием. Быстро доводит юнитов до 3-4 уровня."
+      }
+    },
+    {
+      "name": "All Encompassing Crusade",
+      "classes": [
+        "Gambler",
+        "Paladin"
+      ],
+      "tier": "B",
+      "desc": {
+        "en": "Units randomizing into Zerg or Protoss benefit from Oaths without gaining oath abilities/certain benefits.",
+        "ru": "Юниты, рандомизирующиеся в зергов или протоссов, получают бонусы от Клятв."
+      },
+      "analysis": {
+        "en": "Gambler's random units get oath buffs. Nice but random.",
+        "ru": "Случайные юниты Gambler получают бонусы клятв. Приятно, но случайно."
+      }
+    }
   ],
-  "multiclass_intro": {"en": "Paladin cannot multiclass with Scientist, Wizard, Rogue, or Mad Genius due to type restrictions. Best partners: Champion (Hero's Journey boosts Heroism oath massively), Warlock (Oathbreaker cross-scales both infinites), and Monk (Speed Learning turbocharges early leveling). Paladin with Fanaticism + Champion Super Heroic is one of the strongest endgame combos.", "ru": "Паладин не может мультиклассироваться с Scientist, Wizard, Rogue или Mad Genius из-за ограничений типов. Лучшие партнёры: Champion (Hero's Journey массивно усиливает Клятву Героизма), Warlock (Oathbreaker перекрёстно масштабирует оба бесконечных), и Monk (Speed Learning ускоряет раннюю прокачку). Паладин с Fanaticism + Champion Super Heroic — одно из сильнейших эндгейм комбо."}
+  "multiclass_intro": {
+    "en": "Paladin cannot multiclass with Scientist, Wizard, Rogue, or Mad Genius due to type restrictions. Best partners: Champion (Hero's Journey boosts Heroism oath massively), Warlock (Oathbreaker cross-scales both infinites), and Monk (Speed Learning turbocharges early leveling). Paladin with Fanaticism + Champion Super Heroic is one of the strongest endgame combos.",
+    "ru": "Паладин не может мультиклассироваться с Scientist, Wizard, Rogue или Mad Genius из-за ограничений типов. Лучшие партнёры: Champion (Hero's Journey массивно усиливает Клятву Героизма), Warlock (Oathbreaker перекрёстно масштабирует оба бесконечных), и Monk (Speed Learning ускоряет раннюю прокачку). Паладин с Fanaticism + Champion Super Heroic — одно из сильнейших эндгейм комбо."
+  }
 }

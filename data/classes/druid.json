@@ -1,7 +1,7 @@
 {
   "id": "druid",
   "name": "Druid",
-  "icon": "🦌",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2'><path d='M12 22c-4-3-8-7-8-12a8 8 0 0116 0c0 5-4 9-8 12z'/><path d='M12 8v8'/><path d='M9 12h6'/></svg>",
   "color": "#65a30d",
   "subtitle": {
     "en": "Embrace the Swarm. Become the Hive.",
@@ -16,22 +16,70 @@
     "ru": "Пройдите All In"
   },
   "stats": [
-    {"value": "S", "label": {"en": "Army diversity", "ru": "Разнообразие армии"}},
-    {"value": "A", "label": {"en": "Sustained DPS", "ru": "Продолжительный DPS"}},
-    {"value": "A", "label": {"en": "Swarm economy", "ru": "Экономика роя"}},
-    {"value": "C", "label": {"en": "Micromanagement demand", "ru": "Требования к микро"}}
+    {
+      "value": "S",
+      "label": {
+        "en": "Army diversity",
+        "ru": "Разнообразие армии"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "Sustained DPS",
+        "ru": "Продолжительный DPS"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "Swarm economy",
+        "ru": "Экономика роя"
+      }
+    },
+    {
+      "value": "C",
+      "label": {
+        "en": "Micromanagement demand",
+        "ru": "Требования к микро"
+      }
+    }
   ],
   "strengths": [
-    {"en": "Adds powerful Zerg units to your Terran army", "ru": "Добавляет мощных юнитов зергов к вашей терранской армии"},
-    {"en": "Infested buildings provide free reinforcements", "ru": "Заражённые здания дают бесплатные подкрепления"},
-    {"en": "Overwhelming numbers through spawning mechanics", "ru": "Подавляющее численное превосходство через механику порождения"},
-    {"en": "Strong synergy with biological damage upgrades", "ru": "Сильная синергия с улучшениями биологического урона"}
+    {
+      "en": "Adds powerful Zerg units to your Terran army",
+      "ru": "Добавляет мощных юнитов зергов к вашей терранской армии"
+    },
+    {
+      "en": "Infested buildings provide free reinforcements",
+      "ru": "Заражённые здания дают бесплатные подкрепления"
+    },
+    {
+      "en": "Overwhelming numbers through spawning mechanics",
+      "ru": "Подавляющее численное превосходство через механику порождения"
+    },
+    {
+      "en": "Strong synergy with biological damage upgrades",
+      "ru": "Сильная синергия с улучшениями биологического урона"
+    }
   ],
   "weaknesses": [
-    {"en": "Cannot multiclass with 6 classes — severely limits options", "ru": "Не может мультиклассить с 6 классами — сильно ограничивает выбор"},
-    {"en": "Zerg units are individually weaker — relies on numbers", "ru": "Юниты зергов индивидуально слабее — полагается на численность"},
-    {"en": "High micro requirement to manage two races", "ru": "Высокие требования к микро для управления двумя расами"},
-    {"en": "Infestation mechanics take time to ramp up", "ru": "Механики заражения требуют времени для раскачки"}
+    {
+      "en": "Cannot multiclass with 6 classes — severely limits options",
+      "ru": "Не может мультиклассить с 6 классами — сильно ограничивает выбор"
+    },
+    {
+      "en": "Zerg units are individually weaker — relies on numbers",
+      "ru": "Юниты зергов индивидуально слабее — полагается на численность"
+    },
+    {
+      "en": "High micro requirement to manage two races",
+      "ru": "Высокие требования к микро для управления двумя расами"
+    },
+    {
+      "en": "Infestation mechanics take time to ramp up",
+      "ru": "Механики заражения требуют времени для раскачки"
+    }
   ],
   "talents": [
     {
@@ -217,37 +265,70 @@
   ],
   "builds": [
     {
-      "name": {"en": "Full Swarm", "ru": "Полный Рой"},
-      "subtitle": {"en": "Overwhelm with Zerg numbers", "ru": "Подавляйте численностью зергов"},
+      "name": {
+        "en": "Full Swarm",
+        "ru": "Полный Рой"
+      },
+      "subtitle": {
+        "en": "Overwhelm with Zerg numbers",
+        "ru": "Подавляйте численностью зергов"
+      },
       "desc": {
         "en": "Go all-in on Zerg units. Spawning Pool for free Zerglings, Hive Mind for scaling, and Swarm Queen for command. The goal is to flood the map with cheap, buffed Zerg units that overwhelm any defense through sheer numbers.",
         "ru": "Идите ва-банк на юнитах зергов. Spawning Pool для бесплатных Зерглингов, Hive Mind для масштабирования и Swarm Queen для командования. Цель — затопить карту дешёвыми, забаффанными юнитами зергов, подавляющими любую оборону чистой численностью."
       },
       "tags": [
-        {"name": "Infestation", "type": "core"},
-        {"name": "Spawning Pool", "type": "required"},
-        {"name": "Hive Mind", "type": "required"},
-        {"name": "Swarm Queen", "type": "required"},
-        {"name": "Hydralisk Den", "type": "optional"},
-        {"name": "Use More Gun", "type": "generic"}
+        {
+          "name": "Infestation",
+          "type": "core"
+        },
+        {
+          "name": "Spawning Pool",
+          "type": "required"
+        },
+        {
+          "name": "Hive Mind",
+          "type": "required"
+        },
+        {
+          "name": "Swarm Queen",
+          "type": "required"
+        },
+        {
+          "name": "Hydralisk Den",
+          "type": "optional"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"},
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
           "text": {
             "en": "Infest your Command Center immediately. Build Spawning Pool ASAP for free Zerglings. Use Terran bio as filler while Zerg army grows. Stack Hive Mind whenever offered.",
             "ru": "Немедленно заразите Командный Центр. Постройте Spawning Pool как можно скорее для бесплатных Зерглингов. Используйте терранское био как наполнитель пока армия зергов растёт. Стакайте Hive Mind при каждом предложении."
           }
         },
         {
-          "title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"},
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
           "text": {
             "en": "Your Zergling swarm should be self-sustaining now. Add Hydralisks for ranged DPS. Swarm Queen transforms your army's effectiveness with heals and aura. Keep stacking Hive Mind.",
             "ru": "Ваш рой Зерглингов должен быть самодостаточным. Добавьте Гидралисков для дальнобойного DPS. Swarm Queen трансформирует эффективность армии лечением и аурой. Продолжайте стакать Hive Mind."
           }
         },
         {
-          "title": {"en": "Late (16+)", "ru": "Поздняя (16+)"},
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
           "text": {
             "en": "With high Hive Mind stacks, even Zerglings hit hard. Your army should be 80%+ Zerg at this point. Use Nydus Worms for map control. For All In, flood with everything you have.",
             "ru": "С высокими стаками Hive Mind даже Зерглинги бьют сильно. Ваша армия должна быть 80%+ зергов. Используйте Нидус-Червей для контроля карты. Для All In бросайте всё что есть."
@@ -255,43 +336,85 @@
         }
       ],
       "tips": [
-        {"en": "Zerglings cost no supply — build unlimited amounts as cannon fodder", "ru": "Зерглинги не стоят снабжения — стройте неограниченно как пушечное мясо"},
-        {"en": "Swarm Queen's Transfuse should target Ultralisks or Hydralisks — not Zerglings", "ru": "Переливание Королевы Роя нацеливайте на Ультралисков или Гидралисков — не на Зерглингов"},
-        {"en": "Use More Gun affects Zerg units too — it's still essential", "ru": "Use More Gun влияет и на юнитов зергов — он по-прежнему необходим"}
+        {
+          "en": "Zerglings cost no supply — build unlimited amounts as cannon fodder",
+          "ru": "Зерглинги не стоят снабжения — стройте неограниченно как пушечное мясо"
+        },
+        {
+          "en": "Swarm Queen's Transfuse should target Ultralisks or Hydralisks — not Zerglings",
+          "ru": "Переливание Королевы Роя нацеливайте на Ультралисков или Гидралисков — не на Зерглингов"
+        },
+        {
+          "en": "Use More Gun affects Zerg units too — it's still essential",
+          "ru": "Use More Gun влияет и на юнитов зергов — он по-прежнему необходим"
+        }
       ]
     },
     {
-      "name": {"en": "Hybrid Army", "ru": "Гибридная Армия"},
-      "subtitle": {"en": "Best of both Terran and Zerg", "ru": "Лучшее от Терранов и Зергов"},
+      "name": {
+        "en": "Hybrid Army",
+        "ru": "Гибридная Армия"
+      },
+      "subtitle": {
+        "en": "Best of both Terran and Zerg",
+        "ru": "Лучшее от Терранов и Зергов"
+      },
       "desc": {
         "en": "Use Infested Armory to buff Terran bio with infestation while adding Zerg air (Mutalisks, Brood Lords) for support. This creates a flexible combined-arms force that handles any situation.",
         "ru": "Используйте Infested Armory для баффа терранского био заражением, добавляя воздух зергов (Муталиски, Владыки Стаи) для поддержки. Это создаёт гибкую комбинированную силу для любой ситуации."
       },
       "tags": [
-        {"name": "Infestation", "type": "core"},
-        {"name": "Infested Armory", "type": "required"},
-        {"name": "Mutalisk Roost", "type": "required"},
-        {"name": "Brood Lord Ascension", "type": "optional"},
-        {"name": "Hive Mind", "type": "optional"},
-        {"name": "Medical Breakthrough", "type": "generic"}
+        {
+          "name": "Infestation",
+          "type": "core"
+        },
+        {
+          "name": "Infested Armory",
+          "type": "required"
+        },
+        {
+          "name": "Mutalisk Roost",
+          "type": "required"
+        },
+        {
+          "name": "Brood Lord Ascension",
+          "type": "optional"
+        },
+        {
+          "name": "Hive Mind",
+          "type": "optional"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"},
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
           "text": {
             "en": "Build normal Terran bio (Marines, Medics, Marauders). Once you get Infested Armory, infest them for +30% HP and +10% damage. Start Mutalisk production when economy allows.",
             "ru": "Стройте обычное терранское био (Морпехи, Медики, Мародёры). Получив Infested Armory, заразите их для +30% HP и +10% урона. Начните производство Муталисков когда экономика позволит."
           }
         },
         {
-          "title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"},
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
           "text": {
             "en": "Infested Marines are your frontline, Mutalisks handle air and harass. Morph Mutalisks into Brood Lords for siege capability. Your army can handle any composition.",
             "ru": "Заражённые Морпехи — ваш фронт, Муталиски берут воздух и харассят. Мутируйте Муталисков во Владык Стаи для осадных возможностей. Ваша армия справится с любым составом."
           }
         },
         {
-          "title": {"en": "Late (16+)", "ru": "Поздняя (16+)"},
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
           "text": {
             "en": "Full hybrid force: infested bio on the ground, Brood Lords in the air, Ultralisks tanking. This is one of the most versatile late-game armies in the game.",
             "ru": "Полная гибридная сила: заражённое био на земле, Владыки Стаи в воздухе, Ультралиски танкуют. Это одна из самых универсальных армий лейт-гейма в игре."
@@ -299,43 +422,85 @@
         }
       ],
       "tips": [
-        {"en": "Infested Terran bio still benefits from Terran upgrades — research both Terran and Zerg upgrades", "ru": "Заражённое терранское био получает выгоду от терранских улучшений — исследуйте и терранские и зерговские апгрейды"},
-        {"en": "Brood Lords are slow — use Nydus Worms or Medivac transport for repositioning", "ru": "Владыки Стаи медленны — используйте Нидус-Червей или Медиваки для перемещения"},
-        {"en": "The death explosion from Infested Armory makes infested Marines effective even when they die", "ru": "Взрыв при смерти от Infested Armory делает заражённых Морпехов эффективными даже когда они гибнут"}
+        {
+          "en": "Infested Terran bio still benefits from Terran upgrades — research both Terran and Zerg upgrades",
+          "ru": "Заражённое терранское био получает выгоду от терранских улучшений — исследуйте и терранские и зерговские апгрейды"
+        },
+        {
+          "en": "Brood Lords are slow — use Nydus Worms or Medivac transport for repositioning",
+          "ru": "Владыки Стаи медленны — используйте Нидус-Червей или Медиваки для перемещения"
+        },
+        {
+          "en": "The death explosion from Infested Armory makes infested Marines effective even when they die",
+          "ru": "Взрыв при смерти от Infested Armory делает заражённых Морпехов эффективными даже когда они гибнут"
+        }
       ]
     },
     {
-      "name": {"en": "Brood Lord Siege", "ru": "Осада Владыками Стаи"},
-      "subtitle": {"en": "Unstoppable aerial assault", "ru": "Неудержимый воздушный штурм"},
+      "name": {
+        "en": "Brood Lord Siege",
+        "ru": "Осада Владыками Стаи"
+      },
+      "subtitle": {
+        "en": "Unstoppable aerial assault",
+        "ru": "Неудержимый воздушный штурм"
+      },
       "desc": {
         "en": "Rush to Brood Lords through Mutalisk Roost and Brood Lord Ascension. Brood Lords attack from range, spawn Broodlings, and with Adaptive Carapace become virtually untouchable. Use Terran ground as anti-air escort.",
         "ru": "Рвитесь к Владыкам Стаи через Mutalisk Roost и Brood Lord Ascension. Владыки Стаи атакуют с дистанции, порождают Бродлингов и с Adaptive Carapace становятся практически неприкосновенными. Используйте терранскую землю как ПВО-эскорт."
       },
       "tags": [
-        {"name": "Infestation", "type": "core"},
-        {"name": "Mutalisk Roost", "type": "required"},
-        {"name": "Brood Lord Ascension", "type": "required"},
-        {"name": "Adaptive Carapace", "type": "required"},
-        {"name": "Hive Mind", "type": "optional"},
-        {"name": "Renewable Fuel", "type": "generic"}
+        {
+          "name": "Infestation",
+          "type": "core"
+        },
+        {
+          "name": "Mutalisk Roost",
+          "type": "required"
+        },
+        {
+          "name": "Brood Lord Ascension",
+          "type": "required"
+        },
+        {
+          "name": "Adaptive Carapace",
+          "type": "required"
+        },
+        {
+          "name": "Hive Mind",
+          "type": "optional"
+        },
+        {
+          "name": "Renewable Fuel",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"},
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
           "text": {
             "en": "Use Terran army for early missions. Build gas infrastructure aggressively — Brood Lords are expensive. Take Mutalisk Roost as first priority.",
             "ru": "Используйте терранскую армию для ранних миссий. Агрессивно стройте газовую инфраструктуру — Владыки Стаи дороги. Берите Mutalisk Roost как первый приоритет."
           }
         },
         {
-          "title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"},
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
           "text": {
             "en": "Once you have Brood Lord Ascension, start morphing Mutalisks. Even 2-3 Brood Lords change the game — their Broodlings create a constant frontline while they siege safely.",
             "ru": "Получив Brood Lord Ascension, начинайте мутировать Муталисков. Даже 2-3 Владыки Стаи меняют игру — их Бродлинги создают постоянный фронт пока они осаждают безопасно."
           }
         },
         {
-          "title": {"en": "Late (16+)", "ru": "Поздняя (16+)"},
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
           "text": {
             "en": "With Adaptive Carapace, Brood Lords are armored flying siege engines. Keep Marines/Vikings underneath for anti-air escort. Your Broodlings tank while Brood Lords deal devastating damage.",
             "ru": "С Adaptive Carapace Владыки Стаи — бронированные летающие осадные машины. Держите Морпехов/Викингов внизу для ПВО-эскорта. Ваши Бродлинги танкуют пока Владыки Стаи наносят разрушительный урон."
@@ -343,16 +508,28 @@
         }
       ],
       "tips": [
-        {"en": "Brood Lords hard-counter any ground army — their Broodlings absorb all damage", "ru": "Владыки Стаи хард-контрят любую наземную армию — их Бродлинги поглощают весь урон"},
-        {"en": "Keep anti-air escort nearby — Vikings or Goliaths protect against air threats", "ru": "Держите ПВО-эскорт рядом — Викинги или Голиафы защитят от воздушных угроз"},
-        {"en": "Renewable Fuel is critical — you'll need 3-4+ stacks for constant Brood Lord production", "ru": "Renewable Fuel критичен — вам нужно 3-4+ стака для постоянного производства Владык Стаи"}
+        {
+          "en": "Brood Lords hard-counter any ground army — their Broodlings absorb all damage",
+          "ru": "Владыки Стаи хард-контрят любую наземную армию — их Бродлинги поглощают весь урон"
+        },
+        {
+          "en": "Keep anti-air escort nearby — Vikings or Goliaths protect against air threats",
+          "ru": "Держите ПВО-эскорт рядом — Викинги или Голиафы защитят от воздушных угроз"
+        },
+        {
+          "en": "Renewable Fuel is critical — you'll need 3-4+ stacks for constant Brood Lord production",
+          "ru": "Renewable Fuel критичен — вам нужно 3-4+ стака для постоянного производства Владык Стаи"
+        }
       ]
     }
   ],
   "multiclass_epics": [
     {
       "name": "Heroes Of The Swarm",
-      "classes": ["Druid", "Champion"],
+      "classes": [
+        "Druid",
+        "Champion"
+      ],
       "tier": "S",
       "desc": {
         "en": "Heroic units become infested, gaining +40% HP, +20% damage, and toxic blood (melee attackers take 10 damage per hit). Swarm Queen becomes a super-heroic unit.",
@@ -365,7 +542,10 @@
     },
     {
       "name": "Spontaneous Acidification",
-      "classes": ["Druid", "Deathknight"],
+      "classes": [
+        "Druid",
+        "Deathknight"
+      ],
       "tier": "A",
       "desc": {
         "en": "Zerg units that die leave acid pools dealing 15 damage/second for 5 seconds. Deathrattle effects trigger on Zerg unit deaths.",
@@ -378,7 +558,10 @@
     },
     {
       "name": "Purpose Of The Zerg",
-      "classes": ["Druid", "Warlock"],
+      "classes": [
+        "Druid",
+        "Warlock"
+      ],
       "tier": "A",
       "desc": {
         "en": "Hybrids summoned by Warlock gain Zerg classification and benefit from Hive Mind stacks. Zerg units deal +15% damage to enemies affected by Warlock debuffs.",
@@ -391,7 +574,10 @@
     },
     {
       "name": "Cerberus Salvage",
-      "classes": ["Druid", "Acolyte"],
+      "classes": [
+        "Druid",
+        "Acolyte"
+      ],
       "tier": "A",
       "desc": {
         "en": "Infested units count as double for Dark Ritual sacrifices. Sacrificed infested units spawn 2 Broodlings.",
@@ -404,7 +590,10 @@
     },
     {
       "name": "Infested Drop",
-      "classes": ["Druid", "Engineer"],
+      "classes": [
+        "Druid",
+        "Engineer"
+      ],
       "tier": "B",
       "desc": {
         "en": "Engineer turrets can be infested, gaining +50% HP and spawning Zerglings when destroyed. Infested buildings repair 50% faster.",
@@ -417,7 +606,10 @@
     },
     {
       "name": "Infested Hivemind",
-      "classes": ["Druid", "Necromancer"],
+      "classes": [
+        "Druid",
+        "Necromancer"
+      ],
       "tier": "A",
       "desc": {
         "en": "Cursed Zerg units gain +20% to all stats instead of curse penalties. Infested buildings spawn cursed units that are stronger but uncontrollable.",
@@ -430,7 +622,10 @@
     },
     {
       "name": "Fourier Scrambler",
-      "classes": ["Druid", "Rogue"],
+      "classes": [
+        "Druid",
+        "Rogue"
+      ],
       "tier": "B",
       "desc": {
         "en": "Zerg units can burrow to cloak. First attack from burrow deals +50% damage. Infested buildings cannot be targeted while no enemies are nearby.",
@@ -443,7 +638,10 @@
     },
     {
       "name": "Omega Outbreak",
-      "classes": ["Druid", "Wizard"],
+      "classes": [
+        "Druid",
+        "Wizard"
+      ],
       "tier": "A",
       "desc": {
         "en": "Wizard spell enhancements can be applied to Zerg units. Zerg units gain a chance to spawn a Zergling on spell cast.",
@@ -456,7 +654,10 @@
     },
     {
       "name": "Hounds Of War",
-      "classes": ["Druid", "Scientist"],
+      "classes": [
+        "Druid",
+        "Scientist"
+      ],
       "tier": "B",
       "desc": {
         "en": "Zerg units can be upgraded with Scientist prototypes. Prototype Zerglings split into 2 on death. Prototype Hydralisks gain +3 range.",
@@ -469,7 +670,10 @@
     },
     {
       "name": "Chittering Crusade",
-      "classes": ["Druid", "Paladin"],
+      "classes": [
+        "Druid",
+        "Paladin"
+      ],
       "tier": "A",
       "desc": {
         "en": "Paladin auras affect Zerg units. Zerg units near Paladin oath-bearers gain +10% to all stats. Ultralisks count as oath-bearers.",

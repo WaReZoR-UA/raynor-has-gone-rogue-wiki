@@ -1,7 +1,7 @@
 {
   "id": "warlock",
   "name": "Warlock",
-  "icon": "&#128420;",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2'><path d='M12 2l2.4 7.4H22l-6.2 4.5 2.4 7.4L12 16.8l-6.2 4.5 2.4-7.4L2 9.4h7.6z'/></svg>",
   "color": "#991b1b",
   "subtitle": {
     "en": "Keeper of Dark Pacts",
@@ -16,21 +16,66 @@
     "ru": "Возьмите 20 разных миссионных челленджей"
   },
   "stats": [
-    {"value": "S", "label": {"en": "Late Game Power", "ru": "Сила в поздней игре"}},
-    {"value": "S", "label": {"en": "Army Power", "ru": "Мощь армии"}},
-    {"value": "C", "label": {"en": "Early Game", "ru": "Ранняя игра"}},
-    {"value": "B", "label": {"en": "Flexibility", "ru": "Гибкость"}}
+    {
+      "value": "S",
+      "label": {
+        "en": "Late Game Power",
+        "ru": "Сила в поздней игре"
+      }
+    },
+    {
+      "value": "S",
+      "label": {
+        "en": "Army Power",
+        "ru": "Мощь армии"
+      }
+    },
+    {
+      "value": "C",
+      "label": {
+        "en": "Early Game",
+        "ru": "Ранняя игра"
+      }
+    },
+    {
+      "value": "B",
+      "label": {
+        "en": "Flexibility",
+        "ru": "Гибкость"
+      }
+    }
   ],
   "strengths": [
-    {"en": "Hybrid summons are among the most powerful units available", "ru": "Призванные Гибриды — одни из самых мощных доступных юнитов"},
-    {"en": "Warlock leveling system provides continuous scaling throughout the campaign", "ru": "Система уровней Чернокнижника обеспечивает непрерывное масштабирование на протяжении кампании"},
-    {"en": "Eight different Hybrid types offer solutions for every situation", "ru": "Восемь различных типов Гибридов предлагают решения для каждой ситуации"},
-    {"en": "Exceptional multiclass options with almost every other class", "ru": "Исключительные мультикласс-опции с почти каждым другим классом"}
+    {
+      "en": "Hybrid summons are among the most powerful units available",
+      "ru": "Призванные Гибриды — одни из самых мощных доступных юнитов"
+    },
+    {
+      "en": "Warlock leveling system provides continuous scaling throughout the campaign",
+      "ru": "Система уровней Чернокнижника обеспечивает непрерывное масштабирование на протяжении кампании"
+    },
+    {
+      "en": "Eight different Hybrid types offer solutions for every situation",
+      "ru": "Восемь различных типов Гибридов предлагают решения для каждой ситуации"
+    },
+    {
+      "en": "Exceptional multiclass options with almost every other class",
+      "ru": "Исключительные мультикласс-опции с почти каждым другим классом"
+    }
   ],
   "weaknesses": [
-    {"en": "Extremely weak early game before Hybrid summons come online", "ru": "Крайне слабая ранняя игра до появления призыва Гибридов"},
-    {"en": "Dark pacts can impose harsh penalties if not managed carefully", "ru": "Тёмные пакты могут наложить суровые штрафы при неосторожном управлении"},
-    {"en": "Hybrid units are supply-intensive and expensive", "ru": "Гибриды требуют много саплая и дороги"}
+    {
+      "en": "Extremely weak early game before Hybrid summons come online",
+      "ru": "Крайне слабая ранняя игра до появления призыва Гибридов"
+    },
+    {
+      "en": "Dark pacts can impose harsh penalties if not managed carefully",
+      "ru": "Тёмные пакты могут наложить суровые штрафы при неосторожном управлении"
+    },
+    {
+      "en": "Hybrid units are supply-intensive and expensive",
+      "ru": "Гибриды требуют много саплая и дороги"
+    }
   ],
   "talents": [
     {
@@ -246,88 +291,271 @@
   ],
   "builds": [
     {
-      "name": {"en": "Hybrid Supremacy", "ru": "Гибридное Превосходство"},
-      "subtitle": {"en": "All-Hybrid army", "ru": "Армия из одних Гибридов"},
+      "name": {
+        "en": "Hybrid Supremacy",
+        "ru": "Гибридное Превосходство"
+      },
+      "subtitle": {
+        "en": "All-Hybrid army",
+        "ru": "Армия из одних Гибридов"
+      },
       "desc": {
         "en": "Go all-in on Hybrid summons, collecting as many Hybrid types as possible and leveling them aggressively through pact kills. The endgame is a diverse army of fully-leveled Hybrids that overwhelms everything.",
         "ru": "Делайте ставку на призывы Гибридов, собирая как можно больше типов и агрессивно прокачивая их через убийства пактом. Эндгейм — разнообразная армия полностью прокачанных Гибридов, которая подавляет всё."
       },
       "tags": [
-        {"name": "Dark Pact", "type": "core"},
-        {"name": "Hybrid Summoning: Dominator", "type": "required"},
-        {"name": "Forbidden Knowledge", "type": "required"},
-        {"name": "Pact Acceleration", "type": "required"},
-        {"name": "Soul Harvest", "type": "optional"},
-        {"name": "Salvage Operation", "type": "generic"}
+        {
+          "name": "Dark Pact",
+          "type": "core"
+        },
+        {
+          "name": "Hybrid Summoning: Dominator",
+          "type": "required"
+        },
+        {
+          "name": "Forbidden Knowledge",
+          "type": "required"
+        },
+        {
+          "name": "Pact Acceleration",
+          "type": "required"
+        },
+        {
+          "name": "Soul Harvest",
+          "type": "optional"
+        },
+        {
+          "name": "Salvage Operation",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Your Hybrids are weak at level 1. Supplement with a normal Terran army while aggressively completing pact requirements. Focus on getting pact levels up ASAP.", "ru": "Ваши Гибриды слабы на 1-м уровне. Дополняйте нормальной Терранской армией, агрессивно выполняя требования пактов. Фокус на повышении уровней пакта как можно скорее."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "Hybrids should be level 3-4 by now. Start phasing out your Terran army in favor of more Hybrids. Get Dominator and Forbidden Knowledge if possible.", "ru": "Гибриды должны быть 3-4 уровня к этому моменту. Начинайте замещать вашу Терранскую армию большим количеством Гибридов. Получите Доминатора и Запретные Знания, если возможно."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "Full Hybrid army with level 5 units. Dominator aura buffs the entire team. Add Mastermind if available for the ultimate endgame power.", "ru": "Полная армия Гибридов с юнитами 5-го уровня. Аура Доминатора бафает всю команду. Добавьте Мастермайнда, если доступен, для абсолютной мощи эндгейма."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Your Hybrids are weak at level 1. Supplement with a normal Terran army while aggressively completing pact requirements. Focus on getting pact levels up ASAP.",
+            "ru": "Ваши Гибриды слабы на 1-м уровне. Дополняйте нормальной Терранской армией, агрессивно выполняя требования пактов. Фокус на повышении уровней пакта как можно скорее."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
+          "text": {
+            "en": "Hybrids should be level 3-4 by now. Start phasing out your Terran army in favor of more Hybrids. Get Dominator and Forbidden Knowledge if possible.",
+            "ru": "Гибриды должны быть 3-4 уровня к этому моменту. Начинайте замещать вашу Терранскую армию большим количеством Гибридов. Получите Доминатора и Запретные Знания, если возможно."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "Full Hybrid army with level 5 units. Dominator aura buffs the entire team. Add Mastermind if available for the ultimate endgame power.",
+            "ru": "Полная армия Гибридов с юнитами 5-го уровня. Аура Доминатора бафает всю команду. Добавьте Мастермайнда, если доступен, для абсолютной мощи эндгейма."
+          }
+        }
       ],
       "tips": [
-        {"en": "Always choose pacts that let you kill aggressively — kills drive your leveling", "ru": "Всегда выбирайте пакты, позволяющие агрессивно убивать — убийства двигают вашу прокачку"},
-        {"en": "Behemoth + Dominator + Destroyers is the strongest all-around Hybrid comp", "ru": "Бегемот + Доминатор + Разрушители — сильнейшая универсальная композиция Гибридов"},
-        {"en": "Soul Harvest sustain is critical — your Hybrids are expensive to replace", "ru": "Восстановление Soul Harvest критически важно — ваши Гибриды дороги в замене"}
+        {
+          "en": "Always choose pacts that let you kill aggressively — kills drive your leveling",
+          "ru": "Всегда выбирайте пакты, позволяющие агрессивно убивать — убийства двигают вашу прокачку"
+        },
+        {
+          "en": "Behemoth + Dominator + Destroyers is the strongest all-around Hybrid comp",
+          "ru": "Бегемот + Доминатор + Разрушители — сильнейшая универсальная композиция Гибридов"
+        },
+        {
+          "en": "Soul Harvest sustain is critical — your Hybrids are expensive to replace",
+          "ru": "Восстановление Soul Harvest критически важно — ваши Гибриды дороги в замене"
+        }
       ]
     },
     {
-      "name": {"en": "Mastermind Ascension", "ru": "Вознесение Мастермайнда"},
-      "subtitle": {"en": "One Hybrid to rule them all", "ru": "Один Гибрид, чтобы править всеми"},
+      "name": {
+        "en": "Mastermind Ascension",
+        "ru": "Вознесение Мастермайнда"
+      },
+      "subtitle": {
+        "en": "One Hybrid to rule them all",
+        "ru": "Один Гибрид, чтобы править всеми"
+      },
       "desc": {
         "en": "Rush Mastermind summoning and focus everything on leveling your single hero-tier Hybrid. A fully leveled Mastermind with pact support can dominate entire missions solo.",
         "ru": "Спешите к призыву Мастермайнда и фокусируйте всё на прокачке вашего единственного Гибрида героического уровня. Полностью прокачанный Мастермайнд с поддержкой пакта может доминировать на миссиях в одиночку."
       },
       "tags": [
-        {"name": "Dark Pact", "type": "core"},
-        {"name": "Hybrid Summoning: Mastermind", "type": "required"},
-        {"name": "Pact Acceleration", "type": "required"},
-        {"name": "Forbidden Knowledge", "type": "optional"},
-        {"name": "The Host", "type": "optional"},
-        {"name": "Medical Breakthrough", "type": "generic"}
+        {
+          "name": "Dark Pact",
+          "type": "core"
+        },
+        {
+          "name": "Hybrid Summoning: Mastermind",
+          "type": "required"
+        },
+        {
+          "name": "Pact Acceleration",
+          "type": "required"
+        },
+        {
+          "name": "Forbidden Knowledge",
+          "type": "optional"
+        },
+        {
+          "name": "The Host",
+          "type": "optional"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Play normally while hunting for Mastermind epic. Use Reavers as your early Hybrids. Stack Pact Acceleration for faster leveling.", "ru": "Играйте нормально, ища эпик Мастермайнда. Используйте Жнецов как ранних Гибридов. Стакайте Pact Acceleration для быстрой прокачки."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "Once Mastermind is online, build everything around keeping it alive and leveling it. The Mastermind should handle most combat while your army provides support.", "ru": "Когда Мастермайнд появится, выстраивайте всё вокруг его выживания и прокачки. Мастермайнд должен вести основной бой, пока ваша армия поддерживает."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "Level 5 Mastermind is a one-unit army. Its mind control and void rift abilities win fights alone. Add The Host for automatic Hybrid reinforcements.", "ru": "Мастермайнд 5-го уровня — армия в одном юните. Его контроль разума и разрыв пустоты выигрывают бои сами по себе. Добавьте Хозяина для автоматических подкреплений Гибридов."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Play normally while hunting for Mastermind epic. Use Reavers as your early Hybrids. Stack Pact Acceleration for faster leveling.",
+            "ru": "Играйте нормально, ища эпик Мастермайнда. Используйте Жнецов как ранних Гибридов. Стакайте Pact Acceleration для быстрой прокачки."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
+          "text": {
+            "en": "Once Mastermind is online, build everything around keeping it alive and leveling it. The Mastermind should handle most combat while your army provides support.",
+            "ru": "Когда Мастермайнд появится, выстраивайте всё вокруг его выживания и прокачки. Мастермайнд должен вести основной бой, пока ваша армия поддерживает."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "Level 5 Mastermind is a one-unit army. Its mind control and void rift abilities win fights alone. Add The Host for automatic Hybrid reinforcements.",
+            "ru": "Мастермайнд 5-го уровня — армия в одном юните. Его контроль разума и разрыв пустоты выигрывают бои сами по себе. Добавьте Хозяина для автоматических подкреплений Гибридов."
+          }
+        }
       ],
       "tips": [
-        {"en": "Mastermind is unique — if it dies, there is a long respawn timer. Protect it at all costs", "ru": "Мастермайнд уникален — если он погибнет, будет долгий таймер возрождения. Защищайте его любой ценой"},
-        {"en": "Use Mastermind's mind control on the strongest enemy unit in each fight", "ru": "Используйте контроль разума Мастермайнда на сильнейшем вражеском юните в каждом бою"},
-        {"en": "The Host complements Mastermind perfectly — free Hybrid spawns while Mastermind fights", "ru": "Хозяин идеально дополняет Мастермайнда — бесплатные Гибриды, пока Мастермайнд сражается"}
+        {
+          "en": "Mastermind is unique — if it dies, there is a long respawn timer. Protect it at all costs",
+          "ru": "Мастермайнд уникален — если он погибнет, будет долгий таймер возрождения. Защищайте его любой ценой"
+        },
+        {
+          "en": "Use Mastermind's mind control on the strongest enemy unit in each fight",
+          "ru": "Используйте контроль разума Мастермайнда на сильнейшем вражеском юните в каждом бою"
+        },
+        {
+          "en": "The Host complements Mastermind perfectly — free Hybrid spawns while Mastermind fights",
+          "ru": "Хозяин идеально дополняет Мастермайнда — бесплатные Гибриды, пока Мастермайнд сражается"
+        }
       ]
     },
     {
-      "name": {"en": "Pact of Blood", "ru": "Пакт Крови"},
-      "subtitle": {"en": "Maximum pact investment", "ru": "Максимальное вложение в пакт"},
+      "name": {
+        "en": "Pact of Blood",
+        "ru": "Пакт Крови"
+      },
+      "subtitle": {
+        "en": "Maximum pact investment",
+        "ru": "Максимальное вложение в пакт"
+      },
       "desc": {
         "en": "Focus on maximizing pact level through aggressive play. Take the hardest pact restrictions for the biggest power gains. Pair with a standard Terran army buffed by high pact levels.",
         "ru": "Фокус на максимизации уровня пакта через агрессивную игру. Берите самые жёсткие ограничения пактов для максимального прироста мощи. Сочетайте со стандартной Терранской армией, усиленной высокими уровнями пакта."
       },
       "tags": [
-        {"name": "Dark Pact", "type": "core"},
-        {"name": "Pact Acceleration", "type": "required"},
-        {"name": "Hybrid Summoning: Reaver", "type": "core"},
-        {"name": "Hybrid Summoning: Destroyer", "type": "optional"},
-        {"name": "Use More Gun", "type": "generic"},
-        {"name": "Medical Breakthrough", "type": "generic"}
+        {
+          "name": "Dark Pact",
+          "type": "core"
+        },
+        {
+          "name": "Pact Acceleration",
+          "type": "required"
+        },
+        {
+          "name": "Hybrid Summoning: Reaver",
+          "type": "core"
+        },
+        {
+          "name": "Hybrid Summoning: Destroyer",
+          "type": "optional"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Take aggressive pacts and play for maximum kills. Your Terran army does most of the heavy lifting while pact levels feed your Reavers.", "ru": "Берите агрессивные пакты и играйте на максимум убийств. Ваша Терранская армия делает основную работу, пока уровни пакта кормят ваших Жнецов."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "High pact levels start providing global bonuses to all your units. Mix Hybrids into your Terran army for a hybrid (no pun intended) composition.", "ru": "Высокие уровни пакта начинают давать глобальные бонусы всем вашим юнитам. Примешивайте Гибридов к вашей Терранской армии для смешанной композиции."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "With maximum pact level, even your basic Marines benefit from dark energy bonuses. Your mixed army is incredibly powerful across all engagements.", "ru": "С максимальным уровнем пакта даже ваши базовые Марины получают бонусы тёмной энергии. Ваша смешанная армия невероятно мощна во всех боях."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Take aggressive pacts and play for maximum kills. Your Terran army does most of the heavy lifting while pact levels feed your Reavers.",
+            "ru": "Берите агрессивные пакты и играйте на максимум убийств. Ваша Терранская армия делает основную работу, пока уровни пакта кормят ваших Жнецов."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
+          "text": {
+            "en": "High pact levels start providing global bonuses to all your units. Mix Hybrids into your Terran army for a hybrid (no pun intended) composition.",
+            "ru": "Высокие уровни пакта начинают давать глобальные бонусы всем вашим юнитам. Примешивайте Гибридов к вашей Терранской армии для смешанной композиции."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "With maximum pact level, even your basic Marines benefit from dark energy bonuses. Your mixed army is incredibly powerful across all engagements.",
+            "ru": "С максимальным уровнем пакта даже ваши базовые Марины получают бонусы тёмной энергии. Ваша смешанная армия невероятно мощна во всех боях."
+          }
+        }
       ],
       "tips": [
-        {"en": "Do not be afraid to take harsh pact restrictions — the power gains are worth it", "ru": "Не бойтесь жёстких ограничений пактов — прирост мощи того стоит"},
-        {"en": "Mix 2-3 Reavers into a bio army for an excellent combined force", "ru": "Примешивайте 2-3 Жнецов в био-армию для отличной комбинированной силы"},
-        {"en": "Pact Acceleration stacks are your highest priority after the core talents", "ru": "Стаки Pact Acceleration — ваш высший приоритет после ядровых талантов"}
+        {
+          "en": "Do not be afraid to take harsh pact restrictions — the power gains are worth it",
+          "ru": "Не бойтесь жёстких ограничений пактов — прирост мощи того стоит"
+        },
+        {
+          "en": "Mix 2-3 Reavers into a bio army for an excellent combined force",
+          "ru": "Примешивайте 2-3 Жнецов в био-армию для отличной комбинированной силы"
+        },
+        {
+          "en": "Pact Acceleration stacks are your highest priority after the core talents",
+          "ru": "Стаки Pact Acceleration — ваш высший приоритет после ядровых талантов"
+        }
       ]
     }
   ],
   "multiclass_epics": [
     {
       "name": "Dark Energy",
-      "classes": ["Warlock", "Mad Genius"],
+      "classes": [
+        "Warlock",
+        "Mad Genius"
+      ],
       "tier": "S",
       "desc": {
         "en": "Hybrid summons gain chaotic energy: their abilities have double effectiveness but random targeting. Pact levels increase Mad Genius ability power by +5% each.",
@@ -340,7 +568,10 @@
     },
     {
       "name": "Unending Servitude",
-      "classes": ["Warlock", "Deathknight"],
+      "classes": [
+        "Warlock",
+        "Deathknight"
+      ],
       "tier": "A",
       "desc": {
         "en": "Hybrids that die leave behind a void shade at 40% stats for 20 seconds. Pact kills grant Deathknight deathrattle stacks.",
@@ -353,7 +584,10 @@
     },
     {
       "name": "Oathbreaker",
-      "classes": ["Warlock", "Paladin"],
+      "classes": [
+        "Warlock",
+        "Paladin"
+      ],
       "tier": "A",
       "desc": {
         "en": "Dark pacts and holy oaths combine: choose to break an oath each mission for massive power but severe penalties, or keep both for steady balanced buffs.",
@@ -366,7 +600,10 @@
     },
     {
       "name": "Otherworldly Power",
-      "classes": ["Warlock", "Wizard"],
+      "classes": [
+        "Warlock",
+        "Wizard"
+      ],
       "tier": "A",
       "desc": {
         "en": "Hybrid summons gain Wizard spell abilities. Pact levels increase spell damage by +3% each. Hybrids count as spell-enhanced units.",
@@ -379,7 +616,10 @@
     },
     {
       "name": "Eldritch Blast",
-      "classes": ["Warlock", "Sorcerer"],
+      "classes": [
+        "Warlock",
+        "Sorcerer"
+      ],
       "tier": "B",
       "desc": {
         "en": "Dark pact energy enhances drop pod abilities. Pact level grants +2% drop pod damage per level. Hybrids can be delivered via drop pods.",
@@ -392,7 +632,10 @@
     },
     {
       "name": "Brainfood",
-      "classes": ["Warlock", "Psychic"],
+      "classes": [
+        "Warlock",
+        "Psychic"
+      ],
       "tier": "A",
       "desc": {
         "en": "Mind-controlled units feed the Warlock pact system. Each converted unit grants 1 pact level. Hybrid summons gain terrazine enhancement.",
@@ -405,7 +648,10 @@
     },
     {
       "name": "Purpose Of The Zerg",
-      "classes": ["Warlock", "Druid"],
+      "classes": [
+        "Warlock",
+        "Druid"
+      ],
       "tier": "B",
       "desc": {
         "en": "Hybrids can be infested. Infested Hybrids gain Zerg regeneration and +20% health. Infested units count as pact kills for leveling.",
@@ -418,7 +664,10 @@
     },
     {
       "name": "Cannibalism",
-      "classes": ["Warlock", "Necromancer"],
+      "classes": [
+        "Warlock",
+        "Necromancer"
+      ],
       "tier": "B",
       "desc": {
         "en": "Hybrids can consume curse stacks to gain +8% all stats per curse consumed. Curse removal through Hybrids grants bonus pact experience.",
@@ -431,7 +680,10 @@
     },
     {
       "name": "Dark Enlightenment",
-      "classes": ["Warlock", "Monk"],
+      "classes": [
+        "Warlock",
+        "Monk"
+      ],
       "tier": "B",
       "desc": {
         "en": "Hybrids gain +15% movement speed. Pact restrictions generate speed and production bonuses instead of penalties.",
@@ -444,7 +696,10 @@
     },
     {
       "name": "Grim Ascension",
-      "classes": ["Warlock", "Bard"],
+      "classes": [
+        "Warlock",
+        "Bard"
+      ],
       "tier": "C",
       "desc": {
         "en": "Capital ships gain dark pact auras. Nearby Hybrids gain +10% all stats per capital ship. Capital ships heal 2 HP/sec per nearby Hybrid.",
@@ -457,7 +712,10 @@
     },
     {
       "name": "Enveloping Shadows",
-      "classes": ["Warlock", "Rogue"],
+      "classes": [
+        "Warlock",
+        "Rogue"
+      ],
       "tier": "B",
       "desc": {
         "en": "Hybrid summons can cloak. Dark pact abilities cast from cloak deal +35% damage.",
@@ -470,7 +728,10 @@
     },
     {
       "name": "Technovore",
-      "classes": ["Warlock", "Scientist"],
+      "classes": [
+        "Warlock",
+        "Scientist"
+      ],
       "tier": "A",
       "desc": {
         "en": "Hybrid summons count as prototype units. Prototype kills feed pact levels at double rate. Hybrids gain experimental ordnance.",

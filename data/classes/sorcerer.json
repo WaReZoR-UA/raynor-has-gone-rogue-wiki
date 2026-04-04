@@ -1,7 +1,7 @@
 {
   "id": "sorcerer",
   "name": "Sorcerer",
-  "icon": "&#10024;",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2'><path d='M12 2v4'/><path d='M12 18v4'/><path d='M4.93 4.93l2.83 2.83'/><path d='M16.24 16.24l2.83 2.83'/><path d='M2 12h4'/><path d='M18 12h4'/><path d='M4.93 19.07l2.83-2.83'/><path d='M16.24 7.76l2.83-2.83'/></svg>",
   "color": "#7c3aed",
   "subtitle": {
     "en": "Drop Pod Commander",
@@ -16,22 +16,73 @@
     "ru": "Нет"
   },
   "stats": [
-    {"value": "A", "label": {"en": "Late-Game Power", "ru": "Сила в лейте"}},
-    {"value": "A", "label": {"en": "Early-Game Power", "ru": "Сила в начале"}},
-    {"value": "B", "label": {"en": "Scaling", "ru": "Масштабирование"}},
-    {"value": "A", "label": {"en": "Versatility", "ru": "Универсальность"}},
-    {"value": "C", "label": {"en": "Difficulty", "ru": "Сложность"}}
+    {
+      "value": "A",
+      "label": {
+        "en": "Late-Game Power",
+        "ru": "Сила в лейте"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "Early-Game Power",
+        "ru": "Сила в начале"
+      }
+    },
+    {
+      "value": "B",
+      "label": {
+        "en": "Scaling",
+        "ru": "Масштабирование"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "Versatility",
+        "ru": "Универсальность"
+      }
+    },
+    {
+      "value": "C",
+      "label": {
+        "en": "Difficulty",
+        "ru": "Сложность"
+      }
+    }
   ],
   "strengths": [
-    {"en": "Global map presence — reinforce anywhere instantly via drop pods", "ru": "Глобальное присутствие на карте — мгновенное подкрепление в любой точке через капсулы"},
-    {"en": "Drop pods deal impact damage on landing, doubling as offensive weapons", "ru": "Капсулы наносят урон при приземлении, выступая ещё и наступательным оружием"},
-    {"en": "Bypasses production building requirements for deployed units", "ru": "Обходит требования к производственным зданиям для десантируемых юнитов"},
-    {"en": "Excellent at securing distant objectives without committing your main army", "ru": "Превосходен для захвата отдалённых целей без задействования основной армии"}
+    {
+      "en": "Global map presence — reinforce anywhere instantly via drop pods",
+      "ru": "Глобальное присутствие на карте — мгновенное подкрепление в любой точке через капсулы"
+    },
+    {
+      "en": "Drop pods deal impact damage on landing, doubling as offensive weapons",
+      "ru": "Капсулы наносят урон при приземлении, выступая ещё и наступательным оружием"
+    },
+    {
+      "en": "Bypasses production building requirements for deployed units",
+      "ru": "Обходит требования к производственным зданиям для десантируемых юнитов"
+    },
+    {
+      "en": "Excellent at securing distant objectives without committing your main army",
+      "ru": "Превосходен для захвата отдалённых целей без задействования основной армии"
+    }
   ],
   "weaknesses": [
-    {"en": "Drop pod cooldowns can leave you without reinforcements at critical moments", "ru": "Перезарядки капсул могут оставить без подкреплений в критические моменты"},
-    {"en": "Deployed units arrive without formation — vulnerable immediately after landing", "ru": "Десантируемые юниты прибывают без строя — уязвимы сразу после высадки"},
-    {"en": "Resource-intensive to maintain constant drop pod deployments", "ru": "Ресурсоёмкий для поддержания постоянных десантных развёртываний"}
+    {
+      "en": "Drop pod cooldowns can leave you without reinforcements at critical moments",
+      "ru": "Перезарядки капсул могут оставить без подкреплений в критические моменты"
+    },
+    {
+      "en": "Deployed units arrive without formation — vulnerable immediately after landing",
+      "ru": "Десантируемые юниты прибывают без строя — уязвимы сразу после высадки"
+    },
+    {
+      "en": "Resource-intensive to maintain constant drop pod deployments",
+      "ru": "Ресурсоёмкий для поддержания постоянных десантных развёртываний"
+    }
   ],
   "talents": [
     {
@@ -202,38 +253,74 @@
   ],
   "builds": [
     {
-      "name": {"en": "Orbital Strike", "ru": "Орбитальный удар"},
-      "subtitle": {"en": "Maximize drop pod impact damage as a weapon", "ru": "Максимизируйте урон капсул при ударе как оружие"},
+      "name": {
+        "en": "Orbital Strike",
+        "ru": "Орбитальный удар"
+      },
+      "subtitle": {
+        "en": "Maximize drop pod impact damage as a weapon",
+        "ru": "Максимизируйте урон капсул при ударе как оружие"
+      },
       "desc": {
         "en": "Focus entirely on drop pod impact damage. Meteor Strike, Orbital Bombardment stacks, and Arcane Storm turn your pods into weapons of mass destruction. The units inside are secondary — the real damage comes from the pods themselves raining down on enemy formations.",
         "ru": "Полностью сосредоточьтесь на уроне капсул при ударе. Meteor Strike, стаки Orbital Bombardment и Arcane Storm превращают капсулы в оружие массового уничтожения. Юниты внутри вторичны — настоящий урон наносят сами капсулы, обрушивающиеся на вражеские формации."
       },
       "tags": [
-        {"name": "Arcane Delivery", "type": "core"},
-        {"name": "Meteor Strike", "type": "required"},
-        {"name": "Orbital Bombardment", "type": "required"},
-        {"name": "Arcane Storm", "type": "required"},
-        {"name": "Rapid Deployment", "type": "optional"},
-        {"name": "Warp Pods", "type": "optional"},
-        {"name": "Use More Gun", "type": "generic"}
+        {
+          "name": "Arcane Delivery",
+          "type": "core"
+        },
+        {
+          "name": "Meteor Strike",
+          "type": "required"
+        },
+        {
+          "name": "Orbital Bombardment",
+          "type": "required"
+        },
+        {
+          "name": "Arcane Storm",
+          "type": "required"
+        },
+        {
+          "name": "Rapid Deployment",
+          "type": "optional"
+        },
+        {
+          "name": "Warp Pods",
+          "type": "optional"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Use pods for both reinforcement and damage. Meteor Strike is a priority — it more than doubles impact damage and adds stun. Stack Orbital Bombardment whenever available. Even at low stacks, pod impacts deal respectable AoE damage.",
             "ru": "Используйте капсулы для подкрепления и урона. Meteor Strike — приоритет — он более чем удваивает урон при ударе и добавляет оглушение. Копите Orbital Bombardment при каждой возможности. Даже при малых стаках удары капсул наносят достойный AoE урон."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "With 10+ Orbital Bombardment stacks, each pod use fires multiple pods. The cumulative impact damage starts clearing entire enemy groups. Arcane Storm is devastating if found — 10 pods focused on one area.",
             "ru": "При 10+ стаках Orbital Bombardment каждое использование капсулы выпускает несколько капсул. Суммарный урон при ударе начинает зачищать целые группы врагов. Arcane Storm разрушителен, если найден — 10 капсул, сфокусированных на одну область."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "High Orbital Bombardment stacks mean each pod ability fires 5+ pods. Combined with Arcane Storm, you can annihilate any enemy concentration from orbit. Warp Pods removes targeting restrictions for global orbital strikes.",
             "ru": "Высокие стаки Orbital Bombardment означают 5+ капсул за способность. В сочетании с Arcane Storm вы можете уничтожить любое скопление врагов с орбиты. Warp Pods снимает ограничения наведения для глобальных орбитальных ударов."
@@ -241,45 +328,93 @@
         }
       ],
       "tips": [
-        {"en": "Target pods on dense enemy clusters for maximum AoE value.", "ru": "Направляйте капсулы на плотные скопления врагов для максимальной AoE ценности."},
-        {"en": "Arcane Storm's 10 pods all benefit from Meteor Strike and Orbital Bombardment buffs.", "ru": "Все 10 капсул Arcane Storm получают баффы от Meteor Strike и Orbital Bombardment."},
-        {"en": "Use pods offensively even when you don't need reinforcements — the damage alone is worth it.", "ru": "Используйте капсулы наступательно, даже когда подкрепления не нужны — одного урона достаточно."}
+        {
+          "en": "Target pods on dense enemy clusters for maximum AoE value.",
+          "ru": "Направляйте капсулы на плотные скопления врагов для максимальной AoE ценности."
+        },
+        {
+          "en": "Arcane Storm's 10 pods all benefit from Meteor Strike and Orbital Bombardment buffs.",
+          "ru": "Все 10 капсул Arcane Storm получают баффы от Meteor Strike и Orbital Bombardment."
+        },
+        {
+          "en": "Use pods offensively even when you don't need reinforcements — the damage alone is worth it.",
+          "ru": "Используйте капсулы наступательно, даже когда подкрепления не нужны — одного урона достаточно."
+        }
       ]
     },
     {
-      "name": {"en": "Rapid Reinforcement", "ru": "Быстрое подкрепление"},
-      "subtitle": {"en": "Constant drop pod reinforcements everywhere", "ru": "Постоянные капсульные подкрепления повсюду"},
+      "name": {
+        "en": "Rapid Reinforcement",
+        "ru": "Быстрое подкрепление"
+      },
+      "subtitle": {
+        "en": "Constant drop pod reinforcements everywhere",
+        "ru": "Постоянные капсульные подкрепления повсюду"
+      },
       "desc": {
         "en": "Focus on maximizing the reinforcement capability of drop pods. Reinforced Pods for more units, Rapid Deployment for shorter cooldowns, and Warp Pods for global reach. Your army is everywhere at once — any threatened position receives immediate reinforcements.",
         "ru": "Фокус на максимизации возможностей подкрепления капсул. Reinforced Pods для большего числа юнитов, Rapid Deployment для сокращённых перезарядок и Warp Pods для глобального охвата. Ваша армия повсюду одновременно — любая угрожаемая позиция получает немедленные подкрепления."
       },
       "tags": [
-        {"name": "Arcane Delivery", "type": "core"},
-        {"name": "Reinforced Pods", "type": "required"},
-        {"name": "Rapid Deployment", "type": "required"},
-        {"name": "Warp Pods", "type": "optional"},
-        {"name": "Orbital Bombardment", "type": "optional"},
-        {"name": "Medical Breakthrough", "type": "generic"},
-        {"name": "Use More Gun", "type": "generic"},
-        {"name": "Salvage Operation", "type": "generic"}
+        {
+          "name": "Arcane Delivery",
+          "type": "core"
+        },
+        {
+          "name": "Reinforced Pods",
+          "type": "required"
+        },
+        {
+          "name": "Rapid Deployment",
+          "type": "required"
+        },
+        {
+          "name": "Warp Pods",
+          "type": "optional"
+        },
+        {
+          "name": "Orbital Bombardment",
+          "type": "optional"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        },
+        {
+          "name": "Salvage Operation",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Use pods to reinforce your main army and secure secondary objectives simultaneously. Reinforced Pods adds units per drop. Build a production base but use pods to deploy units faster than traditional rallying.",
             "ru": "Используйте капсулы для подкрепления основной армии и одновременного захвата второстепенных целей. Reinforced Pods добавляет юнитов за десант. Стройте производственную базу, но используйте капсулы для более быстрого развёртывания юнитов."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "Rapid Deployment makes pods available very frequently. You can reinforce every engagement and respond to attacks instantly. Warp Pods lets you drop anywhere — use it for surprise attacks on enemy flanks.",
             "ru": "Rapid Deployment делает капсулы доступными очень часто. Вы можете подкреплять каждый бой и мгновенно реагировать на атаки. Warp Pods позволяет десантировать куда угодно — используйте для внезапных атак на фланги врага."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "Near-constant pod availability means your army never runs low on reinforcements. Multiple pods per use from Orbital Bombardment stacks means each drop delivers a significant force. You have unmatched strategic mobility.",
             "ru": "Почти постоянная доступность капсул означает, что армия никогда не испытывает нехватки подкреплений. Несколько капсул за использование от стаков Orbital Bombardment означает значительные силы при каждом десанте. Вы имеете непревзойдённую стратегическую мобильность."
@@ -287,45 +422,93 @@
         }
       ],
       "tips": [
-        {"en": "Drop pods at the fight, not at your base — bypass travel time entirely.", "ru": "Десантируйте капсулы в бою, не на базе — полностью обходите время передвижения."},
-        {"en": "Keep your main army on the key objective and use pods to handle secondary threats.", "ru": "Держите основную армию на ключевой цели и используйте капсулы для второстепенных угроз."},
-        {"en": "Rapid Deployment's instant command response means pod units fight immediately — no wasted time.", "ru": "Мгновенное реагирование на команды от Rapid Deployment означает, что капсульные юниты сражаются сразу — без потери времени."}
+        {
+          "en": "Drop pods at the fight, not at your base — bypass travel time entirely.",
+          "ru": "Десантируйте капсулы в бою, не на базе — полностью обходите время передвижения."
+        },
+        {
+          "en": "Keep your main army on the key objective and use pods to handle secondary threats.",
+          "ru": "Держите основную армию на ключевой цели и используйте капсулы для второстепенных угроз."
+        },
+        {
+          "en": "Rapid Deployment's instant command response means pod units fight immediately — no wasted time.",
+          "ru": "Мгновенное реагирование на команды от Rapid Deployment означает, что капсульные юниты сражаются сразу — без потери времени."
+        }
       ]
     },
     {
-      "name": {"en": "Supreme Pods", "ru": "Высшие капсулы"},
-      "subtitle": {"en": "Hunter multiclass — merc delivery via drop pods", "ru": "Мультикласс Охотник — доставка наёмников через капсулы"},
+      "name": {
+        "en": "Supreme Pods",
+        "ru": "Высшие капсулы"
+      },
+      "subtitle": {
+        "en": "Hunter multiclass — merc delivery via drop pods",
+        "ru": "Мультикласс Охотник — доставка наёмников через капсулы"
+      },
       "desc": {
         "en": "Combines Sorcerer with Hunter via the Supreme Pods multiclass epic. Mercenary calls can be delivered via drop pods, allowing instant deployment of buffed mercs anywhere on the map. Deadman's Hardware-enhanced mercs dropping directly on enemy positions combines the best of both classes.",
         "ru": "Сочетает Колдуна с Охотником через мультикласс эпик Supreme Pods. Вызовы наёмников могут доставляться через капсулы, позволяя мгновенное развёртывание усиленных наёмников в любой точке карты. Наёмники с Deadman's Hardware, десантируемые прямо на позиции врага, сочетают лучшее обоих классов."
       },
       "tags": [
-        {"name": "Arcane Delivery", "type": "core"},
-        {"name": "Multiclass", "type": "required"},
-        {"name": "Supreme Pods", "type": "required"},
-        {"name": "Deadman's Hardware", "type": "required"},
-        {"name": "Meteor Strike", "type": "optional"},
-        {"name": "Team Effort", "type": "optional"},
-        {"name": "Use More Gun", "type": "generic"},
-        {"name": "Medical Breakthrough", "type": "generic"}
+        {
+          "name": "Arcane Delivery",
+          "type": "core"
+        },
+        {
+          "name": "Multiclass",
+          "type": "required"
+        },
+        {
+          "name": "Supreme Pods",
+          "type": "required"
+        },
+        {
+          "name": "Deadman's Hardware",
+          "type": "required"
+        },
+        {
+          "name": "Meteor Strike",
+          "type": "optional"
+        },
+        {
+          "name": "Team Effort",
+          "type": "optional"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Play standard Sorcerer while looking for Multiclass. Once found, pick Hunter as secondary. Start stacking Deadman's Hardware for merc power. Use pods for reinforcement and damage.",
             "ru": "Играйте стандартным Колдуном, ища Multiclass. Найдя, выберите Охотника. Начинайте копить Deadman's Hardware для мощи наёмников. Используйте капсулы для подкрепления и урона."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "Supreme Pods enables dropping mercs via pods. Buffed mercs arriving with impact damage is devastating. The combination of pod damage + immediately active powerful mercs gives incredible burst.",
             "ru": "Supreme Pods позволяет десантировать наёмников через капсулы. Усиленные наёмники, прибывающие с ударным уроном, разрушительны. Сочетание урона капсулы + немедленно активные мощные наёмники даёт невероятный взрывной потенциал."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "High Deadman's stacks make each dropped merc a powerhouse. Orbital Bombardment stacks mean multiple merc pods per use. You can drop an entire merc army anywhere on the map with devastating effect.",
             "ru": "Высокие стаки Deadman's делают каждого десантированного наёмника мощной боевой единицей. Стаки Orbital Bombardment означают несколько наёмных капсул за использование. Вы можете десантировать целую армию наёмников в любую точку карты с разрушительным эффектом."
@@ -333,16 +516,28 @@
         }
       ],
       "tips": [
-        {"en": "Drop mercs directly on enemy concentrations — the impact damage + merc combat power is devastating.", "ru": "Десантируйте наёмников прямо на скопления врагов — урон при ударе + боевая мощь наёмников разрушительны."},
-        {"en": "Supreme Pods is B-tier but very fun — it doesn't amplify merc stats but adds incredible tactical flexibility.", "ru": "Supreme Pods — B-тир, но очень весёлый — он не усиливает характеристики наёмников, но добавляет невероятную тактическую гибкость."},
-        {"en": "Meteor Strike's stun keeps enemies locked down while your mercs land and start fighting.", "ru": "Оглушение от Meteor Strike удерживает врагов на месте, пока наёмники высаживаются и начинают сражаться."}
+        {
+          "en": "Drop mercs directly on enemy concentrations — the impact damage + merc combat power is devastating.",
+          "ru": "Десантируйте наёмников прямо на скопления врагов — урон при ударе + боевая мощь наёмников разрушительны."
+        },
+        {
+          "en": "Supreme Pods is B-tier but very fun — it doesn't amplify merc stats but adds incredible tactical flexibility.",
+          "ru": "Supreme Pods — B-тир, но очень весёлый — он не усиливает характеристики наёмников, но добавляет невероятную тактическую гибкость."
+        },
+        {
+          "en": "Meteor Strike's stun keeps enemies locked down while your mercs land and start fighting.",
+          "ru": "Оглушение от Meteor Strike удерживает врагов на месте, пока наёмники высаживаются и начинают сражаться."
+        }
       ]
     }
   ],
   "multiclass_epics": [
     {
       "name": "Supreme Pods",
-      "classes": ["Sorcerer", "Hunter"],
+      "classes": [
+        "Sorcerer",
+        "Hunter"
+      ],
       "tier": "B",
       "desc": {
         "en": "Mercenary calls can be delivered via drop pods, allowing instant deployment anywhere on the map.",

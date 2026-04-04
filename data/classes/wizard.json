@@ -1,7 +1,7 @@
 {
   "id": "wizard",
   "name": "Wizard",
-  "icon": "&#129668;",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2'><path d='M15 4V2'/><path d='M15 16v-2'/><path d='M8 9h2'/><path d='M20 9h2'/><path d='M17.8 11.8L19 13'/><path d='M15 9h0'/><path d='M17.8 6.2L19 5'/><path d='M11 6.2L9.7 5'/><path d='M6 22l5-10 5 10'/><path d='M8 18h8'/></svg>",
   "color": "#2563eb",
   "subtitle": {
     "en": "Arcane Enhancer",
@@ -16,21 +16,66 @@
     "ru": "Пройдите All In"
   },
   "stats": [
-    {"value": "S", "label": {"en": "Army Enhancement", "ru": "Усиление армии"}},
-    {"value": "A", "label": {"en": "Versatility", "ru": "Универсальность"}},
-    {"value": "A", "label": {"en": "AoE Damage", "ru": "AoE урон"}},
-    {"value": "B", "label": {"en": "Simplicity", "ru": "Простота"}}
+    {
+      "value": "S",
+      "label": {
+        "en": "Army Enhancement",
+        "ru": "Усиление армии"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "Versatility",
+        "ru": "Универсальность"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "AoE Damage",
+        "ru": "AoE урон"
+      }
+    },
+    {
+      "value": "B",
+      "label": {
+        "en": "Simplicity",
+        "ru": "Простота"
+      }
+    }
   ],
   "strengths": [
-    {"en": "Every unit in your army gains additional spell abilities", "ru": "Каждый юнит в вашей армии получает дополнительные заклинания"},
-    {"en": "Massive army-wide power increase without changing composition", "ru": "Огромное увеличение мощи всей армии без изменения состава"},
-    {"en": "Spell-enhanced units provide both damage and utility simultaneously", "ru": "Юниты с заклинаниями одновременно обеспечивают урон и утилиту"},
-    {"en": "Excellent synergy with Hunter multiclass for spell damage stacking", "ru": "Отличная синергия с мультиклассом Охотника для стакания урона заклинаний"}
+    {
+      "en": "Every unit in your army gains additional spell abilities",
+      "ru": "Каждый юнит в вашей армии получает дополнительные заклинания"
+    },
+    {
+      "en": "Massive army-wide power increase without changing composition",
+      "ru": "Огромное увеличение мощи всей армии без изменения состава"
+    },
+    {
+      "en": "Spell-enhanced units provide both damage and utility simultaneously",
+      "ru": "Юниты с заклинаниями одновременно обеспечивают урон и утилиту"
+    },
+    {
+      "en": "Excellent synergy with Hunter multiclass for spell damage stacking",
+      "ru": "Отличная синергия с мультиклассом Охотника для стакания урона заклинаний"
+    }
   ],
   "weaknesses": [
-    {"en": "Cannot multiclass with 5 classes (Paladin, Scientist, Gambler, Rogue, Mad Genius)", "ru": "Не может мультиклассить с 5 классами (Паладин, Учёный, Игрок, Разбойник, Безумный Гений)"},
-    {"en": "Spell management adds significant micro overhead", "ru": "Управление заклинаниями добавляет значительную микро-нагрузку"},
-    {"en": "Units need energy to cast spells — energy management is critical", "ru": "Юнитам нужна энергия для заклинаний — управление энергией критически важно"}
+    {
+      "en": "Cannot multiclass with 5 classes (Paladin, Scientist, Gambler, Rogue, Mad Genius)",
+      "ru": "Не может мультиклассить с 5 классами (Паладин, Учёный, Игрок, Разбойник, Безумный Гений)"
+    },
+    {
+      "en": "Spell management adds significant micro overhead",
+      "ru": "Управление заклинаниями добавляет значительную микро-нагрузку"
+    },
+    {
+      "en": "Units need energy to cast spells — energy management is critical",
+      "ru": "Юнитам нужна энергия для заклинаний — управление энергией критически важно"
+    }
   ],
   "talents": [
     {
@@ -231,88 +276,271 @@
   ],
   "builds": [
     {
-      "name": {"en": "Firestorm Legion", "ru": "Легион Огненного Шторма"},
-      "subtitle": {"en": "Burn everything to the ground", "ru": "Сожгите всё дотла"},
+      "name": {
+        "en": "Firestorm Legion",
+        "ru": "Легион Огненного Шторма"
+      },
+      "subtitle": {
+        "en": "Burn everything to the ground",
+        "ru": "Сожгите всё дотла"
+      },
       "desc": {
         "en": "Specialize in the School of Fire with maximum spell damage stacking. Every unit in your army becomes a firecaster, creating overlapping fields of burning ground that devastate enemy formations.",
         "ru": "Специализируйтесь в Школе Огня с максимальным стакированием урона заклинаний. Каждый юнит в вашей армии становится огненным заклинателем, создавая перекрывающиеся поля горящей земли, опустошающие вражеские формации."
       },
       "tags": [
-        {"name": "Arcane Enhancement", "type": "core"},
-        {"name": "School of Fire", "type": "required"},
-        {"name": "Arcane Overcharge", "type": "required"},
-        {"name": "Spell Fusion", "type": "optional"},
-        {"name": "Mana Font", "type": "optional"},
-        {"name": "Use More Gun", "type": "generic"}
+        {
+          "name": "Arcane Enhancement",
+          "type": "core"
+        },
+        {
+          "name": "School of Fire",
+          "type": "required"
+        },
+        {
+          "name": "Arcane Overcharge",
+          "type": "required"
+        },
+        {
+          "name": "Spell Fusion",
+          "type": "optional"
+        },
+        {
+          "name": "Mana Font",
+          "type": "optional"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Get Arcane Enhancement and Spell Mastery. Start stacking Arcane Overcharge. Your units auto-cast spells — focus on building a diverse army for coverage.", "ru": "Получите Arcane Enhancement и Spell Mastery. Начинайте стакать Arcane Overcharge. Ваши юниты автокастуют заклинания — фокус на разнообразной армии для покрытия."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "School of Fire comes online. Fireball and Flame Wave turn your army into a wall of fire. Stack more Arcane Overcharge. Get Mana Font to sustain casting.", "ru": "Школа Огня начинает работать. Файерболы и Волна Огня превращают вашу армию в стену огня. Стакайте больше Arcane Overcharge. Получите Mana Font для поддержки кастов."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "With high Overcharge stacks, every Marine fireball is devastating. Add Spell Fusion for boss-melting combos. Arcane Surge provides insane burst windows.", "ru": "С высокими стаками Overcharge каждый файербол Марина разрушителен. Добавьте Spell Fusion для комбо, расплавляющих боссов. Arcane Surge обеспечивает безумные окна взрывного урона."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Get Arcane Enhancement and Spell Mastery. Start stacking Arcane Overcharge. Your units auto-cast spells — focus on building a diverse army for coverage.",
+            "ru": "Получите Arcane Enhancement и Spell Mastery. Начинайте стакать Arcane Overcharge. Ваши юниты автокастуют заклинания — фокус на разнообразной армии для покрытия."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
+          "text": {
+            "en": "School of Fire comes online. Fireball and Flame Wave turn your army into a wall of fire. Stack more Arcane Overcharge. Get Mana Font to sustain casting.",
+            "ru": "Школа Огня начинает работать. Файерболы и Волна Огня превращают вашу армию в стену огня. Стакайте больше Arcane Overcharge. Получите Mana Font для поддержки кастов."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "With high Overcharge stacks, every Marine fireball is devastating. Add Spell Fusion for boss-melting combos. Arcane Surge provides insane burst windows.",
+            "ru": "С высокими стаками Overcharge каждый файербол Марина разрушителен. Добавьте Spell Fusion для комбо, расплавляющих боссов. Arcane Surge обеспечивает безумные окна взрывного урона."
+          }
+        }
       ],
       "tips": [
-        {"en": "Burning ground from multiple fireballs stacks — cast them in chokepoints", "ru": "Горящая земля от нескольких файерболов стакается — кастуйте в узких проходах"},
-        {"en": "Spell Fusion triggers easily with fire spells since they have short cooldowns", "ru": "Spell Fusion легко активируется с огненными заклинаниями, так как у них короткие перезарядки"},
-        {"en": "Arcane Surge + massed fireballs = everything dies in seconds", "ru": "Arcane Surge + массовые файерболы = всё умирает за секунды"}
+        {
+          "en": "Burning ground from multiple fireballs stacks — cast them in chokepoints",
+          "ru": "Горящая земля от нескольких файерболов стакается — кастуйте в узких проходах"
+        },
+        {
+          "en": "Spell Fusion triggers easily with fire spells since they have short cooldowns",
+          "ru": "Spell Fusion легко активируется с огненными заклинаниями, так как у них короткие перезарядки"
+        },
+        {
+          "en": "Arcane Surge + massed fireballs = everything dies in seconds",
+          "ru": "Arcane Surge + массовые файерболы = всё умирает за секунды"
+        }
       ]
     },
     {
-      "name": {"en": "Dual-Cast Spellweaver", "ru": "Двойной Заклинатель"},
-      "subtitle": {"en": "Two spells per unit, infinite value", "ru": "Два заклинания на юнита, бесконечная ценность"},
+      "name": {
+        "en": "Dual-Cast Spellweaver",
+        "ru": "Двойной Заклинатель"
+      },
+      "subtitle": {
+        "en": "Two spells per unit, infinite value",
+        "ru": "Два заклинания на юнита, бесконечная ценность"
+      },
       "desc": {
         "en": "Rush Dual Casting to give every unit two spells, then stack spell damage for maximum output. This build has the highest potential spell output of any Wizard build.",
         "ru": "Спешите к Dual Casting, чтобы дать каждому юниту два заклинания, затем стакайте урон заклинаний для максимума. Этот билд имеет наивысший потенциальный выход заклинаний среди всех билдов Волшебника."
       },
       "tags": [
-        {"name": "Spell Mastery", "type": "core"},
-        {"name": "Dual Casting", "type": "required"},
-        {"name": "Mana Font", "type": "required"},
-        {"name": "Arcane Overcharge", "type": "required"},
-        {"name": "Arcane Surge", "type": "optional"},
-        {"name": "Medical Breakthrough", "type": "generic"}
+        {
+          "name": "Spell Mastery",
+          "type": "core"
+        },
+        {
+          "name": "Dual Casting",
+          "type": "required"
+        },
+        {
+          "name": "Mana Font",
+          "type": "required"
+        },
+        {
+          "name": "Arcane Overcharge",
+          "type": "required"
+        },
+        {
+          "name": "Arcane Surge",
+          "type": "optional"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Get Arcane Enhancement and hunt for Dual Casting. Even with one spell per unit, you are already stronger than normal. Prioritize energy talents.", "ru": "Получите Arcane Enhancement и ищите Dual Casting. Даже с одним заклинанием на юнита вы уже сильнее обычного. Приоритизируйте таланты энергии."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "Dual Casting doubles your spell output. Get Mana Font immediately — energy management becomes critical with two spells per unit. Stack Arcane Overcharge.", "ru": "Dual Casting удваивает ваш заклинательный потенциал. Немедленно получите Mana Font — управление энергией становится критичным с двумя заклинаниями на юнита. Стакайте Arcane Overcharge."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "With Dual Casting + high Overcharge + Arcane Surge, your army outputs absurd amounts of spell damage. Mix spell schools for maximum versatility.", "ru": "С Dual Casting + высоким Overcharge + Arcane Surge ваша армия выдаёт абсурдное количество урона заклинаниями. Смешивайте школы магии для максимальной универсальности."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Get Arcane Enhancement and hunt for Dual Casting. Even with one spell per unit, you are already stronger than normal. Prioritize energy talents.",
+            "ru": "Получите Arcane Enhancement и ищите Dual Casting. Даже с одним заклинанием на юнита вы уже сильнее обычного. Приоритизируйте таланты энергии."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
+          "text": {
+            "en": "Dual Casting doubles your spell output. Get Mana Font immediately — energy management becomes critical with two spells per unit. Stack Arcane Overcharge.",
+            "ru": "Dual Casting удваивает ваш заклинательный потенциал. Немедленно получите Mana Font — управление энергией становится критичным с двумя заклинаниями на юнита. Стакайте Arcane Overcharge."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "With Dual Casting + high Overcharge + Arcane Surge, your army outputs absurd amounts of spell damage. Mix spell schools for maximum versatility.",
+            "ru": "С Dual Casting + высоким Overcharge + Arcane Surge ваша армия выдаёт абсурдное количество урона заклинаниями. Смешивайте школы магии для максимальной универсальности."
+          }
+        }
       ],
       "tips": [
-        {"en": "Mana Font is absolutely essential — without it, dual casting drains energy too fast", "ru": "Mana Font абсолютно необходим — без него двойной каст слишком быстро расходует энергию"},
-        {"en": "Mix Schools of Fire and Storm for both AoE damage and crowd control", "ru": "Смешивайте Школы Огня и Шторма для AoE урона и контроля толпы одновременно"},
-        {"en": "Dual-cast units trigger Spell Fusion much more easily than single-cast units", "ru": "Юниты с двойным кастом активируют Spell Fusion намного легче, чем с одиночным"}
+        {
+          "en": "Mana Font is absolutely essential — without it, dual casting drains energy too fast",
+          "ru": "Mana Font абсолютно необходим — без него двойной каст слишком быстро расходует энергию"
+        },
+        {
+          "en": "Mix Schools of Fire and Storm for both AoE damage and crowd control",
+          "ru": "Смешивайте Школы Огня и Шторма для AoE урона и контроля толпы одновременно"
+        },
+        {
+          "en": "Dual-cast units trigger Spell Fusion much more easily than single-cast units",
+          "ru": "Юниты с двойным кастом активируют Spell Fusion намного легче, чем с одиночным"
+        }
       ]
     },
     {
-      "name": {"en": "Arcane Fortress", "ru": "Магическая Крепость"},
-      "subtitle": {"en": "Spell-enhanced defense", "ru": "Оборона, усиленная заклинаниями"},
+      "name": {
+        "en": "Arcane Fortress",
+        "ru": "Магическая Крепость"
+      },
+      "subtitle": {
+        "en": "Spell-enhanced defense",
+        "ru": "Оборона, усиленная заклинаниями"
+      },
       "desc": {
         "en": "Combine School of Protection with defensive units and buildings. Your army becomes incredibly hard to kill while still dealing strong spell damage. Best on defense missions.",
         "ru": "Комбинируйте Школу Защиты с оборонительными юнитами и зданиями. Ваша армия становится невероятно живучей, при этом нанося сильный урон заклинаниями. Лучше всего на оборонительных миссиях."
       },
       "tags": [
-        {"name": "Spell Mastery", "type": "core"},
-        {"name": "School of Protection", "type": "required"},
-        {"name": "Enchanted Weapons", "type": "required"},
-        {"name": "Arcane Overcharge", "type": "optional"},
-        {"name": "Medical Breakthrough", "type": "generic"},
-        {"name": "Unobtanium Plating", "type": "generic"}
+        {
+          "name": "Spell Mastery",
+          "type": "core"
+        },
+        {
+          "name": "School of Protection",
+          "type": "required"
+        },
+        {
+          "name": "Enchanted Weapons",
+          "type": "required"
+        },
+        {
+          "name": "Arcane Overcharge",
+          "type": "optional"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        },
+        {
+          "name": "Unobtanium Plating",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Build a defensive army — Siege Tanks, Bunkers, and durable units. Get Arcane Enhancement so they all gain protective spells.", "ru": "Стройте оборонительную армию — Осадные Танки, Бункеры и прочные юниты. Получите Arcane Enhancement, чтобы все они получили защитные заклинания."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "School of Protection makes your army extremely tanky. Arcane Shields on every unit + Mass Barrier makes your forces nearly indestructible. Enchanted Weapons ensures you still deal damage.", "ru": "Школа Защиты делает вашу армию крайне живучей. Магические Щиты на каждом юните + Массовый Барьер делают ваши силы почти неуничтожимыми. Enchanted Weapons гарантирует, что вы всё ещё наносите урон."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "With Protection + health stacking + damage reflection, enemies hurt themselves attacking you. Add Overcharge for offensive spells to complement your defense.", "ru": "С Защитой + стакание здоровья + отражение урона, враги ранят себя атакуя вас. Добавьте Overcharge для атакующих заклинаний в дополнение к обороне."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Build a defensive army — Siege Tanks, Bunkers, and durable units. Get Arcane Enhancement so they all gain protective spells.",
+            "ru": "Стройте оборонительную армию — Осадные Танки, Бункеры и прочные юниты. Получите Arcane Enhancement, чтобы все они получили защитные заклинания."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
+          "text": {
+            "en": "School of Protection makes your army extremely tanky. Arcane Shields on every unit + Mass Barrier makes your forces nearly indestructible. Enchanted Weapons ensures you still deal damage.",
+            "ru": "Школа Защиты делает вашу армию крайне живучей. Магические Щиты на каждом юните + Массовый Барьер делают ваши силы почти неуничтожимыми. Enchanted Weapons гарантирует, что вы всё ещё наносите урон."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "With Protection + health stacking + damage reflection, enemies hurt themselves attacking you. Add Overcharge for offensive spells to complement your defense.",
+            "ru": "С Защитой + стакание здоровья + отражение урона, враги ранят себя атакуя вас. Добавьте Overcharge для атакующих заклинаний в дополнение к обороне."
+          }
+        }
       ],
       "tips": [
-        {"en": "Damage reflection from Protection on 20+ units adds up to significant return damage", "ru": "Отражение урона от Защиты на 20+ юнитах складывается в значительный возвратный урон"},
-        {"en": "Enchanted Weapons provides the offense you need while building defensively", "ru": "Enchanted Weapons обеспечивает атаку, которая вам нужна при оборонительном строительстве"},
-        {"en": "This build excels on defense missions like Outbreak and Supernova", "ru": "Этот билд отлично проявляет себя на оборонительных миссиях вроде Outbreak и Supernova"}
+        {
+          "en": "Damage reflection from Protection on 20+ units adds up to significant return damage",
+          "ru": "Отражение урона от Защиты на 20+ юнитах складывается в значительный возвратный урон"
+        },
+        {
+          "en": "Enchanted Weapons provides the offense you need while building defensively",
+          "ru": "Enchanted Weapons обеспечивает атаку, которая вам нужна при оборонительном строительстве"
+        },
+        {
+          "en": "This build excels on defense missions like Outbreak and Supernova",
+          "ru": "Этот билд отлично проявляет себя на оборонительных миссиях вроде Outbreak и Supernova"
+        }
       ]
     }
   ],
   "multiclass_epics": [
     {
       "name": "Hardware Amplification",
-      "classes": ["Wizard", "Hunter"],
+      "classes": [
+        "Wizard",
+        "Hunter"
+      ],
       "tier": "S",
       "desc": {
         "en": "Deadman's Hardware stacks cause spells to deal +12.5% more damage, healing, and shields per stack.",
@@ -325,7 +553,10 @@
     },
     {
       "name": "Big Crunch",
-      "classes": ["Wizard", "Deathknight"],
+      "classes": [
+        "Wizard",
+        "Deathknight"
+      ],
       "tier": "A",
       "desc": {
         "en": "When spell-enhanced units die, they release all their remaining spell energy as a death explosion dealing arcane damage in an area.",
@@ -338,7 +569,10 @@
     },
     {
       "name": "Otherworldly Power",
-      "classes": ["Wizard", "Warlock"],
+      "classes": [
+        "Wizard",
+        "Warlock"
+      ],
       "tier": "A",
       "desc": {
         "en": "Hybrid summons gain Wizard spell abilities. Pact levels increase spell damage by +3% each. Hybrids count as spell-enhanced units.",
@@ -351,7 +585,10 @@
     },
     {
       "name": "False Security",
-      "classes": ["Wizard", "Acolyte"],
+      "classes": [
+        "Wizard",
+        "Acolyte"
+      ],
       "tier": "B",
       "desc": {
         "en": "Ritual sacrifices generate arcane energy. Each sacrifice grants all nearby units +20 energy and +10% spell damage for 15 seconds.",
@@ -364,7 +601,10 @@
     },
     {
       "name": "Necromancer Master Training",
-      "classes": ["Wizard", "Necromancer"],
+      "classes": [
+        "Wizard",
+        "Necromancer"
+      ],
       "tier": "B",
       "desc": {
         "en": "Curse stacks increase spell damage by +4% each. Spell-enhanced units that die under curse effects respawn as arcane shades for 10 seconds.",
@@ -377,7 +617,10 @@
     },
     {
       "name": "Omega Outbreak",
-      "classes": ["Wizard", "Druid"],
+      "classes": [
+        "Wizard",
+        "Druid"
+      ],
       "tier": "B",
       "desc": {
         "en": "Infested units gain spell abilities. Spell-enhanced infested spread infestation 30% faster. Infested spell damage scales with infestation level.",
@@ -390,7 +633,10 @@
     },
     {
       "name": "Let The Terrazine Flow",
-      "classes": ["Wizard", "Psychic"],
+      "classes": [
+        "Wizard",
+        "Psychic"
+      ],
       "tier": "S",
       "desc": {
         "en": "Terrazine enhancement also grants Wizard spell abilities. Each terrazine-enhanced unit gains one random spell. Spell damage is boosted by psionic bonuses.",
@@ -403,7 +649,10 @@
     },
     {
       "name": "Power Of The Archmage",
-      "classes": ["Wizard", "Sorcerer"],
+      "classes": [
+        "Wizard",
+        "Sorcerer"
+      ],
       "tier": "A",
       "desc": {
         "en": "Drop pod reinforcements arrive spell-enhanced with a random bonus spell. Spell damage amplifies drop pod impact damage by +50%.",
@@ -416,7 +665,10 @@
     },
     {
       "name": "Psionic Matrix",
-      "classes": ["Wizard", "Bard"],
+      "classes": [
+        "Wizard",
+        "Bard"
+      ],
       "tier": "B",
       "desc": {
         "en": "Capital ships project a spell-amplification field: all nearby spell-enhanced units deal +20% spell damage. Capital ship spells have doubled area of effect.",

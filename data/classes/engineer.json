@@ -1,7 +1,7 @@
 {
   "id": "engineer",
   "name": "Engineer",
-  "icon": "&#9881;",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2'><circle cx='12' cy='12' r='3'/><path d='M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 11-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 110-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 114 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 112.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9c.26.604.852.997 1.51 1H21a2 2 0 110 4h-.09a1.65 1.65 0 00-1.51 1z'/></svg>",
   "color": "#f97316",
   "subtitle": {
     "en": "Fortification Specialist",
@@ -16,23 +16,77 @@
     "ru": "Нет"
   },
   "stats": [
-    {"value": "A", "label": {"en": "Late-Game Power", "ru": "Сила в лейте"}},
-    {"value": "B", "label": {"en": "Early-Game Power", "ru": "Сила в начале"}},
-    {"value": "B", "label": {"en": "Scaling", "ru": "Масштабирование"}},
-    {"value": "C", "label": {"en": "Versatility", "ru": "Универсальность"}},
-    {"value": "B", "label": {"en": "Difficulty", "ru": "Сложность"}}
+    {
+      "value": "A",
+      "label": {
+        "en": "Late-Game Power",
+        "ru": "Сила в лейте"
+      }
+    },
+    {
+      "value": "B",
+      "label": {
+        "en": "Early-Game Power",
+        "ru": "Сила в начале"
+      }
+    },
+    {
+      "value": "B",
+      "label": {
+        "en": "Scaling",
+        "ru": "Масштабирование"
+      }
+    },
+    {
+      "value": "C",
+      "label": {
+        "en": "Versatility",
+        "ru": "Универсальность"
+      }
+    },
+    {
+      "value": "B",
+      "label": {
+        "en": "Difficulty",
+        "ru": "Сложность"
+      }
+    }
   ],
   "strengths": [
-    {"en": "Unmatched defensive power — can hold any position against any attack", "ru": "Непревзойдённая оборонительная мощь — может удержать любую позицию против любой атаки"},
-    {"en": "Buildings are permanent investments that don't require resupply", "ru": "Здания — постоянные инвестиции, не требующие пополнения"},
-    {"en": "Excellent on defensive missions like Holdout and base defense", "ru": "Превосходен на оборонительных миссиях вроде Holdout и обороны базы"},
-    {"en": "Unobtanium Plating generic infinite scales building HP massively", "ru": "Общий бесконечный талант Unobtanium Plating массивно масштабирует HP зданий"}
+    {
+      "en": "Unmatched defensive power — can hold any position against any attack",
+      "ru": "Непревзойдённая оборонительная мощь — может удержать любую позицию против любой атаки"
+    },
+    {
+      "en": "Buildings are permanent investments that don't require resupply",
+      "ru": "Здания — постоянные инвестиции, не требующие пополнения"
+    },
+    {
+      "en": "Excellent on defensive missions like Holdout and base defense",
+      "ru": "Превосходен на оборонительных миссиях вроде Holdout и обороны базы"
+    },
+    {
+      "en": "Unobtanium Plating generic infinite scales building HP massively",
+      "ru": "Общий бесконечный талант Unobtanium Plating массивно масштабирует HP зданий"
+    }
   ],
   "weaknesses": [
-    {"en": "Low mobility — buildings can't move with your army", "ru": "Низкая мобильность — здания не могут двигаться с армией"},
-    {"en": "Weak on offensive missions that require pushing across the map", "ru": "Слаб на наступательных миссиях, требующих продвижения по карте"},
-    {"en": "Setup time means you're vulnerable during initial deployment", "ru": "Время установки означает уязвимость при начальном развёртывании"},
-    {"en": "Resource-heavy — building a fortress requires significant investment", "ru": "Ресурсоёмкий — постройка крепости требует значительных инвестиций"}
+    {
+      "en": "Low mobility — buildings can't move with your army",
+      "ru": "Низкая мобильность — здания не могут двигаться с армией"
+    },
+    {
+      "en": "Weak on offensive missions that require pushing across the map",
+      "ru": "Слаб на наступательных миссиях, требующих продвижения по карте"
+    },
+    {
+      "en": "Setup time means you're vulnerable during initial deployment",
+      "ru": "Время установки означает уязвимость при начальном развёртывании"
+    },
+    {
+      "en": "Resource-heavy — building a fortress requires significant investment",
+      "ru": "Ресурсоёмкий — постройка крепости требует значительных инвестиций"
+    }
   ],
   "talents": [
     {
@@ -218,39 +272,78 @@
   ],
   "builds": [
     {
-      "name": {"en": "Fortress", "ru": "Крепость"},
-      "subtitle": {"en": "Impenetrable layered defenses", "ru": "Непробиваемая многослойная оборона"},
+      "name": {
+        "en": "Fortress",
+        "ru": "Крепость"
+      },
+      "subtitle": {
+        "en": "Impenetrable layered defenses",
+        "ru": "Непробиваемая многослойная оборона"
+      },
       "desc": {
         "en": "The classic Engineer build. Create overlapping defensive lines of turrets, bunkers, and siege structures. Stack building HP and damage infinites to make each structure a significant threat. The goal is to make your base position completely untakeable.",
         "ru": "Классический билд Инженера. Создайте перекрывающиеся оборонительные линии из турелей, бункеров и осадных сооружений. Копите бесконечные таланты HP и урона зданий для превращения каждой структуры в серьёзную угрозу. Цель — сделать вашу базовую позицию полностью неприступной."
       },
       "tags": [
-        {"name": "Master Builder", "type": "core"},
-        {"name": "Reinforced Structure", "type": "required"},
-        {"name": "Fortification Protocol", "type": "required"},
-        {"name": "Siege Architecture", "type": "required"},
-        {"name": "Fortress Command", "type": "optional"},
-        {"name": "Emergency Repair", "type": "optional"},
-        {"name": "Unobtanium Plating", "type": "generic"},
-        {"name": "Salvage Operation", "type": "generic"}
+        {
+          "name": "Master Builder",
+          "type": "core"
+        },
+        {
+          "name": "Reinforced Structure",
+          "type": "required"
+        },
+        {
+          "name": "Fortification Protocol",
+          "type": "required"
+        },
+        {
+          "name": "Siege Architecture",
+          "type": "required"
+        },
+        {
+          "name": "Fortress Command",
+          "type": "optional"
+        },
+        {
+          "name": "Emergency Repair",
+          "type": "optional"
+        },
+        {
+          "name": "Unobtanium Plating",
+          "type": "generic"
+        },
+        {
+          "name": "Salvage Operation",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Establish your initial defensive perimeter with Missile Turrets and Bunkers at chokepoints. Reinforced Structure is a priority early pickup. Start stacking Fortification Protocol and Unobtanium Plating for scaling.",
             "ru": "Установите начальный оборонительный периметр из Missile Turrets и бункеров на узких проходах. Reinforced Structure — приоритетный ранний выбор. Начинайте копить Fortification Protocol и Unobtanium Plating для масштабирования."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "Expand your defensive network. Siege Architecture adds long-range splash damage. Layer your defenses: Supply Depots slow enemies, turrets deal damage, bunkers hold the line, siege turrets clean up. Economy talents fund the expansion.",
             "ru": "Расширяйте оборонительную сеть. Siege Architecture добавляет дальнобойный площадной урон. Выстраивайте оборону слоями: склады замедляют врагов, турели наносят урон, бункеры держат линию, осадные турели добивают. Экономические таланты финансируют расширение."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "With Fortress Command doubling building limits and stacked infinites, your defense network is impenetrable. Even the strongest attack waves dissolve before reaching your structures. Use a mobile army for objectives while the fortress holds the base.",
             "ru": "С Fortress Command, удваивающим лимиты зданий, и накопленными бесконечными талантами ваша оборонительная сеть непробиваема. Даже сильнейшие волны атак растворяются, не достигнув структур. Используйте мобильную армию для целей, пока крепость держит базу."
@@ -258,44 +351,89 @@
         }
       ],
       "tips": [
-        {"en": "Place turrets in overlapping fields of fire — each turret should cover at least one other turret.", "ru": "Размещайте турели с перекрывающимися зонами огня — каждая турель должна прикрывать минимум одну другую."},
-        {"en": "Unobtanium Plating stacks multiply with Fortification Protocol for enormous building HP.", "ru": "Стаки Unobtanium Plating умножаются с Fortification Protocol для огромного HP зданий."},
-        {"en": "Always keep some SCVs near your defenses for repair during attacks.", "ru": "Всегда держите несколько SCV рядом с обороной для ремонта во время атак."}
+        {
+          "en": "Place turrets in overlapping fields of fire — each turret should cover at least one other turret.",
+          "ru": "Размещайте турели с перекрывающимися зонами огня — каждая турель должна прикрывать минимум одну другую."
+        },
+        {
+          "en": "Unobtanium Plating stacks multiply with Fortification Protocol for enormous building HP.",
+          "ru": "Стаки Unobtanium Plating умножаются с Fortification Protocol для огромного HP зданий."
+        },
+        {
+          "en": "Always keep some SCVs near your defenses for repair during attacks.",
+          "ru": "Всегда держите несколько SCV рядом с обороной для ремонта во время атак."
+        }
       ]
     },
     {
-      "name": {"en": "Turret Army", "ru": "Армия турелей"},
-      "subtitle": {"en": "Turrets as your primary fighting force", "ru": "Турели как основная боевая сила"},
+      "name": {
+        "en": "Turret Army",
+        "ru": "Армия турелей"
+      },
+      "subtitle": {
+        "en": "Turrets as your primary fighting force",
+        "ru": "Турели как основная боевая сила"
+      },
       "desc": {
         "en": "Instead of static defenses, this build focuses on Mobile Defense Platforms — deployable turrets that move with your army. Combined with turret-specific buffs, you create a mobile artillery force that sets up and tears down as you advance across the map.",
         "ru": "Вместо статичной обороны этот билд фокусируется на Mobile Defense Platform — развёртываемых турелях, двигающихся с армией. В сочетании со специфическими баффами турелей вы создаёте мобильную артиллерийскую силу, которая разворачивается и сворачивается по мере продвижения по карте."
       },
       "tags": [
-        {"name": "Master Builder", "type": "core"},
-        {"name": "Mobile Defense Platform", "type": "required"},
-        {"name": "Automated Turrets", "type": "required"},
-        {"name": "Fortification Protocol", "type": "required"},
-        {"name": "Fortress Command", "type": "optional"},
-        {"name": "Use More Gun", "type": "generic"},
-        {"name": "Unobtanium Plating", "type": "generic"}
+        {
+          "name": "Master Builder",
+          "type": "core"
+        },
+        {
+          "name": "Mobile Defense Platform",
+          "type": "required"
+        },
+        {
+          "name": "Automated Turrets",
+          "type": "required"
+        },
+        {
+          "name": "Fortification Protocol",
+          "type": "required"
+        },
+        {
+          "name": "Fortress Command",
+          "type": "optional"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        },
+        {
+          "name": "Unobtanium Plating",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Use static turrets for base defense while building toward Mobile Defense Platform. Automated Turrets makes all turrets more effective. Push objectives with your regular army and turret support.",
             "ru": "Используйте стационарные турели для обороны базы, стремясь к Mobile Defense Platform. Automated Turrets делает все турели эффективнее. Выполняйте цели с армией и турельной поддержкой."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "With Mobile Defense Platforms, you can push aggressively. Deploy turrets at each new position, fight, then pack up and move. The 5-second deploy time allows rapid repositioning. Stack Fortification Protocol for turret damage.",
             "ru": "С Mobile Defense Platforms можно наступать агрессивно. Разворачивайте турели на каждой новой позиции, сражайтесь, затем собирайте и двигайтесь. 5 секунд развёртывания позволяют быстрое перепозиционирование. Копите Fortification Protocol для урона турелей."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "Your mobile turret army is a rolling fortress. Set up, obliterate the enemy, move forward, repeat. Fortress Command doubles your turret count for overwhelming firepower on the move.",
             "ru": "Ваша мобильная турельная армия — передвижная крепость. Разверните, уничтожьте врага, двигайтесь вперёд, повторите. Fortress Command удваивает число турелей для подавляющей огневой мощи в движении."
@@ -303,45 +441,93 @@
         }
       ],
       "tips": [
-        {"en": "Mobile turrets benefit from ALL building buffs — they're just as strong as static ones.", "ru": "Мобильные турели получают ВСЕ баффы зданий — они так же сильны, как стационарные."},
-        {"en": "Deploy turrets in a semi-circle facing the enemy for maximum focused fire.", "ru": "Разворачивайте турели полукругом к врагу для максимального сосредоточенного огня."},
-        {"en": "Keep SCVs with your turret push for field repairs between engagements.", "ru": "Держите SCV с турельным продвижением для полевого ремонта между боями."}
+        {
+          "en": "Mobile turrets benefit from ALL building buffs — they're just as strong as static ones.",
+          "ru": "Мобильные турели получают ВСЕ баффы зданий — они так же сильны, как стационарные."
+        },
+        {
+          "en": "Deploy turrets in a semi-circle facing the enemy for maximum focused fire.",
+          "ru": "Разворачивайте турели полукругом к врагу для максимального сосредоточенного огня."
+        },
+        {
+          "en": "Keep SCVs with your turret push for field repairs between engagements.",
+          "ru": "Держите SCV с турельным продвижением для полевого ремонта между боями."
+        }
       ]
     },
     {
-      "name": {"en": "Bunker Rush", "ru": "Бункер раш"},
-      "subtitle": {"en": "Aggressive bunker-forward tactics", "ru": "Агрессивная тактика с бункерами"},
+      "name": {
+        "en": "Bunker Rush",
+        "ru": "Бункер раш"
+      },
+      "subtitle": {
+        "en": "Aggressive bunker-forward tactics",
+        "ru": "Агрессивная тактика с бункерами"
+      },
       "desc": {
         "en": "An aggressive Engineer build that pushes bunkers forward into enemy territory. Fortified Bunkers with Bunker Buster capacity and damage bonuses become mobile fortresses when filled with Marines or other ranged units. SCVs build bunkers rapidly at the front line while the army pushes.",
         "ru": "Агрессивный билд Инженера, продвигающий бункеры на вражескую территорию. Укреплённые бункеры с вместимостью и бонусами урона от Bunker Buster становятся мобильными крепостями при заполнении Маринерами или другими дальнобойными юнитами. SCV быстро строят бункеры на передовой, пока армия наступает."
       },
       "tags": [
-        {"name": "Master Builder", "type": "core"},
-        {"name": "Bunker Buster", "type": "required"},
-        {"name": "Reinforced Structure", "type": "required"},
-        {"name": "Emergency Repair", "type": "optional"},
-        {"name": "Fortification Protocol", "type": "optional"},
-        {"name": "Use More Gun", "type": "generic"},
-        {"name": "Medical Breakthrough", "type": "generic"},
-        {"name": "Salvage Operation", "type": "generic"}
+        {
+          "name": "Master Builder",
+          "type": "core"
+        },
+        {
+          "name": "Bunker Buster",
+          "type": "required"
+        },
+        {
+          "name": "Reinforced Structure",
+          "type": "required"
+        },
+        {
+          "name": "Emergency Repair",
+          "type": "optional"
+        },
+        {
+          "name": "Fortification Protocol",
+          "type": "optional"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        },
+        {
+          "name": "Salvage Operation",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Build Marines and SCVs. Push forward by building bunkers at each new position and loading Marines. The fast SCV build speed from Master Builder makes forward bunkers viable. Bunker Buster increases firepower per bunker.",
             "ru": "Стройте Маринеров и SCV. Наступайте, строя бункеры на каждой новой позиции и загружая Маринеров. Быстрая скорость строительства SCV от Master Builder делает передовые бункеры жизнеспособными. Bunker Buster увеличивает огневую мощь на бункер."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "Your bunker push becomes increasingly powerful with stacked Fortification Protocol. Emergency Repair makes bunkers very hard to destroy. Each new position is secured with a forward bunker before advancing further.",
             "ru": "Ваше бункерное продвижение становится всё мощнее с накопленным Fortification Protocol. Emergency Repair делает бункеры очень трудными для уничтожения. Каждая новая позиция закрепляется передовым бункером перед дальнейшим продвижением."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "Bunkers with max upgrades are nearly indestructible and deal massive damage from garrisoned units. You methodically advance by building bunker after bunker, creating an expanding network of fortifications across the map.",
             "ru": "Бункеры с максимальными улучшениями практически неразрушимы и наносят массивный урон от загарнизонных юнитов. Вы методично наступаете, строя бункер за бункером, создавая расширяющуюся сеть укреплений по карте."
@@ -349,9 +535,18 @@
         }
       ],
       "tips": [
-        {"en": "Always bring 3-4 SCVs with your push — they build bunkers and repair under fire.", "ru": "Всегда берите 3-4 SCV с продвижением — они строят бункеры и ремонтируют под огнём."},
-        {"en": "Load bunkers with your strongest ranged units — the +20% damage bonus applies to all garrisoned units.", "ru": "Загружайте бункеры сильнейшими дальнобойными юнитами — +20% бонус урона применяется ко всем загарнизонным юнитам."},
-        {"en": "Salvage depleted bunkers to recover minerals for building the next ones forward.", "ru": "Разбирайте истощённые бункеры для возврата минералов на строительство следующих на передовой."}
+        {
+          "en": "Always bring 3-4 SCVs with your push — they build bunkers and repair under fire.",
+          "ru": "Всегда берите 3-4 SCV с продвижением — они строят бункеры и ремонтируют под огнём."
+        },
+        {
+          "en": "Load bunkers with your strongest ranged units — the +20% damage bonus applies to all garrisoned units.",
+          "ru": "Загружайте бункеры сильнейшими дальнобойными юнитами — +20% бонус урона применяется ко всем загарнизонным юнитам."
+        },
+        {
+          "en": "Salvage depleted bunkers to recover minerals for building the next ones forward.",
+          "ru": "Разбирайте истощённые бункеры для возврата минералов на строительство следующих на передовой."
+        }
       ]
     }
   ],

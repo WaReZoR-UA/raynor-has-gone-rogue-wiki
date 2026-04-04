@@ -1,29 +1,89 @@
 {
   "id": "necromancer",
   "name": "Necromancer",
-  "icon": "&#128128;",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2'><path d='M12 2a4 4 0 00-4 4v2H6v4h2v8h8v-8h2V8h-2V6a4 4 0 00-4-4z'/><circle cx='10' cy='10' r='1' fill='currentColor'/><circle cx='14' cy='10' r='1' fill='currentColor'/></svg>",
   "color": "#6d28d9",
-  "subtitle": {"en": "Raise the dead. Turn every kill into reinforcements.", "ru": "Поднимайте мёртвых. Каждое убийство — подкрепление."},
-  "summary": {"en": "Necromancer turns enemy casualties into your army of Infested Marines. Every enemy kill has a chance to spawn an Infested under your control. Stack Unholy Power to make your undead horde devastating. Synergizes with curses through unique interactions.", "ru": "Некромант превращает потери врага в вашу армию Заражённых морпехов. Каждое убийство врага имеет шанс призвать Заражённого под вашим контролем. Стакайте Unholy Power для усиления орды. Синергирует с проклятиями через уникальные взаимодействия."},
-  "unlock": {"en": "Gain 5 stacks of the same curse in a single campaign", "ru": "Получите 5 стаков одного проклятия за кампанию"},
+  "subtitle": {
+    "en": "Raise the dead. Turn every kill into reinforcements.",
+    "ru": "Поднимайте мёртвых. Каждое убийство — подкрепление."
+  },
+  "summary": {
+    "en": "Necromancer turns enemy casualties into your army of Infested Marines. Every enemy kill has a chance to spawn an Infested under your control. Stack Unholy Power to make your undead horde devastating. Synergizes with curses through unique interactions.",
+    "ru": "Некромант превращает потери врага в вашу армию Заражённых морпехов. Каждое убийство врага имеет шанс призвать Заражённого под вашим контролем. Стакайте Unholy Power для усиления орды. Синергирует с проклятиями через уникальные взаимодействия."
+  },
+  "unlock": {
+    "en": "Gain 5 stacks of the same curse in a single campaign",
+    "ru": "Получите 5 стаков одного проклятия за кампанию"
+  },
   "stats": [
-    {"value": "20%", "label": {"en": "Base spawn chance per supply", "ru": "Базовый шанс призыва за саппорт"}},
-    {"value": "+20%", "label": {"en": "HP/DMG per Unholy Power stack", "ru": "HP/урон за стак Unholy Power"}},
-    {"value": "60s", "label": {"en": "Base Infested timed life", "ru": "Базовое время жизни Заражённых"}},
-    {"value": "5", "label": {"en": "Curses needed to unlock", "ru": "Проклятий для разблокировки"}}
+    {
+      "value": "20%",
+      "label": {
+        "en": "Base spawn chance per supply",
+        "ru": "Базовый шанс призыва за саппорт"
+      }
+    },
+    {
+      "value": "+20%",
+      "label": {
+        "en": "HP/DMG per Unholy Power stack",
+        "ru": "HP/урон за стак Unholy Power"
+      }
+    },
+    {
+      "value": "60s",
+      "label": {
+        "en": "Base Infested timed life",
+        "ru": "Базовое время жизни Заражённых"
+      }
+    },
+    {
+      "value": "5",
+      "label": {
+        "en": "Curses needed to unlock",
+        "ru": "Проклятий для разблокировки"
+      }
+    }
   ],
   "strengths": [
-    {"en": "Free army from enemy kills — no resource cost for Infested", "ru": "Бесплатная армия из убийств врага — Заражённые не стоят ресурсов"},
-    {"en": "Unholy Power scales infinitely (+20% HP/DMG per stack, max 100)", "ru": "Unholy Power масштабируется бесконечно (+20% HP/урон за стак, макс. 100)"},
-    {"en": "Snowball effect — bigger army kills faster, spawns more Infested", "ru": "Эффект снежного кома — чем больше армия, тем быстрее убийства и призывы"},
-    {"en": "Can turn curses into advantages (thematic synergy)", "ru": "Может превращать проклятия в преимущества (тематическая синергия)"},
-    {"en": "Aberration mutation chance for powerful elite units", "ru": "Шанс мутации Аберрации для мощных элитных юнитов"}
+    {
+      "en": "Free army from enemy kills — no resource cost for Infested",
+      "ru": "Бесплатная армия из убийств врага — Заражённые не стоят ресурсов"
+    },
+    {
+      "en": "Unholy Power scales infinitely (+20% HP/DMG per stack, max 100)",
+      "ru": "Unholy Power масштабируется бесконечно (+20% HP/урон за стак, макс. 100)"
+    },
+    {
+      "en": "Snowball effect — bigger army kills faster, spawns more Infested",
+      "ru": "Эффект снежного кома — чем больше армия, тем быстрее убийства и призывы"
+    },
+    {
+      "en": "Can turn curses into advantages (thematic synergy)",
+      "ru": "Может превращать проклятия в преимущества (тематическая синергия)"
+    },
+    {
+      "en": "Aberration mutation chance for powerful elite units",
+      "ru": "Шанс мутации Аберрации для мощных элитных юнитов"
+    }
   ],
   "weaknesses": [
-    {"en": "Infested have timed life — need Danse Macabre to extend", "ru": "Заражённые имеют ограниченное время жизни — нужен Danse Macabre"},
-    {"en": "Depends on killing enemies to generate army — weak vs low-unit-count enemies", "ru": "Зависит от убийств врагов — слаб против малочисленных противников"},
-    {"en": "Unlock requires stacking curses, which weakens you", "ru": "Разблокировка требует стаков проклятий, которые ослабляют вас"},
-    {"en": "Botched Reanimation (epic) can spawn Infested for the enemy", "ru": "Botched Reanimation (эпик) может призвать Заражённого для врага"}
+    {
+      "en": "Infested have timed life — need Danse Macabre to extend",
+      "ru": "Заражённые имеют ограниченное время жизни — нужен Danse Macabre"
+    },
+    {
+      "en": "Depends on killing enemies to generate army — weak vs low-unit-count enemies",
+      "ru": "Зависит от убийств врагов — слаб против малочисленных противников"
+    },
+    {
+      "en": "Unlock requires stacking curses, which weakens you",
+      "ru": "Разблокировка требует стаков проклятий, которые ослабляют вас"
+    },
+    {
+      "en": "Botched Reanimation (epic) can spawn Infested for the enemy",
+      "ru": "Botched Reanimation (эпик) может призвать Заражённого для врага"
+    }
   ],
   "talents": [
     {
@@ -31,32 +91,56 @@
       "rarity": "core",
       "tier": "S",
       "stackable": false,
-      "desc": {"en": "When an enemy unit is killed by an allied unit, it has a chance equal to 20x its supply cost to summon an Infested Marine under your control for 60 seconds. Chance is minimum 10%.", "ru": "Когда вражеский юнит убит союзным юнитом, есть шанс, равный 20x его стоимости саппорта, призвать Заражённого морпеха под вашим контролем на 60 секунд. Минимальный шанс 10%."},
-      "analysis": {"en": "Your foundation. Higher supply enemies = higher spawn chance. Feed your army with kills.", "ru": "Ваш фундамент. Чем дороже враг, тем выше шанс призыва. Кормите армию убийствами."}
+      "desc": {
+        "en": "When an enemy unit is killed by an allied unit, it has a chance equal to 20x its supply cost to summon an Infested Marine under your control for 60 seconds. Chance is minimum 10%.",
+        "ru": "Когда вражеский юнит убит союзным юнитом, есть шанс, равный 20x его стоимости саппорта, призвать Заражённого морпеха под вашим контролем на 60 секунд. Минимальный шанс 10%."
+      },
+      "analysis": {
+        "en": "Your foundation. Higher supply enemies = higher spawn chance. Feed your army with kills.",
+        "ru": "Ваш фундамент. Чем дороже враг, тем выше шанс призыва. Кормите армию убийствами."
+      }
     },
     {
       "name": "Necroshock",
       "rarity": "common",
       "tier": "B",
       "stackable": false,
-      "desc": {"en": "When Infested are summoned, they slow nearby ground enemies by 50% for 6 seconds.", "ru": "Когда Заражённые призываются, они замедляют наземных врагов на 50% на 6 секунд."},
-      "analysis": {"en": "Good crowd control on spawn. Helps your army catch fleeing enemies.", "ru": "Хороший контроль толпы при призыве. Помогает вашей армии догонять врагов."}
+      "desc": {
+        "en": "When Infested are summoned, they slow nearby ground enemies by 50% for 6 seconds.",
+        "ru": "Когда Заражённые призываются, они замедляют наземных врагов на 50% на 6 секунд."
+      },
+      "analysis": {
+        "en": "Good crowd control on spawn. Helps your army catch fleeing enemies.",
+        "ru": "Хороший контроль толпы при призыве. Помогает вашей армии догонять врагов."
+      }
     },
     {
       "name": "Corpse Explosion",
       "rarity": "common",
       "tier": "B",
       "stackable": false,
-      "desc": {"en": "Infested deal 20 damage to nearby ground enemies when summoned.", "ru": "Заражённые наносят 20 урона ближайшим наземным врагам при призыве."},
-      "analysis": {"en": "AoE damage on every spawn. Scales with number of Infested spawning.", "ru": "AoE урон при каждом призыве. Масштабируется с количеством призываемых."}
+      "desc": {
+        "en": "Infested deal 20 damage to nearby ground enemies when summoned.",
+        "ru": "Заражённые наносят 20 урона ближайшим наземным врагам при призыве."
+      },
+      "analysis": {
+        "en": "AoE damage on every spawn. Scales with number of Infested spawning.",
+        "ru": "AoE урон при каждом призыве. Масштабируется с количеством призываемых."
+      }
     },
     {
       "name": "Undead Resilience",
       "rarity": "common",
       "tier": "B",
       "stackable": false,
-      "desc": {"en": "Your Infested regenerate +2 health per second and have +1 armor.", "ru": "Ваши Заражённые регенерируют +2 HP/сек и имеют +1 брони."},
-      "analysis": {"en": "Improves survivability of Infested. More time alive = more damage done.", "ru": "Улучшает выживаемость Заражённых. Больше жизни = больше урона."}
+      "desc": {
+        "en": "Your Infested regenerate +2 health per second and have +1 armor.",
+        "ru": "Ваши Заражённые регенерируют +2 HP/сек и имеют +1 брони."
+      },
+      "analysis": {
+        "en": "Improves survivability of Infested. More time alive = more damage done.",
+        "ru": "Улучшает выживаемость Заражённых. Больше жизни = больше урона."
+      }
     },
     {
       "name": "Unholy Power",
@@ -64,154 +148,556 @@
       "tier": "S",
       "stackable": true,
       "maxStacks": 100,
-      "desc": {"en": "Infested have +20% health and attack damage. This talent stacks additively. Max 100 stacks.", "ru": "Заражённые имеют +20% здоровья и урона атаки. Стакается аддитивно. Макс. 100 стаков."},
-      "analysis": {"en": "KEY SCALING TALENT. At 100 stacks = +2000% HP/damage. Take every single one. Best infinite for Necromancer.", "ru": "КЛЮЧЕВОЙ ТАЛАНТ МАСШТАБИРОВАНИЯ. При 100 стаках = +2000% HP/урона. Берите каждый. Лучший бесконечный для Некроманта."}
+      "desc": {
+        "en": "Infested have +20% health and attack damage. This talent stacks additively. Max 100 stacks.",
+        "ru": "Заражённые имеют +20% здоровья и урона атаки. Стакается аддитивно. Макс. 100 стаков."
+      },
+      "analysis": {
+        "en": "KEY SCALING TALENT. At 100 stacks = +2000% HP/damage. Take every single one. Best infinite for Necromancer.",
+        "ru": "КЛЮЧЕВОЙ ТАЛАНТ МАСШТАБИРОВАНИЯ. При 100 стаках = +2000% HP/урона. Берите каждый. Лучший бесконечный для Некроманта."
+      }
     },
     {
       "name": "Reanimation Mastery",
       "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
-      "desc": {"en": "Summoning an Infested from an enemy has a +20% chance. Applied additively.", "ru": "Шанс призыва Заражённого из врага повышен на +20%. Применяется аддитивно."},
-      "analysis": {"en": "More spawns = more army. Direct boost to your core mechanic.", "ru": "Больше призывов = больше армия. Прямой буст основной механики."}
+      "desc": {
+        "en": "Summoning an Infested from an enemy has a +20% chance. Applied additively.",
+        "ru": "Шанс призыва Заражённого из врага повышен на +20%. Применяется аддитивно."
+      },
+      "analysis": {
+        "en": "More spawns = more army. Direct boost to your core mechanic.",
+        "ru": "Больше призывов = больше армия. Прямой буст основной механики."
+      }
     },
     {
       "name": "Danse Macabre",
       "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
-      "desc": {"en": "Infested timed life duration is increased by 120 seconds.", "ru": "Время жизни Заражённых увеличено на 120 секунд."},
-      "analysis": {"en": "Doubles+ Infested lifetime (60s → 180s). Critical for maintaining your army.", "ru": "Более чем удваивает время жизни Заражённых (60с → 180с). Критично для поддержания армии."}
+      "desc": {
+        "en": "Infested timed life duration is increased by 120 seconds.",
+        "ru": "Время жизни Заражённых увеличено на 120 секунд."
+      },
+      "analysis": {
+        "en": "Doubles+ Infested lifetime (60s → 180s). Critical for maintaining your army.",
+        "ru": "Более чем удваивает время жизни Заражённых (60с → 180с). Критично для поддержания армии."
+      }
     },
     {
       "name": "Excieo Omega",
       "rarity": "uncommon",
       "tier": "A",
       "stackable": false,
-      "desc": {"en": "Every 150th Infested you summon will also summon an Omegalisk.", "ru": "Каждый 150-й призванный Заражённый также призывает Омегалиска."},
-      "analysis": {"en": "Free Omegalisks! In long missions you can get several. Massive power spike.", "ru": "Бесплатные Омегалиски! В длинных миссиях можно получить несколько. Огромный скачок силы."}
+      "desc": {
+        "en": "Every 150th Infested you summon will also summon an Omegalisk.",
+        "ru": "Каждый 150-й призванный Заражённый также призывает Омегалиска."
+      },
+      "analysis": {
+        "en": "Free Omegalisks! In long missions you can get several. Massive power spike.",
+        "ru": "Бесплатные Омегалиски! В длинных миссиях можно получить несколько. Огромный скачок силы."
+      }
     },
     {
       "name": "Aberrant Mutation",
       "rarity": "rare",
       "tier": "A",
       "stackable": false,
-      "desc": {"en": "When you summon an Infested, there is a 7.5% chance to summon an Aberration instead.", "ru": "При призыве Заражённого есть 7.5% шанс призвать Аберрацию вместо него."},
-      "analysis": {"en": "Aberrations are much stronger than Infested Marines. With high spawn rates this triggers often.", "ru": "Аберрации намного сильнее Заражённых морпехов. При высоком темпе призывов срабатывает часто."}
+      "desc": {
+        "en": "When you summon an Infested, there is a 7.5% chance to summon an Aberration instead.",
+        "ru": "При призыве Заражённого есть 7.5% шанс призвать Аберрацию вместо него."
+      },
+      "analysis": {
+        "en": "Aberrations are much stronger than Infested Marines. With high spawn rates this triggers often.",
+        "ru": "Аберрации намного сильнее Заражённых морпехов. При высоком темпе призывов срабатывает часто."
+      }
     },
     {
       "name": "Spare Parts",
       "rarity": "rare",
       "tier": "B",
       "stackable": false,
-      "desc": {"en": "When your Infested are killed or expired, gain +10 minerals.", "ru": "Когда ваши Заражённые убиты или истекли, получите +10 минералов."},
-      "analysis": {"en": "Economy from dying Infested. Decent income stream with large hordes.", "ru": "Экономика от умирающих Заражённых. Неплохой доход с большими ордами."}
+      "desc": {
+        "en": "When your Infested are killed or expired, gain +10 minerals.",
+        "ru": "Когда ваши Заражённые убиты или истекли, получите +10 минералов."
+      },
+      "analysis": {
+        "en": "Economy from dying Infested. Decent income stream with large hordes.",
+        "ru": "Экономика от умирающих Заражённых. Неплохой доход с большими ордами."
+      }
     },
     {
       "name": "Virulent Infestation",
       "rarity": "rare",
       "tier": "A",
       "stackable": false,
-      "desc": {"en": "Enemies killed by Infested have +40% chance to summon Infested. Applied additively.", "ru": "Враги, убитые Заражёнными, имеют +40% шанс призвать Заражённого. Аддитивно."},
-      "analysis": {"en": "Chain reaction — Infested kill enemies, spawning MORE Infested. Snowball engine.", "ru": "Цепная реакция — Заражённые убивают врагов, призывая БОЛЬШЕ Заражённых. Двигатель снежного кома."}
+      "desc": {
+        "en": "Enemies killed by Infested have +40% chance to summon Infested. Applied additively.",
+        "ru": "Враги, убитые Заражёнными, имеют +40% шанс призвать Заражённого. Аддитивно."
+      },
+      "analysis": {
+        "en": "Chain reaction — Infested kill enemies, spawning MORE Infested. Snowball engine.",
+        "ru": "Цепная реакция — Заражённые убивают врагов, призывая БОЛЬШЕ Заражённых. Двигатель снежного кома."
+      }
     },
     {
       "name": "Botched Reanimation",
       "rarity": "epic",
       "tier": "C",
       "stackable": false,
-      "desc": {"en": "Failing to summon an Infested from an eligible enemy has a 50% chance to summon an Infested for the enemy instead.", "ru": "Провал призыва Заражённого из допустимого врага имеет 50% шанс призвать Заражённого для врага."},
-      "analysis": {"en": "Double-edged! Failed spawns can create enemy Infested. Risky but the overall math still favors you.", "ru": "Палка о двух концах! Неудачные призывы могут создать вражеских Заражённых. Рискованно, но математика всё равно в вашу пользу."}
+      "desc": {
+        "en": "Failing to summon an Infested from an eligible enemy has a 50% chance to summon an Infested for the enemy instead.",
+        "ru": "Провал призыва Заражённого из допустимого врага имеет 50% шанс призвать Заражённого для врага."
+      },
+      "analysis": {
+        "en": "Double-edged! Failed spawns can create enemy Infested. Risky but the overall math still favors you.",
+        "ru": "Палка о двух концах! Неудачные призывы могут создать вражеских Заражённых. Рискованно, но математика всё равно в вашу пользу."
+      }
     },
     {
       "name": "Live By Necromancy",
       "rarity": "curse",
       "tier": "D",
       "stackable": false,
-      "desc": {"en": "When one of your non-summoned units dies, there is an 80% chance to summon an enemy Infested Terran.", "ru": "Когда один из ваших не-призванных юнитов гибнет, 80% шанс призвать вражеского Заражённого."},
-      "analysis": {"en": "DANGEROUS. Your own deaths spawn enemies. BAN this if possible.", "ru": "ОПАСНО. Ваши смерти создают врагов. БАНИТЬ если возможно."}
+      "desc": {
+        "en": "When one of your non-summoned units dies, there is an 80% chance to summon an enemy Infested Terran.",
+        "ru": "Когда один из ваших не-призванных юнитов гибнет, 80% шанс призвать вражеского Заражённого."
+      },
+      "analysis": {
+        "en": "DANGEROUS. Your own deaths spawn enemies. BAN this if possible.",
+        "ru": "ОПАСНО. Ваши смерти создают врагов. БАНИТЬ если возможно."
+      }
     }
   ],
   "builds": [
     {
-      "name": {"en": "Undead Snowball", "ru": "Снежный ком нежити"},
-      "subtitle": {"en": "Maximum Infested scaling", "ru": "Максимальное масштабирование Заражённых"},
-      "desc": {"en": "Stack Unholy Power aggressively. Every Infested becomes a mini-boss. Chain kills with Virulent Infestation create exponential army growth.", "ru": "Стакайте Unholy Power агрессивно. Каждый Заражённый становится мини-боссом. Цепные убийства через Virulent Infestation создают экспоненциальный рост армии."},
+      "name": {
+        "en": "Undead Snowball",
+        "ru": "Снежный ком нежити"
+      },
+      "subtitle": {
+        "en": "Maximum Infested scaling",
+        "ru": "Максимальное масштабирование Заражённых"
+      },
+      "desc": {
+        "en": "Stack Unholy Power aggressively. Every Infested becomes a mini-boss. Chain kills with Virulent Infestation create exponential army growth.",
+        "ru": "Стакайте Unholy Power агрессивно. Каждый Заражённый становится мини-боссом. Цепные убийства через Virulent Infestation создают экспоненциальный рост армии."
+      },
       "tags": [
-        {"name": "Army Of The Dead", "type": "core"},
-        {"name": "Unholy Power x MAX", "type": "required"},
-        {"name": "Virulent Infestation", "type": "required"},
-        {"name": "Danse Macabre", "type": "required"},
-        {"name": "Reanimation Mastery", "type": "required"},
-        {"name": "Use More Gun x N", "type": "generic"},
-        {"name": "Medical Breakthrough x N", "type": "generic"}
+        {
+          "name": "Army Of The Dead",
+          "type": "core"
+        },
+        {
+          "name": "Unholy Power x MAX",
+          "type": "required"
+        },
+        {
+          "name": "Virulent Infestation",
+          "type": "required"
+        },
+        {
+          "name": "Danse Macabre",
+          "type": "required"
+        },
+        {
+          "name": "Reanimation Mastery",
+          "type": "required"
+        },
+        {
+          "name": "Use More Gun x N",
+          "type": "generic"
+        },
+        {
+          "name": "Medical Breakthrough x N",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Take Unholy Power at every opportunity. Get Danse Macabre early for longer Infested lifetime. Your regular army does the initial killing.", "ru": "Берите Unholy Power при каждой возможности. Возьмите Danse Macabre рано для более долгой жизни Заражённых. Ваша обычная армия делает первые убийства."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Середина (6-15)"}, "text": {"en": "Continue stacking Unholy Power. Get Virulent Infestation for chain reactions. Infested start doing real damage and self-sustaining.", "ru": "Продолжайте стакать Unholy Power. Возьмите Virulent Infestation для цепных реакций. Заражённые начинают наносить реальный урон."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "With 20+ Unholy Power stacks, Infested are devastating. Aberrant Mutation gives elite units. Your horde overwhelms everything.", "ru": "С 20+ стаками Unholy Power Заражённые разрушительны. Aberrant Mutation даёт элитных юнитов. Ваша орда сметает всё."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Take Unholy Power at every opportunity. Get Danse Macabre early for longer Infested lifetime. Your regular army does the initial killing.",
+            "ru": "Берите Unholy Power при каждой возможности. Возьмите Danse Macabre рано для более долгой жизни Заражённых. Ваша обычная армия делает первые убийства."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Середина (6-15)"
+          },
+          "text": {
+            "en": "Continue stacking Unholy Power. Get Virulent Infestation for chain reactions. Infested start doing real damage and self-sustaining.",
+            "ru": "Продолжайте стакать Unholy Power. Возьмите Virulent Infestation для цепных реакций. Заражённые начинают наносить реальный урон."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "With 20+ Unholy Power stacks, Infested are devastating. Aberrant Mutation gives elite units. Your horde overwhelms everything.",
+            "ru": "С 20+ стаками Unholy Power Заражённые разрушительны. Aberrant Mutation даёт элитных юнитов. Ваша орда сметает всё."
+          }
+        }
       ],
       "tips": [
-        {"en": "Best for most situations. Consistent scaling.", "ru": "Лучший для большинства ситуаций. Стабильное масштабирование."},
-        {"en": "Prioritize Unholy Power above all other talents in shop.", "ru": "Приоритизируйте Unholy Power над всеми другими талантами в магазине."}
+        {
+          "en": "Best for most situations. Consistent scaling.",
+          "ru": "Лучший для большинства ситуаций. Стабильное масштабирование."
+        },
+        {
+          "en": "Prioritize Unholy Power above all other talents in shop.",
+          "ru": "Приоритизируйте Unholy Power над всеми другими талантами в магазине."
+        }
       ]
     },
     {
-      "name": {"en": "Chain Reaction", "ru": "Цепная реакция"},
-      "subtitle": {"en": "Maximum spawn rate focus", "ru": "Фокус на максимальном темпе призывов"},
-      "desc": {"en": "Focus on spawn chance boosts: Reanimation Mastery + Virulent Infestation. Every fight creates a cascade of Infested spawns.", "ru": "Фокус на повышении шанса призыва: Reanimation Mastery + Virulent Infestation. Каждый бой создаёт каскад призывов."},
+      "name": {
+        "en": "Chain Reaction",
+        "ru": "Цепная реакция"
+      },
+      "subtitle": {
+        "en": "Maximum spawn rate focus",
+        "ru": "Фокус на максимальном темпе призывов"
+      },
+      "desc": {
+        "en": "Focus on spawn chance boosts: Reanimation Mastery + Virulent Infestation. Every fight creates a cascade of Infested spawns.",
+        "ru": "Фокус на повышении шанса призыва: Reanimation Mastery + Virulent Infestation. Каждый бой создаёт каскад призывов."
+      },
       "tags": [
-        {"name": "Army Of The Dead", "type": "core"},
-        {"name": "Reanimation Mastery", "type": "required"},
-        {"name": "Virulent Infestation", "type": "required"},
-        {"name": "Excieo Omega", "type": "required"},
-        {"name": "Aberrant Mutation", "type": "required"},
-        {"name": "Unholy Power x N", "type": "optional"}
+        {
+          "name": "Army Of The Dead",
+          "type": "core"
+        },
+        {
+          "name": "Reanimation Mastery",
+          "type": "required"
+        },
+        {
+          "name": "Virulent Infestation",
+          "type": "required"
+        },
+        {
+          "name": "Excieo Omega",
+          "type": "required"
+        },
+        {
+          "name": "Aberrant Mutation",
+          "type": "required"
+        },
+        {
+          "name": "Unholy Power x N",
+          "type": "optional"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Get Reanimation Mastery ASAP for +20% spawn chance. Supplement with Unholy Power when available.", "ru": "Получите Reanimation Mastery как можно раньше для +20% шанса призыва. Дополняйте Unholy Power."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Середина (6-15)"}, "text": {"en": "Virulent Infestation creates chain reactions. Excieo Omega gives Omegalisks. Aberrant Mutation for elite units.", "ru": "Virulent Infestation создаёт цепные реакции. Excieo Omega даёт Омегалисков. Aberrant Mutation для элитных юнитов."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "Mass Infested with high spawn rates. Omegalisks and Aberrations are your heavy hitters.", "ru": "Массовые Заражённые с высоким темпом призыва. Омегалиски и Аберрации — ваша тяжёлая артиллерия."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Get Reanimation Mastery ASAP for +20% spawn chance. Supplement with Unholy Power when available.",
+            "ru": "Получите Reanimation Mastery как можно раньше для +20% шанса призыва. Дополняйте Unholy Power."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Середина (6-15)"
+          },
+          "text": {
+            "en": "Virulent Infestation creates chain reactions. Excieo Omega gives Omegalisks. Aberrant Mutation for elite units.",
+            "ru": "Virulent Infestation создаёт цепные реакции. Excieo Omega даёт Омегалисков. Aberrant Mutation для элитных юнитов."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "Mass Infested with high spawn rates. Omegalisks and Aberrations are your heavy hitters.",
+            "ru": "Массовые Заражённые с высоким темпом призыва. Омегалиски и Аберрации — ваша тяжёлая артиллерия."
+          }
+        }
       ],
       "tips": [
-        {"en": "Good if Unholy Power isn't dropping well.", "ru": "Хорош если Unholy Power плохо выпадает."},
-        {"en": "Focus on quantity over quality.", "ru": "Фокус на количестве, а не на качестве."}
+        {
+          "en": "Good if Unholy Power isn't dropping well.",
+          "ru": "Хорош если Unholy Power плохо выпадает."
+        },
+        {
+          "en": "Focus on quantity over quality.",
+          "ru": "Фокус на количестве, а не на качестве."
+        }
       ]
     },
     {
-      "name": {"en": "Curse Synergy", "ru": "Синергия проклятий"},
-      "subtitle": {"en": "Leverage curses for Necromancer power", "ru": "Используйте проклятия для силы Некроманта"},
-      "desc": {"en": "Embrace curses that synergize with Necromancer. Swarming Reinforcements means more enemies = more Infested spawns. Arms Race makes enemies deadlier but you don't care — Infested are disposable.", "ru": "Принимайте проклятия, синергирующие с Некромантом. Swarming Reinforcements = больше врагов = больше призывов. Arms Race делает врагов опаснее, но вам всё равно — Заражённые одноразовые."},
+      "name": {
+        "en": "Curse Synergy",
+        "ru": "Синергия проклятий"
+      },
+      "subtitle": {
+        "en": "Leverage curses for Necromancer power",
+        "ru": "Используйте проклятия для силы Некроманта"
+      },
+      "desc": {
+        "en": "Embrace curses that synergize with Necromancer. Swarming Reinforcements means more enemies = more Infested spawns. Arms Race makes enemies deadlier but you don't care — Infested are disposable.",
+        "ru": "Принимайте проклятия, синергирующие с Некромантом. Swarming Reinforcements = больше врагов = больше призывов. Arms Race делает врагов опаснее, но вам всё равно — Заражённые одноразовые."
+      },
       "tags": [
-        {"name": "Army Of The Dead", "type": "core"},
-        {"name": "Unholy Power x N", "type": "required"},
-        {"name": "Swarming Reinforcements", "type": "required"},
-        {"name": "Virulent Infestation", "type": "optional"},
-        {"name": "Spare Parts", "type": "optional"}
+        {
+          "name": "Army Of The Dead",
+          "type": "core"
+        },
+        {
+          "name": "Unholy Power x N",
+          "type": "required"
+        },
+        {
+          "name": "Swarming Reinforcements",
+          "type": "required"
+        },
+        {
+          "name": "Virulent Infestation",
+          "type": "optional"
+        },
+        {
+          "name": "Spare Parts",
+          "type": "optional"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Take Swarming Reinforcements curse early — more enemies = more Infested. Stack Unholy Power.", "ru": "Берите Swarming Reinforcements рано — больше врагов = больше Заражённых. Стакайте Unholy Power."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Середина (6-15)"}, "text": {"en": "More curses are fine. Arms Race, Extra Plating barely matter when Infested are disposable. Focus on UP stacks.", "ru": "Больше проклятий допустимо. Arms Race, Extra Plating почти не важны, когда Заражённые одноразовые. Фокус на стаках UP."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "Massive enemy waves from stacked Swarming = massive Infested waves. Self-sustaining horde.", "ru": "Массивные вражеские волны от стаков Swarming = массивные волны Заражённых. Самоподдерживающаяся орда."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Take Swarming Reinforcements curse early — more enemies = more Infested. Stack Unholy Power.",
+            "ru": "Берите Swarming Reinforcements рано — больше врагов = больше Заражённых. Стакайте Unholy Power."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Середина (6-15)"
+          },
+          "text": {
+            "en": "More curses are fine. Arms Race, Extra Plating barely matter when Infested are disposable. Focus on UP stacks.",
+            "ru": "Больше проклятий допустимо. Arms Race, Extra Plating почти не важны, когда Заражённые одноразовые. Фокус на стаках UP."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "Massive enemy waves from stacked Swarming = massive Infested waves. Self-sustaining horde.",
+            "ru": "Массивные вражеские волны от стаков Swarming = массивные волны Заражённых. Самоподдерживающаяся орда."
+          }
+        }
       ],
       "tips": [
-        {"en": "Unique Necromancer playstyle — embrace what other classes avoid.", "ru": "Уникальный стиль Некроманта — принимайте то, чего другие классы избегают."},
-        {"en": "BAN Live By Necromancy curse — it's the one that actually hurts.", "ru": "БАНИТЬ Live By Necromancy — единственное проклятие, которое реально вредит."}
+        {
+          "en": "Unique Necromancer playstyle — embrace what other classes avoid.",
+          "ru": "Уникальный стиль Некроманта — принимайте то, чего другие классы избегают."
+        },
+        {
+          "en": "BAN Live By Necromancy curse — it's the one that actually hurts.",
+          "ru": "БАНИТЬ Live By Necromancy — единственное проклятие, которое реально вредит."
+        }
       ]
     }
   ],
   "multiclass_epics": [
-    {"name": "Lichborne", "classes": ["Champion", "Necromancer"], "tier": "A", "desc": {"en": "Heroic units gain +1% health and damage done for each enemy unit that dies nearby.", "ru": "Героические юниты получают +1% здоровья и урона за каждого врага, погибшего рядом."}, "analysis": {"en": "Heroes scale from kills. In big fights this stacks fast.", "ru": "Герои масштабируются от убийств. В больших боях стакается быстро."}},
-    {"name": "Cannibalism", "classes": ["Warlock", "Necromancer"], "tier": "A", "desc": {"en": "All Infested Terrans can now be Sacrificed by Hybrids.", "ru": "Все Заражённые теперь могут быть Принесены в жертву гибридами."}, "analysis": {"en": "Infested become free sacrifice fodder for Hybrid leveling.", "ru": "Заражённые становятся бесплатным материалом для прокачки гибридов."}},
-    {"name": "Swarming Infestation", "classes": ["Acolyte", "Necromancer"], "tier": "B", "desc": {"en": "Swarming Reinforcements curse also gives Infested +5% attack speed per stack.", "ru": "Проклятие Swarming Reinforcements также даёт Заражённым +5% скорости атаки за стак."}, "analysis": {"en": "Turns a curse into a buff for your Infested.", "ru": "Превращает проклятие в бафф для ваших Заражённых."}},
-    {"name": "High-Tech Necrosis", "classes": ["Scientist", "Necromancer"], "tier": "B", "desc": {"en": "Summoned Infested gain Advanced Optics, Anti-Armor Shells, or Rapid Mechanism at random.", "ru": "Призванные Заражённые получают случайный прототип: Advanced Optics, Anti-Armor Shells или Rapid Mechanism."}, "analysis": {"en": "Free random upgrades on all Infested. Good value.", "ru": "Бесплатные случайные апгрейды для всех Заражённых. Хорошая ценность."}},
-    {"name": "Infested Hivemind", "classes": ["Druid", "Necromancer"], "tier": "B", "desc": {"en": "Infested summoned from Army of the Dead gain Cerberus Command, added to swarm.", "ru": "Заражённые, призванные Army of the Dead, получают Cerberus Command и добавляются в рой."}, "analysis": {"en": "Infested join the Zerg swarm. Interesting but niche.", "ru": "Заражённые присоединяются к рою зергов. Интересно, но нишево."}},
-    {"name": "Dark Apotheosis", "classes": ["Psychic", "Necromancer"], "tier": "A", "desc": {"en": "Unholy Power gives units with Psychic Control +15% health, shields, damage. Free Your Mind gives Infested +20% health/damage.", "ru": "Unholy Power даёт юнитам с Psychic Control +15% HP/щитов/урона. Free Your Mind даёт Заражённым +20% HP/урона."}, "analysis": {"en": "Cross-scaling between both classes. Very strong synergy.", "ru": "Перекрёстное масштабирование обоих классов. Очень сильная синергия."}},
-    {"name": "Superspread", "classes": ["Monk", "Necromancer"], "tier": "B", "desc": {"en": "Unholy Power also increases movement speed of Infested by +0.15 per stack.", "ru": "Unholy Power также увеличивает скорость движения Заражённых на +0.15 за стак."}, "analysis": {"en": "Faster Infested catch enemies better. Nice QoL.", "ru": "Быстрые Заражённые лучше догоняют врагов. Приятный QoL."}},
-    {"name": "Necromancer Master Training", "classes": ["Wizard", "Necromancer"], "tier": "A", "desc": {"en": "Resonant Amplification increases damage of Infested by +20%.", "ru": "Resonant Amplification увеличивает урон Заражённых на +20%."}, "analysis": {"en": "Wizard spell scaling applies to Infested damage. Double scaling with Unholy Power.", "ru": "Масштабирование заклинаний Wizard применяется к урону Заражённых. Двойное масштабирование с Unholy Power."}},
-    {"name": "Infinite Chaos", "classes": ["Mad Genius", "Necromancer"], "tier": "B", "desc": {"en": "Infested gain the Chaotic Incantation ability, and will use it on autocast.", "ru": "Заражённые получают способность Chaotic Incantation и используют её автоматически."}, "analysis": {"en": "Mad Genius abilities on all Infested. Chaotic but fun.", "ru": "Способности Mad Genius на всех Заражённых. Хаотично, но весело."}},
-    {"name": "Deathlord", "classes": ["Deathknight", "Necromancer"], "tier": "A", "desc": {"en": "Infested Marines and Aberrations have 35% chance to summon Volatile Infested on death.", "ru": "Заражённые морпехи и Аберрации имеют 35% шанс призвать Volatile Infested при смерти."}, "analysis": {"en": "Dying Infested create more units. Death cascade synergy with DK.", "ru": "Умирающие Заражённые создают больше юнитов. Каскад смерти в синергии с DK."}},
-    {"name": "Unending Servitude", "classes": ["Deathknight", "Warlock"], "tier": "B", "desc": {"en": "Sacrificing units has 50% chance to summon Infested Marine. Infested Marine cannot be sacrificed.", "ru": "Жертвоприношение юнитов имеет 50% шанс призвать Заражённого морпеха. Заражённый не может быть принесён в жертву."}, "analysis": {"en": "DK+Warlock combo, but Necromancer benefits if triple-classed.", "ru": "Комбо DK+Warlock, но Некромант выигрывает при тройном классе."}}
+    {
+      "name": "Lichborne",
+      "classes": [
+        "Champion",
+        "Necromancer"
+      ],
+      "tier": "A",
+      "desc": {
+        "en": "Heroic units gain +1% health and damage done for each enemy unit that dies nearby.",
+        "ru": "Героические юниты получают +1% здоровья и урона за каждого врага, погибшего рядом."
+      },
+      "analysis": {
+        "en": "Heroes scale from kills. In big fights this stacks fast.",
+        "ru": "Герои масштабируются от убийств. В больших боях стакается быстро."
+      }
+    },
+    {
+      "name": "Cannibalism",
+      "classes": [
+        "Warlock",
+        "Necromancer"
+      ],
+      "tier": "A",
+      "desc": {
+        "en": "All Infested Terrans can now be Sacrificed by Hybrids.",
+        "ru": "Все Заражённые теперь могут быть Принесены в жертву гибридами."
+      },
+      "analysis": {
+        "en": "Infested become free sacrifice fodder for Hybrid leveling.",
+        "ru": "Заражённые становятся бесплатным материалом для прокачки гибридов."
+      }
+    },
+    {
+      "name": "Swarming Infestation",
+      "classes": [
+        "Acolyte",
+        "Necromancer"
+      ],
+      "tier": "B",
+      "desc": {
+        "en": "Swarming Reinforcements curse also gives Infested +5% attack speed per stack.",
+        "ru": "Проклятие Swarming Reinforcements также даёт Заражённым +5% скорости атаки за стак."
+      },
+      "analysis": {
+        "en": "Turns a curse into a buff for your Infested.",
+        "ru": "Превращает проклятие в бафф для ваших Заражённых."
+      }
+    },
+    {
+      "name": "High-Tech Necrosis",
+      "classes": [
+        "Scientist",
+        "Necromancer"
+      ],
+      "tier": "B",
+      "desc": {
+        "en": "Summoned Infested gain Advanced Optics, Anti-Armor Shells, or Rapid Mechanism at random.",
+        "ru": "Призванные Заражённые получают случайный прототип: Advanced Optics, Anti-Armor Shells или Rapid Mechanism."
+      },
+      "analysis": {
+        "en": "Free random upgrades on all Infested. Good value.",
+        "ru": "Бесплатные случайные апгрейды для всех Заражённых. Хорошая ценность."
+      }
+    },
+    {
+      "name": "Infested Hivemind",
+      "classes": [
+        "Druid",
+        "Necromancer"
+      ],
+      "tier": "B",
+      "desc": {
+        "en": "Infested summoned from Army of the Dead gain Cerberus Command, added to swarm.",
+        "ru": "Заражённые, призванные Army of the Dead, получают Cerberus Command и добавляются в рой."
+      },
+      "analysis": {
+        "en": "Infested join the Zerg swarm. Interesting but niche.",
+        "ru": "Заражённые присоединяются к рою зергов. Интересно, но нишево."
+      }
+    },
+    {
+      "name": "Dark Apotheosis",
+      "classes": [
+        "Psychic",
+        "Necromancer"
+      ],
+      "tier": "A",
+      "desc": {
+        "en": "Unholy Power gives units with Psychic Control +15% health, shields, damage. Free Your Mind gives Infested +20% health/damage.",
+        "ru": "Unholy Power даёт юнитам с Psychic Control +15% HP/щитов/урона. Free Your Mind даёт Заражённым +20% HP/урона."
+      },
+      "analysis": {
+        "en": "Cross-scaling between both classes. Very strong synergy.",
+        "ru": "Перекрёстное масштабирование обоих классов. Очень сильная синергия."
+      }
+    },
+    {
+      "name": "Superspread",
+      "classes": [
+        "Monk",
+        "Necromancer"
+      ],
+      "tier": "B",
+      "desc": {
+        "en": "Unholy Power also increases movement speed of Infested by +0.15 per stack.",
+        "ru": "Unholy Power также увеличивает скорость движения Заражённых на +0.15 за стак."
+      },
+      "analysis": {
+        "en": "Faster Infested catch enemies better. Nice QoL.",
+        "ru": "Быстрые Заражённые лучше догоняют врагов. Приятный QoL."
+      }
+    },
+    {
+      "name": "Necromancer Master Training",
+      "classes": [
+        "Wizard",
+        "Necromancer"
+      ],
+      "tier": "A",
+      "desc": {
+        "en": "Resonant Amplification increases damage of Infested by +20%.",
+        "ru": "Resonant Amplification увеличивает урон Заражённых на +20%."
+      },
+      "analysis": {
+        "en": "Wizard spell scaling applies to Infested damage. Double scaling with Unholy Power.",
+        "ru": "Масштабирование заклинаний Wizard применяется к урону Заражённых. Двойное масштабирование с Unholy Power."
+      }
+    },
+    {
+      "name": "Infinite Chaos",
+      "classes": [
+        "Mad Genius",
+        "Necromancer"
+      ],
+      "tier": "B",
+      "desc": {
+        "en": "Infested gain the Chaotic Incantation ability, and will use it on autocast.",
+        "ru": "Заражённые получают способность Chaotic Incantation и используют её автоматически."
+      },
+      "analysis": {
+        "en": "Mad Genius abilities on all Infested. Chaotic but fun.",
+        "ru": "Способности Mad Genius на всех Заражённых. Хаотично, но весело."
+      }
+    },
+    {
+      "name": "Deathlord",
+      "classes": [
+        "Deathknight",
+        "Necromancer"
+      ],
+      "tier": "A",
+      "desc": {
+        "en": "Infested Marines and Aberrations have 35% chance to summon Volatile Infested on death.",
+        "ru": "Заражённые морпехи и Аберрации имеют 35% шанс призвать Volatile Infested при смерти."
+      },
+      "analysis": {
+        "en": "Dying Infested create more units. Death cascade synergy with DK.",
+        "ru": "Умирающие Заражённые создают больше юнитов. Каскад смерти в синергии с DK."
+      }
+    },
+    {
+      "name": "Unending Servitude",
+      "classes": [
+        "Deathknight",
+        "Warlock"
+      ],
+      "tier": "B",
+      "desc": {
+        "en": "Sacrificing units has 50% chance to summon Infested Marine. Infested Marine cannot be sacrificed.",
+        "ru": "Жертвоприношение юнитов имеет 50% шанс призвать Заражённого морпеха. Заражённый не может быть принесён в жертву."
+      },
+      "analysis": {
+        "en": "DK+Warlock combo, but Necromancer benefits if triple-classed.",
+        "ru": "Комбо DK+Warlock, но Некромант выигрывает при тройном классе."
+      }
+    }
   ],
-  "multiclass_intro": {"en": "Necromancer pairs well with classes that benefit from disposable units or provide additional scaling. Champion (Lichborne) gives heroes kill-based scaling. Warlock (Cannibalism) turns Infested into sacrifice fodder for Hybrid leveling. Psychic (Dark Apotheosis) provides cross-scaling between mind-controlled and Infested units.", "ru": "Некромант хорошо сочетается с классами, которые выигрывают от одноразовых юнитов или дают дополнительное масштабирование. Champion (Lichborne) даёт героям масштабирование от убийств. Warlock (Cannibalism) превращает Заражённых в материал для прокачки гибридов. Psychic (Dark Apotheosis) обеспечивает перекрёстное масштабирование."}
+  "multiclass_intro": {
+    "en": "Necromancer pairs well with classes that benefit from disposable units or provide additional scaling. Champion (Lichborne) gives heroes kill-based scaling. Warlock (Cannibalism) turns Infested into sacrifice fodder for Hybrid leveling. Psychic (Dark Apotheosis) provides cross-scaling between mind-controlled and Infested units.",
+    "ru": "Некромант хорошо сочетается с классами, которые выигрывают от одноразовых юнитов или дают дополнительное масштабирование. Champion (Lichborne) даёт героям масштабирование от убийств. Warlock (Cannibalism) превращает Заражённых в материал для прокачки гибридов. Psychic (Dark Apotheosis) обеспечивает перекрёстное масштабирование."
+  }
 }

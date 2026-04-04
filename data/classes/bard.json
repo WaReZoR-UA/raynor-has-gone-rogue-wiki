@@ -1,7 +1,7 @@
 {
   "id": "bard",
   "name": "Bard",
-  "icon": "🎶",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2'><path d='M9 18V5l12-2v13'/><circle cx='6' cy='18' r='3'/><circle cx='18' cy='16' r='3'/></svg>",
   "color": "#ec4899",
   "subtitle": {
     "en": "Command the Fleet. Inspire the Armada.",
@@ -16,22 +16,70 @@
     "ru": "Пройдите All In за 3 разных класса"
   },
   "stats": [
-    {"value": "S", "label": {"en": "Late-game power", "ru": "Мощь в лейт-гейме"}},
-    {"value": "S", "label": {"en": "Capital ship synergy", "ru": "Синергия капитальных кораблей"}},
-    {"value": "C", "label": {"en": "Early-game strength", "ru": "Сила в ранней игре"}},
-    {"value": "B", "label": {"en": "Versatility", "ru": "Универсальность"}}
+    {
+      "value": "S",
+      "label": {
+        "en": "Late-game power",
+        "ru": "Мощь в лейт-гейме"
+      }
+    },
+    {
+      "value": "S",
+      "label": {
+        "en": "Capital ship synergy",
+        "ru": "Синергия капитальных кораблей"
+      }
+    },
+    {
+      "value": "C",
+      "label": {
+        "en": "Early-game strength",
+        "ru": "Сила в ранней игре"
+      }
+    },
+    {
+      "value": "B",
+      "label": {
+        "en": "Versatility",
+        "ru": "Универсальность"
+      }
+    }
   ],
   "strengths": [
-    {"en": "Strongest capital ship buffs in the game", "ru": "Сильнейшие баффы капитальных кораблей в игре"},
-    {"en": "Fleet-wide auras scale incredibly with army size", "ru": "Флотовые ауры невероятно масштабируются с размером армии"},
-    {"en": "Excellent All In performance with full fleet", "ru": "Отличная производительность на All In с полным флотом"},
-    {"en": "Many powerful multiclass epics available", "ru": "Доступно множество мощных мультикласс-эпиков"}
+    {
+      "en": "Strongest capital ship buffs in the game",
+      "ru": "Сильнейшие баффы капитальных кораблей в игре"
+    },
+    {
+      "en": "Fleet-wide auras scale incredibly with army size",
+      "ru": "Флотовые ауры невероятно масштабируются с размером армии"
+    },
+    {
+      "en": "Excellent All In performance with full fleet",
+      "ru": "Отличная производительность на All In с полным флотом"
+    },
+    {
+      "en": "Many powerful multiclass epics available",
+      "ru": "Доступно множество мощных мультикласс-эпиков"
+    }
   ],
   "weaknesses": [
-    {"en": "Extremely slow start — capital ships are expensive", "ru": "Крайне медленный старт — капитальные корабли дороги"},
-    {"en": "Vulnerable in early missions without fleet", "ru": "Уязвим в ранних миссиях без флота"},
-    {"en": "Losing a capital ship is devastating", "ru": "Потеря капитального корабля — катастрофа"},
-    {"en": "Requires heavy gas income to function", "ru": "Требует большой добычи газа для функционирования"}
+    {
+      "en": "Extremely slow start — capital ships are expensive",
+      "ru": "Крайне медленный старт — капитальные корабли дороги"
+    },
+    {
+      "en": "Vulnerable in early missions without fleet",
+      "ru": "Уязвим в ранних миссиях без флота"
+    },
+    {
+      "en": "Losing a capital ship is devastating",
+      "ru": "Потеря капитального корабля — катастрофа"
+    },
+    {
+      "en": "Requires heavy gas income to function",
+      "ru": "Требует большой добычи газа для функционирования"
+    }
   ],
   "talents": [
     {
@@ -232,37 +280,70 @@
   ],
   "builds": [
     {
-      "name": {"en": "Battlecruiser Armada", "ru": "Армада Линкоров"},
-      "subtitle": {"en": "All-in on Battlecruiser power", "ru": "Всё на мощь Линкоров"},
+      "name": {
+        "en": "Battlecruiser Armada",
+        "ru": "Армада Линкоров"
+      },
+      "subtitle": {
+        "en": "All-in on Battlecruiser power",
+        "ru": "Всё на мощь Линкоров"
+      },
       "desc": {
         "en": "The classic Bard build — stack Battlecruiser buffs until they're unstoppable. Fleet Commander + Armada Anthem + Battlecruiser Operational creates a devastating fleet that grows stronger each mission. Late game, Yamato Cannons fire constantly and each BC has thousands of HP.",
         "ru": "Классический билд Барда — стакайте баффы Линкоров, пока они не станут неудержимы. Fleet Commander + Armada Anthem + Battlecruiser Operational создают разрушительный флот, растущий сильнее каждую миссию. В лейте Yamato Cannon стреляют постоянно и каждый ЛК имеет тысячи HP."
       },
       "tags": [
-        {"name": "Fleet Commander", "type": "core"},
-        {"name": "Armada Anthem", "type": "required"},
-        {"name": "Battlecruiser Operational", "type": "required"},
-        {"name": "Flagship Protocol", "type": "required"},
-        {"name": "Full Broadside", "type": "optional"},
-        {"name": "Renewable Fuel", "type": "generic"}
+        {
+          "name": "Fleet Commander",
+          "type": "core"
+        },
+        {
+          "name": "Armada Anthem",
+          "type": "required"
+        },
+        {
+          "name": "Battlecruiser Operational",
+          "type": "required"
+        },
+        {
+          "name": "Flagship Protocol",
+          "type": "required"
+        },
+        {
+          "name": "Full Broadside",
+          "type": "optional"
+        },
+        {
+          "name": "Renewable Fuel",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"},
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
           "text": {
             "en": "Rush to your first Battlecruiser using Fleet Commander's +200 gas. Supplement with Marines/Medics. Stack Armada Anthem whenever offered. Take Renewable Fuel for gas income.",
             "ru": "Рвитесь к первому Линкору используя +200 газа от Fleet Commander. Дополняйте Морпехами/Медиками. Стакайте Armada Anthem при каждом предложении. Берите Renewable Fuel для дохода газа."
           }
         },
         {
-          "title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"},
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
           "text": {
             "en": "Aim for 3-4 Battlecruisers. Flagship Protocol turns your first BC into a beast. Keep stacking Armada Anthem. Full Broadside dramatically increases fleet DPS against groups.",
             "ru": "Стремитесь к 3-4 Линкорам. Flagship Protocol превращает первый ЛК в зверя. Продолжайте стакать Armada Anthem. Full Broadside драматически увеличивает DPS флота против групп."
           }
         },
         {
-          "title": {"en": "Late (16+)", "ru": "Поздняя (16+)"},
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
           "text": {
             "en": "With 5+ Battlecruisers and high Armada Anthem stacks, your fleet is nearly invincible. Yamato Cannons delete priority targets. For All In, group your fleet and push methodically.",
             "ru": "С 5+ Линкорами и высокими стаками Armada Anthem ваш флот почти неуязвим. Yamato Cannon удаляют приоритетные цели. Для All In группируйте флот и наступайте методично."
@@ -270,43 +351,85 @@
         }
       ],
       "tips": [
-        {"en": "Always protect your Flagship — it's worth more than any other unit", "ru": "Всегда защищайте Флагман — он ценнее любого другого юнита"},
-        {"en": "Yamato Cannon focus-fires: manually target dangerous enemies like Hybrids", "ru": "Yamato Cannon для фокуса: вручную наводите на опасных врагов типа Гибридов"},
-        {"en": "Renewable Fuel stacks are critical — Battlecruisers are gas-heavy", "ru": "Стаки Renewable Fuel критичны — Линкоры требуют много газа"}
+        {
+          "en": "Always protect your Flagship — it's worth more than any other unit",
+          "ru": "Всегда защищайте Флагман — он ценнее любого другого юнита"
+        },
+        {
+          "en": "Yamato Cannon focus-fires: manually target dangerous enemies like Hybrids",
+          "ru": "Yamato Cannon для фокуса: вручную наводите на опасных врагов типа Гибридов"
+        },
+        {
+          "en": "Renewable Fuel stacks are critical — Battlecruisers are gas-heavy",
+          "ru": "Стаки Renewable Fuel критичны — Линкоры требуют много газа"
+        }
       ]
     },
     {
-      "name": {"en": "Carrier Swarm", "ru": "Рой Носителей"},
-      "subtitle": {"en": "Interceptor storm covering the skies", "ru": "Шторм перехватчиков, накрывающий небеса"},
+      "name": {
+        "en": "Carrier Swarm",
+        "ru": "Рой Носителей"
+      },
+      "subtitle": {
+        "en": "Interceptor storm covering the skies",
+        "ru": "Шторм перехватчиков, накрывающий небеса"
+      },
       "desc": {
         "en": "Focuses on Carriers and their Interceptors for sustained area damage. Carrier Has Arrived gives +4 Interceptors with +20% damage, creating a cloud of fighters that shreds everything. Pairs well with Inspiring Presence for nearby unit buffs.",
         "ru": "Фокус на Носителях и их Перехватчиках для устойчивого площадного урона. Carrier Has Arrived даёт +4 Перехватчика с +20% урона, создавая облако истребителей, разрывающих всё. Хорошо сочетается с Inspiring Presence для баффов ближайших юнитов."
       },
       "tags": [
-        {"name": "Fleet Commander", "type": "core"},
-        {"name": "Carrier Has Arrived", "type": "required"},
-        {"name": "Armada Anthem", "type": "required"},
-        {"name": "Inspiring Presence", "type": "required"},
-        {"name": "War Song", "type": "optional"},
-        {"name": "Renewable Fuel", "type": "generic"}
+        {
+          "name": "Fleet Commander",
+          "type": "core"
+        },
+        {
+          "name": "Carrier Has Arrived",
+          "type": "required"
+        },
+        {
+          "name": "Armada Anthem",
+          "type": "required"
+        },
+        {
+          "name": "Inspiring Presence",
+          "type": "required"
+        },
+        {
+          "name": "War Song",
+          "type": "optional"
+        },
+        {
+          "name": "Renewable Fuel",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"},
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
           "text": {
             "en": "Carriers take time to build. Use ground army for early missions. Take Carrier Has Arrived and Armada Anthem as priority. Start with 1 Carrier as soon as economy allows.",
             "ru": "Носители требуют времени на постройку. Используйте наземную армию для ранних миссий. Берите Carrier Has Arrived и Armada Anthem в приоритете. Начните с 1 Носителя как только позволит экономика."
           }
         },
         {
-          "title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"},
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
           "text": {
             "en": "With 2-3 Carriers and Carrier Has Arrived, your Interceptor swarm handles most encounters. Add Inspiring Presence to buff your escort fleet. War Song snowballs in big fights.",
             "ru": "С 2-3 Носителями и Carrier Has Arrived ваш рой Перехватчиков справляется с большинством столкновений. Добавьте Inspiring Presence для баффа эскортного флота. War Song нарастает в крупных боях."
           }
         },
         {
-          "title": {"en": "Late (16+)", "ru": "Поздняя (16+)"},
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
           "text": {
             "en": "A full Carrier fleet with max Interceptors covers the entire screen in fighters. Combined with Armada Anthem stacks, each Carrier is a one-ship army.",
             "ru": "Полный флот Носителей с максимумом Перехватчиков покрывает весь экран истребителями. В сочетании со стаками Armada Anthem каждый Носитель — армия одного корабля."
@@ -314,43 +437,85 @@
         }
       ],
       "tips": [
-        {"en": "Carriers are fire-and-forget — send Interceptors in and let them work while you micro elsewhere", "ru": "Носители работают автономно — отправьте Перехватчиков и микрите в другом месте"},
-        {"en": "Keep Carriers behind your front line — they're fragile if caught out of position", "ru": "Держите Носители за линией фронта — они хрупки если попадут в плохую позицию"},
-        {"en": "War Song stacks fastest with Carriers due to Interceptor kill credit", "ru": "War Song стакается быстрее всего с Носителями благодаря зачёту убийств Перехватчиками"}
+        {
+          "en": "Carriers are fire-and-forget — send Interceptors in and let them work while you micro elsewhere",
+          "ru": "Носители работают автономно — отправьте Перехватчиков и микрите в другом месте"
+        },
+        {
+          "en": "Keep Carriers behind your front line — they're fragile if caught out of position",
+          "ru": "Держите Носители за линией фронта — они хрупки если попадут в плохую позицию"
+        },
+        {
+          "en": "War Song stacks fastest with Carriers due to Interceptor kill credit",
+          "ru": "War Song стакается быстрее всего с Носителями благодаря зачёту убийств Перехватчиками"
+        }
       ]
     },
     {
-      "name": {"en": "Deathfleet Vanguard", "ru": "Авангард Флота Смерти"},
-      "subtitle": {"en": "Victory through glorious destruction", "ru": "Победа через славное разрушение"},
+      "name": {
+        "en": "Deathfleet Vanguard",
+        "ru": "Авангард Флота Смерти"
+      },
+      "subtitle": {
+        "en": "Victory through glorious destruction",
+        "ru": "Победа через славное разрушение"
+      },
       "desc": {
         "en": "An aggressive build that leverages the Deathfleet epic — losing capital ships empowers survivors and deals massive explosion damage. Build many cheap capital ships and throw them at the enemy. Each death makes the remaining fleet stronger.",
         "ru": "Агрессивный билд, использующий эпик Deathfleet — потеря капитальных кораблей усиливает выживших и наносит массивный урон взрывом. Стройте много дешёвых капитальных кораблей и бросайте их на врага. Каждая смерть делает оставшийся флот сильнее."
       },
       "tags": [
-        {"name": "Fleet Commander", "type": "core"},
-        {"name": "Deathfleet", "type": "required"},
-        {"name": "Armada Anthem", "type": "required"},
-        {"name": "Emergency Repairs", "type": "optional"},
-        {"name": "Battlecruiser Operational", "type": "optional"},
-        {"name": "Salvage Operation", "type": "generic"}
+        {
+          "name": "Fleet Commander",
+          "type": "core"
+        },
+        {
+          "name": "Deathfleet",
+          "type": "required"
+        },
+        {
+          "name": "Armada Anthem",
+          "type": "required"
+        },
+        {
+          "name": "Emergency Repairs",
+          "type": "optional"
+        },
+        {
+          "name": "Battlecruiser Operational",
+          "type": "optional"
+        },
+        {
+          "name": "Salvage Operation",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"},
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
           "text": {
             "en": "Play normally until Deathfleet is acquired. Build Battlecruisers and don't worry about losing them — that's the plan. Economy talents help fuel constant ship production.",
             "ru": "Играйте нормально до получения Deathfleet. Стройте Линкоры и не беспокойтесь о потерях — это план. Экономические таланты помогают финансировать постоянное производство кораблей."
           }
         },
         {
-          "title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"},
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
           "text": {
             "en": "With Deathfleet active, engage aggressively. Dying ships explode for huge damage and buff survivors. Rebuild quickly and attack again — the death-buff snowballs.",
             "ru": "С активным Deathfleet атакуйте агрессивно. Погибающие корабли взрываются с огромным уроном и баффают выживших. Быстро отстраивайтесь и атакуйте снова — бафф от смерти нарастает."
           }
         },
         {
-          "title": {"en": "Late (16+)", "ru": "Поздняя (16+)"},
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
           "text": {
             "en": "By this point each lost ship gives massive damage bonuses to survivors. A fleet of 6 BCs where 3 die means the surviving 3 have +30% damage PLUS explosions cleared half the enemy. Extremely effective on All In.",
             "ru": "К этому моменту каждый потерянный корабль даёт массивные бонусы урона выжившим. Флот из 6 ЛК, где 3 погибают — оставшиеся 3 имеют +30% урона ПЛЮС взрывы зачистили половину врагов. Крайне эффективно на All In."
@@ -358,16 +523,28 @@
         }
       ],
       "tips": [
-        {"en": "Don't try to save every ship — this build profits from losses", "ru": "Не пытайтесь спасти каждый корабль — этот билд извлекает выгоду из потерь"},
-        {"en": "Emergency Repairs gives ships a second chance while still triggering Deathfleet if they die after", "ru": "Emergency Repairs даёт кораблям второй шанс, а Deathfleet всё равно сработает если они погибнут после"},
-        {"en": "Build BCs constantly — you need a steady supply of ships to feed the Deathfleet engine", "ru": "Стройте ЛК постоянно — вам нужен постоянный приток кораблей для питания механики Deathfleet"}
+        {
+          "en": "Don't try to save every ship — this build profits from losses",
+          "ru": "Не пытайтесь спасти каждый корабль — этот билд извлекает выгоду из потерь"
+        },
+        {
+          "en": "Emergency Repairs gives ships a second chance while still triggering Deathfleet if they die after",
+          "ru": "Emergency Repairs даёт кораблям второй шанс, а Deathfleet всё равно сработает если они погибнут после"
+        },
+        {
+          "en": "Build BCs constantly — you need a steady supply of ships to feed the Deathfleet engine",
+          "ru": "Стройте ЛК постоянно — вам нужен постоянный приток кораблей для питания механики Deathfleet"
+        }
       ]
     }
   ],
   "multiclass_epics": [
     {
       "name": "Deathfleet Supreme",
-      "classes": ["Bard", "Deathknight"],
+      "classes": [
+        "Bard",
+        "Deathknight"
+      ],
       "tier": "S",
       "desc": {
         "en": "Capital ships that die raise as undead versions with 50% stats for 30 seconds. Deathfleet explosion damage is doubled.",
@@ -380,7 +557,10 @@
     },
     {
       "name": "Grim Ascension",
-      "classes": ["Bard", "Warlock"],
+      "classes": [
+        "Bard",
+        "Warlock"
+      ],
       "tier": "A",
       "desc": {
         "en": "Capital ships gain +5% damage for each forbidden talent you have. Hybrid summoned by Warlock count as capital ships for Bard buffs.",
@@ -393,7 +573,10 @@
     },
     {
       "name": "Auxiliary Resources",
-      "classes": ["Bard", "Acolyte"],
+      "classes": [
+        "Bard",
+        "Acolyte"
+      ],
       "tier": "A",
       "desc": {
         "en": "Capital ships killed via Dark Ritual grant double sacrifice bonuses and refund 50% of their cost.",
@@ -406,7 +589,10 @@
     },
     {
       "name": "Power Word: Supercharge",
-      "classes": ["Bard", "Engineer"],
+      "classes": [
+        "Bard",
+        "Engineer"
+      ],
       "tier": "A",
       "desc": {
         "en": "Capital ships near turrets gain +20% attack speed. Turrets near capital ships gain +30% damage.",
@@ -419,7 +605,10 @@
     },
     {
       "name": "Shroud Of Adun",
-      "classes": ["Bard", "Rogue"],
+      "classes": [
+        "Bard",
+        "Rogue"
+      ],
       "tier": "B",
       "desc": {
         "en": "Capital ships can cloak for 10 seconds (60s cooldown). First attack from cloak deals double damage.",
@@ -432,7 +621,10 @@
     },
     {
       "name": "Psionic Matrix",
-      "classes": ["Bard", "Wizard"],
+      "classes": [
+        "Bard",
+        "Wizard"
+      ],
       "tier": "A",
       "desc": {
         "en": "Capital ships gain a psionic shield equal to 25% of max HP. Wizard spell enhancements apply to capital ship weapons.",
@@ -445,7 +637,10 @@
     },
     {
       "name": "Purification Protocol",
-      "classes": ["Bard", "Scientist"],
+      "classes": [
+        "Bard",
+        "Scientist"
+      ],
       "tier": "B",
       "desc": {
         "en": "Capital ships can be upgraded to Prototype status, gaining +30% to all stats. Prototype capital ships count as experimental units.",
@@ -458,7 +653,10 @@
     },
     {
       "name": "Immortal Armada",
-      "classes": ["Bard", "Paladin"],
+      "classes": [
+        "Bard",
+        "Paladin"
+      ],
       "tier": "S",
       "desc": {
         "en": "Capital ships are affected by Paladin auras at double effectiveness. Once per mission, a destroyed capital ship is instantly rebuilt for free.",

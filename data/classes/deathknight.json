@@ -1,7 +1,7 @@
 {
   "id": "deathknight",
   "name": "Deathknight",
-  "icon": "&#9760;",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2'><circle cx='12' cy='8' r='5'/><path d='M9 12.5L7 21h10l-2-8.5'/><path d='M9 8h6'/><path d='M10 5v6'/><path d='M14 5v6'/></svg>",
   "color": "#64748b",
   "subtitle": {
     "en": "Master of Death",
@@ -16,22 +16,73 @@
     "ru": "Нет"
   },
   "stats": [
-    {"value": "A", "label": {"en": "Late-Game Power", "ru": "Сила в лейте"}},
-    {"value": "A", "label": {"en": "Early-Game Power", "ru": "Сила в начале"}},
-    {"value": "A", "label": {"en": "Scaling", "ru": "Масштабирование"}},
-    {"value": "B", "label": {"en": "Versatility", "ru": "Универсальность"}},
-    {"value": "B", "label": {"en": "Difficulty", "ru": "Сложность"}}
+    {
+      "value": "A",
+      "label": {
+        "en": "Late-Game Power",
+        "ru": "Сила в лейте"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "Early-Game Power",
+        "ru": "Сила в начале"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "Scaling",
+        "ru": "Масштабирование"
+      }
+    },
+    {
+      "value": "B",
+      "label": {
+        "en": "Versatility",
+        "ru": "Универсальность"
+      }
+    },
+    {
+      "value": "B",
+      "label": {
+        "en": "Difficulty",
+        "ru": "Сложность"
+      }
+    }
   ],
   "strengths": [
-    {"en": "Turns unit losses into an advantage — deaths trigger powerful effects", "ru": "Превращает потери юнитов в преимущество — гибель запускает мощные эффекты"},
-    {"en": "Works well with cheap, mass-produced units that are easy to replace", "ru": "Хорошо работает с дешёвыми массовыми юнитами, которые легко заменить"},
-    {"en": "Deathrattle effects can deal enormous AoE damage in big fights", "ru": "Deathrattle-эффекты могут наносить огромный AoE урон в больших боях"},
-    {"en": "Strong in attrition-based missions where both sides take heavy losses", "ru": "Силён в миссиях на истощение, где обе стороны несут тяжёлые потери"}
+    {
+      "en": "Turns unit losses into an advantage — deaths trigger powerful effects",
+      "ru": "Превращает потери юнитов в преимущество — гибель запускает мощные эффекты"
+    },
+    {
+      "en": "Works well with cheap, mass-produced units that are easy to replace",
+      "ru": "Хорошо работает с дешёвыми массовыми юнитами, которые легко заменить"
+    },
+    {
+      "en": "Deathrattle effects can deal enormous AoE damage in big fights",
+      "ru": "Deathrattle-эффекты могут наносить огромный AoE урон в больших боях"
+    },
+    {
+      "en": "Strong in attrition-based missions where both sides take heavy losses",
+      "ru": "Силён в миссиях на истощение, где обе стороны несут тяжёлые потери"
+    }
   ],
   "weaknesses": [
-    {"en": "Requires units to die to gain value — passive play wastes the class potential", "ru": "Требует гибели юнитов для получения ценности — пассивная игра тратит потенциал класса"},
-    {"en": "Economy-intensive since you need constant unit replacement", "ru": "Ресурсоёмкий, поскольку требует постоянной замены юнитов"},
-    {"en": "Deathrattle effects can be wasted against enemies that don't cluster", "ru": "Deathrattle-эффекты могут быть потрачены впустую против врагов, которые не группируются"}
+    {
+      "en": "Requires units to die to gain value — passive play wastes the class potential",
+      "ru": "Требует гибели юнитов для получения ценности — пассивная игра тратит потенциал класса"
+    },
+    {
+      "en": "Economy-intensive since you need constant unit replacement",
+      "ru": "Ресурсоёмкий, поскольку требует постоянной замены юнитов"
+    },
+    {
+      "en": "Deathrattle effects can be wasted against enemies that don't cluster",
+      "ru": "Deathrattle-эффекты могут быть потрачены впустую против врагов, которые не группируются"
+    }
   ],
   "talents": [
     {
@@ -202,38 +253,74 @@
   ],
   "builds": [
     {
-      "name": {"en": "Death Bomb", "ru": "Бомба смерти"},
-      "subtitle": {"en": "Maximize deathrattle AoE for chain explosions", "ru": "Максимизируйте AoE deathrattle для цепных взрывов"},
+      "name": {
+        "en": "Death Bomb",
+        "ru": "Бомба смерти"
+      },
+      "subtitle": {
+        "en": "Maximize deathrattle AoE for chain explosions",
+        "ru": "Максимизируйте AoE deathrattle для цепных взрывов"
+      },
       "desc": {
         "en": "Focus entirely on maximizing deathrattle explosion damage and radius. Send cheap units to die in clusters of enemies, creating massive chain reactions. The more enemies grouped together, the more devastating each death becomes. Pair with high-HP buffs since deathrattle damage scales with max HP.",
         "ru": "Полностью сосредоточьтесь на максимизации урона и радиуса взрывов deathrattle. Отправляйте дешёвых юнитов гибнуть в скоплениях врагов, создавая массивные цепные реакции. Чем больше врагов сгруппировано, тем разрушительнее каждая смерть. Сочетайте с баффами HP, поскольку урон deathrattle масштабируется от макс. HP."
       },
       "tags": [
-        {"name": "Death's Embrace", "type": "core"},
-        {"name": "Corpse Explosion", "type": "required"},
-        {"name": "Lingering Death", "type": "required"},
-        {"name": "Death's Dominion", "type": "optional"},
-        {"name": "Medical Breakthrough", "type": "generic"},
-        {"name": "Use More Gun", "type": "generic"},
-        {"name": "Salvage Operation", "type": "generic"}
+        {
+          "name": "Death's Embrace",
+          "type": "core"
+        },
+        {
+          "name": "Corpse Explosion",
+          "type": "required"
+        },
+        {
+          "name": "Lingering Death",
+          "type": "required"
+        },
+        {
+          "name": "Death's Dominion",
+          "type": "optional"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        },
+        {
+          "name": "Salvage Operation",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Produce cheap units in bulk — Marines, Reapers, anything expendable. Send them into enemy clusters and let deathrattle do the work. Corpse Explosion is a priority early pickup. Stack Medical Breakthrough to increase base deathrattle damage.",
             "ru": "Производите дешёвых юнитов массой — Маринеры, Жнецы, что угодно расходное. Отправляйте их в скопления врагов и пусть deathrattle делает работу. Corpse Explosion — приоритетный ранний выбор. Копите Medical Breakthrough для увеличения базового урона deathrattle."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "Lingering Death stacks create persistent kill zones. The DoT zones from deathrattles deny terrain to enemies. Mix in some high-HP units — their deathrattles deal enormous damage. Economy talents keep the replacement cycle going.",
             "ru": "Стаки Lingering Death создают постоянные зоны убийств. Зоны урона от deathrattle блокируют территорию для врагов. Добавьте немного юнитов с высоким HP — их deathrattle наносят огромный урон. Экономические таланты поддерживают цикл замены."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "With Death's Dominion, enemies dying in your deathrattle zones become allies. Each death creates more death zones, which kill more enemies, which create more allies. The chain reaction can clear entire maps.",
             "ru": "С Death's Dominion враги, гибнущие в зонах deathrattle, становятся союзниками. Каждая смерть создаёт больше зон смерти, которые убивают больше врагов, которые создают больше союзников. Цепная реакция может зачистить целые карты."
@@ -241,44 +328,89 @@
         }
       ],
       "tips": [
-        {"en": "Medical Breakthrough stacks directly increase deathrattle damage since it scales from max HP.", "ru": "Стаки Medical Breakthrough напрямую увеличивают урон deathrattle, так как он масштабируется от макс. HP."},
-        {"en": "Position cheap units near enemy clusters before the fight starts — pre-staged deathrattles.", "ru": "Располагайте дешёвых юнитов рядом со скоплениями врагов до начала боя — подготовленные deathrattle."},
-        {"en": "Avoid the Cursed Ground plague at all costs — it makes your own explosions kill your army.", "ru": "Избегайте чумы Cursed Ground любой ценой — она заставляет ваши взрывы убивать вашу армию."}
+        {
+          "en": "Medical Breakthrough stacks directly increase deathrattle damage since it scales from max HP.",
+          "ru": "Стаки Medical Breakthrough напрямую увеличивают урон deathrattle, так как он масштабируется от макс. HP."
+        },
+        {
+          "en": "Position cheap units near enemy clusters before the fight starts — pre-staged deathrattles.",
+          "ru": "Располагайте дешёвых юнитов рядом со скоплениями врагов до начала боя — подготовленные deathrattle."
+        },
+        {
+          "en": "Avoid the Cursed Ground plague at all costs — it makes your own explosions kill your army.",
+          "ru": "Избегайте чумы Cursed Ground любой ценой — она заставляет ваши взрывы убивать вашу армию."
+        }
       ]
     },
     {
-      "name": {"en": "Necropolis", "ru": "Некрополь"},
-      "subtitle": {"en": "Raise the dead into an ever-growing undead army", "ru": "Поднимайте мёртвых в непрерывно растущую армию нежити"},
+      "name": {
+        "en": "Necropolis",
+        "ru": "Некрополь"
+      },
+      "subtitle": {
+        "en": "Raise the dead into an ever-growing undead army",
+        "ru": "Поднимайте мёртвых в непрерывно растущую армию нежити"
+      },
       "desc": {
         "en": "Focus on the raising and summoning aspects of Deathknight. Undead Conscription and Death's Dominion create a self-sustaining army that grows from enemy and allied deaths alike. Every battle adds more undead to your forces.",
         "ru": "Фокус на аспектах воскрешения и призыва Рыцаря Смерти. Undead Conscription и Death's Dominion создают самоподдерживающуюся армию, растущую от гибели как врагов, так и союзников. Каждый бой добавляет больше нежити к вашим силам."
       },
       "tags": [
-        {"name": "Death's Embrace", "type": "core"},
-        {"name": "Undead Conscription", "type": "required"},
-        {"name": "Death's Dominion", "type": "required"},
-        {"name": "Army of the Dead", "type": "required"},
-        {"name": "Lingering Death", "type": "optional"},
-        {"name": "Soul Harvest", "type": "optional"},
-        {"name": "Medical Breakthrough", "type": "generic"}
+        {
+          "name": "Death's Embrace",
+          "type": "core"
+        },
+        {
+          "name": "Undead Conscription",
+          "type": "required"
+        },
+        {
+          "name": "Death's Dominion",
+          "type": "required"
+        },
+        {
+          "name": "Army of the Dead",
+          "type": "required"
+        },
+        {
+          "name": "Lingering Death",
+          "type": "optional"
+        },
+        {
+          "name": "Soul Harvest",
+          "type": "optional"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Build a basic army and fight aggressively. Undead Conscription starts creating zombie replacements from your losses. Each zombie that dies also triggers deathrattle, potentially creating more zombies in a chain.",
             "ru": "Стройте базовую армию и сражайтесь агрессивно. Undead Conscription начинает создавать зомби-замены из ваших потерь. Каждый зомби, который гибнет, тоже запускает deathrattle, потенциально создавая больше зомби в цепочке."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "Army of the Dead starts spawning powerful champions from accumulated deaths. Death's Dominion raises enemies killed in deathrattle zones. Your army composition becomes increasingly undead as the campaign progresses.",
             "ru": "Army of the Dead начинает призывать мощных чемпионов из накопленных смертей. Death's Dominion поднимает врагов, убитых в зонах deathrattle. Состав армии становится всё более нежитью по мере прогресса кампании."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "Your army is a horde of raised dead that sustains itself. Deaths create more undead, which create more deathrattles, which raise more dead. The positive feedback loop makes you stronger the harder the mission fights.",
             "ru": "Ваша армия — орда поднятых мертвецов, которая поддерживает себя сама. Гибель создаёт больше нежити, которая создаёт больше deathrattle, которые поднимают больше мёртвых. Положительная обратная связь делает вас сильнее на более тяжёлых миссиях."
@@ -286,45 +418,93 @@
         }
       ],
       "tips": [
-        {"en": "Raised undead units also benefit from your deathrattle effects — their deaths create more death zones.", "ru": "Поднятые юниты нежити тоже получают deathrattle-эффекты — их гибель создаёт больше зон смерти."},
-        {"en": "Army of the Dead champions are extremely powerful — try to trigger them before critical fight moments.", "ru": "Чемпионы Army of the Dead крайне мощны — старайтесь запускать их перед критическими моментами боя."},
-        {"en": "Soul Harvest makes your surviving army hit harder as the undead around them die and respawn.", "ru": "Soul Harvest делает выживших юнитов сильнее, когда нежить вокруг них гибнет и возрождается."}
+        {
+          "en": "Raised undead units also benefit from your deathrattle effects — their deaths create more death zones.",
+          "ru": "Поднятые юниты нежити тоже получают deathrattle-эффекты — их гибель создаёт больше зон смерти."
+        },
+        {
+          "en": "Army of the Dead champions are extremely powerful — try to trigger them before critical fight moments.",
+          "ru": "Чемпионы Army of the Dead крайне мощны — старайтесь запускать их перед критическими моментами боя."
+        },
+        {
+          "en": "Soul Harvest makes your surviving army hit harder as the undead around them die and respawn.",
+          "ru": "Soul Harvest делает выживших юнитов сильнее, когда нежить вокруг них гибнет и возрождается."
+        }
       ]
     },
     {
-      "name": {"en": "Deathstalker", "ru": "Охотник за смертью"},
-      "subtitle": {"en": "Hunter multiclass — mercenaries with deathrattle", "ru": "Мультикласс Охотник — наёмники с deathrattle"},
+      "name": {
+        "en": "Deathstalker",
+        "ru": "Охотник за смертью"
+      },
+      "subtitle": {
+        "en": "Hunter multiclass — mercenaries with deathrattle",
+        "ru": "Мультикласс Охотник — наёмники с deathrattle"
+      },
       "desc": {
         "en": "Combines Deathknight with Hunter via the Deathstalker multiclass epic. Mercenaries gain deathrattle effects, and since mercs have high stats from Deadman's Hardware, their deathrattles deal enormous damage. Dead mercs are quickly replaced through merc cooldowns, creating a cycle of powerful death explosions.",
         "ru": "Сочетает Рыцаря Смерти с Охотником через мультикласс эпик Deathstalker. Наёмники получают deathrattle-эффекты, и поскольку наёмники имеют высокие характеристики от Deadman's Hardware, их deathrattle наносят огромный урон. Погибшие наёмники быстро заменяются через перезарядки, создавая цикл мощных взрывов смерти."
       },
       "tags": [
-        {"name": "Death's Embrace", "type": "core"},
-        {"name": "Multiclass", "type": "required"},
-        {"name": "Deathstalker", "type": "required"},
-        {"name": "Deadman's Hardware", "type": "required"},
-        {"name": "Corpse Explosion", "type": "optional"},
-        {"name": "Lingering Death", "type": "optional"},
-        {"name": "Team Effort", "type": "optional"},
-        {"name": "Medical Breakthrough", "type": "generic"}
+        {
+          "name": "Death's Embrace",
+          "type": "core"
+        },
+        {
+          "name": "Multiclass",
+          "type": "required"
+        },
+        {
+          "name": "Deathstalker",
+          "type": "required"
+        },
+        {
+          "name": "Deadman's Hardware",
+          "type": "required"
+        },
+        {
+          "name": "Corpse Explosion",
+          "type": "optional"
+        },
+        {
+          "name": "Lingering Death",
+          "type": "optional"
+        },
+        {
+          "name": "Team Effort",
+          "type": "optional"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Play standard Deathknight while looking for Multiclass. Once found, pick Hunter as secondary. Start stacking Deadman's Hardware — it simultaneously buffs merc combat stats AND deathrattle damage (since deathrattle scales from max HP).",
             "ru": "Играйте стандартным Рыцарем Смерти, ища Multiclass. Найдя, выберите Охотника. Начинайте копить Deadman's Hardware — он одновременно баффает боевые характеристики наёмников И урон deathrattle (так как deathrattle масштабируется от макс. HP)."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "Deathstalker mercs are walking bombs. Their high HP from Deadman's stacks means massive deathrattle explosions. Use Team Effort for more mercs and more potential explosions. Merc cooldowns ensure constant reinforcements.",
             "ru": "Deathstalker наёмники — ходячие бомбы. Их высокое HP от стаков Deadman's означает массивные взрывы deathrattle. Используйте Team Effort для большего числа наёмников и потенциальных взрывов. Перезарядки наёмников обеспечивают постоянные подкрепления."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "High Deadman's stacks mean your mercs have enormous HP pools. When they die, the deathrattle explosions based on that HP are devastating. The rapid merc replacement cycle means explosions happen constantly.",
             "ru": "Высокие стаки Deadman's означают огромные запасы HP у наёмников. Когда они гибнут, взрывы deathrattle на основе этого HP разрушительны. Быстрый цикл замены наёмников означает, что взрывы происходят постоянно."
@@ -332,16 +512,28 @@
         }
       ],
       "tips": [
-        {"en": "Deadman's Hardware doubles as both a combat buff and deathrattle damage buff — incredible synergy.", "ru": "Deadman's Hardware служит и боевым баффом, и баффом урона deathrattle — невероятная синергия."},
-        {"en": "Don't be afraid to send mercs into dangerous situations — their deaths deal massive damage.", "ru": "Не бойтесь отправлять наёмников в опасные ситуации — их гибель наносит массивный урон."},
-        {"en": "Loyalty Bonus helps keep the replacement cycle fast so you always have fresh deathrattle bombs ready.", "ru": "Loyalty Bonus помогает поддерживать быстрый цикл замены, чтобы всегда были готовы свежие бомбы deathrattle."}
+        {
+          "en": "Deadman's Hardware doubles as both a combat buff and deathrattle damage buff — incredible synergy.",
+          "ru": "Deadman's Hardware служит и боевым баффом, и баффом урона deathrattle — невероятная синергия."
+        },
+        {
+          "en": "Don't be afraid to send mercs into dangerous situations — their deaths deal massive damage.",
+          "ru": "Не бойтесь отправлять наёмников в опасные ситуации — их гибель наносит массивный урон."
+        },
+        {
+          "en": "Loyalty Bonus helps keep the replacement cycle fast so you always have fresh deathrattle bombs ready.",
+          "ru": "Loyalty Bonus помогает поддерживать быстрый цикл замены, чтобы всегда были готовы свежие бомбы deathrattle."
+        }
       ]
     }
   ],
   "multiclass_epics": [
     {
       "name": "Deathstalker",
-      "classes": ["Deathknight", "Hunter"],
+      "classes": [
+        "Deathknight",
+        "Hunter"
+      ],
       "tier": "A",
       "desc": {
         "en": "Mercenaries gain enhanced deathrattle effects — on death, they trigger powerful death explosions.",

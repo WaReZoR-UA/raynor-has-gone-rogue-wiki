@@ -1,7 +1,7 @@
 {
   "id": "hunter",
   "name": "Hunter",
-  "icon": "&#127919;",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2'><circle cx='12' cy='12' r='10'/><circle cx='12' cy='12' r='6'/><circle cx='12' cy='12' r='2'/><line x1='12' y1='2' x2='12' y2='6'/><line x1='12' y1='18' x2='12' y2='22'/><line x1='2' y1='12' x2='6' y2='12'/><line x1='18' y1='12' x2='22' y2='12'/></svg>",
   "color": "#f97316",
   "subtitle": {
     "en": "Mercenary Commander",
@@ -16,22 +16,73 @@
     "ru": "Нет"
   },
   "stats": [
-    {"value": "S", "label": {"en": "Late-Game Power", "ru": "Сила в лейте"}},
-    {"value": "A", "label": {"en": "Early-Game Power", "ru": "Сила в начале"}},
-    {"value": "S", "label": {"en": "Scaling", "ru": "Масштабирование"}},
-    {"value": "A", "label": {"en": "Versatility", "ru": "Универсальность"}},
-    {"value": "B", "label": {"en": "Difficulty", "ru": "Сложность"}}
+    {
+      "value": "S",
+      "label": {
+        "en": "Late-Game Power",
+        "ru": "Сила в лейте"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "Early-Game Power",
+        "ru": "Сила в начале"
+      }
+    },
+    {
+      "value": "S",
+      "label": {
+        "en": "Scaling",
+        "ru": "Масштабирование"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "Versatility",
+        "ru": "Универсальность"
+      }
+    },
+    {
+      "value": "B",
+      "label": {
+        "en": "Difficulty",
+        "ru": "Сложность"
+      }
+    }
   ],
   "strengths": [
-    {"en": "Best infinite talent in the mod (Deadman's Hardware) — every stack makes mercs significantly stronger", "ru": "Лучший бесконечный талант в моде (Deadman's Hardware) — каждый стак значительно усиливает наёмников"},
-    {"en": "Mercenaries are pre-built and require no production infrastructure, allowing fast deployment", "ru": "Наёмники готовы сразу и не требуют инфраструктуры производства, что позволяет быстрое развёртывание"},
-    {"en": "Excellent multiclass options — synergizes well with nearly every other class", "ru": "Отличные мультикласс-опции — синергирует практически с любым другим классом"},
-    {"en": "Supply And Demand (999 charges) removes resource concerns entirely in late game", "ru": "Supply And Demand (999 зарядов) полностью снимает проблемы с ресурсами в лейте"}
+    {
+      "en": "Best infinite talent in the mod (Deadman's Hardware) — every stack makes mercs significantly stronger",
+      "ru": "Лучший бесконечный талант в моде (Deadman's Hardware) — каждый стак значительно усиливает наёмников"
+    },
+    {
+      "en": "Mercenaries are pre-built and require no production infrastructure, allowing fast deployment",
+      "ru": "Наёмники готовы сразу и не требуют инфраструктуры производства, что позволяет быстрое развёртывание"
+    },
+    {
+      "en": "Excellent multiclass options — synergizes well with nearly every other class",
+      "ru": "Отличные мультикласс-опции — синергирует практически с любым другим классом"
+    },
+    {
+      "en": "Supply And Demand (999 charges) removes resource concerns entirely in late game",
+      "ru": "Supply And Demand (999 зарядов) полностью снимает проблемы с ресурсами в лейте"
+    }
   ],
   "weaknesses": [
-    {"en": "Heavily dependent on finding Deadman's Hardware stacks — without them, scaling plateaus", "ru": "Сильно зависит от нахождения стаков Deadman's Hardware — без них масштабирование останавливается"},
-    {"en": "Merc cooldowns can be punishing in early game before Loyalty Bonus and Priority Pass", "ru": "Перезарядка наёмников может быть жёсткой в начале игры до получения Loyalty Bonus и Priority Pass"},
-    {"en": "Curse (Pay The Middleman) and Plague (Hazard Pay) directly hurt merc economy", "ru": "Проклятие (Pay The Middleman) и чума (Hazard Pay) напрямую бьют по экономике наёмников"}
+    {
+      "en": "Heavily dependent on finding Deadman's Hardware stacks — without them, scaling plateaus",
+      "ru": "Сильно зависит от нахождения стаков Deadman's Hardware — без них масштабирование останавливается"
+    },
+    {
+      "en": "Merc cooldowns can be punishing in early game before Loyalty Bonus and Priority Pass",
+      "ru": "Перезарядка наёмников может быть жёсткой в начале игры до получения Loyalty Bonus и Priority Pass"
+    },
+    {
+      "en": "Curse (Pay The Middleman) and Plague (Hazard Pay) directly hurt merc economy",
+      "ru": "Проклятие (Pay The Middleman) и чума (Hazard Pay) напрямую бьют по экономике наёмников"
+    }
   ],
   "talents": [
     {
@@ -232,41 +283,86 @@
   ],
   "builds": [
     {
-      "name": {"en": "Merc Snowball", "ru": "Снежный ком наёмников"},
-      "subtitle": {"en": "Stack Deadman's Hardware, overwhelm everything", "ru": "Копите Deadman's Hardware, подавляйте всё"},
+      "name": {
+        "en": "Merc Snowball",
+        "ru": "Снежный ком наёмников"
+      },
+      "subtitle": {
+        "en": "Stack Deadman's Hardware, overwhelm everything",
+        "ru": "Копите Deadman's Hardware, подавляйте всё"
+      },
       "desc": {
         "en": "The quintessential Hunter build. Focus entirely on stacking Deadman's Hardware while picking up key cooldown and charge talents. By mid-campaign your mercenaries become unstoppable juggernauts that can solo any mission objective.",
         "ru": "Классический билд Охотника. Полностью сосредоточьтесь на накоплении Deadman's Hardware, подбирая ключевые таланты перезарядки и зарядов. К середине кампании ваши наёмники становятся неостановимыми машинами, способными в одиночку решить любую миссию."
       },
       "tags": [
-        {"name": "Premium Contract", "type": "core"},
-        {"name": "Deadman's Hardware", "type": "required"},
-        {"name": "Team Effort", "type": "required"},
-        {"name": "Loyalty Bonus", "type": "required"},
-        {"name": "Supply And Demand", "type": "required"},
-        {"name": "Priority Pass", "type": "optional"},
-        {"name": "Emergency Access", "type": "optional"},
-        {"name": "Salvage Operation", "type": "generic"},
-        {"name": "Use More Gun", "type": "generic"},
-        {"name": "Medical Breakthrough", "type": "generic"}
+        {
+          "name": "Premium Contract",
+          "type": "core"
+        },
+        {
+          "name": "Deadman's Hardware",
+          "type": "required"
+        },
+        {
+          "name": "Team Effort",
+          "type": "required"
+        },
+        {
+          "name": "Loyalty Bonus",
+          "type": "required"
+        },
+        {
+          "name": "Supply And Demand",
+          "type": "required"
+        },
+        {
+          "name": "Priority Pass",
+          "type": "optional"
+        },
+        {
+          "name": "Emergency Access",
+          "type": "optional"
+        },
+        {
+          "name": "Salvage Operation",
+          "type": "generic"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Prioritize Deadman's Hardware stacks above everything else. Take Team Effort if offered early. Use Free Sample for early mission support. Pick up economy talents (Salvage Operation) to afford merc calls. Don't be afraid to lean on non-merc units to fill gaps.",
             "ru": "Приоритет — стаки Deadman's Hardware выше всего остального. Берите Team Effort при раннем предложении. Используйте Free Sample для поддержки на ранних миссиях. Берите экономические таланты (Salvage Operation) для оплаты вызовов наёмников. Не бойтесь использовать не-наёмников для заполнения пробелов."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "Continue stacking Deadman's Hardware. Look for Loyalty Bonus to reduce cooldowns further. Supply And Demand is game-changing if found here. Your mercs should already be noticeably stronger than regular units. Start phasing out non-merc production.",
             "ru": "Продолжайте накопление стаков Deadman's Hardware. Ищите Loyalty Bonus для дальнейшего сокращения перезарядок. Supply And Demand меняет игру, если найден здесь. Ваши наёмники уже должны быть заметно сильнее обычных юнитов. Начинайте сокращать производство не-наёмников."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "With 15+ Deadman's Hardware stacks, your mercs are effectively super-units. Focus on generic damage/HP infinites (Use More Gun, Medical Breakthrough) for additional scaling. Emergency Access gives you burst potential for difficult objectives. You should be steamrolling most content.",
             "ru": "При 15+ стаках Deadman's Hardware ваши наёмники фактически суперюниты. Сосредоточьтесь на общих бесконечных талантах урона/HP (Use More Gun, Medical Breakthrough) для дополнительного масштабирования. Emergency Access даёт взрывной потенциал для сложных целей. Вы должны легко проходить большинство контента."
@@ -274,45 +370,93 @@
         }
       ],
       "tips": [
-        {"en": "Never skip Deadman's Hardware. Even at 20+ stacks, the 15% per stack is enormous.", "ru": "Никогда не пропускайте Deadman's Hardware. Даже при 20+ стаках 15% за стак — это огромно."},
-        {"en": "Team Effort effectively doubles your merc DPS per cooldown cycle — it's almost as important as Deadman's Hardware.", "ru": "Team Effort фактически удваивает DPS наёмников за цикл перезарядки — почти так же важен, как Deadman's Hardware."},
-        {"en": "If you get Hazard Pay plague, play defensively and avoid losing mercs to prevent cost spiral.", "ru": "Если получили чуму Hazard Pay, играйте оборонительно и избегайте потери наёмников для предотвращения спирали стоимости."}
+        {
+          "en": "Never skip Deadman's Hardware. Even at 20+ stacks, the 15% per stack is enormous.",
+          "ru": "Никогда не пропускайте Deadman's Hardware. Даже при 20+ стаках 15% за стак — это огромно."
+        },
+        {
+          "en": "Team Effort effectively doubles your merc DPS per cooldown cycle — it's almost as important as Deadman's Hardware.",
+          "ru": "Team Effort фактически удваивает DPS наёмников за цикл перезарядки — почти так же важен, как Deadman's Hardware."
+        },
+        {
+          "en": "If you get Hazard Pay plague, play defensively and avoid losing mercs to prevent cost spiral.",
+          "ru": "Если получили чуму Hazard Pay, играйте оборонительно и избегайте потери наёмников для предотвращения спирали стоимости."
+        }
       ]
     },
     {
-      "name": {"en": "Hybrid Army", "ru": "Гибридная армия"},
-      "subtitle": {"en": "Mix mercs and trained units with Mercenary Internship", "ru": "Смешивайте наёмников и обычных юнитов через Mercenary Internship"},
+      "name": {
+        "en": "Hybrid Army",
+        "ru": "Гибридная армия"
+      },
+      "subtitle": {
+        "en": "Mix mercs and trained units with Mercenary Internship",
+        "ru": "Смешивайте наёмников и обычных юнитов через Mercenary Internship"
+      },
       "desc": {
         "en": "Instead of going pure mercs, this build leverages Mercenary Internship to convert 40% of trained units into mercs. Combined with Performance Compensation, your non-merc units become glass cannons while converted mercs benefit from Deadman's Hardware. This gives you more army diversity and production flexibility.",
         "ru": "Вместо чистых наёмников этот билд использует Mercenary Internship для конвертации 40% обычных юнитов в наёмников. В сочетании с Performance Compensation обычные юниты становятся стеклянными пушками, а конвертированные наёмники получают баффы от Deadman's Hardware. Это даёт больше разнообразия армии и гибкости производства."
       },
       "tags": [
-        {"name": "Premium Contract", "type": "core"},
-        {"name": "Mercenary Internship", "type": "required"},
-        {"name": "Performance Compensation", "type": "required"},
-        {"name": "Deadman's Hardware", "type": "required"},
-        {"name": "Team Effort", "type": "optional"},
-        {"name": "Tech Reactor", "type": "generic"},
-        {"name": "Use More Gun", "type": "generic"},
-        {"name": "Medical Breakthrough", "type": "generic"}
+        {
+          "name": "Premium Contract",
+          "type": "core"
+        },
+        {
+          "name": "Mercenary Internship",
+          "type": "required"
+        },
+        {
+          "name": "Performance Compensation",
+          "type": "required"
+        },
+        {
+          "name": "Deadman's Hardware",
+          "type": "required"
+        },
+        {
+          "name": "Team Effort",
+          "type": "optional"
+        },
+        {
+          "name": "Tech Reactor",
+          "type": "generic"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Play normally with a mix of mercs and trained units. Deadman's Hardware stacks are still top priority. Look for Mercenary Internship early to start converting trained units.",
             "ru": "Играйте обычно со смесью наёмников и обычных юнитов. Стаки Deadman's Hardware по-прежнему в приоритете. Ищите Mercenary Internship как можно раньше для начала конвертации."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "Once you have Mercenary Internship, ramp up production. Every batch of trained units adds mercs to your army. Performance Compensation makes your non-converted units hit harder. Keep stacking Deadman's Hardware for your growing merc force.",
             "ru": "Получив Mercenary Internship, наращивайте производство. Каждая партия обученных юнитов добавляет наёмников в армию. Performance Compensation делает неконвертированных юнитов более ударными. Продолжайте копить Deadman's Hardware для растущей силы наёмников."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "Your army is a powerful mix of buffed mercs and high-damage regular units. The diversity gives tactical flexibility — mercs tank while regular units deal burst damage. Generic infinites amplify both halves of your army.",
             "ru": "Ваша армия — мощная смесь усиленных наёмников и обычных юнитов с высоким уроном. Разнообразие даёт тактическую гибкость — наёмники танкуют, обычные юниты наносят взрывной урон. Общие бесконечные таланты усиливают обе половины армии."
@@ -320,46 +464,97 @@
         }
       ],
       "tips": [
-        {"en": "Tech Reactor is excellent here since you're relying on production buildings heavily.", "ru": "Tech Reactor здесь отличен, поскольку вы сильно зависите от производственных зданий."},
-        {"en": "Performance Compensation's -40% incoming damage penalty doesn't affect your mercs — only non-mercs take extra damage.", "ru": "Штраф Performance Compensation в +40% входящего урона не влияет на наёмников — только не-наёмники получают дополнительный урон."},
-        {"en": "Prioritize expensive unit types for production — the 40% conversion is more impactful on high-value units.", "ru": "Приоритизируйте дорогие типы юнитов для производства — 40% конвертация более эффективна на ценных юнитах."}
+        {
+          "en": "Tech Reactor is excellent here since you're relying on production buildings heavily.",
+          "ru": "Tech Reactor здесь отличен, поскольку вы сильно зависите от производственных зданий."
+        },
+        {
+          "en": "Performance Compensation's -40% incoming damage penalty doesn't affect your mercs — only non-mercs take extra damage.",
+          "ru": "Штраф Performance Compensation в +40% входящего урона не влияет на наёмников — только не-наёмники получают дополнительный урон."
+        },
+        {
+          "en": "Prioritize expensive unit types for production — the 40% conversion is more impactful on high-value units.",
+          "ru": "Приоритизируйте дорогие типы юнитов для производства — 40% конвертация более эффективна на ценных юнитах."
+        }
       ]
     },
     {
-      "name": {"en": "Merc Spam", "ru": "Спам наёмников"},
-      "subtitle": {"en": "Maximum cooldown reduction, endless waves", "ru": "Максимальное сокращение перезарядок, бесконечные волны"},
+      "name": {
+        "en": "Merc Spam",
+        "ru": "Спам наёмников"
+      },
+      "subtitle": {
+        "en": "Maximum cooldown reduction, endless waves",
+        "ru": "Максимальное сокращение перезарядок, бесконечные волны"
+      },
       "desc": {
         "en": "This build maximizes mercenary call frequency through every cooldown reduction talent available. Loyalty Bonus stacks, Priority Pass, and Emergency Access create a playstyle where you constantly flood the battlefield with fresh mercenaries. Less reliant on individual merc power, more on sheer volume.",
         "ru": "Этот билд максимизирует частоту вызова наёмников через все доступные таланты сокращения перезарядки. Стаки Loyalty Bonus, Priority Pass и Emergency Access создают стиль игры с постоянным затоплением поля боя свежими наёмниками. Менее зависим от силы отдельных наёмников, больше от чистого объёма."
       },
       "tags": [
-        {"name": "Premium Contract", "type": "core"},
-        {"name": "Loyalty Bonus", "type": "required"},
-        {"name": "Priority Pass", "type": "required"},
-        {"name": "Emergency Access", "type": "required"},
-        {"name": "Supply And Demand", "type": "required"},
-        {"name": "Team Effort", "type": "required"},
-        {"name": "Deadman's Hardware", "type": "optional"},
-        {"name": "Kickstart", "type": "optional"},
-        {"name": "Salvage Operation", "type": "generic"}
+        {
+          "name": "Premium Contract",
+          "type": "core"
+        },
+        {
+          "name": "Loyalty Bonus",
+          "type": "required"
+        },
+        {
+          "name": "Priority Pass",
+          "type": "required"
+        },
+        {
+          "name": "Emergency Access",
+          "type": "required"
+        },
+        {
+          "name": "Supply And Demand",
+          "type": "required"
+        },
+        {
+          "name": "Team Effort",
+          "type": "required"
+        },
+        {
+          "name": "Deadman's Hardware",
+          "type": "optional"
+        },
+        {
+          "name": "Kickstart",
+          "type": "optional"
+        },
+        {
+          "name": "Salvage Operation",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Grab any cooldown reduction offered. Priority Pass is huge for early missions. Economy talents are critical since you'll be spending resources on constant merc calls.",
             "ru": "Берите любое предложенное сокращение перезарядки. Priority Pass огромен для ранних миссий. Экономические таланты критичны, так как вы будете тратить ресурсы на постоянные вызовы наёмников."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "With Loyalty Bonus stacks and Supply And Demand, you can sustain nonstop merc pressure. Team Effort doubles each wave. Start picking up Deadman's Hardware to make each wave hit harder.",
             "ru": "Со стаками Loyalty Bonus и Supply And Demand вы можете поддерживать непрерывное давление наёмников. Team Effort удваивает каждую волну. Начинайте набирать Deadman's Hardware для усиления каждой волны."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "You're calling mercs every few seconds. Emergency Access gives you 3 burst windows per mission for overwhelming force. Even without high Deadman's stacks, the sheer volume of mercs is devastating.",
             "ru": "Вы вызываете наёмников каждые несколько секунд. Emergency Access даёт 3 окна взрывной силы за миссию. Даже без высоких стаков Deadman's чистый объём наёмников разрушителен."
@@ -367,46 +562,97 @@
         }
       ],
       "tips": [
-        {"en": "Loyalty Bonus at 3 stacks with Premium Contract means mercs recharge at roughly 17% of their base cooldown.", "ru": "Loyalty Bonus при 3 стаках с Premium Contract означает, что наёмники перезаряжаются примерно за 17% от базовой перезарядки."},
-        {"en": "Use Emergency Access strategically — save at least one charge for mission-critical moments.", "ru": "Используйте Emergency Access стратегически — сохраняйте минимум один заряд для критических моментов миссии."},
-        {"en": "Economy talents are more important here than in other Hunter builds due to the constant spending.", "ru": "Экономические таланты здесь важнее, чем в других билдах Охотника, из-за постоянных расходов."}
+        {
+          "en": "Loyalty Bonus at 3 stacks with Premium Contract means mercs recharge at roughly 17% of their base cooldown.",
+          "ru": "Loyalty Bonus при 3 стаках с Premium Contract означает, что наёмники перезаряжаются примерно за 17% от базовой перезарядки."
+        },
+        {
+          "en": "Use Emergency Access strategically — save at least one charge for mission-critical moments.",
+          "ru": "Используйте Emergency Access стратегически — сохраняйте минимум один заряд для критических моментов миссии."
+        },
+        {
+          "en": "Economy talents are more important here than in other Hunter builds due to the constant spending.",
+          "ru": "Экономические таланты здесь важнее, чем в других билдах Охотника, из-за постоянных расходов."
+        }
       ]
     },
     {
-      "name": {"en": "Royal Hunter", "ru": "Королевский охотник"},
-      "subtitle": {"en": "Champion multiclass — heroic mercenaries", "ru": "Мультикласс Чемпион — героические наёмники"},
+      "name": {
+        "en": "Royal Hunter",
+        "ru": "Королевский охотник"
+      },
+      "subtitle": {
+        "en": "Champion multiclass — heroic mercenaries",
+        "ru": "Мультикласс Чемпион — героические наёмники"
+      },
       "desc": {
         "en": "Combines Hunter with Champion via the Royal Mercenaries multiclass epic. When mercs become Heroic, they benefit from both Deadman's Hardware AND Super Heroic generic infinite, creating double-scaling monsters. This is one of the strongest multiclass combinations in the mod.",
         "ru": "Сочетает Охотника с Чемпионом через мультикласс эпик Royal Mercenaries. Когда наёмники становятся героическими, они получают пользу от Deadman's Hardware И Super Heroic, создавая монстров с двойным масштабированием. Это одна из сильнейших мультикласс комбинаций в моде."
       },
       "tags": [
-        {"name": "Premium Contract", "type": "core"},
-        {"name": "Multiclass", "type": "required"},
-        {"name": "Royal Mercenaries", "type": "required"},
-        {"name": "Deadman's Hardware", "type": "required"},
-        {"name": "Super Heroic", "type": "generic"},
-        {"name": "Team Effort", "type": "optional"},
-        {"name": "Loyalty Bonus", "type": "optional"},
-        {"name": "Use More Gun", "type": "generic"},
-        {"name": "Medical Breakthrough", "type": "generic"}
+        {
+          "name": "Premium Contract",
+          "type": "core"
+        },
+        {
+          "name": "Multiclass",
+          "type": "required"
+        },
+        {
+          "name": "Royal Mercenaries",
+          "type": "required"
+        },
+        {
+          "name": "Deadman's Hardware",
+          "type": "required"
+        },
+        {
+          "name": "Super Heroic",
+          "type": "generic"
+        },
+        {
+          "name": "Team Effort",
+          "type": "optional"
+        },
+        {
+          "name": "Loyalty Bonus",
+          "type": "optional"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Play standard Hunter. Prioritize Deadman's Hardware. Look for the Multiclass rare talent early — you need it to unlock Champion as secondary class and access Royal Mercenaries.",
             "ru": "Играйте стандартным Охотником. Приоритет — Deadman's Hardware. Ищите редкий талант Multiclass рано — он нужен для разблокировки Чемпиона как второго класса и доступа к Royal Mercenaries."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "Once you have Royal Mercenaries, your mercs become Heroic. Start stacking Super Heroic alongside Deadman's Hardware. Each merc now scales from both infinites. Champion talents further buff your hero units.",
             "ru": "Получив Royal Mercenaries, ваши наёмники становятся героическими. Начинайте копить Super Heroic наряду с Deadman's Hardware. Каждый наёмник теперь масштабируется от обоих бесконечных талантов. Таланты Чемпиона дополнительно усиливают героических юнитов."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "Your mercs are absurdly powerful with triple scaling (Premium Contract + Deadman's + Super Heroic). Even a few mercs can handle entire enemy waves. This is arguably the strongest build in the entire mod at high stack counts.",
             "ru": "Ваши наёмники абсурдно мощны с тройным масштабированием (Premium Contract + Deadman's + Super Heroic). Даже несколько наёмников могут справиться с целыми вражескими волнами. Это, возможно, сильнейший билд во всём моде при высоких стаках."
@@ -414,45 +660,93 @@
         }
       ],
       "tips": [
-        {"en": "Royal Mercenaries is an S-tier multiclass epic — always pick it when offered.", "ru": "Royal Mercenaries — мультикласс эпик S-тира — всегда берите его при предложении."},
-        {"en": "Balance Deadman's Hardware and Super Heroic stacks — both are critical for the double scaling.", "ru": "Балансируйте стаки Deadman's Hardware и Super Heroic — оба критичны для двойного масштабирования."},
-        {"en": "Champion hero buff talents apply to your mercs too once they're Heroic.", "ru": "Баффы героев от талантов Чемпиона применяются и к наёмникам после того, как они станут героическими."}
+        {
+          "en": "Royal Mercenaries is an S-tier multiclass epic — always pick it when offered.",
+          "ru": "Royal Mercenaries — мультикласс эпик S-тира — всегда берите его при предложении."
+        },
+        {
+          "en": "Balance Deadman's Hardware and Super Heroic stacks — both are critical for the double scaling.",
+          "ru": "Балансируйте стаки Deadman's Hardware и Super Heroic — оба критичны для двойного масштабирования."
+        },
+        {
+          "en": "Champion hero buff talents apply to your mercs too once they're Heroic.",
+          "ru": "Баффы героев от талантов Чемпиона применяются и к наёмникам после того, как они станут героическими."
+        }
       ]
     },
     {
-      "name": {"en": "Shadow Mercs", "ru": "Теневые наёмники"},
-      "subtitle": {"en": "Rogue multiclass — cloaked mercenary strikes", "ru": "Мультикласс Плут — скрытые удары наёмников"},
+      "name": {
+        "en": "Shadow Mercs",
+        "ru": "Теневые наёмники"
+      },
+      "subtitle": {
+        "en": "Rogue multiclass — cloaked mercenary strikes",
+        "ru": "Мультикласс Плут — скрытые удары наёмников"
+      },
       "desc": {
         "en": "Combines Hunter with Rogue via the Privateery multiclass epic. This build adds stealth and burst damage capabilities to your mercenary army. Cloaked mercs can ambush enemy positions and deal devastating alpha strikes before the enemy can respond.",
         "ru": "Сочетает Охотника с Плутом через мультикласс эпик Privateery. Этот билд добавляет способности скрытности и взрывного урона к армии наёмников. Скрытые наёмники могут устраивать засады и наносить разрушительные первые удары до того, как враг успеет отреагировать."
       },
       "tags": [
-        {"name": "Premium Contract", "type": "core"},
-        {"name": "Multiclass", "type": "required"},
-        {"name": "Privateery", "type": "required"},
-        {"name": "Deadman's Hardware", "type": "required"},
-        {"name": "Team Effort", "type": "optional"},
-        {"name": "Kickstart", "type": "optional"},
-        {"name": "Use More Gun", "type": "generic"},
-        {"name": "Medical Breakthrough", "type": "generic"}
+        {
+          "name": "Premium Contract",
+          "type": "core"
+        },
+        {
+          "name": "Multiclass",
+          "type": "required"
+        },
+        {
+          "name": "Privateery",
+          "type": "required"
+        },
+        {
+          "name": "Deadman's Hardware",
+          "type": "required"
+        },
+        {
+          "name": "Team Effort",
+          "type": "optional"
+        },
+        {
+          "name": "Kickstart",
+          "type": "optional"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Standard Hunter opening. Stack Deadman's Hardware. Look for Multiclass talent to unlock Rogue secondary. Rogue talents that enhance cloak and burst damage complement the Hunter kit well.",
             "ru": "Стандартное начало Охотника. Копите Deadman's Hardware. Ищите талант Multiclass для разблокировки Плута. Таланты Плута, усиливающие маскировку и взрывной урон, хорошо дополняют набор Охотника."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "Privateery gives your mercs stealth capabilities. Use cloaked mercs to scout and set up ambushes. The burst damage from stealth attacks combined with Deadman's Hardware stats creates devastating openers.",
             "ru": "Privateery даёт наёмникам способности скрытности. Используйте скрытых наёмников для разведки и засад. Взрывной урон от атак из скрытности в сочетании с характеристиками Deadman's Hardware создаёт разрушительные открывающие удары."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "Your cloaked merc army can surgically strike priority targets. Rogue burst talents amplify the first attack from stealth. Useful against tough mission objectives where you need to focus fire key targets.",
             "ru": "Ваша армия скрытых наёмников может хирургически уничтожать приоритетные цели. Таланты взрывного урона Плута усиливают первую атаку из скрытности. Полезно на сложных миссиях, где нужно сфокусировать огонь на ключевых целях."
@@ -460,16 +754,28 @@
         }
       ],
       "tips": [
-        {"en": "Privateery is A-tier — solid but not as universally powerful as Royal Mercenaries.", "ru": "Privateery — A-тир — надёжен, но не так универсально мощен, как Royal Mercenaries."},
-        {"en": "Cloaked mercs are excellent for clearing detection before pushing with your main force.", "ru": "Скрытые наёмники отлично подходят для зачистки детектов перед атакой основной армией."},
-        {"en": "This build is particularly strong on missions with stealth bonus objectives.", "ru": "Этот билд особенно силён на миссиях с бонусными целями за скрытность."}
+        {
+          "en": "Privateery is A-tier — solid but not as universally powerful as Royal Mercenaries.",
+          "ru": "Privateery — A-тир — надёжен, но не так универсально мощен, как Royal Mercenaries."
+        },
+        {
+          "en": "Cloaked mercs are excellent for clearing detection before pushing with your main force.",
+          "ru": "Скрытые наёмники отлично подходят для зачистки детектов перед атакой основной армией."
+        },
+        {
+          "en": "This build is particularly strong on missions with stealth bonus objectives.",
+          "ru": "Этот билд особенно силён на миссиях с бонусными целями за скрытность."
+        }
       ]
     }
   ],
   "multiclass_epics": [
     {
       "name": "Royal Mercenaries",
-      "classes": ["Hunter", "Champion"],
+      "classes": [
+        "Hunter",
+        "Champion"
+      ],
       "tier": "S",
       "desc": {
         "en": "All mercenary units become Heroic units.",
@@ -482,7 +788,10 @@
     },
     {
       "name": "Space-Time Mercenary",
-      "classes": ["Hunter", "Mad Genius"],
+      "classes": [
+        "Hunter",
+        "Mad Genius"
+      ],
       "tier": "S",
       "desc": {
         "en": "Mercenaries gain chaotic time-warping abilities and enhanced stats from Mad Genius synergy.",
@@ -495,7 +804,10 @@
     },
     {
       "name": "Deathstalker",
-      "classes": ["Hunter", "Deathknight"],
+      "classes": [
+        "Hunter",
+        "Deathknight"
+      ],
       "tier": "A",
       "desc": {
         "en": "Mercenaries gain deathrattle effects — on death, they trigger powerful death effects.",
@@ -508,7 +820,10 @@
     },
     {
       "name": "Inquisitor's Wrath",
-      "classes": ["Hunter", "Paladin"],
+      "classes": [
+        "Hunter",
+        "Paladin"
+      ],
       "tier": "A",
       "desc": {
         "en": "Mercenaries gain holy damage bonuses and defensive auras from Paladin synergy.",
@@ -521,7 +836,10 @@
     },
     {
       "name": "Privateery",
-      "classes": ["Hunter", "Rogue"],
+      "classes": [
+        "Hunter",
+        "Rogue"
+      ],
       "tier": "A",
       "desc": {
         "en": "Mercenaries gain stealth capabilities and enhanced first-strike damage.",
@@ -534,7 +852,10 @@
     },
     {
       "name": "Hardware Amplification",
-      "classes": ["Hunter", "Wizard"],
+      "classes": [
+        "Hunter",
+        "Wizard"
+      ],
       "tier": "A",
       "desc": {
         "en": "Mercenaries gain enhanced spell-like abilities from Wizard synergy.",
@@ -547,7 +868,10 @@
     },
     {
       "name": "Questionable Contract",
-      "classes": ["Hunter", "Gambler"],
+      "classes": [
+        "Hunter",
+        "Gambler"
+      ],
       "tier": "A",
       "desc": {
         "en": "Mercenary calls have a chance to summon random bonus units or trigger random effects.",
@@ -560,7 +884,10 @@
     },
     {
       "name": "Psionic Mercenary",
-      "classes": ["Hunter", "Psychic"],
+      "classes": [
+        "Hunter",
+        "Psychic"
+      ],
       "tier": "B",
       "desc": {
         "en": "Mercenaries gain psionic abilities and mind control resistance.",
@@ -573,7 +900,10 @@
     },
     {
       "name": "Supreme Pods",
-      "classes": ["Hunter", "Sorcerer"],
+      "classes": [
+        "Hunter",
+        "Sorcerer"
+      ],
       "tier": "B",
       "desc": {
         "en": "Mercenary calls can be delivered via drop pods, allowing instant deployment anywhere on the map.",
@@ -586,7 +916,10 @@
     },
     {
       "name": "Bountiful Samples",
-      "classes": ["Hunter", "Monk"],
+      "classes": [
+        "Hunter",
+        "Monk"
+      ],
       "tier": "B",
       "desc": {
         "en": "Free Sample talent is enhanced — more free mercs with improved stats and lower restrictions.",

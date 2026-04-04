@@ -1,7 +1,7 @@
 {
   "id": "rogue",
   "name": "Rogue",
-  "icon": "&#128065;",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2'><path d='M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z'/><circle cx='12' cy='12' r='3'/></svg>",
   "color": "#475569",
   "subtitle": {
     "en": "Shadow Operative",
@@ -16,21 +16,66 @@
     "ru": "Пройдите NG+"
   },
   "stats": [
-    {"value": "S", "label": {"en": "Burst Damage", "ru": "Взрывной урон"}},
-    {"value": "A", "label": {"en": "Stealth/Utility", "ru": "Скрытность/Утилита"}},
-    {"value": "A", "label": {"en": "Early Game", "ru": "Ранняя игра"}},
-    {"value": "B", "label": {"en": "Sustained DPS", "ru": "Постоянный DPS"}}
+    {
+      "value": "S",
+      "label": {
+        "en": "Burst Damage",
+        "ru": "Взрывной урон"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "Stealth/Utility",
+        "ru": "Скрытность/Утилита"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "Early Game",
+        "ru": "Ранняя игра"
+      }
+    },
+    {
+      "value": "B",
+      "label": {
+        "en": "Sustained DPS",
+        "ru": "Постоянный DPS"
+      }
+    }
   ],
   "strengths": [
-    {"en": "Highest burst damage in the game with assassination combos", "ru": "Самый высокий взрывной урон в игре с комбо убийств"},
-    {"en": "Cloaking provides unmatched scouting and positioning", "ru": "Маскировка обеспечивает непревзойдённую разведку и позиционирование"},
-    {"en": "Unique creative strategies (Cloaked Bus Killer, Spectral Defense)", "ru": "Уникальные креативные стратегии (Cloaked Bus Killer, Spectral Defense)"},
-    {"en": "Ghosts/Spectres provide both damage and utility (EMP, Snipe, Nuke)", "ru": "Призраки/Спектры обеспечивают урон и утилиту (EMP, Снайпер, Ядерка)"}
+    {
+      "en": "Highest burst damage in the game with assassination combos",
+      "ru": "Самый высокий взрывной урон в игре с комбо убийств"
+    },
+    {
+      "en": "Cloaking provides unmatched scouting and positioning",
+      "ru": "Маскировка обеспечивает непревзойдённую разведку и позиционирование"
+    },
+    {
+      "en": "Unique creative strategies (Cloaked Bus Killer, Spectral Defense)",
+      "ru": "Уникальные креативные стратегии (Cloaked Bus Killer, Spectral Defense)"
+    },
+    {
+      "en": "Ghosts/Spectres provide both damage and utility (EMP, Snipe, Nuke)",
+      "ru": "Призраки/Спектры обеспечивают урон и утилиту (EMP, Снайпер, Ядерка)"
+    }
   ],
   "weaknesses": [
-    {"en": "Cloaked units are fragile once detected", "ru": "Замаскированные юниты хрупки после обнаружения"},
-    {"en": "Detection-heavy maps hard-counter stealth strategies", "ru": "Карты с большим количеством обнаружения жёстко контрят стратегии скрытности"},
-    {"en": "Reliance on energy for cloak can limit sustained engagements", "ru": "Зависимость от энергии для маскировки ограничивает затяжные бои"}
+    {
+      "en": "Cloaked units are fragile once detected",
+      "ru": "Замаскированные юниты хрупки после обнаружения"
+    },
+    {
+      "en": "Detection-heavy maps hard-counter stealth strategies",
+      "ru": "Карты с большим количеством обнаружения жёстко контрят стратегии скрытности"
+    },
+    {
+      "en": "Reliance on energy for cloak can limit sustained engagements",
+      "ru": "Зависимость от энергии для маскировки ограничивает затяжные бои"
+    }
   ],
   "talents": [
     {
@@ -231,88 +276,271 @@
   ],
   "builds": [
     {
-      "name": {"en": "Ghost Assassin", "ru": "Призрак-Убийца"},
-      "subtitle": {"en": "One shot, one kill", "ru": "Один выстрел — одно убийство"},
+      "name": {
+        "en": "Ghost Assassin",
+        "ru": "Призрак-Убийца"
+      },
+      "subtitle": {
+        "en": "One shot, one kill",
+        "ru": "Один выстрел — одно убийство"
+      },
       "desc": {
         "en": "Stack assassination damage on Ghosts/Spectres for devastating single-target burst. Chain kills from cloak to wipe priority targets before the enemy can react.",
         "ru": "Стакайте урон убийств на Призраках/Спектрах для разрушительного взрывного урона по одной цели. Цепные убийства из маскировки уничтожают приоритетные цели до того, как враг успеет среагировать."
       },
       "tags": [
-        {"name": "Ghost Protocol", "type": "core"},
-        {"name": "Assassination", "type": "required"},
-        {"name": "Shadow Strike", "type": "required"},
-        {"name": "Deadly Precision", "type": "required"},
-        {"name": "Vanishing Act", "type": "optional"},
-        {"name": "Use More Gun", "type": "generic"}
+        {
+          "name": "Ghost Protocol",
+          "type": "core"
+        },
+        {
+          "name": "Assassination",
+          "type": "required"
+        },
+        {
+          "name": "Shadow Strike",
+          "type": "required"
+        },
+        {
+          "name": "Deadly Precision",
+          "type": "required"
+        },
+        {
+          "name": "Vanishing Act",
+          "type": "optional"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Rush Ghost Protocol. Even 2-3 Ghosts with permanent cloak and enhanced Snipe are extremely effective. Start picking off high-value targets.", "ru": "Спешите к Ghost Protocol. Даже 2-3 Призрака с постоянной маскировкой и улучшенным Снайпером крайне эффективны. Начинайте снимать ценные цели."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "Get Assassination and Shadow Strike. Stack Deadly Precision. Your Ghosts should be one-shotting most standard units now. Build 6-8 Ghosts.", "ru": "Получите Assassination и Shadow Strike. Стакайте Deadly Precision. Ваши Призраки теперь должны убивать большинство стандартных юнитов с одного удара. Постройте 6-8 Призраков."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "With high Deadly Precision stacks, even heavily armored targets fall to your assassination chain. Add Vanishing Act for safety. Mass 10+ Ghosts for total dominance.", "ru": "С высокими стаками Deadly Precision даже тяжело бронированные цели падут от вашей цепи убийств. Добавьте Vanishing Act для безопасности. Массируйте 10+ Призраков для полного доминирования."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Rush Ghost Protocol. Even 2-3 Ghosts with permanent cloak and enhanced Snipe are extremely effective. Start picking off high-value targets.",
+            "ru": "Спешите к Ghost Protocol. Даже 2-3 Призрака с постоянной маскировкой и улучшенным Снайпером крайне эффективны. Начинайте снимать ценные цели."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
+          "text": {
+            "en": "Get Assassination and Shadow Strike. Stack Deadly Precision. Your Ghosts should be one-shotting most standard units now. Build 6-8 Ghosts.",
+            "ru": "Получите Assassination и Shadow Strike. Стакайте Deadly Precision. Ваши Призраки теперь должны убивать большинство стандартных юнитов с одного удара. Постройте 6-8 Призраков."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "With high Deadly Precision stacks, even heavily armored targets fall to your assassination chain. Add Vanishing Act for safety. Mass 10+ Ghosts for total dominance.",
+            "ru": "С высокими стаками Deadly Precision даже тяжело бронированные цели падут от вашей цепи убийств. Добавьте Vanishing Act для безопасности. Массируйте 10+ Призраков для полного доминирования."
+          }
+        }
       ],
       "tips": [
-        {"en": "Always kill detectors first — they are your primary threat", "ru": "Всегда убивайте детекторов первыми — это ваша главная угроза"},
-        {"en": "Shadow Strike into Snipe is a guaranteed kill on most units through mid-game", "ru": "Shadow Strike в Снайпер — гарантированное убийство большинства юнитов в средней игре"},
-        {"en": "Split Ghosts to assassinate multiple targets simultaneously on multi-objective maps", "ru": "Разделяйте Призраков для одновременного убийства нескольких целей на картах с множеством задач"}
+        {
+          "en": "Always kill detectors first — they are your primary threat",
+          "ru": "Всегда убивайте детекторов первыми — это ваша главная угроза"
+        },
+        {
+          "en": "Shadow Strike into Snipe is a guaranteed kill on most units through mid-game",
+          "ru": "Shadow Strike в Снайпер — гарантированное убийство большинства юнитов в средней игре"
+        },
+        {
+          "en": "Split Ghosts to assassinate multiple targets simultaneously on multi-objective maps",
+          "ru": "Разделяйте Призраков для одновременного убийства нескольких целей на картах с множеством задач"
+        }
       ]
     },
     {
-      "name": {"en": "Cloaked Bus Killer", "ru": "Невидимый Автобус Смерти"},
-      "subtitle": {"en": "They never saw it coming", "ru": "Они даже не увидели это"},
+      "name": {
+        "en": "Cloaked Bus Killer",
+        "ru": "Невидимый Автобус Смерти"
+      },
+      "subtitle": {
+        "en": "They never saw it coming",
+        "ru": "Они даже не увидели это"
+      },
       "desc": {
         "en": "Load a full army into a cloaked Hercules transport and deliver devastating drops directly on enemy positions. The ultimate surprise attack strategy.",
         "ru": "Загрузите полную армию в замаскированный транспорт Геркулес и доставляйте разрушительные десанты прямо на вражеские позиции. Абсолютная стратегия внезапной атаки."
       },
       "tags": [
-        {"name": "Shadow Operations", "type": "core"},
-        {"name": "Phantom Cloak", "type": "required"},
-        {"name": "Assassination", "type": "optional"},
-        {"name": "Cloak Field Generator", "type": "optional"},
-        {"name": "Medical Breakthrough", "type": "generic"},
-        {"name": "Use More Gun", "type": "generic"}
+        {
+          "name": "Shadow Operations",
+          "type": "core"
+        },
+        {
+          "name": "Phantom Cloak",
+          "type": "required"
+        },
+        {
+          "name": "Assassination",
+          "type": "optional"
+        },
+        {
+          "name": "Cloak Field Generator",
+          "type": "optional"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Get Shadow Operations and start building toward Phantom Cloak. Build a strong ground army — the composition matters less than having high DPS units loaded in the Hercules.", "ru": "Получите Shadow Operations и начинайте продвигаться к Phantom Cloak. Стройте сильную наземную армию — состав менее важен, чем наличие юнитов с высоким DPS для загрузки в Геркулес."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "Once you have Phantom Cloak, the strategy comes online. Load your best units into a cloaked Hercules and fly directly to objectives. Unload for devastating ambushes.", "ru": "Как только вы получите Phantom Cloak, стратегия заработает. Загрузите лучших юнитов в замаскированный Геркулес и летите прямо к целям. Выгружайте для разрушительных засад."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "Run multiple cloaked Hercules for parallel objective clearing. Stack damage and health buffs to make your drop force unstoppable.", "ru": "Используйте несколько замаскированных Геркулесов для параллельного выполнения задач. Стакайте урон и здоровье, чтобы сделать вашу десантную силу неостановимой."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Get Shadow Operations and start building toward Phantom Cloak. Build a strong ground army — the composition matters less than having high DPS units loaded in the Hercules.",
+            "ru": "Получите Shadow Operations и начинайте продвигаться к Phantom Cloak. Стройте сильную наземную армию — состав менее важен, чем наличие юнитов с высоким DPS для загрузки в Геркулес."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
+          "text": {
+            "en": "Once you have Phantom Cloak, the strategy comes online. Load your best units into a cloaked Hercules and fly directly to objectives. Unload for devastating ambushes.",
+            "ru": "Как только вы получите Phantom Cloak, стратегия заработает. Загрузите лучших юнитов в замаскированный Геркулес и летите прямо к целям. Выгружайте для разрушительных засад."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "Run multiple cloaked Hercules for parallel objective clearing. Stack damage and health buffs to make your drop force unstoppable.",
+            "ru": "Используйте несколько замаскированных Геркулесов для параллельного выполнения задач. Стакайте урон и здоровье, чтобы сделать вашу десантную силу неостановимой."
+          }
+        }
       ],
       "tips": [
-        {"en": "The Hercules cloak field hides everything inside — full army surprise drops are devastating", "ru": "Поле маскировки Геркулеса скрывает всё внутри — внезапные десанты полной армией разрушительны"},
-        {"en": "Bring a Science Vessel or Raven in a second Hercules for detection support", "ru": "Возьмите Научное Судно или Ворона во втором Геркулесе для поддержки обнаружения"},
-        {"en": "Works exceptionally well on missions with distant objectives", "ru": "Исключительно хорошо работает на миссиях с отдалёнными целями"}
+        {
+          "en": "The Hercules cloak field hides everything inside — full army surprise drops are devastating",
+          "ru": "Поле маскировки Геркулеса скрывает всё внутри — внезапные десанты полной армией разрушительны"
+        },
+        {
+          "en": "Bring a Science Vessel or Raven in a second Hercules for detection support",
+          "ru": "Возьмите Научное Судно или Ворона во втором Геркулесе для поддержки обнаружения"
+        },
+        {
+          "en": "Works exceptionally well on missions with distant objectives",
+          "ru": "Исключительно хорошо работает на миссиях с отдалёнными целями"
+        }
       ]
     },
     {
-      "name": {"en": "Spectral Defense", "ru": "Спектральная Оборона"},
-      "subtitle": {"en": "Invisible fortress", "ru": "Невидимая крепость"},
+      "name": {
+        "en": "Spectral Defense",
+        "ru": "Спектральная Оборона"
+      },
+      "subtitle": {
+        "en": "Invisible fortress",
+        "ru": "Невидимая крепость"
+      },
       "desc": {
         "en": "Place Spectres in cloaked bunkers for an invisible defensive line. Combine with Nuclear Specialist for devastating area denial. The enemy walks into death they cannot see.",
         "ru": "Размещайте Спектров в замаскированных бункерах для невидимой оборонительной линии. Комбинируйте с Nuclear Specialist для разрушительного контроля зоны. Враг входит в смерть, которую не может увидеть."
       },
       "tags": [
-        {"name": "Ghost Protocol", "type": "core"},
-        {"name": "Phantom Cloak", "type": "required"},
-        {"name": "Nuclear Specialist", "type": "optional"},
-        {"name": "EMP Mastery", "type": "optional"},
-        {"name": "Unobtanium Plating", "type": "generic"},
-        {"name": "Use More Gun", "type": "generic"}
+        {
+          "name": "Ghost Protocol",
+          "type": "core"
+        },
+        {
+          "name": "Phantom Cloak",
+          "type": "required"
+        },
+        {
+          "name": "Nuclear Specialist",
+          "type": "optional"
+        },
+        {
+          "name": "EMP Mastery",
+          "type": "optional"
+        },
+        {
+          "name": "Unobtanium Plating",
+          "type": "generic"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Build Ghost Protocol and start placing bunkers at key chokepoints. Even without cloak, Spectres in bunkers are effective defenders.", "ru": "Постройте Ghost Protocol и начинайте размещать бункеры на ключевых узких проходах. Даже без маскировки Спектры в бункерах — эффективные защитники."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "Get Phantom Cloak to make bunkers invisible. Enemies walk into your kill zones without knowing. Add Nuclear Specialist to deny large areas.", "ru": "Получите Phantom Cloak для невидимых бункеров. Враги заходят в зоны убийства, не подозревая. Добавьте Nuclear Specialist для контроля больших зон."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "Layer cloaked bunkers in depth with overlapping fields of fire. Use nukes to clear any enemy force that groups up. This build excels on defense missions.", "ru": "Расположите замаскированные бункеры эшелонированно с перекрывающимися секторами обстрела. Используйте ядерки для уничтожения любых сгруппированных вражеских сил. Этот билд отлично проявляет себя на оборонительных миссиях."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Build Ghost Protocol and start placing bunkers at key chokepoints. Even without cloak, Spectres in bunkers are effective defenders.",
+            "ru": "Постройте Ghost Protocol и начинайте размещать бункеры на ключевых узких проходах. Даже без маскировки Спектры в бункерах — эффективные защитники."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
+          "text": {
+            "en": "Get Phantom Cloak to make bunkers invisible. Enemies walk into your kill zones without knowing. Add Nuclear Specialist to deny large areas.",
+            "ru": "Получите Phantom Cloak для невидимых бункеров. Враги заходят в зоны убийства, не подозревая. Добавьте Nuclear Specialist для контроля больших зон."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "Layer cloaked bunkers in depth with overlapping fields of fire. Use nukes to clear any enemy force that groups up. This build excels on defense missions.",
+            "ru": "Расположите замаскированные бункеры эшелонированно с перекрывающимися секторами обстрела. Используйте ядерки для уничтожения любых сгруппированных вражеских сил. Этот билд отлично проявляет себя на оборонительных миссиях."
+          }
+        }
       ],
       "tips": [
-        {"en": "Place bunkers in a staggered pattern so enemies cannot avoid all of them", "ru": "Размещайте бункеры в шахматном порядке, чтобы враги не могли избежать всех"},
-        {"en": "Keep mobile Ghosts outside bunkers to handle detectors", "ru": "Держите мобильных Призраков вне бункеров для работы с детекторами"},
-        {"en": "Nuclear Specialist + cloaked nuke targeting creates absolute no-go zones", "ru": "Nuclear Specialist + наведение ядерки из маскировки создаёт абсолютные мёртвые зоны"}
+        {
+          "en": "Place bunkers in a staggered pattern so enemies cannot avoid all of them",
+          "ru": "Размещайте бункеры в шахматном порядке, чтобы враги не могли избежать всех"
+        },
+        {
+          "en": "Keep mobile Ghosts outside bunkers to handle detectors",
+          "ru": "Держите мобильных Призраков вне бункеров для работы с детекторами"
+        },
+        {
+          "en": "Nuclear Specialist + cloaked nuke targeting creates absolute no-go zones",
+          "ru": "Nuclear Specialist + наведение ядерки из маскировки создаёт абсолютные мёртвые зоны"
+        }
       ]
     }
   ],
   "multiclass_epics": [
     {
       "name": "Privateery",
-      "classes": ["Rogue", "Hunter"],
+      "classes": [
+        "Rogue",
+        "Hunter"
+      ],
       "tier": "A",
       "desc": {
         "en": "Ghosts, Spectres, and Wraiths count as mercenary units for Premium Contract and Deadman's Hardware.",
@@ -325,7 +553,10 @@
     },
     {
       "name": "Ghost Affinity",
-      "classes": ["Rogue", "Champion"],
+      "classes": [
+        "Rogue",
+        "Champion"
+      ],
       "tier": "A",
       "desc": {
         "en": "Your hero unit gains permanent cloak and all Rogue ambush bonuses. Hero kills from cloak grant a permanent +2% damage buff (stacking).",
@@ -338,7 +569,10 @@
     },
     {
       "name": "Enveloping Shadows",
-      "classes": ["Rogue", "Warlock"],
+      "classes": [
+        "Rogue",
+        "Warlock"
+      ],
       "tier": "B",
       "desc": {
         "en": "Hybrid summons can cloak. Dark pact abilities cast from cloak deal +35% damage.",
@@ -351,7 +585,10 @@
     },
     {
       "name": "Double Edged Sword",
-      "classes": ["Rogue", "Acolyte"],
+      "classes": [
+        "Rogue",
+        "Acolyte"
+      ],
       "tier": "B",
       "desc": {
         "en": "Ritual sacrifices performed by cloaked units deal +50% damage but cost +25% more health. Sacrifice kills from cloak grant double ritual stacks.",
@@ -364,7 +601,10 @@
     },
     {
       "name": "Guerilla Warfare",
-      "classes": ["Rogue", "Engineer"],
+      "classes": [
+        "Rogue",
+        "Engineer"
+      ],
       "tier": "B",
       "desc": {
         "en": "Turrets can be built while cloaked and start cloaked themselves for 30 seconds. Cloaked turrets deal +30% damage.",
@@ -377,7 +617,10 @@
     },
     {
       "name": "Fourier Scrambler",
-      "classes": ["Rogue", "Druid"],
+      "classes": [
+        "Rogue",
+        "Druid"
+      ],
       "tier": "C",
       "desc": {
         "en": "Infested units gain personal cloaking. Cloaked infested units spread infestation 50% faster.",
@@ -390,7 +633,10 @@
     },
     {
       "name": "Brain Fog",
-      "classes": ["Rogue", "Psychic"],
+      "classes": [
+        "Rogue",
+        "Psychic"
+      ],
       "tier": "B",
       "desc": {
         "en": "Psi-Corps Troopers can cloak. Psi-Storm cast from cloak deals +50% damage and does not break stealth.",
@@ -403,7 +649,10 @@
     },
     {
       "name": "Nuclear Proficiency",
-      "classes": ["Rogue", "Sorcerer"],
+      "classes": [
+        "Rogue",
+        "Sorcerer"
+      ],
       "tier": "A",
       "desc": {
         "en": "Nukes can be called via drop pod delivery. Nuke damage is amplified by Sorcerer spell bonuses. Nuke radius increased by 25%.",
@@ -416,7 +665,10 @@
     },
     {
       "name": "Shroud Of Adun",
-      "classes": ["Rogue", "Bard"],
+      "classes": [
+        "Rogue",
+        "Bard"
+      ],
       "tier": "B",
       "desc": {
         "en": "Capital ships gain a cloaking shroud that cloaks all nearby allied units. Cloaked capital ships gain +20% weapon damage.",
@@ -429,7 +681,10 @@
     },
     {
       "name": "Shadowstep",
-      "classes": ["Rogue", "Monk"],
+      "classes": [
+        "Rogue",
+        "Monk"
+      ],
       "tier": "A",
       "desc": {
         "en": "Cloaked units gain Shadowstep: short-range teleport with 5 second cooldown. After teleporting, units gain +50% attack speed for 3 seconds.",

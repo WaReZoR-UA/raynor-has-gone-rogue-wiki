@@ -1,7 +1,7 @@
 {
   "id": "scientist",
   "name": "Scientist",
-  "icon": "&#128300;",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2'><path d='M9 3h6v7l3 7H6l3-7V3z'/><path d='M6 17h12'/><path d='M10 3h4'/><circle cx='11' cy='13' r='1' fill='currentColor'/><circle cx='14' cy='15' r='1' fill='currentColor'/></svg>",
   "color": "#3b82f6",
   "subtitle": {
     "en": "Architect of Innovation",
@@ -16,21 +16,66 @@
     "ru": "Получите 4 стака одного таланта"
   },
   "stats": [
-    {"value": "S", "label": {"en": "Unit Quality", "ru": "Качество юнитов"}},
-    {"value": "A", "label": {"en": "Late Game Power", "ru": "Сила в поздней игре"}},
-    {"value": "B", "label": {"en": "Early Game", "ru": "Ранняя игра"}},
-    {"value": "A", "label": {"en": "Versatility", "ru": "Универсальность"}}
+    {
+      "value": "S",
+      "label": {
+        "en": "Unit Quality",
+        "ru": "Качество юнитов"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "Late Game Power",
+        "ru": "Сила в поздней игре"
+      }
+    },
+    {
+      "value": "B",
+      "label": {
+        "en": "Early Game",
+        "ru": "Ранняя игра"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "Versatility",
+        "ru": "Универсальность"
+      }
+    }
   ],
   "strengths": [
-    {"en": "Fenrir/Hel/Jormungand are among the strongest individual units in the game", "ru": "Фенрир/Хель/Ёрмунганд — одни из сильнейших индивидуальных юнитов в игре"},
-    {"en": "Universal Booster and Unifying Theory provide massive army-wide bonuses", "ru": "Universal Booster и Unifying Theory дают огромные бонусы на всю армию"},
-    {"en": "Prototype upgrades permanently enhance units beyond their normal limits", "ru": "Прототипные улучшения навсегда усиливают юнитов сверх их обычных пределов"},
-    {"en": "Excellent unit talent stacking with 3rd Opinion and Corner Cutting Machine", "ru": "Отличное стакание талантов юнитов через 3rd Opinion и Corner Cutting Machine"}
+    {
+      "en": "Fenrir/Hel/Jormungand are among the strongest individual units in the game",
+      "ru": "Фенрир/Хель/Ёрмунганд — одни из сильнейших индивидуальных юнитов в игре"
+    },
+    {
+      "en": "Universal Booster and Unifying Theory provide massive army-wide bonuses",
+      "ru": "Universal Booster и Unifying Theory дают огромные бонусы на всю армию"
+    },
+    {
+      "en": "Prototype upgrades permanently enhance units beyond their normal limits",
+      "ru": "Прототипные улучшения навсегда усиливают юнитов сверх их обычных пределов"
+    },
+    {
+      "en": "Excellent unit talent stacking with 3rd Opinion and Corner Cutting Machine",
+      "ru": "Отличное стакание талантов юнитов через 3rd Opinion и Corner Cutting Machine"
+    }
   ],
   "weaknesses": [
-    {"en": "Prototypes are expensive — economy management is critical", "ru": "Прототипы дорогие — управление экономикой критически важно"},
-    {"en": "Slow ramp-up time before research pays off", "ru": "Медленный разгон до того, как исследования окупятся"},
-    {"en": "Cannot multiclass with several classes due to type restrictions", "ru": "Не может мультиклассить с некоторыми классами из-за типовых ограничений"}
+    {
+      "en": "Prototypes are expensive — economy management is critical",
+      "ru": "Прототипы дорогие — управление экономикой критически важно"
+    },
+    {
+      "en": "Slow ramp-up time before research pays off",
+      "ru": "Медленный разгон до того, как исследования окупятся"
+    },
+    {
+      "en": "Cannot multiclass with several classes due to type restrictions",
+      "ru": "Не может мультиклассить с некоторыми классами из-за типовых ограничений"
+    }
   ],
   "talents": [
     {
@@ -216,88 +261,271 @@
   ],
   "builds": [
     {
-      "name": {"en": "Ragnarok On-Demand", "ru": "Рагнарёк По Запросу"},
-      "subtitle": {"en": "Fast Fenrir domination", "ru": "Быстрое доминирование Фенрира"},
+      "name": {
+        "en": "Ragnarok On-Demand",
+        "ru": "Рагнарёк По Запросу"
+      },
+      "subtitle": {
+        "en": "Fast Fenrir domination",
+        "ru": "Быстрое доминирование Фенрира"
+      },
       "desc": {
         "en": "Rush Fenrir Protocol and stack Research Acceleration to create an unstoppable super-unit as quickly as possible. Fenrir scales per mission, so the earlier you get it, the stronger it becomes.",
         "ru": "Спешите к Fenrir Protocol и стакайте Research Acceleration, чтобы создать неостановимого супер-юнита как можно быстрее. Фенрир масштабируется за миссию, поэтому чем раньше вы его получите, тем сильнее он станет."
       },
       "tags": [
-        {"name": "Universal Booster", "type": "core"},
-        {"name": "Fenrir Protocol", "type": "required"},
-        {"name": "Research Acceleration", "type": "required"},
-        {"name": "Next-gen Prototypes", "type": "optional"},
-        {"name": "Field Testing", "type": "optional"},
-        {"name": "Medical Breakthrough", "type": "generic"}
+        {
+          "name": "Universal Booster",
+          "type": "core"
+        },
+        {
+          "name": "Fenrir Protocol",
+          "type": "required"
+        },
+        {
+          "name": "Research Acceleration",
+          "type": "required"
+        },
+        {
+          "name": "Next-gen Prototypes",
+          "type": "optional"
+        },
+        {
+          "name": "Field Testing",
+          "type": "optional"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Get Universal Booster and start upgrades immediately. Play with a standard army while hunting for Fenrir Protocol. Take any economy talents offered.", "ru": "Получите Universal Booster и немедленно начинайте улучшения. Играйте стандартной армией, ища Fenrir Protocol. Берите любые экономические таланты."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "Once Fenrir is online, it becomes your primary damage dealer. Stack Research Acceleration and health/damage generics. Add Thor talents to buff Fenrir further.", "ru": "Как только Фенрир появится, он становится вашим основным источником урона. Стакайте Research Acceleration и общие таланты здоровья/урона. Добавляйте таланты Тора для дополнительного бафа Фенрира."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "Fenrir should have accumulated massive per-mission bonuses. With Field Testing kills, it becomes nearly invincible. Support with Medivacs and a screening army.", "ru": "Фенрир должен накопить огромные бонусы за миссии. С убийствами Field Testing он становится почти неуязвимым. Поддерживайте Медиваками и прикрывающей армией."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Get Universal Booster and start upgrades immediately. Play with a standard army while hunting for Fenrir Protocol. Take any economy talents offered.",
+            "ru": "Получите Universal Booster и немедленно начинайте улучшения. Играйте стандартной армией, ища Fenrir Protocol. Берите любые экономические таланты."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
+          "text": {
+            "en": "Once Fenrir is online, it becomes your primary damage dealer. Stack Research Acceleration and health/damage generics. Add Thor talents to buff Fenrir further.",
+            "ru": "Как только Фенрир появится, он становится вашим основным источником урона. Стакайте Research Acceleration и общие таланты здоровья/урона. Добавляйте таланты Тора для дополнительного бафа Фенрира."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "Fenrir should have accumulated massive per-mission bonuses. With Field Testing kills, it becomes nearly invincible. Support with Medivacs and a screening army.",
+            "ru": "Фенрир должен накопить огромные бонусы за миссии. С убийствами Field Testing он становится почти неуязвимым. Поддерживайте Медиваками и прикрывающей армией."
+          }
+        }
       ],
       "tips": [
-        {"en": "Fenrir gains +5% per mission — every mission without it is a missed stack", "ru": "Фенрир получает +5% за миссию — каждая миссия без него — потерянный стак"},
-        {"en": "Pair Fenrir with Medivacs for sustain — it has no self-healing", "ru": "Сочетайте Фенрира с Медиваками для выживания — у него нет самоисцеления"},
-        {"en": "Thor unit talents (Heavy Servos, Stormforged Barrier) also apply to Fenrir", "ru": "Таланты юнита Тор (Heavy Servos, Stormforged Barrier) также применяются к Фенриру"}
+        {
+          "en": "Fenrir gains +5% per mission — every mission without it is a missed stack",
+          "ru": "Фенрир получает +5% за миссию — каждая миссия без него — потерянный стак"
+        },
+        {
+          "en": "Pair Fenrir with Medivacs for sustain — it has no self-healing",
+          "ru": "Сочетайте Фенрира с Медиваками для выживания — у него нет самоисцеления"
+        },
+        {
+          "en": "Thor unit talents (Heavy Servos, Stormforged Barrier) also apply to Fenrir",
+          "ru": "Таланты юнита Тор (Heavy Servos, Stormforged Barrier) также применяются к Фенриру"
+        }
       ]
     },
     {
-      "name": {"en": "A Proper Thor", "ru": "Настоящий Тор"},
-      "subtitle": {"en": "Maximum unit talent stacking", "ru": "Максимальное стакание талантов юнитов"},
+      "name": {
+        "en": "A Proper Thor",
+        "ru": "Настоящий Тор"
+      },
+      "subtitle": {
+        "en": "Maximum unit talent stacking",
+        "ru": "Максимальное стакание талантов юнитов"
+      },
       "desc": {
         "en": "Stack as many unit talents as possible to maximize Unifying Theory bonus. Focus on turning Thors into Prototypes with 3+ talents, then compound with Research Acceleration and Universal Booster.",
         "ru": "Стакайте как можно больше талантов юнитов для максимизации бонуса Unifying Theory. Фокус на превращении Торов в Прототипы с 3+ талантами, затем комбинируйте с Research Acceleration и Universal Booster."
       },
       "tags": [
-        {"name": "Unifying Theory", "type": "core"},
-        {"name": "3rd Opinion", "type": "required"},
-        {"name": "Next-gen Prototypes", "type": "required"},
-        {"name": "Corner Cutting Machine", "type": "optional"},
-        {"name": "Experimental Ordnance", "type": "optional"},
-        {"name": "Use More Gun", "type": "generic"}
+        {
+          "name": "Unifying Theory",
+          "type": "core"
+        },
+        {
+          "name": "3rd Opinion",
+          "type": "required"
+        },
+        {
+          "name": "Next-gen Prototypes",
+          "type": "required"
+        },
+        {
+          "name": "Corner Cutting Machine",
+          "type": "optional"
+        },
+        {
+          "name": "Experimental Ordnance",
+          "type": "optional"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "Get Unifying Theory and 3rd Opinion immediately. Take every unit talent offered — variety matters more than quality at this stage. Start building Thors.", "ru": "Получите Unifying Theory и 3rd Opinion немедленно. Берите каждый предложенный талант юнита — разнообразие важнее качества на этом этапе. Начинайте строить Торов."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "With 15+ unique unit talents, Unifying Theory provides +30% damage/health army-wide. Get Next-gen Prototypes and focus Thor talents (Heavy Servos, Stormforged Barrier, Mjolnir) to hit prototype threshold.", "ru": "С 15+ уникальными талантами юнитов Unifying Theory даёт +30% урона/здоровья на всю армию. Получите Next-gen Prototypes и фокусируйте таланты Тора (Heavy Servos, Stormforged Barrier, Mjolnir) для достижения порога прототипа."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "Prototype Thors with Unifying Theory stacks are terrifyingly powerful. Each one is worth multiple normal units. Add Corner Cutting Machine to mass-produce them affordably.", "ru": "Прототипные Торы со стаками Unifying Theory устрашающе мощны. Каждый стоит нескольких обычных юнитов. Добавьте Corner Cutting Machine для доступного массового производства."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "Get Unifying Theory and 3rd Opinion immediately. Take every unit talent offered — variety matters more than quality at this stage. Start building Thors.",
+            "ru": "Получите Unifying Theory и 3rd Opinion немедленно. Берите каждый предложенный талант юнита — разнообразие важнее качества на этом этапе. Начинайте строить Торов."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
+          "text": {
+            "en": "With 15+ unique unit talents, Unifying Theory provides +30% damage/health army-wide. Get Next-gen Prototypes and focus Thor talents (Heavy Servos, Stormforged Barrier, Mjolnir) to hit prototype threshold.",
+            "ru": "С 15+ уникальными талантами юнитов Unifying Theory даёт +30% урона/здоровья на всю армию. Получите Next-gen Prototypes и фокусируйте таланты Тора (Heavy Servos, Stormforged Barrier, Mjolnir) для достижения порога прототипа."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "Prototype Thors with Unifying Theory stacks are terrifyingly powerful. Each one is worth multiple normal units. Add Corner Cutting Machine to mass-produce them affordably.",
+            "ru": "Прототипные Торы со стаками Unifying Theory устрашающе мощны. Каждый стоит нескольких обычных юнитов. Добавьте Corner Cutting Machine для доступного массового производства."
+          }
+        }
       ],
       "tips": [
-        {"en": "Take unit talents for units you do not use — they still count for Unifying Theory", "ru": "Берите таланты для юнитов, которых не используете — они всё равно считаются для Unifying Theory"},
-        {"en": "3rd Opinion's 20% free talent chance becomes significant over a long campaign", "ru": "20% шанс бесплатного таланта от 3rd Opinion становится значительным на протяжении длинной кампании"},
-        {"en": "Prototype Thors with Experimental Ordnance add AoE splash to an already tanky unit", "ru": "Прототипные Торы с Experimental Ordnance добавляют AoE сплеш к и без того прочному юниту"}
+        {
+          "en": "Take unit talents for units you do not use — they still count for Unifying Theory",
+          "ru": "Берите таланты для юнитов, которых не используете — они всё равно считаются для Unifying Theory"
+        },
+        {
+          "en": "3rd Opinion's 20% free talent chance becomes significant over a long campaign",
+          "ru": "20% шанс бесплатного таланта от 3rd Opinion становится значительным на протяжении длинной кампании"
+        },
+        {
+          "en": "Prototype Thors with Experimental Ordnance add AoE splash to an already tanky unit",
+          "ru": "Прототипные Торы с Experimental Ordnance добавляют AoE сплеш к и без того прочному юниту"
+        }
       ]
     },
     {
-      "name": {"en": "Triple Threat", "ru": "Тройная Угроза"},
-      "subtitle": {"en": "Fenrir + Hel + Jormungand", "ru": "Фенрир + Хель + Ёрмунганд"},
+      "name": {
+        "en": "Triple Threat",
+        "ru": "Тройная Угроза"
+      },
+      "subtitle": {
+        "en": "Fenrir + Hel + Jormungand",
+        "ru": "Фенрир + Хель + Ёрмунганд"
+      },
       "desc": {
         "en": "Collect all three legendary experimental units — Fenrir, Hel, and Jormungand — for unmatched firepower. This greedy build requires finding multiple epics but rewards with the strongest late-game army possible.",
         "ru": "Соберите все три легендарных экспериментальных юнита — Фенрир, Хель и Ёрмунганд — для непревзойдённой огневой мощи. Этот жадный билд требует нахождения нескольких эпиков, но вознаграждает сильнейшей армией поздней игры."
       },
       "tags": [
-        {"name": "Unifying Theory", "type": "core"},
-        {"name": "Fenrir Protocol", "type": "required"},
-        {"name": "Hel's Wrath", "type": "required"},
-        {"name": "Jormungand Batteries", "type": "required"},
-        {"name": "Research Acceleration", "type": "optional"},
-        {"name": "Salvage Operation", "type": "generic"}
+        {
+          "name": "Unifying Theory",
+          "type": "core"
+        },
+        {
+          "name": "Fenrir Protocol",
+          "type": "required"
+        },
+        {
+          "name": "Hel's Wrath",
+          "type": "required"
+        },
+        {
+          "name": "Jormungand Batteries",
+          "type": "required"
+        },
+        {
+          "name": "Research Acceleration",
+          "type": "optional"
+        },
+        {
+          "name": "Salvage Operation",
+          "type": "generic"
+        }
       ],
       "phases": [
-        {"title": {"en": "Early (1-5)", "ru": "Ранняя (1-5)"}, "text": {"en": "This build is greedy — play with a standard army and pick up whatever experimental unit you find first. Economy talents are critical since all three units are expensive.", "ru": "Этот билд жадный — играйте стандартной армией и подбирайте любой экспериментальный юнит, который найдёте первым. Экономические таланты критически важны, так как все три юнита дороги."}},
-        {"title": {"en": "Mid (6-15)", "ru": "Средняя (6-15)"}, "text": {"en": "Hopefully you have 1-2 experimental units by now. Each one dramatically changes the battlefield. Hel handles assassinations, Fenrir tanks, Jormungand sieges.", "ru": "Надеемся, у вас уже есть 1-2 экспериментальных юнита. Каждый кардинально меняет поле боя. Хель занимается убийствами, Фенрир танкует, Ёрмунганд осаждает."}},
-        {"title": {"en": "Late (16+)", "ru": "Поздняя (16+)"}, "text": {"en": "With all three online, you have an answer for every situation. Support them with Medivacs and a mineral-dump army. This is the Scientist dream endgame.", "ru": "С тремя юнитами на поле у вас есть ответ на каждую ситуацию. Поддерживайте их Медиваками и армией из дешёвых юнитов. Это мечта Учёного для эндгейма."}}
+        {
+          "title": {
+            "en": "Early (1-5)",
+            "ru": "Ранняя (1-5)"
+          },
+          "text": {
+            "en": "This build is greedy — play with a standard army and pick up whatever experimental unit you find first. Economy talents are critical since all three units are expensive.",
+            "ru": "Этот билд жадный — играйте стандартной армией и подбирайте любой экспериментальный юнит, который найдёте первым. Экономические таланты критически важны, так как все три юнита дороги."
+          }
+        },
+        {
+          "title": {
+            "en": "Mid (6-15)",
+            "ru": "Средняя (6-15)"
+          },
+          "text": {
+            "en": "Hopefully you have 1-2 experimental units by now. Each one dramatically changes the battlefield. Hel handles assassinations, Fenrir tanks, Jormungand sieges.",
+            "ru": "Надеемся, у вас уже есть 1-2 экспериментальных юнита. Каждый кардинально меняет поле боя. Хель занимается убийствами, Фенрир танкует, Ёрмунганд осаждает."
+          }
+        },
+        {
+          "title": {
+            "en": "Late (16+)",
+            "ru": "Поздняя (16+)"
+          },
+          "text": {
+            "en": "With all three online, you have an answer for every situation. Support them with Medivacs and a mineral-dump army. This is the Scientist dream endgame.",
+            "ru": "С тремя юнитами на поле у вас есть ответ на каждую ситуацию. Поддерживайте их Медиваками и армией из дешёвых юнитов. Это мечта Учёного для эндгейма."
+          }
+        }
       ],
       "tips": [
-        {"en": "Do not force this build — take whatever experimental units are offered and adapt", "ru": "Не форсируйте этот билд — берите любые предложенные экспериментальные юниты и адаптируйтесь"},
-        {"en": "Jormungand + Fenrir covers both siege and assault — Hel handles special operations", "ru": "Ёрмунганд + Фенрир покрывает и осаду, и штурм — Хель занимается спецоперациями"},
-        {"en": "Economy is the bottleneck — take Salvage Operation and Renewable Fuel aggressively", "ru": "Экономика — узкое место — берите Salvage Operation и Renewable Fuel агрессивно"}
+        {
+          "en": "Do not force this build — take whatever experimental units are offered and adapt",
+          "ru": "Не форсируйте этот билд — берите любые предложенные экспериментальные юниты и адаптируйтесь"
+        },
+        {
+          "en": "Jormungand + Fenrir covers both siege and assault — Hel handles special operations",
+          "ru": "Ёрмунганд + Фенрир покрывает и осаду, и штурм — Хель занимается спецоперациями"
+        },
+        {
+          "en": "Economy is the bottleneck — take Salvage Operation and Renewable Fuel aggressively",
+          "ru": "Экономика — узкое место — берите Salvage Operation и Renewable Fuel агрессивно"
+        }
       ]
     }
   ],
   "multiclass_epics": [
     {
       "name": "Project: Magellan",
-      "classes": ["Scientist", "Champion"],
+      "classes": [
+        "Scientist",
+        "Champion"
+      ],
       "tier": "S",
       "desc": {
         "en": "Your hero unit becomes an experimental prototype: gains +50% all stats, a unique experimental ability, and counts as all unit types for talent purposes.",
@@ -310,7 +538,10 @@
     },
     {
       "name": "Technovore",
-      "classes": ["Scientist", "Warlock"],
+      "classes": [
+        "Scientist",
+        "Warlock"
+      ],
       "tier": "A",
       "desc": {
         "en": "Hybrid summons count as prototype units. Prototype kills feed pact levels at double rate. Hybrids gain experimental ordnance.",
@@ -323,7 +554,10 @@
     },
     {
       "name": "Pinnacle Hardware",
-      "classes": ["Scientist", "Engineer"],
+      "classes": [
+        "Scientist",
+        "Engineer"
+      ],
       "tier": "A",
       "desc": {
         "en": "Turrets and defensive buildings become Prototype tier: +25% all stats and gain experimental abilities. Bunkers can house prototype units at +1 capacity.",
@@ -336,7 +570,10 @@
     },
     {
       "name": "High-Tech Necrosis",
-      "classes": ["Scientist", "Necromancer"],
+      "classes": [
+        "Scientist",
+        "Necromancer"
+      ],
       "tier": "B",
       "desc": {
         "en": "Prototype units gain deathrattle: on death, spawn a degraded copy at 50% stats that lasts 30 seconds. Curse stacks boost prototype stat bonuses by +3% each.",
@@ -349,7 +586,10 @@
     },
     {
       "name": "Hounds Of War",
-      "classes": ["Scientist", "Druid"],
+      "classes": [
+        "Scientist",
+        "Druid"
+      ],
       "tier": "B",
       "desc": {
         "en": "Fenrir/Hel/Jormungand can be infested, gaining Zerg abilities and +30% health. Infested prototypes regenerate health rapidly.",
@@ -362,7 +602,10 @@
     },
     {
       "name": "Psi-Tech Research",
-      "classes": ["Scientist", "Psychic"],
+      "classes": [
+        "Scientist",
+        "Psychic"
+      ],
       "tier": "A",
       "desc": {
         "en": "Prototype units gain terrazine enhancement. Psi-Corps Troopers can pilot Fenrir-class vehicles with psionic targeting (+25% accuracy, +15% damage).",
@@ -375,7 +618,10 @@
     },
     {
       "name": "Purification Protocol",
-      "classes": ["Scientist", "Bard"],
+      "classes": [
+        "Scientist",
+        "Bard"
+      ],
       "tier": "B",
       "desc": {
         "en": "Capital ships gain prototype status and experimental weapon systems. Prototype Battlecruisers gain a purification beam dealing massive sustained damage.",
@@ -388,7 +634,10 @@
     },
     {
       "name": "Unexpected Prototypes",
-      "classes": ["Scientist", "Gambler"],
+      "classes": [
+        "Scientist",
+        "Gambler"
+      ],
       "tier": "C",
       "desc": {
         "en": "Random units in your army spontaneously gain prototype status each mission. Prototype bonuses have ±20% variance (can exceed normal caps).",

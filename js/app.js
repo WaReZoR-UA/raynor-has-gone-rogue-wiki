@@ -119,7 +119,7 @@ const App = {
         </div>
         <div class="container">
             <div class="section">
-                <h2 class="section-title"><span class="icon">&#9876;</span> ${this.t('home_pick_class')}</h2>
+                <h2 class="section-title"><span class="icon"><svg viewBox='0 0 24 24' width='18' height='18' fill='none' stroke='currentColor' stroke-width='2'><path d='M14.5 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V7.5L14.5 2z'/><polyline points='14 2 14 8 20 8'/></svg></span> ${this.t('home_pick_class')}</h2>
                 <div class="class-grid">
                     ${classes.map(c => `
                     <a href="#/class/${c.id}" class="class-card" style="--class-color:${c.color}">
@@ -183,7 +183,7 @@ const App = {
         ${stats ? `<div class="stat-grid">${stats}</div>` : ''}
         <div class="card"><h3>${this.t('class_overview')}</h3><p>${this.l(data.summary)}</p></div>
         ${core ? `
-        <div class="section"><h3 class="section-title"><span class="icon">&#11088;</span> ${this.t('core_talent')}</h3>
+        <div class="section"><h3 class="section-title"><span class="icon"><svg viewBox='0 0 24 24' width='18' height='18' fill='none' stroke='currentColor' stroke-width='2'><polygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2'/></svg></span> ${this.t('core_talent')}</h3>
             <div class="talent-card rarity-core">
                 <div class="talent-header"><span class="talent-name">${core.name}</span><span class="badge badge-core">CORE</span></div>
                 <div class="talent-desc">${this.l(core.desc)}</div>
@@ -204,7 +204,7 @@ const App = {
 
         return `
         <div class="section">
-            <h2 class="section-title"><span class="icon">&#11088;</span> ${this.t('class_talents')}</h2>
+            <h2 class="section-title"><span class="icon"><svg viewBox='0 0 24 24' width='18' height='18' fill='none' stroke='currentColor' stroke-width='2'><polygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2'/></svg></span> ${this.t('class_talents')}</h2>
             <div class="search-wrap"><input type="text" class="search-input" id="talent-search" placeholder="${this.t('talent_search_placeholder')}"></div>
             <div class="filter-bar">${filters}</div>
             <div class="talent-list">${sorted.map(t => this.renderTalentCard(t)).join('')}</div>
@@ -234,7 +234,7 @@ const App = {
         if (!builds.length) return `<div class="section"><div class="card"><p>${this.lang==='ru'?'Гайды по билдам скоро появятся.':'Build guides coming soon.'}</p></div></div>`;
 
         return `<div class="section">
-            <h2 class="section-title"><span class="icon">&#128736;</span> ${this.t('builds_title')}</h2>
+            <h2 class="section-title"><span class="icon"><svg viewBox='0 0 24 24' width='18' height='18' fill='none' stroke='currentColor' stroke-width='2'><path d='M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z'/></svg></span> ${this.t('builds_title')}</h2>
             <p class="section-desc">${this.t('builds_subtitle')}</p>
             ${builds.map((b,i) => {
                 const tags = (b.tags||[]).map(t => `<span class="tag tag-${t.type||'generic'}">${t.name}</span>`).join('');
@@ -256,7 +256,7 @@ const App = {
     renderClassMulticlass(data) {
         const epics = data.multiclass_epics || [];
         return `<div class="section">
-            <h2 class="section-title"><span class="icon">&#128279;</span> ${this.t('multiclass_title')}</h2>
+            <h2 class="section-title"><span class="icon"><svg viewBox='0 0 24 24' width='18' height='18' fill='none' stroke='currentColor' stroke-width='2'><path d='M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71'/><path d='M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71'/></svg></span> ${this.t('multiclass_title')}</h2>
             <p class="section-desc">${this.t('multiclass_subtitle')}</p>
             ${data.multiclass_intro ? `<div class="card"><h3>${this.t('multiclass_how')}</h3><p>${this.l(data.multiclass_intro)}</p></div>` : ''}
             ${epics.length ? `<h3 style="margin:24px 0 12px;color:var(--text-bright)">${this.t('multiclass_epic_talents')}</h3>
@@ -298,7 +298,7 @@ const App = {
         <div class="page-hero"><h1>${this.t('calculator_title')}</h1><p class="subtitle">${this.t('calculator_subtitle')}</p></div>
         <div class="container">
             <div class="section">
-                <h2 class="section-title"><span class="icon">&#128202;</span> Deadman's Hardware Scaling</h2>
+                <h2 class="section-title"><span class="icon"><svg viewBox='0 0 24 24' width='18' height='18' fill='none' stroke='currentColor' stroke-width='2'><line x1='18' y1='20' x2='18' y2='10'/><line x1='12' y1='20' x2='12' y2='4'/><line x1='6' y1='20' x2='6' y2='14'/></svg></span> Deadman's Hardware Scaling</h2>
                 <div class="grid-2"><div>
                     <div class="calc-group"><label>Deadman's Hardware</label><div class="calc-value" id="dh-val">20</div><input type="range" id="dh-stacks" min="0" max="100" value="20"></div>
                     <div class="calc-group"><label>Use More Gun</label><div class="calc-value" id="umg-val">10</div><input type="range" id="umg-stacks" min="0" max="100" value="10"></div>
@@ -312,7 +312,7 @@ const App = {
                 </div></div>
             </div>
             <div class="section">
-                <h2 class="section-title"><span class="icon">&#9201;</span> ${this.t('calc_cooldown')}</h2>
+                <h2 class="section-title"><span class="icon"><svg viewBox='0 0 24 24' width='18' height='18' fill='none' stroke='currentColor' stroke-width='2'><circle cx='12' cy='12' r='10'/><polyline points='12 6 12 12 16 14'/></svg></span> ${this.t('calc_cooldown')}</h2>
                 <div class="grid-2"><div>
                     <div class="calc-group"><label>Base Cooldown</label><div class="calc-value" id="cd-base-val">120s</div><input type="range" id="cd-base" min="30" max="300" value="120" step="10"></div>
                     <div class="calc-group"><label>Loyalty Bonus</label><div class="calc-value" id="lb-val">0</div><input type="range" id="lb-stacks" min="0" max="3" value="0"></div>
@@ -355,7 +355,7 @@ const App = {
         <div class="container"><div style="overflow-x:auto">
             <table class="data-table"><thead><tr><th>Unit</th><th>${this.t('units_merc_name')}</th><th>${this.t('units_type')}</th><th>Merc?</th></tr></thead>
             <tbody>${units.map(u=>`<tr><td><strong>${u.name}</strong></td><td>${u.merc||'—'}</td><td>${this.l(u.type)}</td>
-            <td>${u.merc?'<span style="color:var(--uncommon)">&#10003;</span>':'<span style="color:var(--text-dim)">&#10007;</span>'}</td></tr>`).join('')}</tbody></table>
+            <td>${u.merc?'<span style="color:var(--uncommon)">Yes</span>':'<span style="color:var(--text-dim)">—</span>'}</td></tr>`).join('')}</tbody></table>
         </div></div>`;
     },
 

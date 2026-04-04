@@ -1,7 +1,7 @@
 {
   "id": "gambler",
   "name": "Gambler",
-  "icon": "&#127922;",
+  "icon": "<svg viewBox='0 0 24 24' width='24' height='24' fill='none' stroke='currentColor' stroke-width='2'><rect x='4' y='4' width='16' height='16' rx='2' transform='rotate(45 12 12)'/><circle cx='9' cy='9' r='1' fill='currentColor'/><circle cx='15' cy='15' r='1' fill='currentColor'/><circle cx='12' cy='12' r='1' fill='currentColor'/></svg>",
   "color": "#f59e0b",
   "subtitle": {
     "en": "Fortune's Favorite",
@@ -16,23 +16,77 @@
     "ru": "Пройдите All In без единого реролла"
   },
   "stats": [
-    {"value": "S/D", "label": {"en": "Late-Game Power", "ru": "Сила в лейте"}},
-    {"value": "B", "label": {"en": "Early-Game Power", "ru": "Сила в начале"}},
-    {"value": "A", "label": {"en": "Scaling", "ru": "Масштабирование"}},
-    {"value": "S", "label": {"en": "Versatility", "ru": "Универсальность"}},
-    {"value": "A", "label": {"en": "Difficulty", "ru": "Сложность"}}
+    {
+      "value": "S/D",
+      "label": {
+        "en": "Late-Game Power",
+        "ru": "Сила в лейте"
+      }
+    },
+    {
+      "value": "B",
+      "label": {
+        "en": "Early-Game Power",
+        "ru": "Сила в начале"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "Scaling",
+        "ru": "Масштабирование"
+      }
+    },
+    {
+      "value": "S",
+      "label": {
+        "en": "Versatility",
+        "ru": "Универсальность"
+      }
+    },
+    {
+      "value": "A",
+      "label": {
+        "en": "Difficulty",
+        "ru": "Сложность"
+      }
+    }
   ],
   "strengths": [
-    {"en": "Highest potential power ceiling of any class when luck is favorable", "ru": "Самый высокий потенциальный потолок мощи среди всех классов при удачных бросках"},
-    {"en": "Random spawns can provide units far beyond what your economy could normally support", "ru": "Случайные спавны могут предоставить юнитов далеко за пределами того, что может поддержать экономика"},
-    {"en": "Extremely fun and unpredictable gameplay — no two runs are alike", "ru": "Крайне весёлый и непредсказуемый геймплей — нет двух одинаковых забегов"},
-    {"en": "Some RNG effects are overwhelmingly positive when they hit", "ru": "Некоторые RNG-эффекты подавляюще позитивны при срабатывании"}
+    {
+      "en": "Highest potential power ceiling of any class when luck is favorable",
+      "ru": "Самый высокий потенциальный потолок мощи среди всех классов при удачных бросках"
+    },
+    {
+      "en": "Random spawns can provide units far beyond what your economy could normally support",
+      "ru": "Случайные спавны могут предоставить юнитов далеко за пределами того, что может поддержать экономика"
+    },
+    {
+      "en": "Extremely fun and unpredictable gameplay — no two runs are alike",
+      "ru": "Крайне весёлый и непредсказуемый геймплей — нет двух одинаковых забегов"
+    },
+    {
+      "en": "Some RNG effects are overwhelmingly positive when they hit",
+      "ru": "Некоторые RNG-эффекты подавляюще позитивны при срабатывании"
+    }
   ],
   "weaknesses": [
-    {"en": "Extremely high variance — bad luck can ruin a campaign", "ru": "Крайне высокий разброс — неудача может разрушить кампанию"},
-    {"en": "Difficult to plan around since you never know what you'll get", "ru": "Трудно планировать, поскольку никогда не знаешь, что получишь"},
-    {"en": "Random debuffs can actively hurt you at the worst possible moments", "ru": "Случайные дебаффы могут навредить в самые неподходящие моменты"},
-    {"en": "Requires All In completion without rerolls to unlock — high skill floor", "ru": "Требует прохождения All In без реролла для разблокировки — высокий порог навыка"}
+    {
+      "en": "Extremely high variance — bad luck can ruin a campaign",
+      "ru": "Крайне высокий разброс — неудача может разрушить кампанию"
+    },
+    {
+      "en": "Difficult to plan around since you never know what you'll get",
+      "ru": "Трудно планировать, поскольку никогда не знаешь, что получишь"
+    },
+    {
+      "en": "Random debuffs can actively hurt you at the worst possible moments",
+      "ru": "Случайные дебаффы могут навредить в самые неподходящие моменты"
+    },
+    {
+      "en": "Requires All In completion without rerolls to unlock — high skill floor",
+      "ru": "Требует прохождения All In без реролла для разблокировки — высокий порог навыка"
+    }
   ],
   "talents": [
     {
@@ -203,39 +257,78 @@
   ],
   "builds": [
     {
-      "name": {"en": "Calculated Risk", "ru": "Рассчитанный риск"},
-      "subtitle": {"en": "Minimize downside, maximize upside with RNG control", "ru": "Минимизируйте минусы, максимизируйте плюсы с контролем RNG"},
+      "name": {
+        "en": "Calculated Risk",
+        "ru": "Рассчитанный риск"
+      },
+      "subtitle": {
+        "en": "Minimize downside, maximize upside with RNG control",
+        "ru": "Минимизируйте минусы, максимизируйте плюсы с контролем RNG"
+      },
       "desc": {
         "en": "The 'smart' Gambler build. Use Card Counter and Loaded Dice to eliminate randomness while keeping all the upside. Fortune's Favor stacks tilt odds further. This turns Gambler from a coin flip into a consistently powerful class with only positive outcomes.",
         "ru": "«Умный» билд Азартного Игрока. Используйте Card Counter и Loaded Dice для устранения случайности, сохраняя все плюсы. Стаки Fortune's Favor ещё больше склоняют шансы. Это превращает Азартного Игрока из подбрасывания монетки в стабильно мощный класс с только положительными исходами."
       },
       "tags": [
-        {"name": "Roll The Dice", "type": "core"},
-        {"name": "Card Counter", "type": "required"},
-        {"name": "Loaded Dice", "type": "required"},
-        {"name": "Fortune's Favor", "type": "required"},
-        {"name": "Lucky Streak", "type": "optional"},
-        {"name": "Jackpot", "type": "optional"},
-        {"name": "Use More Gun", "type": "generic"},
-        {"name": "Medical Breakthrough", "type": "generic"}
+        {
+          "name": "Roll The Dice",
+          "type": "core"
+        },
+        {
+          "name": "Card Counter",
+          "type": "required"
+        },
+        {
+          "name": "Loaded Dice",
+          "type": "required"
+        },
+        {
+          "name": "Fortune's Favor",
+          "type": "required"
+        },
+        {
+          "name": "Lucky Streak",
+          "type": "optional"
+        },
+        {
+          "name": "Jackpot",
+          "type": "optional"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        },
+        {
+          "name": "Medical Breakthrough",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Stack Fortune's Favor whenever offered to improve all future rolls. Loaded Dice is the highest priority talent — it removes all downside risk. Card Counter is the second priority for informed choices. Play conservatively until you have risk mitigation.",
             "ru": "Копите Fortune's Favor при каждом предложении для улучшения всех будущих бросков. Loaded Dice — талант наивысшего приоритета — он убирает весь негативный риск. Card Counter — второй приоритет для информированного выбора. Играйте консервативно, пока нет снижения риска."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "With Loaded Dice and Card Counter, every random effect is now a guaranteed positive. Fortune's Favor stacks ensure increasingly powerful outcomes. Free units and resources accumulate rapidly. Your army grows beyond what economy alone could support.",
             "ru": "С Loaded Dice и Card Counter каждый случайный эффект теперь гарантированно положительный. Стаки Fortune's Favor обеспечивают всё более мощные исходы. Бесплатные юниты и ресурсы накапливаются быстро. Армия растёт сверх того, что может поддержать одна экономика."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "High Fortune's Favor stacks make the best outcomes near-guaranteed. Jackpot triggers frequently. The All In epic with Card Counter lets you choose 5 doubled positive effects. You're swimming in free units, resources, and buffs.",
             "ru": "Высокие стаки Fortune's Favor делают лучшие исходы почти гарантированными. Джекпот срабатывает часто. Эпик All In с Card Counter позволяет выбрать 5 удвоенных положительных эффектов. Вы купаетесь в бесплатных юнитах, ресурсах и баффах."
@@ -243,45 +336,93 @@
         }
       ],
       "tips": [
-        {"en": "Loaded Dice + Card Counter is the core combo — with both, there's zero downside to any random effect.", "ru": "Loaded Dice + Card Counter — ключевое комбо — с обоими нет никакого минуса от любого случайного эффекта."},
-        {"en": "Fortune's Favor stacks are more important early when you have less risk mitigation.", "ru": "Стаки Fortune's Favor важнее рано, когда у вас меньше снижения риска."},
-        {"en": "Even generic talents are powerful on Gambler — the free units and resources fund any army composition.", "ru": "Даже общие таланты мощны на Азартном Игроке — бесплатные юниты и ресурсы финансируют любой состав армии."}
+        {
+          "en": "Loaded Dice + Card Counter is the core combo — with both, there's zero downside to any random effect.",
+          "ru": "Loaded Dice + Card Counter — ключевое комбо — с обоими нет никакого минуса от любого случайного эффекта."
+        },
+        {
+          "en": "Fortune's Favor stacks are more important early when you have less risk mitigation.",
+          "ru": "Стаки Fortune's Favor важнее рано, когда у вас меньше снижения риска."
+        },
+        {
+          "en": "Even generic talents are powerful on Gambler — the free units and resources fund any army composition.",
+          "ru": "Даже общие таланты мощны на Азартном Игроке — бесплатные юниты и ресурсы финансируют любой состав армии."
+        }
       ]
     },
     {
-      "name": {"en": "Full Yolo", "ru": "Полный YOLO"},
-      "subtitle": {"en": "Maximum variance, maximum chaos", "ru": "Максимальный разброс, максимальный хаос"},
+      "name": {
+        "en": "Full Yolo",
+        "ru": "Полный YOLO"
+      },
+      "subtitle": {
+        "en": "Maximum variance, maximum chaos",
+        "ru": "Максимальный разброс, максимальный хаос"
+      },
       "desc": {
         "en": "Embrace the chaos completely. Take every risk-amplifying talent including Double Or Nothing. Every random effect is amplified to extremes. This build either produces the most powerful army in the mod or crashes and burns spectacularly. Not for the faint of heart.",
         "ru": "Полностью примите хаос. Берите каждый талант усиления риска, включая Double Or Nothing. Каждый случайный эффект усилен до предела. Этот билд либо создаёт самую мощную армию в моде, либо эпично сгорает. Не для слабонервных."
       },
       "tags": [
-        {"name": "Roll The Dice", "type": "core"},
-        {"name": "Double Or Nothing", "type": "required"},
-        {"name": "All In", "type": "required"},
-        {"name": "Fortune's Favor", "type": "required"},
-        {"name": "Lucky Streak", "type": "optional"},
-        {"name": "Wild Card", "type": "optional"},
-        {"name": "Jackpot", "type": "optional"},
-        {"name": "Salvage Operation", "type": "generic"}
+        {
+          "name": "Roll The Dice",
+          "type": "core"
+        },
+        {
+          "name": "Double Or Nothing",
+          "type": "required"
+        },
+        {
+          "name": "All In",
+          "type": "required"
+        },
+        {
+          "name": "Fortune's Favor",
+          "type": "required"
+        },
+        {
+          "name": "Lucky Streak",
+          "type": "optional"
+        },
+        {
+          "name": "Wild Card",
+          "type": "optional"
+        },
+        {
+          "name": "Jackpot",
+          "type": "optional"
+        },
+        {
+          "name": "Salvage Operation",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Stack Fortune's Favor and pray. Use Double Or Nothing aggressively — the doubled effects can launch you ahead or set you back. Economy talents provide a safety net. Accept that some missions will go poorly and others will be glorious.",
             "ru": "Копите Fortune's Favor и молитесь. Используйте Double Or Nothing агрессивно — удвоенные эффекты могут вывести вас вперёд или отбросить назад. Экономические таланты обеспечивают подушку безопасности. Примите, что некоторые миссии пройдут плохо, а другие — великолепно."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "If you've survived this far, your Fortune's Favor stacks are tilting things in your favor. All In is game-changing — 5 doubled random effects per mission. Use it when you have maximum resources for the biggest swing.",
             "ru": "Если вы дожили досюда, стаки Fortune's Favor склоняют чашу в вашу пользу. All In меняет игру — 5 удвоенных случайных эффектов за миссию. Используйте при максимальных ресурсах для наибольшего размаха."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "At this point you're either absurdly overpowered from accumulated lucky rolls, or you've barely scraped through on the edge. Wild Card spawns add to the chaos. Double Or Nothing on Jackpot triggers is the stuff of legends.",
             "ru": "К этому моменту вы либо абсурдно сверхмощны от накопленных удачных бросков, либо едва проскребли на грани. Спавны Wild Card добавляют хаоса. Double Or Nothing на триггерах Джекпота — это материал легенд."
@@ -289,45 +430,93 @@
         }
       ],
       "tips": [
-        {"en": "This build is for entertainment, not consistency. Expect to lose some runs.", "ru": "Этот билд для развлечения, не для стабильности. Ожидайте проигрыша некоторых забегов."},
-        {"en": "Always Double Or Nothing on resource rolls — worst case you lose some minerals, best case you get rich.", "ru": "Всегда используйте Double Or Nothing на бросках ресурсов — в худшем случае потеряете минералы, в лучшем разбогатеете."},
-        {"en": "Fortune's Favor stacks are critical even in YOLO builds — they tilt the chaos in your direction.", "ru": "Стаки Fortune's Favor критичны даже в YOLO-билдах — они склоняют хаос в вашу сторону."}
+        {
+          "en": "This build is for entertainment, not consistency. Expect to lose some runs.",
+          "ru": "Этот билд для развлечения, не для стабильности. Ожидайте проигрыша некоторых забегов."
+        },
+        {
+          "en": "Always Double Or Nothing on resource rolls — worst case you lose some minerals, best case you get rich.",
+          "ru": "Всегда используйте Double Or Nothing на бросках ресурсов — в худшем случае потеряете минералы, в лучшем разбогатеете."
+        },
+        {
+          "en": "Fortune's Favor stacks are critical even in YOLO builds — they tilt the chaos in your direction.",
+          "ru": "Стаки Fortune's Favor критичны даже в YOLO-билдах — они склоняют хаос в вашу сторону."
+        }
       ]
     },
     {
-      "name": {"en": "Questionable Contractor", "ru": "Сомнительный подрядчик"},
-      "subtitle": {"en": "Hunter multiclass — RNG-enhanced mercenaries", "ru": "Мультикласс Охотник — наёмники с усилением RNG"},
+      "name": {
+        "en": "Questionable Contractor",
+        "ru": "Сомнительный подрядчик"
+      },
+      "subtitle": {
+        "en": "Hunter multiclass — RNG-enhanced mercenaries",
+        "ru": "Мультикласс Охотник — наёмники с усилением RNG"
+      },
       "desc": {
         "en": "Combines Gambler with Hunter via the Questionable Contract multiclass epic. Mercenary calls gain random bonus effects — extra units, enhanced stats, or unpredictable surprises. The Hunter base provides reliable power through Deadman's Hardware while Gambler adds exciting variance on top.",
         "ru": "Сочетает Азартного Игрока с Охотником через мультикласс эпик Questionable Contract. Вызовы наёмников получают случайные бонусные эффекты — дополнительные юниты, усиленные характеристики или непредсказуемые сюрпризы. База Охотника обеспечивает надёжную мощь через Deadman's Hardware, а Азартный Игрок добавляет захватывающий разброс сверху."
       },
       "tags": [
-        {"name": "Roll The Dice", "type": "core"},
-        {"name": "Multiclass", "type": "required"},
-        {"name": "Questionable Contract", "type": "required"},
-        {"name": "Deadman's Hardware", "type": "required"},
-        {"name": "Fortune's Favor", "type": "required"},
-        {"name": "Team Effort", "type": "optional"},
-        {"name": "Card Counter", "type": "optional"},
-        {"name": "Use More Gun", "type": "generic"}
+        {
+          "name": "Roll The Dice",
+          "type": "core"
+        },
+        {
+          "name": "Multiclass",
+          "type": "required"
+        },
+        {
+          "name": "Questionable Contract",
+          "type": "required"
+        },
+        {
+          "name": "Deadman's Hardware",
+          "type": "required"
+        },
+        {
+          "name": "Fortune's Favor",
+          "type": "required"
+        },
+        {
+          "name": "Team Effort",
+          "type": "optional"
+        },
+        {
+          "name": "Card Counter",
+          "type": "optional"
+        },
+        {
+          "name": "Use More Gun",
+          "type": "generic"
+        }
       ],
       "phases": [
         {
-          "title": {"en": "Early (Missions 1-5)", "ru": "Ранняя (Миссии 1-5)"},
+          "title": {
+            "en": "Early (Missions 1-5)",
+            "ru": "Ранняя (Миссии 1-5)"
+          },
           "text": {
             "en": "Play standard Gambler while looking for Multiclass. Once found, pick Hunter. Start stacking both Deadman's Hardware and Fortune's Favor. The reliable merc base gives you consistency while RNG effects add bonus value.",
             "ru": "Играйте стандартным Азартным Игроком, ища Multiclass. Найдя, выберите Охотника. Начинайте копить Deadman's Hardware и Fortune's Favor. Надёжная база наёмников даёт стабильность, а RNG-эффекты добавляют бонусную ценность."
           }
         },
         {
-          "title": {"en": "Mid (Missions 6-15)", "ru": "Средняя (Миссии 6-15)"},
+          "title": {
+            "en": "Mid (Missions 6-15)",
+            "ru": "Средняя (Миссии 6-15)"
+          },
           "text": {
             "en": "Questionable Contract adds random bonuses to every merc call. Sometimes you get extra mercs, sometimes enhanced stats. Deadman's Hardware stacks ensure your mercs are strong regardless of RNG outcomes. Best of both worlds.",
             "ru": "Questionable Contract добавляет случайные бонусы к каждому вызову наёмников. Иногда вы получаете дополнительных наёмников, иногда усиленные характеристики. Стаки Deadman's Hardware гарантируют, что наёмники сильны независимо от исходов RNG. Лучшее из обоих миров."
           }
         },
         {
-          "title": {"en": "Late (Missions 16+)", "ru": "Поздняя (Миссии 16+)"},
+          "title": {
+            "en": "Late (Missions 16+)",
+            "ru": "Поздняя (Миссии 16+)"
+          },
           "text": {
             "en": "Strong Deadman's mercs with RNG bonuses layered on top create an unpredictable but consistently powerful army. Fortune's Favor stacks ensure the random bonuses skew positive. The Hunter base means even on bad luck missions you have a viable army.",
             "ru": "Сильные наёмники с Deadman's и наслоёнными RNG-бонусами создают непредсказуемую, но стабильно мощную армию. Стаки Fortune's Favor гарантируют, что случайные бонусы склоняются к положительным. База Охотника означает, что даже в неудачные миссии у вас жизнеспособная армия."
@@ -335,16 +524,28 @@
         }
       ],
       "tips": [
-        {"en": "This build uses Hunter as a reliability floor — even bad Gambler luck can't ruin a stacked Deadman's army.", "ru": "Этот билд использует Охотника как пол надёжности — даже плохая удача Азартного Игрока не может разрушить армию с накопленным Deadman's."},
-        {"en": "Questionable Contract bonuses are on top of normal merc power — they're pure upside.", "ru": "Бонусы Questionable Contract поверх обычной мощи наёмников — это чистое преимущество."},
-        {"en": "Card Counter helps you control which random effects affect your merc calls.", "ru": "Card Counter помогает контролировать, какие случайные эффекты влияют на вызовы наёмников."}
+        {
+          "en": "This build uses Hunter as a reliability floor — even bad Gambler luck can't ruin a stacked Deadman's army.",
+          "ru": "Этот билд использует Охотника как пол надёжности — даже плохая удача Азартного Игрока не может разрушить армию с накопленным Deadman's."
+        },
+        {
+          "en": "Questionable Contract bonuses are on top of normal merc power — they're pure upside.",
+          "ru": "Бонусы Questionable Contract поверх обычной мощи наёмников — это чистое преимущество."
+        },
+        {
+          "en": "Card Counter helps you control which random effects affect your merc calls.",
+          "ru": "Card Counter помогает контролировать, какие случайные эффекты влияют на вызовы наёмников."
+        }
       ]
     }
   ],
   "multiclass_epics": [
     {
       "name": "Questionable Contract",
-      "classes": ["Gambler", "Hunter"],
+      "classes": [
+        "Gambler",
+        "Hunter"
+      ],
       "tier": "A",
       "desc": {
         "en": "Mercenary calls have a chance to summon random bonus units or trigger random effects.",
