@@ -252,7 +252,7 @@
     },
     {
       "name": "Deathwish",
-      "rarity": "rare",
+      "rarity": "curse",
       "tier": "C",
       "stackable": false,
       "maxStacks": null,

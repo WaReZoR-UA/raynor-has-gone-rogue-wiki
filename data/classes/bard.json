@@ -264,7 +264,7 @@
     },
     {
       "name": "Retirement Fund",
-      "rarity": "curse",
+      "rarity": "plague",
       "tier": "C",
       "stackable": true,
       "maxStacks": 3,

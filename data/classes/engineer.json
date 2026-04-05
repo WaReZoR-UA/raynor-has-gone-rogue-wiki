@@ -256,7 +256,7 @@
     },
     {
       "name": "Extended Safety Precautions",
-      "rarity": "rare",
+      "rarity": "curse",
       "tier": "D",
       "stackable": false,
       "maxStacks": null,
@@ -271,7 +271,7 @@
     },
     {
       "name": "No OSHA In Koprulu",
-      "rarity": "curse",
+      "rarity": "plague",
       "tier": "D",
       "stackable": false,
       "maxStacks": null,

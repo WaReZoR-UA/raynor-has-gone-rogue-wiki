@@ -260,7 +260,7 @@
     },
     {
       "name": "Limited Budget",
-      "rarity": "curse",
+      "rarity": "plague",
       "tier": "C",
       "stackable": false,
       "maxStacks": null,

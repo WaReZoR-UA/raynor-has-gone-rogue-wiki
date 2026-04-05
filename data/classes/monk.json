@@ -249,7 +249,7 @@
     },
     {
       "name": "Time For Preparation Is Over",
-      "rarity": "epic",
+      "rarity": "plague",
       "tier": "B",
       "stackable": false,
       "maxStacks": null,
